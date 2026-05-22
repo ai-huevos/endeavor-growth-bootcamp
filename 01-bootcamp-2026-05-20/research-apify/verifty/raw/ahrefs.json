@@ -1,0 +1,357 @@
+[
+  {
+    "data_captured_at": "2026-05-18T03:10:37.772547",
+    "type": "traffic",
+    "domain": "https://www.verifty.com/",
+    "mode": "subdomains",
+    "website_overall_search_traffic_history": [],
+    "website_overall_search_traffic_value_history": [],
+    "website_traffic": {
+      "trafficMonthlyAvg": 490,
+      "costMontlyAvg": 3147
+    },
+    "website_traffic_history": [
+      {
+        "date": "2025-12-01",
+        "organic": 2
+      },
+      {
+        "date": "2026-01-01",
+        "organic": 31
+      },
+      {
+        "date": "2026-02-01",
+        "organic": 36
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      }
+    ],
+    "website_overall_search_traffic_by_country": [],
+    "website_traffic_by_country": [
+      {
+        "country": "co",
+        "share": 92.94032422362878,
+        "monthly_traffic": [
+          {
+            "date": "2025-12-01",
+            "organic": 2
+          },
+          {
+            "date": "2026-01-01",
+            "organic": 29
+          },
+          {
+            "date": "2026-02-01",
+            "organic": 34
+          },
+          {
+            "date": "2026-03-01",
+            "organic": 105
+          },
+          {
+            "date": "2026-04-01",
+            "organic": 134
+          },
+          {
+            "date": "2026-05-01",
+            "organic": 450
+          }
+        ]
+      },
+      {
+        "country": "pe",
+        "share": 4.0302842418371965,
+        "monthly_traffic": [
+          {
+            "date": "2025-12-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-01-01",
+            "organic": 2
+          },
+          {
+            "date": "2026-02-01",
+            "organic": 2
+          },
+          {
+            "date": "2026-03-01",
+            "organic": 5
+          },
+          {
+            "date": "2026-04-01",
+            "organic": 6
+          },
+          {
+            "date": "2026-05-01",
+            "organic": 20
+          }
+        ]
+      },
+      {
+        "country": "mx",
+        "share": 2.088096124779283,
+        "monthly_traffic": [
+          {
+            "date": "2025-12-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-01-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-02-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-03-01",
+            "organic": 3
+          },
+          {
+            "date": "2026-04-01",
+            "organic": 4
+          },
+          {
+            "date": "2026-05-01",
+            "organic": 11
+          }
+        ]
+      },
+      {
+        "country": "Paying Users Only",
+        "share": null,
+        "monthly_traffic": null
+      },
+      {
+        "country": "Paying Users Only",
+        "share": null,
+        "monthly_traffic": null
+      }
+    ],
+    "website_traffic_top_pages": [
+      {
+        "url": "https://www.verifty.com/blog/tipos-de-riesgo-para-arl",
+        "traffic": 435,
+        "share": 90.06211180124224
+      },
+      {
+        "url": "https://www.verifty.com/blog/ntc-3701-e-investigacion-de-accidentes-laborales-en-colombia",
+        "traffic": 19,
+        "share": 3.9337474120082816
+      },
+      {
+        "url": "https://www.verifty.com/recursos/formato-tabulacion-ausentismo-laboral-excel",
+        "traffic": 12,
+        "share": 2.484472049689441
+      },
+      {
+        "url": "Paying Users Only",
+        "traffic": null,
+        "share": null
+      },
+      {
+        "url": "Paying Users Only",
+        "traffic": null,
+        "share": null
+      }
+    ],
+    "website_traffic_top_countries": [
+      {
+        "country": "co",
+        "share": 92.94032422362878
+      },
+      {
+        "country": "pe",
+        "share": 4.0302842418371965
+      },
+      {
+        "country": "mx",
+        "share": 2.088096124779283
+      },
+      {
+        "country": "Paying Users Only",
+        "share": null
+      },
+      {
+        "country": "Paying Users Only",
+        "share": null
+      }
+    ],
+    "website_overall_search_traffic_keywords": [],
+    "website_traffic_top_keywords": [
+      {
+        "keyword": "riesgos arl",
+        "position": 4,
+        "traffic": 700
+      },
+      {
+        "keyword": "nivel de riesgo arl",
+        "position": 11,
+        "traffic": 1400
+      },
+      {
+        "keyword": "riesgo 4 arl",
+        "position": 5,
+        "traffic": 300
+      },
+      {
+        "keyword": "Paying Users Only",
+        "position": null,
+        "traffic": null
+      },
+      {
+        "keyword": "Paying Users Only",
+        "position": null,
+        "traffic": null
+      }
+    ]
+  },
+  {
+    "data_captured_at": "2026-05-18T03:10:38.296195",
+    "type": "backlinks",
+    "domain": "https://www.verifty.com/",
+    "mode": "subdomains",
+    "total_backlinks": 74,
+    "total_referring_domains": 69,
+    "total_dofollow_backlinks": 4,
+    "total_dofollow_referring_domains": 3,
+    "top_backlinks_count": 20,
+    "referal_domains_history": [],
+    "top_backlinks": [
+      {
+        "anchor": "Verifty",
+        "domainRating": 60,
+        "redirectChain": [],
+        "textPost": "",
+        "textPre": "",
+        "title": "Medellín Next",
+        "urlFrom": "https://rutanmedellin.org/medellin-next",
+        "urlTo": "https://www.verifty.com/",
+        "inRendered": true,
+        "inRaw": true
+      },
+      {
+        "anchor": "verifty.com Competitor-Crushing SEO: Global Guest Posts + Powerful Dofollow Backlinks + Ahrefs Domain Rating DR | Moz Domain Authority DA | Majestic Trust Flow TF — Any Website • Any Niche • Any Language",
+        "domainRating": 0,
+        "redirectChain": [
+          {
+            "url": "https://verifty.com/",
+            "redirectCode": 308
+          }
+        ],
+        "textPost": "",
+        "textPre": "",
+        "title": "I Bought a Skyrocketed Traffic Service for My Subscription Site — Here Is Exactly What Happened to My Rankings, Clicks, and Revenue After 30 Days — LinkRankBoost — Authority Links Delivered at the Speed Your Site Needs.",
+        "urlFrom": "https://linkrankboost.shop/cll2wzd-evergreen-serp-domination-strategy-membership-traffic-links-on-page-seo-rank/",
+        "urlTo": "https://www.verifty.com/",
+        "inRendered": false,
+        "inRaw": true
+      },
+      {
+        "anchor": "verifty.com whitehat traffic Google ranking upto +300% PBN backlinks | Seoboost.agency World no 1 Seo Agency",
+        "domainRating": 13,
+        "redirectChain": [
+          {
+            "url": "https://verifty.com/",
+            "redirectCode": 308
+          }
+        ],
+        "textPost": "",
+        "textPre": "",
+        "title": "Google Ranking Booster: Manual Work: Ahrefs DR + MOZ DA+Pbn Backlinks Visit SeoBoost.agency – rankongoogle.agency",
+        "urlFrom": "https://rankongoogle.agency/wcdibg-google-ranking-lift-traffic-with-contextual-seo-backlinks/",
+        "urlTo": "https://www.verifty.com/",
+        "inRendered": false,
+        "inRaw": true
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      }
+    ],
+    "backlink_check": {
+      "backlinks": 74,
+      "refdomains": 69,
+      "dofollowBacklinks": 4,
+      "dofollowRefdomains": 3
+    }
+  },
+  {
+    "data_captured_at": "2026-05-18T03:10:39.979254",
+    "type": "authority",
+    "domain": "https://www.verifty.com/",
+    "mode": "subdomains",
+    "domain_rating": 2.4,
+    "backlinks": 74,
+    "refdomains": 69,
+    "dofollow_backlinks": 4,
+    "dofollow_refdomains": 3,
+    "website_authority": {
+      "domainRating": 2.4,
+      "urlRating": null,
+      "ahrefsRank": null,
+      "backlinks": 74,
+      "refdomains": 69,
+      "dofollowBacklinks": 4,
+      "dofollowRefdomains": 3
+    }
+  }
+]

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Espejo · AI Huevos</title>
+<style>
+  :root {
+    --yellow: #FFD826; --blue: #3988FF; --black: #101010;
+    --white: #FFFFFF; --violet: #B59EF9; --orange: #FF5C23;
+    --gray-light: #F4F4F4; --gray-mid: #888888; --green: #22C55E;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--gray-light); color: var(--black);
+    line-height: 1.5; min-height: 100vh; padding: 20px 16px;
+  }
+  .container { max-width: 600px; margin: 0 auto; }
+  .header { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+  .egg {
+    width: 44px; height: 44px; border-radius: 50%; background: var(--yellow);
+    display: flex; align-items: center; justify-content: center; font-size: 22px;
+  }
+  .brand { font-size: 13px; color: var(--gray-mid); font-family: 'JetBrains Mono', monospace; }
+  .brand strong { color: var(--black); font-weight: 500; }
+  h1 { font-size: 30px; line-height: 1.15; font-weight: 700; margin-bottom: 12px; letter-spacing: -0.02em; }
+  h1 .accent { color: var(--blue); }
+  .subtitle { font-size: 16px; color: var(--gray-mid); margin-bottom: 24px; }
+  .card {
+    background: var(--white); border-radius: 16px; padding: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04); margin-bottom: 16px;
+  }
+  /* Registration */
+  .field { margin-bottom: 16px; }
+  .field label { display: block; font-size: 13px; font-weight: 500; margin-bottom: 6px; color: var(--gray-mid); text-transform: uppercase; letter-spacing: 0.05em; }
+  .field input {
+    width: 100%; padding: 14px 16px; border: 2px solid #E5E5E5; border-radius: 10px;
+    font-size: 15px; font-family: inherit; transition: border-color 0.15s; background: var(--gray-light);
+  }
+  .field input:focus { outline: none; border-color: var(--blue); background: var(--white); }
+  /* Progress */
+  .progress { display: flex; gap: 6px; margin-bottom: 24px; }
+  .progress .dot { flex: 1; height: 6px; background: #E5E5E5; border-radius: 3px; transition: background 0.2s; }
+  .progress .dot.active { background: var(--black); }
+  .progress .dot.done { background: var(--yellow); }
+  /* Question */
+  .qtag {
+    display: inline-block; padding: 4px 10px; background: var(--yellow);
+    border-radius: 12px; font-size: 11px; font-weight: 500;
+    font-family: 'JetBrains Mono', monospace; margin-bottom: 16px;
+  }
+  .qtext { font-size: 22px; font-weight: 600; line-height: 1.3; margin-bottom: 8px; }
+  .qhint { font-size: 14px; color: var(--gray-mid); margin-bottom: 20px; font-style: italic; }
+  .options { display: flex; flex-direction: column; gap: 10px; }
+  .option {
+    padding: 14px 18px; background: var(--gray-light); border-radius: 10px;
+    cursor: pointer; transition: all 0.15s; font-size: 15px; line-height: 1.4;
+    border: 2px solid transparent; user-select: none;
+  }
+  .option:hover { background: #EAEAEA; transform: translateY(-1px); }
+  .option.selected { background: var(--blue); color: var(--white); border-color: var(--blue); }
+  /* Nav */
+  .nav { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; }
+  .btn-back {
+    background: transparent; border: none; font-size: 14px; color: var(--gray-mid);
+    cursor: pointer; padding: 8px 0; font-family: inherit;
+  }
+  .btn-back:hover { color: var(--black); }
+  .btn-primary {
+    background: var(--black); color: var(--white); border: none;
+    padding: 14px 28px; border-radius: 999px; font-size: 14px; font-weight: 500;
+    cursor: pointer; font-family: inherit; transition: transform 0.1s; width: 100%;
+  }
+  .btn-primary:hover { transform: scale(1.02); }
+  .btn-primary:disabled { opacity: 0.3; cursor: not-allowed; transform: none; }
+  .btn-next {
+    background: var(--black); color: var(--white); border: none;
+    padding: 14px 28px; border-radius: 999px; font-size: 14px; font-weight: 500;
+    cursor: pointer; font-family: inherit; transition: transform 0.1s;
+  }
+  .btn-next:hover { transform: scale(1.02); }
+  .btn-next:disabled { opacity: 0.3; cursor: not-allowed; transform: none; }
+  /* Result */
+  .result-trampa {
+    background: var(--yellow); padding: 24px; border-radius: 16px; margin-bottom: 16px;
+  }
+  .label { font-size: 12px; font-family: 'JetBrains Mono', monospace; margin-bottom: 8px; color: var(--gray-mid); }
+  .result-trampa .label { color: var(--black); opacity: 0.6; }
+  .result-trampa h2 { font-size: 24px; line-height: 1.2; font-weight: 700; }
+  .reframe {
+    background: var(--white); padding: 20px 24px; border-radius: 16px; margin-bottom: 16px;
+    border-left: 6px solid var(--blue);
+  }
+  .reframe .label { color: var(--blue); }
+  .reframe p { font-size: 16px; line-height: 1.6; font-weight: 500; }
+  .actions-card { background: var(--white); padding: 24px; border-radius: 16px; margin-bottom: 16px; }
+  .actions-card h3 { font-size: 13px; margin-bottom: 16px; font-family: 'JetBrains Mono', monospace; color: var(--gray-mid); text-transform: uppercase; }
+  .action-item { display: flex; gap: 12px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid #EAEAEA; }
+  .action-item:last-child { border: none; }
+  .action-num {
+    width: 28px; height: 28px; border-radius: 50%; background: var(--black); color: var(--white);
+    display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500; flex-shrink: 0;
+  }
+  .action-text { font-size: 14px; line-height: 1.6; }
+  .cluster-tag {
+    display: inline-block; padding: 6px 14px; background: var(--violet);
+    color: var(--black); border-radius: 12px; font-size: 12px; font-weight: 500;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .success-badge {
+    display: flex; align-items: center; gap: 8px;
+    background: #F0FFF4; border: 1px solid #BBF7D0; padding: 12px 16px;
+    border-radius: 10px; font-size: 13px; color: #166534; margin-bottom: 16px;
+  }
+  .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
+  /* Saving indicator */
+  .saving { font-size: 12px; color: var(--gray-mid); font-family: 'JetBrains Mono', monospace; text-align: center; margin-top: 8px; }
+  .footer { text-align: center; margin-top: 32px; font-size: 12px; color: var(--gray-mid); font-family: 'JetBrains Mono', monospace; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="egg">🥚</div>
+    <div class="brand">ai huevos · <strong>el espejo</strong></div>
+  </div>
+
+  <!-- SCREEN 1: Registration -->
+  <div id="screen-register">
+    <h1>¿Cuál es la trampa <span class="accent">que no estás viendo?</span></h1>
+    <p class="subtitle">6 preguntas. 60 segundos. Una respuesta que probablemente te va a incomodar.</p>
+    <div class="card">
+      <p style="font-size:14px;color:var(--gray-mid);line-height:1.6;margin-bottom:20px;">
+        Diagnóstico calibrado con 4 mentorías 1:1 recientes y los 31 autodiagnósticos del batch Medellín H1 2026.
+        Tus respuestas quedan registradas para que puedas recibirlas por correo.
+      </p>
+      <div class="field">
+        <label>Tu nombre</label>
+        <input type="text" id="reg-name" placeholder="José David" autocomplete="given-name">
+      </div>
+      <div class="field">
+        <label>Tu empresa</label>
+        <input type="text" id="reg-company" placeholder="Nediar" autocomplete="organization">
+      </div>
+      <div class="field">
+        <label>Tu email</label>
+        <input type="email" id="reg-email" placeholder="hola@tuempresa.com" autocomplete="email">
+      </div>
+      <button class="btn-primary" id="btn-start" onclick="handleRegister()">empezar →</button>
+      <p class="saving" id="reg-status"></p>
+    </div>
+  </div>
+
+  <!-- SCREEN 2: Quiz -->
+  <div id="screen-quiz" class="hidden">
+    <div class="progress" id="progress"></div>
+    <div class="card" style="padding:28px 24px;">
+      <div class="qtag" id="qtag"></div>
+      <div class="qtext" id="qtext"></div>
+      <div class="qhint" id="qhint"></div>
+      <div class="options" id="options"></div>
+      <div class="nav">
+        <button class="btn-back" onclick="back()">← atrás</button>
+        <button class="btn-next" id="btn-next" disabled onclick="next()">siguiente →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCREEN 3: Result -->
+  <div id="screen-result" class="hidden">
+    <div class="success-badge">
+      <div class="status-dot"></div>
+      <span>Tus respuestas quedaron guardadas · te llegará un resumen por correo</span>
+    </div>
+    <div class="label" style="margin-bottom:12px;">tu espejo</div>
+    <div class="result-trampa">
+      <div class="label">tu trampa típica</div>
+      <h2 id="trampa-name"></h2>
+    </div>
+    <div class="reframe">
+      <div class="label">la pregunta real</div>
+      <p id="reframe-text"></p>
+    </div>
+    <div class="actions-card">
+      <h3>las 3 acciones para los próximos 30 días</h3>
+      <div id="actions-list"></div>
+    </div>
+    <div style="text-align:center;margin-bottom:24px;">
+      <p style="font-size:13px;color:var(--gray-mid);margin-bottom:8px;">tu cluster del bootcamp es</p>
+      <div class="cluster-tag" id="cluster-tag"></div>
+    </div>
+  </div>
+
+  <div class="footer">cardona · bootcamp medellín · mayo 2026</div>
+</div>
+
+<script type="module" src="/src/espejo-main.js"></script>
+</body>
+</html>

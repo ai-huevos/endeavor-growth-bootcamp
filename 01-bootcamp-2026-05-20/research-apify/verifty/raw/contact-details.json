@@ -1,0 +1,128 @@
+[
+  {
+    "domain": "verifty.com",
+    "url": "https://www.verifty.com/",
+    "emails": [],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": null,
+      "instagram": "https://www.instagram.com/verifty_sst",
+      "linkedin": "https://www.linkedin.com/company/verifty",
+      "twitter": null,
+      "youtube": "https://www.youtube.com/@VeriftySoftware",
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": "https://wa.me/15558853453?text=Hola%20Verifty%2C%20quiero%20saber%20más",
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [],
+    "score": 45,
+    "grade": "D",
+    "scoreBreakdown": {
+      "contactReachability": 5,
+      "businessLegitimacy": 16,
+      "onlinePresence": 17,
+      "websiteQuality": 7,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Contact form available",
+        "category": "contactReachability",
+        "points": 3,
+        "detail": "Web contact form"
+      },
+      {
+        "signal": "Messaging channels available",
+        "category": "contactReachability",
+        "points": 2,
+        "detail": "1 platform(s)"
+      },
+      {
+        "signal": "Physical address found",
+        "category": "businessLegitimacy",
+        "points": 8,
+        "detail": "Av 74b # 39b 101 oficina 401, Barrio Laureles, Medellín, Antioquia, CO"
+      },
+      {
+        "signal": "CMS/framework detected",
+        "category": "businessLegitimacy",
+        "points": 5,
+        "detail": "Next.js"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "technology"
+      },
+      {
+        "signal": "Strong social media presence",
+        "category": "onlinePresence",
+        "points": 12,
+        "detail": "4 platforms"
+      },
+      {
+        "signal": "LinkedIn profile",
+        "category": "onlinePresence",
+        "points": 5,
+        "detail": "https://www.linkedin.com/company/verifty"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Modern CMS/framework",
+        "category": "websiteQuality",
+        "points": 3,
+        "detail": "Next.js"
+      }
+    ],
+    "address": "Av 74b # 39b 101 oficina 401, Barrio Laureles, Medellín, Antioquia, CO",
+    "businessIndustry": "technology",
+    "businessKeywords": [
+      "para",
+      "verifty",
+      "software",
+      "sst",
+      "contratistas",
+      "trabajo",
+      "sin",
+      "sgsst"
+    ],
+    "cmsDetected": "Next.js",
+    "techSignals": [
+      "Next.js"
+    ],
+    "trackingTags": {
+      "googleTagManager": null,
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": null,
+      "createdDate": null,
+      "expiresDate": null,
+      "updatedDate": null,
+      "nameServers": null,
+      "registrantOrg": null,
+      "registrantCountry": null
+    },
+    "pagesCrawled": 5,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T03:09:59.965Z"
+  }
+]

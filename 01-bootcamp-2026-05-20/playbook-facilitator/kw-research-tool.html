@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KW Research Tool · AI Huevos</title>
+<style>
+  :root {
+    --yellow: #FFD826; --blue: #3988FF; --black: #101010;
+    --white: #FFFFFF; --violet: #B59EF9; --gray: #F4F4F4; --gray-mid: #888;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: var(--gray); color: var(--black); padding: 24px 16px; }
+  .container { max-width: 680px; margin: 0 auto; }
+  .header { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+  .egg { width: 40px; height: 40px; border-radius: 50%; background: var(--yellow); display: flex; align-items: center; justify-content: center; font-size: 20px; }
+  .brand { font-size: 13px; color: var(--gray-mid); font-family: monospace; }
+  .brand strong { color: var(--black); }
+  h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 6px; }
+  .subtitle { font-size: 15px; color: var(--gray-mid); margin-bottom: 28px; }
+  .step { background: var(--white); border-radius: 16px; padding: 24px; margin-bottom: 16px; box-shadow: 0 1px 8px rgba(0,0,0,.05); }
+  .step-num { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; background: var(--black); color: var(--white); border-radius: 50%; font-size: 13px; font-weight: 600; margin-bottom: 12px; }
+  .step h2 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+  .step p { font-size: 14px; color: var(--gray-mid); line-height: 1.6; margin-bottom: 12px; }
+  /* Input fields */
+  .field { margin-bottom: 14px; }
+  .field label { display: block; font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: .05em; color: var(--gray-mid); margin-bottom: 6px; }
+  .field input, .field textarea {
+    width: 100%; padding: 12px 14px; border: 2px solid #E5E5E5; border-radius: 10px;
+    font-size: 14px; font-family: inherit; background: var(--gray); transition: border-color .15s;
+    resize: vertical;
+  }
+  .field input:focus, .field textarea:focus { outline: none; border-color: var(--blue); background: var(--white); }
+  /* Prompt output */
+  .prompt-box {
+    background: #101010; color: #E5E5E5; border-radius: 12px; padding: 20px;
+    font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 13px;
+    line-height: 1.7; white-space: pre-wrap; margin-bottom: 12px; position: relative;
+  }
+  .highlight { color: var(--yellow); font-weight: 600; }
+  .btn-copy {
+    display: flex; align-items: center; gap: 8px; background: var(--yellow); border: none;
+    padding: 12px 20px; border-radius: 999px; font-size: 14px; font-weight: 600;
+    cursor: pointer; font-family: inherit; transition: transform .1s; width: 100%;
+    justify-content: center; color: var(--black);
+  }
+  .btn-copy:hover { transform: scale(1.02); }
+  .btn-copy.copied { background: #22C55E; color: white; }
+  /* Awareness table */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; padding: 8px 12px; background: var(--gray); font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--gray-mid); }
+  td { padding: 10px 12px; border-bottom: 1px solid #EAEAEA; line-height: 1.5; }
+  td:first-child { font-weight: 600; color: var(--blue); white-space: nowrap; }
+  /* KW output */
+  .kw-grid { display: grid; gap: 8px; margin-top: 12px; }
+  .kw-item { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: var(--gray); border-radius: 8px; font-size: 13px; }
+  .kw-badge { font-family: monospace; font-size: 11px; padding: 2px 8px; border-radius: 20px; flex-shrink: 0; }
+  .unaware { background: #FEF3C7; color: #92400E; }
+  .problem { background: #FEE2E2; color: #991B1B; }
+  .solution { background: #DBEAFE; color: #1E40AF; }
+  .product { background: #D1FAE5; color: #065F46; }
+  .tag-info { background: #F3F4F6; color: var(--gray-mid); }
+  .tag-com { background: #EDE9FE; color: #5B21B6; }
+  .tag-trans { background: #FEF3C7; color: #92400E; }
+  .footer { text-align: center; font-size: 12px; color: var(--gray-mid); font-family: monospace; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div class="egg">🥚</div>
+    <div class="brand">ai huevos · <strong>kw research tool</strong> · bloque 3</div>
+  </div>
+
+  <h1>Encuentra las 15 keywords de tu ICP</h1>
+  <p class="subtitle">Schwartz: las keywords NO son temas — son síntomas de mass desire. 12 minutos.</p>
+
+  <!-- STEP 1: Datos -->
+  <div class="step">
+    <div class="step-num">1</div>
+    <h2>Tu empresa + ICP</h2>
+    <p>Completa con lo que definiste en el Bloque 2 (ICP scoring).</p>
+    <div class="field">
+      <label>¿Qué hace tu empresa? (1 frase, en términos del cliente — no jerga técnica)</label>
+      <input type="text" id="empresa" placeholder="Ej: Ayudamos a clínicas odontológicas a cumplir normativa sanitaria sin perder tiempo en papeleo" oninput="buildPrompt()">
+    </div>
+    <div class="field">
+      <label>Tu ICP top-1 (el cliente que más rápido cierra y mejor paga)</label>
+      <input type="text" id="icp1" placeholder="Ej: Gerente de operaciones en clínica odontológica con 3+ sedes en Colombia" oninput="buildPrompt()">
+    </div>
+    <div class="field">
+      <label>Su dolor más costoso (en $ o en tiempo perdido)</label>
+      <input type="text" id="dolor" placeholder="Ej: Multas y suspensión por auditorías sorpresa de Secretaría de Salud" oninput="buildPrompt()">
+    </div>
+    <div class="field">
+      <label>Tu diferencial clave (el mecanismo que los demás no tienen)</label>
+      <input type="text" id="diferencial" placeholder="Ej: IA que detecta brechas de cumplimiento 72h antes de la auditoría" oninput="buildPrompt()">
+    </div>
+  </div>
+
+  <!-- STEP 2: Prompt generado -->
+  <div class="step">
+    <div class="step-num">2</div>
+    <h2>Copia este prompt → pégalo en Claude o ChatGPT</h2>
+    <p>Tipeado automáticamente con tu información. Copia y pega.</p>
+    <div class="prompt-box" id="prompt-output">Completa los campos de arriba para generar tu prompt...</div>
+    <button class="btn-copy" id="btn-copy" onclick="copyPrompt()">📋 Copiar prompt completo</button>
+  </div>
+
+  <!-- STEP 3: Referencia awareness -->
+  <div class="step">
+    <div class="step-num">3</div>
+    <h2>Guía rápida — Awareness Stages (Schwartz)</h2>
+    <p>Prioriza las keywords según en qué etapa está tu ICP. El mayor volumen siempre está en Unaware y Problem Aware.</p>
+    <table>
+      <tr><th>Stage</th><th>Qué busca</th><th>Ejemplo</th></tr>
+      <tr><td>Unaware</td><td>El síntoma, sin saber que hay solución</td><td>"cómo evitar multa secretaría salud"</td></tr>
+      <tr><td>Problem Aware</td><td>El problema, buscando causas</td><td>"requisitos cumplimiento odontológico Colombia"</td></tr>
+      <tr><td>Solution Aware</td><td>Categorías de solución</td><td>"software gestión cumplimiento clínica"</td></tr>
+      <tr><td>Product Aware</td><td>Comparando opciones</td><td>"Verifty vs SafetyCulture"</td></tr>
+      <tr><td>Most Aware</td><td>Listo para comprar</td><td>"precio plataforma cumplimiento industrial"</td></tr>
+    </table>
+    <p style="margin-top:12px;font-size:13px;color:var(--gray-mid)"><strong>Regla:</strong> si tu contenido actual solo ataca Solution/Product Aware, estás peleando por el 5% del mercado. Las primeras 2 etapas son el 80%.</p>
+  </div>
+
+  <!-- STEP 4: Priorizar -->
+  <div class="step">
+    <div class="step-num">4</div>
+    <h2>Prioriza tu top-10</h2>
+    <p>Del output de Claude/ChatGPT, selecciona las 10 keywords con este criterio:</p>
+    <div style="display:grid;gap:10px;margin-top:4px;">
+      <div style="padding:12px 16px;background:var(--gray);border-radius:10px;font-size:14px;">
+        <strong>✅ Sí incluir:</strong> Unaware + Problem Aware con volumen &gt;200/mes · Intención informacional que puedes responder mejor que nadie
+      </div>
+      <div style="padding:12px 16px;background:var(--gray);border-radius:10px;font-size:14px;">
+        <strong>❌ Descartar:</strong> Keywords de tu nombre de marca · Terms demasiado genéricos (&lt;2 palabras) · Intención transaccional sin tracción de dominio
+      </div>
+      <div style="padding:12px 16px;background:#FFF9E6;border:2px solid var(--yellow);border-radius:10px;font-size:14px;">
+        <strong>💡 La contraintuición:</strong> Tu mejor lead magnet NO es sobre tu producto — es sobre la última actualización normativa de tu industria. Busca keywords alrededor del decreto/resolución que más asusta a tu ICP esta semana.
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">cardona · bootcamp medellín · mayo 2026 · bloque 3 — 11:45</div>
+</div>
+
+<script>
+function buildPrompt() {
+  const empresa = document.getElementById('empresa').value.trim();
+  const icp1 = document.getElementById('icp1').value.trim();
+  const dolor = document.getElementById('dolor').value.trim();
+  const diferencial = document.getElementById('diferencial').value.trim();
+
+  const e = empresa || '[qué hace tu empresa en términos del cliente]';
+  const i = icp1 || '[tu ICP top-1]';
+  const d = dolor || '[su dolor más costoso]';
+  const di = diferencial || '[tu mecanismo diferenciador]';
+
+  const prompt = `Actúa como experto en SEO y marketing de contenidos B2B en LATAM.
+
+Mi empresa: ${e}
+Mi ICP principal: ${i}
+Su mayor dolor: ${d}
+Mi diferencial: ${di}
+
+Identifica 15 keywords que mi ICP busca en Google cuando AÚN NO SABE que existe mi solución — es decir, cuando busca síntomas, consecuencias o alternativas torpes del problema.
+
+Para cada keyword entrega:
+1. Keyword exacta (en español, búsqueda real)
+2. Volumen mensual estimado (Colombia / LATAM)
+3. Awareness Stage: Unaware / Problem Aware / Solution Aware / Product Aware / Most Aware
+4. Intención: informacional / comercial / transaccional
+5. Idea de contenido en 1 frase (qué pieza atacaría esta keyword)
+
+Ordénalas de mayor a menor oportunidad para una empresa nueva sin autoridad de dominio.
+Al final, señala cuál keyword debería ser la prioridad #1 para la Semana 1 y por qué.`;
+
+  document.getElementById('prompt-output').textContent = prompt;
+  document.getElementById('btn-copy').classList.remove('copied');
+  document.getElementById('btn-copy').textContent = '📋 Copiar prompt completo';
+}
+
+function copyPrompt() {
+  const text = document.getElementById('prompt-output').textContent;
+  if (text.includes('Completa los campos')) return;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('btn-copy');
+    btn.textContent = '✅ Copiado — pégalo en Claude o ChatGPT';
+    btn.classList.add('copied');
+  });
+}
+
+// Init with placeholder
+buildPrompt();
+</script>
+</body>
+</html>

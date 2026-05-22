@@ -1,0 +1,150 @@
+[
+  {
+    "title": "TIENEX",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Energy equipment and solutions",
+    "address": "Cra. 116 #19A - 60 Bodega 18, Fontibón, Bogotá, Cundinamarca, Colombia",
+    "neighborhood": "ZONA 8, Fontibón",
+    "street": "Cra. 116 #19A - 60 Bodega 18",
+    "city": "Bogotá",
+    "postalCode": "110931",
+    "state": "Cundinamarca",
+    "countryCode": "CO",
+    "website": "https://tienex.co/",
+    "phone": "+57 300 9120402",
+    "phoneUnformatted": "+573009120402",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 4.6864093,
+      "lng": -74.150622
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJucp_OridP44Rr4YzGS6iNF0",
+    "categories": [
+      "Energy equipment and solutions",
+      "Outdoor sports store",
+      "Plastic products supplier"
+    ],
+    "fid": "0x8e3f9db83a7fcab9:0x5d34a22e193386af",
+    "cid": "6716171263191254703",
+    "reviewsCount": 4,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 2,
+      "fiveStar": 2
+    },
+    "imagesCount": 7,
+    "imageCategories": [
+      "All",
+      "By owner",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T05:21:29.395Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 12 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Tienda Rubbermaid Colombia",
+        "reviewsCount": 8,
+        "totalScore": 4.8
+      },
+      {
+        "category": "People also search for",
+        "title": "TENTE",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Imporex Group Logistics",
+        "reviewsCount": 3,
+        "totalScore": 4.7
+      },
+      {
+        "category": "People also search for",
+        "title": "IMEXORTIZ",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Grupo Empresarial Insepet",
+        "reviewsCount": 45,
+        "totalScore": 4.5
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Gender-neutral restroom": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=TIENEX&query_place_id=ChIJucp_OridP44Rr4YzGS6iNF0",
+    "searchPageUrl": "https://www.google.com/maps/search/Tiendex%20Colombia?hl=en",
+    "searchString": "Tiendex Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGDQR_pod-zJU1GElEz-IkCRhgcGgqiMZ3vjaAV8S7u2UfCbGmmzu6XsaZ6cJzq01Hc5qyoILWaWmD8tGRSxC-Krq4CGkIdJkKiztc-DkgGyOAEeViMdQS2v1TOc8uxkDaW3rGXyw=w677-h240-k-no",
+    "kgmid": "/g/11h3ftfd12"
+  }
+]

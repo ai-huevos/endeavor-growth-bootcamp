@@ -1,0 +1,199 @@
+[
+  {
+    "#debug": {
+      "requestId": "asCEuUz0aEzZaJj",
+      "url": "http://www.google.com.co/search?q=Teral+Colombia&hl=es",
+      "loadedUrl": "http://www.google.com.co/search?q=Teral+Colombia&hl=es",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": [],
+      "statusCode": 200
+    },
+    "#error": false,
+    "searchQuery": {
+      "term": "Teral Colombia",
+      "url": "http://www.google.com.co/search?q=Teral+Colombia&hl=es",
+      "device": "DESKTOP",
+      "page": 1,
+      "type": "SEARCH",
+      "domain": "google.com.co",
+      "countryCode": "CO",
+      "languageCode": "es",
+      "locationUule": null,
+      "resultsPerPage": 10
+    },
+    "url": "http://www.google.com.co/search?q=Teral+Colombia&hl=es",
+    "hasNextPage": true,
+    "serpProviderCode": "N",
+    "resultsTotal": 55,
+    "relatedQueries": [],
+    "paidResults": [],
+    "paidProducts": [],
+    "organicResults": [
+      {
+        "title": "Teral | The AI chat for doctors",
+        "websiteTitle": "teral.ai",
+        "url": "https://teral.ai/",
+        "displayedUrl": "https://teral.ai",
+        "description": "Teral is a new medical App that makes easy the sharing of cases between doctors.",
+        "emphasizedKeywords": [
+          "Teral"
+        ],
+        "siteLinks": [
+          {
+            "title": "El chat de IA para médicos",
+            "url": "https://teral.ai/es/about",
+            "description": "Mejora la atención al paciente con Teral en tu hospital. Agenda ..."
+          },
+          {
+            "title": "¿Conoces todo lo que puedes ...",
+            "url": "https://teral.ai/es/features",
+            "description": "Desbloquea todo el potencial de Teral. Conéctate, colabora y ..."
+          },
+          {
+            "title": "Más resultados de teral.ai »",
+            "url": "https://www.google.com.co/search?q=Teral+Colombia+site:teral.ai&sca_esv=4cb3565f44845cbd&gl=CO&hl=es&sa=X&ved=2ahUKEwj3hbK2xMKUAxUKlSsGHUFxNEwQrAN6BAgPEAE",
+            "description": ""
+          }
+        ],
+        "productInfo": {},
+        "type": "organic",
+        "position": 1
+      },
+      {
+        "title": "TERAL SAS",
+        "websiteTitle": "Healthtech Colombia |",
+        "url": "https://healthtechcolombia.co/miembros/teral-sas/",
+        "displayedUrl": "https://healthtechcolombia.co › miembros › teral-sas",
+        "description": "Teral: la plataforma de comunicación exclusiva para doctores que facilita y agiliza las interconsultas de manera segura y organizada. ¿Cómo crees que puedes ...",
+        "emphasizedKeywords": [
+          "Teral: la plataforma de comunicación exclusiva para doctores"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 2
+      },
+      {
+        "title": "Teral – Casos médicos + IA - Apps en Google Play",
+        "websiteTitle": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.teralmedicine&hl=es_CO",
+        "displayedUrl": "https://play.google.com › store › apps › details › id=com...",
+        "description": "Teral es una app segura para profesionales de la salud. Colabora en casos médicos, solicita segunda opinión y conecta con especialistas. Con Teral puedes:",
+        "emphasizedKeywords": [
+          "Teral es una app segura para profesionales de la salud"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 3
+      },
+      {
+        "title": "Teral (@teral.doc) • Instagram photos and videos",
+        "websiteTitle": "Instagram · teral.doc",
+        "url": "https://www.instagram.com/teral.doc/",
+        "displayedUrl": "Instagram › teral.doc",
+        "description": "¡TERAL llegó al Top 24 Global en el Biban Forum 2025! De más de 10.000 startups de 169 países, fuimos seleccionados en el Top 100 Global del EWC para ...",
+        "emphasizedKeywords": [
+          "¡TERAL llegó al Top 24 Global en el Biban Forum 2025"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 1,5 K seguidores",
+        "channelName": "teral.doc",
+        "type": "organic",
+        "position": 4
+      },
+      {
+        "title": "Teral, la aplicación que busca fortalecer el sector de ...",
+        "websiteTitle": "El Espectador",
+        "url": "https://www.elespectador.com/tecnologia/teral-la-aplicacion-que-busca-fortalecer-el-sector-de-la-salud-en-colombia/",
+        "displayedUrl": "https://www.elespectador.com › Tecnología",
+        "description": "Actualmente, la aplicación cuenta con más de 2,700 médicos que compartieron cerca de 1,700 casos clínicos, más de 23,000 interacciones y ...",
+        "date": "2024-11-07T12:00:00.000Z",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 5
+      },
+      {
+        "title": "La plataforma que busca reducir las 2 millones de quejas ...",
+        "websiteTitle": "ELTIEMPO.COM",
+        "url": "https://www.eltiempo.com/salud/la-plataforma-que-busca-reducir-las-2-millones-de-quejas-en-el-sistema-de-salud-colombiano-3543316",
+        "displayedUrl": "https://www.eltiempo.com › Salud",
+        "description": "Esta plataforma tecnológica colombiana conecta a médicos generales con especialistas en tiempo real, con el objetivo de optimizar la toma de ...",
+        "date": "2026-03-26T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "conecta a médicos generales con especialistas en tiempo real"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 6
+      },
+      {
+        "title": "TERAL S.A.S - Datos de empresas",
+        "websiteTitle": "datacreditoempresas.com.co",
+        "url": "https://www.datacreditoempresas.com.co/directorio/teral-sas.html",
+        "displayedUrl": "https://www.datacreditoempresas.com.co › directorio › te...",
+        "description": "Actividades de desarrollo de sistemas informaticos (planificacion, analisis, diseno, programacion, pruebas). - 6201. Resumen de la empresa ...",
+        "emphasizedKeywords": [
+          "Actividades de desarrollo de sistemas informaticos"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 7
+      },
+      {
+        "title": "Esta esa la startup paisa que quiere ser la red social de ...",
+        "websiteTitle": "El Colombiano",
+        "url": "https://www.elcolombiano.com/negocios/empresas-paisa-teral-startup-es-la-red-social-para-medico-en-el-mundo-KL24948705",
+        "displayedUrl": "https://www.elcolombiano.com › negocios › empresas-pa...",
+        "description": "Se trata de Teral. Es una healthtech paisa, una startup o una empresa de base tecnológica que mejora la atención médica y los servicios de salud ...",
+        "date": "2024-08-07T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "Es una healthtech paisa"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 8
+      }
+    ],
+    "suggestedResults": [],
+    "peopleAlsoAsk": [
+      {
+        "answer": "Teral: la plataforma de comunicación exclusiva para doctores que facilita y agiliza las interconsultas de manera segura y organizada.",
+        "question": "¿Qué es teral?",
+        "title": "TERAL SAS | Healthtech Colombia",
+        "url": "https://healthtechcolombia.co/miembros/teral-sas/#:~:text=Teral%3A%20la%20plataforma%20de%20comunicaci%C3%B3n,de%20manera%20segura%20y%20organizada.",
+        "date": null
+      },
+      {
+        "answer": "Daniel Muñoz, lateral de la Selección Colombia , en la previa vs. México 🔥⚽",
+        "question": "¿Cómo se llama el lateral de Colombia?",
+        "title": "Daniel Muñoz, lateral de la Selección Colombia , en la previa vs. México ...",
+        "url": "https://www.instagram.com/reel/DPpnhYsglLa/#:~:text=espncolombia-,Daniel%20Mu%C3%B1oz%2C%20lateral%20de%20la%20Selecci%C3%B3n%20Colombia%20%2C%20en%20la%20previa,M%C3%A9xico%20%F0%9F%94%A5%E2%9A%BD",
+        "date": "10/10/2025"
+      },
+      {
+        "answer": "ALIANSALUD ENTIDAD PROMOTORA DE SALUD S.A.ASOCIACIÓN INDÍGENA DEL CAUCA.CAPITAL SALUD.COMFENALCO VALLE E.P.S.COMPENSAR E.P.S.E.P.S. FAMISANAR LTDA.E.P.S. SANITAS S.A.EPS CONVIDA.",
+        "question": "¿Principales empresas de salud en Colombia?",
+        "title": "Lista de EPS - Ministerio del trabajo",
+        "url": "https://www.mintrabajo.gov.co/lista-de-eps",
+        "date": null
+      },
+      {
+        "answer": null,
+        "question": "¿Quiénes son los laterales de Colombia?",
+        "title": null,
+        "url": null,
+        "date": null
+      }
+    ],
+    "customData": null,
+    "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/OOlN3zkgFwdInZRJV/records/asCEuUz0aEzZaJj-0.html?signature=Ft0sMpAA9o2FvnOIan0Q"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "domain": "maximacolombia.com",
+    "url": "https://WWW.MAXIMACOLOMBIA.COM",
+    "emails": [],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {},
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [],
+    "score": null,
+    "grade": null,
+    "scoreBreakdown": null,
+    "signals": [],
+    "address": null,
+    "businessIndustry": null,
+    "businessKeywords": [],
+    "cmsDetected": null,
+    "techSignals": [],
+    "trackingTags": {},
+    "whois": null,
+    "pagesCrawled": 0,
+    "succeeded": false,
+    "error": "Failed to fetch any page",
+    "processedAt": "2026-05-18T03:13:06.599Z"
+  }
+]

@@ -1,0 +1,570 @@
+[
+  {
+    "title": "meta Colombia SAS",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Telecommunications service provider",
+    "address": "Carrera 55 No. 152B - 68 Oficina 1406 Edificio MAZ, Bogotá, Colombia",
+    "neighborhood": "Reservas de La Colina, Suba",
+    "street": "Carrera 55 No. 152B - 68 Oficina 1406 Edificio MAZ",
+    "city": "Bogotá",
+    "postalCode": "111156",
+    "state": "Bogota",
+    "countryCode": "CO",
+    "website": "http://www.metacolombia.com/",
+    "phone": "+57 18053632",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 4.7394848,
+      "lng": -74.0572512
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ4TcmGoCZP44Rb0eANVIifpQ",
+    "categories": [
+      "Telecommunications service provider"
+    ],
+    "fid": "0x8e3f99801a2637e1:0x947e22523580476f",
+    "cid": "10700027501159139183",
+    "reviewsCount": 11,
+    "imagesCount": 8,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-18T03:14:03.181Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 5:30 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 5:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 5:30 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 5:30 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 5:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=meta%20Colombia%20SAS&query_place_id=ChIJ4TcmGoCZP44Rb0eANVIifpQ",
+    "searchPageUrl": "https://www.google.com/maps/search/Metamotor%20Colombia?hl=en",
+    "searchString": "Metamotor Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHdjLINXem1GPDLDfq_62Bl2hrHmhjF5AcjQOMY4FUkvLy28hrXfG68NOEAMTbr7mftPbQRHulJ_kYy3RmCArCKDSqJ8iLHJWQmQ2AnJMfSfVmoRJJ0bdT_ltt0kK23R2XBsE6GyQ=w408-h544-k-no",
+    "kgmid": "/g/11b7qbwlzs"
+  },
+  {
+    "title": "Metagroup Colombia SAS",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Corporate office",
+    "address": "Cl. 4 Sur #43AA-30, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+    "neighborhood": "Patio Bonito, El Poblado",
+    "street": "Cl. 4 Sur #43AA-30",
+    "city": "Medellín, El Poblado, Medellin",
+    "postalCode": "050022",
+    "state": "Antioquia",
+    "countryCode": "CO",
+    "website": "https://metagroupcolombia.com/",
+    "phone": "+57 300 9139761",
+    "phoneUnformatted": "+573009139761",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 6.2004991,
+      "lng": -75.5736606
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJs3HpFYCCRo4R1tpdS4mZ3o8",
+    "categories": [
+      "Corporate office"
+    ],
+    "fid": "0x8e46828015e971b3:0x8fde99894b5ddad6",
+    "cid": "10366892207207471830",
+    "reviewsCount": 1,
+    "imagesCount": 4,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-18T03:14:03.182Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "7 AM to 3:30 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "7 AM to 3:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "7 AM to 3:30 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "7 AM to 3:30 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "7 AM to 3:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Metagroup%20Colombia%20SAS&query_place_id=ChIJs3HpFYCCRo4R1tpdS4mZ3o8",
+    "searchPageUrl": "https://www.google.com/maps/search/Metamotor%20Colombia?hl=en",
+    "searchString": "Metamotor Colombia",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5LjpDDqo5lVM9WG69LKnTpkaNooOx0ntQ0tAUqwqHD8ZqCF1HVo6qaXf3Hqy4uAoevIqggdOHECCQ-WY2a6Btc4b0b_mCPzfioy5PbA4EqvFA7-Zot8Iejkuy8Jgkc85vaONkUGK4y_g=w408-h544-k-no",
+    "kgmid": "/g/11vbltgbcx"
+  },
+  {
+    "title": "Volta Motors Colombia - Kits, Bicicletas y Motos Eléctricas",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Motorcycle shop",
+    "address": "Ak Carrera 24 #68-42 Local 1, Bogotá, Colombia",
+    "neighborhood": "Olímpica La Castellana, Barrios Unidos",
+    "street": "Ak Carrera 24 #68-42 Local 1",
+    "city": "Bogotá",
+    "postalCode": "111221",
+    "state": "Bogota",
+    "countryCode": "CO",
+    "website": "https://www.facebook.com/VoltaMotorsColombia",
+    "phone": "+57 322 8083360",
+    "phoneUnformatted": "+573228083360",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 4.6594249,
+      "lng": -74.0692422
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJc-LayRGbP44RJiBr2UZVrPI",
+    "categories": [
+      "Motorcycle shop",
+      "Bicycle Shop",
+      "Electric motor store"
+    ],
+    "fid": "0x8e3f9b11c9dae273:0xf2ac5546d96b2026",
+    "cid": "17486445215956541478",
+    "reviewsCount": 7,
+    "imagesCount": 29,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-18T03:14:03.182Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Delivery": true
+        },
+        {
+          "In-store pickup": true
+        },
+        {
+          "In-store shopping": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Gender-neutral restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Planning": [
+        {
+          "Appointment required": true
+        },
+        {
+          "Quick visit": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Volta%20Motors%20Colombia%20-%20Kits%2C%20Bicicletas%20y%20Motos%20El%C3%A9ctricas&query_place_id=ChIJc-LayRGbP44RJiBr2UZVrPI",
+    "searchPageUrl": "https://www.google.com/maps/search/Metamotor%20Colombia?hl=en",
+    "searchString": "Metamotor Colombia",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHpL1vrgSAS788VicuaR_dkgPVeI7IC3GZTN8yLGZdZg_7r1IV0O-ahrevreUPtjIZxe8vs67-Roh6lYqNbo88NZ2dJHOujAk5PmpWQkx8RC0HSx6vTRoF4Wl9GzjUWT_JDS0wg=w408-h725-k-no",
+    "kgmid": "/g/11pr6dgbbk"
+  },
+  {
+    "title": "MEGAMOTOS",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Motorcycle repair shop",
+    "address": "22, Cra. 29 #0-8, Bogotá, Colombia",
+    "neighborhood": "Barrio Santander, Antonio Nariño",
+    "street": "22, Cra. 29 #0-8",
+    "city": "Bogotá",
+    "postalCode": "111411",
+    "state": "Bogota",
+    "countryCode": "CO",
+    "phone": "+57 311 2844840",
+    "phoneUnformatted": "+573112844840",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 4.5933727,
+      "lng": -74.1122326
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ4eYB-CWZP44RdeJRnI2Wydc",
+    "categories": [
+      "Motorcycle repair shop"
+    ],
+    "fid": "0x8e3f9925f801e6e1:0xd7c9968d9c51e275",
+    "cid": "15549124723430515317",
+    "reviewsCount": 24,
+    "imagesCount": 5,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-18T03:14:03.182Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Mechanic": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Payments": [
+        {
+          "Debit cards": true
+        },
+        {
+          "Credit cards": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=MEGAMOTOS&query_place_id=ChIJ4eYB-CWZP44RdeJRnI2Wydc",
+    "searchPageUrl": "https://www.google.com/maps/search/Metamotor%20Colombia?hl=en",
+    "searchString": "Metamotor Colombia",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEyucIG6c18ldw4jti1QeEtUnyMt_C5ITWRq_rgApfveKSSSoK3Gzpf6oK82pm0iQJaaDxcaSTDdLEc4Dn23mJseWlHbp5FkpHX3Lg9oAYX3kawMPgyh-RqEdofqtbnHTK68w=w408-h343-k-no",
+    "kgmid": "/g/11g6xsrm80"
+  },
+  {
+    "title": "AUTECO MEGA MOTO ENGATIVA",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Motorcycle shop",
+    "address": "111041, Ac 63 #110-10, Bogotá, Colombia",
+    "neighborhood": "Villa del Dorado, Fontibón",
+    "street": "111041, Ac 63 #110-10",
+    "city": "Bogotá",
+    "postalCode": "111041",
+    "state": "Bogota",
+    "countryCode": "CO",
+    "website": "https://landing.mega-moto.com/",
+    "phone": "+57 316 0404047",
+    "phoneUnformatted": "+573160404047",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 4.7001349,
+      "lng": -74.1312948
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJuV7r6f-dP44RwddWRpEV8sw",
+    "categories": [
+      "Motorcycle shop"
+    ],
+    "fid": "0x8e3f9dffe9eb5eb9:0xccf215914656d7c1",
+    "cid": "14767889841795815361",
+    "reviewsCount": 5,
+    "imagesCount": 11,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-18T03:14:03.183Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Planning": [
+        {
+          "Quick visit": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=AUTECO%20MEGA%20MOTO%20ENGATIVA&query_place_id=ChIJuV7r6f-dP44RwddWRpEV8sw",
+    "searchPageUrl": "https://www.google.com/maps/search/Metamotor%20Colombia?hl=en",
+    "searchString": "Metamotor Colombia",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEX4ifN7SEElk1sPfryj7VtYWlnrq9VRqwkfpl4WfE7dCnVQzv9SEXRORtqCoxbLBhDxaOyexI77fafcEKGhvto4GRhIgxk4uVsM8T7Ot_oit9mEKOoZw7ZUQ3eLEo5cBQw418PCqB1W6_0=w408-h304-k-no",
+    "kgmid": "/g/11x0yj_ncm"
+  }
+]

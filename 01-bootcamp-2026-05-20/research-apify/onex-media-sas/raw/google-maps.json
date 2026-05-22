@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Onex Media",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Advertising agency",
+    "address": null,
+    "neighborhood": null,
+    "street": null,
+    "city": null,
+    "postalCode": null,
+    "state": null,
+    "countryCode": null,
+    "website": "http://www.onexmedia.co/",
+    "phone": "+57 300 7170369",
+    "phoneUnformatted": "+573007170369",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 15.157625,
+      "lng": -88.6995056
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJw3A8ZXd5DWIRoM1AzgHhEIY",
+    "categories": [
+      "Advertising agency",
+      "Service establishment"
+    ],
+    "fid": "0x620d7977653c70c3:0x8610e101ce40cda0",
+    "cid": "9660468598581284256",
+    "reviewsCount": null,
+    "imagesCount": 0,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-18T03:17:21.775Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "6 AM to 6 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "6 AM to 6 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 4 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Onex%20Media&query_place_id=ChIJw3A8ZXd5DWIRoM1AzgHhEIY",
+    "searchPageUrl": "https://www.google.com/maps/search/Onex%20Media%20SAS%20Colombia?hl=en",
+    "searchString": "Onex Media SAS Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": null,
+    "kgmid": "/g/11s4v5dxh7"
+  }
+]

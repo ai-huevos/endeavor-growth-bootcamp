@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "generated": "2026-05-21",
+    "purpose": "Seed list de creadores LinkedIn LatAm para benchmarking (L1). Top 5 priority + 10 secondary + categorías a expandir. Insumo principal para L2 angle synth.",
+    "notes": "Verificar handles antes de scrape — algunos pueden haber cambiado. Apify actors no-cookies funcionan sin riesgo a la cuenta principal /in/dani-cardona."
+  },
+  "priority_top_5": [
+    {
+      "name": "Dylan Rosemberg",
+      "handle": "/in/dylanrosemberg",
+      "country": "AR",
+      "positioning": "Growth Rockstar — frameworks de growth para startups LatAm",
+      "content_type": ["frameworks", "entrevistas operadores"],
+      "lead_magnet": "Newsletter Growth Rockstar + podcast + cohortes",
+      "why_model": "Mismo nicho de Daniel: growth/ops LatAm. Estudiar newsletter, hooks de listicle, mecánica podcast→posts."
+    },
+    {
+      "name": "Enzo Cavalie",
+      "handle": "/in/enzo-cavalie",
+      "country": "PE/US",
+      "positioning": "Inversor + host Startupeable — cómo founders LatAm escalan a US",
+      "content_type": ["case studies", "post-mortems VC"],
+      "lead_magnet": "Podcast Startupeable + fondo Reach",
+      "why_model": "Cómo articular tesis con autoridad VC sin sonar VC. Playbook editorial para Huevos AI."
+    },
+    {
+      "name": "Brian Requarth",
+      "handle": "/in/brianrequarth",
+      "country": "BR/US",
+      "positioning": "Founder Latitud / ex-VivaReal — playbook founders LatAm world-class",
+      "content_type": ["frameworks", "case studies"],
+      "lead_magnet": "Latitud Fellowship + libro 'Viva the Entrepreneur'",
+      "why_model": "Latitud Fellowship es lo que Daniel construye con el bootcamp Endeavor. Modelar founder-stories → producto."
+    },
+    {
+      "name": "Carlos Muñoz (4S)",
+      "handle": "/in/carlosmunoz4s",
+      "country": "MX",
+      "positioning": "Serial entrepreneur — ventas, escalamiento y mentoría hard-talk",
+      "content_type": ["listicles", "contrarian", "video"],
+      "lead_magnet": "Mentorías + 4S Academy + libros",
+      "why_model": "El más alto engagement masivo en español B2B. Modelar hooks de listicle y vulnerability — no tono bombástico."
+    },
+    {
+      "name": "Andrés Bilbao",
+      "handle": "/in/andresbilbao",
+      "country": "CO",
+      "positioning": "Co-founder Rappi → ahora invierte y escribe sobre construir en LatAm",
+      "content_type": ["vulnerability", "lecciones operador"],
+      "lead_magnet": "Angel investing + speaking",
+      "why_model": "Tono que mejor convertirá CEOs/founders Endeavor: autoridad credible con vulnerabilidad de operador."
+    }
+  ],
+  "secondary_10": [
+    {"name": "Freddy Vega", "handle": "/in/johnfreddyvega", "country": "CO", "positioning": "CEO Platzi — contrarian takes sobre tech y construir riqueza en LatAm"},
+    {"name": "Juan Segundo Gallo", "handle": "/in/juansegundogallo", "country": "AR", "positioning": "Ex-Rappi operador — growth y go-to-market hands-on"},
+    {"name": "Sol Allende", "handle": "/in/solallende", "country": "AR", "positioning": "Growth Tapi — operadora con vulnerabilidad post-Mercado Libre"},
+    {"name": "Mario Marchetti", "handle": "/in/mariomarchetti10", "country": "AR/LatAm", "positioning": "CEO LatAm scaling — complex GTM y motor comercial B2B enterprise"},
+    {"name": "Andrés Vergara", "handle": "/in/andres-vergara-herrera", "country": "CL", "positioning": "Commercial & Revenue Leader LATAM — revenue ops puro"},
+    {"name": "David Geisen", "handle": "/in/davidgeisen", "country": "MX", "positioning": "Country Manager Mercado Libre MX — operador angel investor"},
+    {"name": "Linda Rottenberg", "handle": "/in/lindarottenberg", "country": "US/LatAm", "positioning": "Co-founder Endeavor — mentora high-impact entrepreneurs"},
+    {"name": "Gina Gotthilf", "handle": "/in/gotthilf", "country": "BR", "positioning": "Co-founder Latitud, ex-Duolingo — building in public LatAm"},
+    {"name": "Hernán Kazah", "handle": "/in/hernan-kazah", "country": "AR", "positioning": "Co-founder Kaszek + Mercado Libre — autoridad VC LatAm"},
+    {"name": "Simón Borrero", "handle": "/in/simon-borrero", "country": "CO", "positioning": "Co-founder Rappi — building consumer LatAm"}
+  ],
+  "categories_to_expand": [
+    {
+      "category": "Mafia Rappi",
+      "examples": ["founders Tributi", "founders Frubana", "founders Truora", "founders Habi", "founders La Haus"],
+      "rationale": "All ex-Rappi founders that publish frequently — high credibility con audiencia Endeavor"
+    },
+    {
+      "category": "Mafia Mercado Libre / Clara / Kavak",
+      "examples": ["Ezequiel Werthein (Head of Growth Clara, ex-Meli)"],
+      "rationale": "Operadores con métricas reales de empresas grandes en LatAm"
+    },
+    {
+      "category": "Latitud Fellowship alumni",
+      "examples": ["Gina Gotthilf (incluida arriba)"],
+      "rationale": "Founders world-class formados en metodología similar a la nuestra"
+    },
+    {
+      "category": "Kaszek / Atomico LatAm operators",
+      "examples": ["Nicolás Szekasy", "Hernán Kazah"],
+      "rationale": "VC LatAm — publican menos pero con alta autoridad"
+    },
+    {
+      "category": "Endeavor entrepreneurs Colombia alumni",
+      "examples": ["Simón Borrero (Rappi)", "Marcela Torres (HolaCode)", "founders Bold", "founders Habi", "founders Truora"],
+      "rationale": "Misma red institucional. Engagement con sus posts trae visibilidad dentro de Endeavor network."
+    }
+  ],
+  "keywords_search": {
+    "es": ["motor comercial", "funnel B2B", "pricing SaaS", "escalamiento ventas", "revenue ops", "unit economics", "CAC LTV", "ICP B2B", "go to market LatAm"],
+    "en": ["revenue ops", "CAC LTV", "unit economics", "B2B sales process", "growth LatAm", "founder-led sales"]
+  },
+  "filters_l1": {
+    "min_comments_per_post": 100,
+    "lookback_days": 60,
+    "geo": ["co", "mx", "ar", "br", "pe", "cl", "uy", "ec"],
+    "commenter_headline_must_contain": ["CEO", "Founder", "CRO", "Head of Growth", "Director Comercial", "Country Manager"],
+    "commenter_company_min_employees": 10
+  }
+}

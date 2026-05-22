@@ -1,0 +1,321 @@
+[
+  {
+    "url": "https://www.effitech.online/",
+    "domain": "www.effitech.online",
+    "https": true,
+    "technologiesCount": 15,
+    "categories": "CMS, E-commerce, Font/Icon Library, JavaScript Framework, JavaScript Library, Page Builder, Performance, Programming Language, SEO, UI Component",
+    "technologies": [
+      {
+        "name": "jQuery",
+        "category": "JavaScript Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "jquery.min.js"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "jQuery"
+            ]
+          }
+        ],
+        "website": "https://jquery.com",
+        "version": "3.7.1"
+      },
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Lazy Loading",
+        "category": "Performance",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "loading=\"lazy\"",
+              "data-src",
+              "lazyload"
+            ]
+          }
+        ],
+        "website": "https://web.dev/lazy-loading"
+      },
+      {
+        "name": "Schema.org",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "schema.org",
+              "application/ld+json"
+            ]
+          }
+        ],
+        "website": "https://schema.org"
+      },
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title",
+              "og:description"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=Inicio - Effitech",
+              "og:type=website",
+              "og:image=https://effitech.online/wp-content/uploads/2024/06/Banner-effitech-home-scaled.jpg"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Twitter Cards",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "twitter:card"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "twitter:card=summary_large_image"
+            ]
+          }
+        ],
+        "website": "https://developer.twitter.com"
+      },
+      {
+        "name": "Elementor",
+        "category": "Page Builder",
+        "confidence": 70,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "elementor",
+              "elementor-widget"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "elementor/assets/"
+            ]
+          }
+        ],
+        "website": "https://elementor.com"
+      },
+      {
+        "name": "WordPress",
+        "category": "CMS",
+        "confidence": 65,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "wp-content/",
+              "wp-includes/",
+              "wp-json"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "wp-includes/js/",
+              "wp-content/plugins/"
+            ]
+          },
+          {
+            "type": "headers",
+            "matches": [
+              "Link: <https://effitech.online/wp-json/>; rel=\"https://api.w.org/\"\n<https://effitech.online/wp-json/wp/v2/pages/2>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://effitech.online/>; rel=shortlink"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "wp"
+            ]
+          }
+        ],
+        "website": "https://wordpress.org",
+        "version": "7"
+      },
+      {
+        "name": "Stimulus",
+        "category": "JavaScript Framework",
+        "confidence": 43,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "data-action"
+            ]
+          }
+        ],
+        "website": "https://stimulus.hotwired.dev"
+      },
+      {
+        "name": "Swiper",
+        "category": "UI Component",
+        "confidence": 40,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "swiper.min.js"
+            ]
+          }
+        ],
+        "website": "https://swiperjs.com"
+      },
+      {
+        "name": "Yoast SEO",
+        "category": "SEO",
+        "confidence": 38,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "yoast-schema-graph",
+              "yoast"
+            ]
+          }
+        ],
+        "website": "https://yoast.com"
+      },
+      {
+        "name": "PHP",
+        "category": "Programming Language",
+        "confidence": 27,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              ".php"
+            ]
+          }
+        ],
+        "website": "https://php.net"
+      },
+      {
+        "name": "Font Awesome",
+        "category": "Font/Icon Library",
+        "confidence": 23,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "font-awesome"
+            ]
+          }
+        ],
+        "website": "https://fontawesome.com"
+      },
+      {
+        "name": "Woocommerce",
+        "category": "E-commerce",
+        "confidence": 20,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "woocommerce"
+            ]
+          }
+        ],
+        "website": "https://woocommerce.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "JavaScript Library": [
+        "jQuery"
+      ],
+      "Font/Icon Library": [
+        "Google Fonts",
+        "Font Awesome"
+      ],
+      "Performance": [
+        "Lazy Loading"
+      ],
+      "SEO": [
+        "Schema.org",
+        "Open Graph",
+        "Twitter Cards",
+        "Yoast SEO"
+      ],
+      "Page Builder": [
+        "Elementor"
+      ],
+      "CMS": [
+        "WordPress",
+        "Magento"
+      ],
+      "JavaScript Framework": [
+        "Stimulus"
+      ],
+      "UI Component": [
+        "Swiper"
+      ],
+      "Programming Language": [
+        "PHP"
+      ],
+      "E-commerce": [
+        "Woocommerce"
+      ]
+    },
+    "analysisTimeMs": 3280,
+    "analyzedAt": "2026-05-18T05:23:29.039Z"
+  }
+]

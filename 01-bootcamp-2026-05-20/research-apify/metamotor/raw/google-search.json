@@ -1,0 +1,148 @@
+[
+  {
+    "#debug": {
+      "requestId": "C24YtUmP7QnDeyV",
+      "url": "http://www.google.com.co/search?q=Metamotor+Colombia&hl=es",
+      "loadedUrl": "http://www.google.com.co/search?q=Metamotor+Colombia&hl=es",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": [],
+      "statusCode": 200
+    },
+    "#error": false,
+    "searchQuery": {
+      "term": "Metamotor Colombia",
+      "url": "http://www.google.com.co/search?q=Metamotor+Colombia&hl=es",
+      "device": "DESKTOP",
+      "page": 1,
+      "type": "SEARCH",
+      "domain": "google.com.co",
+      "countryCode": "CO",
+      "languageCode": "es",
+      "locationUule": null,
+      "resultsPerPage": 10
+    },
+    "url": "http://www.google.com.co/search?q=Metamotor+Colombia&hl=es",
+    "hasNextPage": true,
+    "serpProviderCode": "N",
+    "resultsTotal": null,
+    "relatedQueries": [],
+    "paidResults": [],
+    "paidProducts": [],
+    "organicResults": [
+      {
+        "title": "MetaMotor Colombia (@metamotorco)",
+        "url": "https://www.instagram.com/metamotorco/",
+        "displayedUrl": "Instagram › metamotorco",
+        "description": "Conectamos pasiones, personas y motocicletas. Con nuestra plataforma puedes gestionar: Mantenimientos ⚙️Repuestos y accesorios Información · Si eres de los que ...",
+        "emphasizedKeywords": [
+          "Conectamos pasiones, personas y motocicletas"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 310 seguidores",
+        "channelName": "metamotorco",
+        "type": "organic",
+        "position": 1
+      },
+      {
+        "title": "MetaMotor - Apps en Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.metamotor.app&hl=es_CO",
+        "displayedUrl": "https://play.google.com › store › apps › details › id=com...",
+        "description": "En MetaMotor App podrás crear Tu Garaje, incluir tus Motos, hacer seguimiento al estado de tu Motocicleta y adquirir los Productos y Servicios que tu Moto ...",
+        "emphasizedKeywords": [
+          "crear Tu Garaje, incluir tus Motos, hacer seguimiento al estado de tu Motocicleta"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 2
+      },
+      {
+        "title": "MetaMotor Colombia (@metamotorco)",
+        "url": "https://www.instagram.com/metamotorco/reels/",
+        "displayedUrl": "https://www.instagram.com › metamotorco",
+        "description": "Conectamos pasiones, personas y motocicletas. Con nuestra plataforma puedes gestionar: Mantenimientos ⚙️Repuestos y accesorios Información ; 253 · 527 · 814.",
+        "emphasizedKeywords": [
+          "Conectamos pasiones, personas y motocicletas"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "channelName": "metamotorco",
+        "type": "organic",
+        "position": 3
+      },
+      {
+        "title": "Llegó @metamotorco a solucionarnos la vida! Una app ...",
+        "url": "https://www.instagram.com/p/DJ1mmKDR59K/",
+        "displayedUrl": "https://www.instagram.com › Reels",
+        "description": "19/05/2025 — Llegó @metamotorco a solucionarnos la vida! Una app brutal donde vas a encontrar todo lo necesario para tu día a día sobre tu moto 🏍️ #moto # ...",
+        "date": "2025-05-19T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "Una app brutal donde vas a encontrar todo lo necesario para tu día a día sobre tu moto"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "channelName": "p",
+        "type": "organic",
+        "position": 4
+      },
+      {
+        "title": "Meta Motor | Bogotá",
+        "url": "https://www.facebook.com/61578531094867",
+        "displayedUrl": "Facebook › Meta Motor",
+        "description": "en Febrero Con cero intereses bancarios en tu cuota mensual ✓ Inicial desde $10 millones ✓ Cuotas a tu medida ✓ Turbos, camiones y automóviles disponibles ✓ ...",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 10 seguidores",
+        "type": "organic",
+        "position": 5
+      },
+      {
+        "title": "MetaMotor - App Store - Apple",
+        "url": "https://apps.apple.com/co/app/metamotor/id6636471857",
+        "displayedUrl": "https://apps.apple.com › app › metamotor",
+        "description": "MetaMotor ; Edades. 18+. Años ; Categoría. Utilidades ; Desarrollador. Luis Felipe Arredondo Giraldo ; Idioma. EN. Inglés ; Tamaño. 47.2. MB.",
+        "date": "2025-07-27T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "MetaMotor"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "averageRating": 3,
+        "numberOfReviews": 2,
+        "type": "organic",
+        "position": 6
+      },
+      {
+        "title": "Motomovil",
+        "url": "https://www.motomovil.co/",
+        "displayedUrl": "https://www.motomovil.co",
+        "description": "Protección integral para tu moto con respaldo confiable y rápido. ... Distribuidor oficial de motocicletas Suzuki. Calidad, confianza y pasión por las dos ruedas.",
+        "emphasizedKeywords": [
+          "Distribuidor oficial de motocicletas Suzuki"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 7
+      },
+      {
+        "title": "Hero Colombia | Inicio",
+        "url": "https://heromotos.com.co/",
+        "displayedUrl": "https://heromotos.com.co",
+        "description": "Desafía lo conocido, súbete a una Hero 37 años de excelencia, + de 100 millones de motocicletas vendidas, + de 8000 puntos de venta en el mundo.",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 8
+      }
+    ],
+    "suggestedResults": [],
+    "peopleAlsoAsk": [],
+    "customData": null,
+    "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/AJB5YHfdrgriv1RmX/records/C24YtUmP7QnDeyV-0.html?signature=1y879LZ3yKgHB07AzQHMq"
+  }
+]

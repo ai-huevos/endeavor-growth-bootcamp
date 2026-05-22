@@ -1,0 +1,199 @@
+[
+  {
+    "title": "Design Systems Inno.",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Software company",
+    "address": null,
+    "neighborhood": null,
+    "street": null,
+    "city": null,
+    "postalCode": null,
+    "state": null,
+    "countryCode": null,
+    "website": "http://dsinno.io/",
+    "phone": "+57 302 8283199",
+    "phoneUnformatted": "+573028283199",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -11.9522731,
+      "lng": -73.6514216
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJc7b5TR_-tysR_whehyfTamU",
+    "categories": [
+      "Software company",
+      "Service establishment"
+    ],
+    "fid": "0x2bb7fe1f4df9b673:0x656ad327875e08ff",
+    "cid": "7307885512090323199",
+    "reviewsCount": 2,
+    "imagesCount": 1,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-18T05:18:39.520Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Online appointments": true
+        }
+      ],
+      "Planning": [
+        {
+          "Appointment required": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Design%20Systems%20Inno.&query_place_id=ChIJc7b5TR_-tysR_whehyfTamU",
+    "searchPageUrl": "https://www.google.com/maps/search/Design%20Systems%20Inno%20SAS%20Colombia?hl=en",
+    "searchString": "Design Systems Inno SAS Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFa-z2dGdfMZBp9luhJUwsvRPGSCfJC_I3Xc8r32XSORdrhOrcNcjA-qiFy81REURrrIFphy2NhANa5oijZeFbIZKa6OHeYv-n8HHdZha72EFbdXnJ9bVBp9hIJS7lt6oWahsJE=w408-h308-k-no",
+    "kgmid": "/g/11t88vvv0n"
+  },
+  {
+    "title": "Design Systems Inno.",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Software company",
+    "address": "Cra 46. 7 103, El Poblado, Medellín, El Poblado, Medellín, Antioquia, Colombia",
+    "neighborhood": "Patio Bonito, El Poblado",
+    "street": "Cra 46. 7 103, El Poblado, Medellín",
+    "city": "Medellín, El Poblado, Medellin",
+    "postalCode": null,
+    "state": "Antioquia",
+    "countryCode": "CO",
+    "website": "https://dsinno.io/",
+    "phone": "+57 316 5235474",
+    "phoneUnformatted": "+573165235474",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 6.2102234,
+      "lng": -75.5760702
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJv_IHh0ApRI4RvN6s_opfpr8",
+    "categories": [
+      "Software company"
+    ],
+    "fid": "0x8e4429408707f2bf:0xbfa65f8afeacdebc",
+    "cid": "13809830357961072316",
+    "reviewsCount": null,
+    "imagesCount": 1,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-18T05:18:39.522Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 12 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Design%20Systems%20Inno.&query_place_id=ChIJv_IHh0ApRI4RvN6s_opfpr8",
+    "searchPageUrl": "https://www.google.com/maps/search/Design%20Systems%20Inno%20SAS%20Colombia?hl=en",
+    "searchString": "Design Systems Inno SAS Colombia",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=AscGhtwyzjfTAegF31orQg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=266.61514&pitch=0&thumbfov=100",
+    "kgmid": "/g/11kr95wvj8"
+  }
+]

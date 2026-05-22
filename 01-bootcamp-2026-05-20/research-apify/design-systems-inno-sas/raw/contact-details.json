@@ -1,0 +1,91 @@
+[
+  {
+    "domain": "hecho.cloud",
+    "url": "https://hecho.cloud/",
+    "emails": [],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": null,
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [],
+    "score": 9,
+    "grade": "F",
+    "scoreBreakdown": {
+      "contactReachability": 0,
+      "businessLegitimacy": 3,
+      "onlinePresence": 0,
+      "websiteQuality": 6,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "healthcare"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Google Tag Manager",
+        "category": "websiteQuality",
+        "points": 2,
+        "detail": "GTM-PT328F7C"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "healthcare",
+    "businessKeywords": [
+      "hecho",
+      "sistema",
+      "operativo",
+      "salud",
+      "inteligente"
+    ],
+    "cmsDetected": null,
+    "techSignals": [
+      "HubSpot"
+    ],
+    "trackingTags": {
+      "googleTagManager": "GTM-PT328F7C",
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": "HOSTINGER operations, UAB",
+      "createdDate": "2025-04-16T16:51:51.755Z",
+      "expiresDate": null,
+      "updatedDate": "2026-03-25T16:55:18.394Z",
+      "nameServers": [
+        "ns2.dns-parking.com ns1.dns-parking.com"
+      ],
+      "registrantOrg": null,
+      "registrantCountry": null
+    },
+    "pagesCrawled": 1,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T05:17:55.867Z"
+  }
+]

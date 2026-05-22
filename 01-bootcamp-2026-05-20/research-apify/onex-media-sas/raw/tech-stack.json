@@ -1,0 +1,487 @@
+[
+  {
+    "url": "https://onexfy.com/",
+    "domain": "onexfy.com",
+    "https": true,
+    "technologiesCount": 22,
+    "categories": "Advertising, Analytics, CMS, CSS Framework, E-commerce, Font/Icon Library, JavaScript Library, Page Builder, Performance, Programming Language, SEO, Tag Manager, Web Server",
+    "technologies": [
+      {
+        "name": "jQuery",
+        "category": "JavaScript Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "jquery.min.js"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "jQuery"
+            ]
+          }
+        ],
+        "website": "https://jquery.com",
+        "version": "3.7.1"
+      },
+      {
+        "name": "Google Analytics",
+        "category": "Analytics",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_ga"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Hotjar",
+        "category": "Analytics",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "static.hotjar.com",
+              "hotjar"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_hj"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "hj",
+              "hjSiteSettings"
+            ]
+          }
+        ],
+        "website": "https://hotjar.com"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "GTM-"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtm.js"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "LiteSpeed",
+        "category": "Web Server",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "Server: LiteSpeed"
+            ]
+          }
+        ],
+        "website": "https://litespeedtech.com"
+      },
+      {
+        "name": "Lazy Loading",
+        "category": "Performance",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "loading=\"lazy\"",
+              "lazyload"
+            ]
+          }
+        ],
+        "website": "https://web.dev/lazy-loading"
+      },
+      {
+        "name": "Schema.org",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "schema.org",
+              "application/ld+json"
+            ]
+          }
+        ],
+        "website": "https://schema.org"
+      },
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title",
+              "og:description"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=Software especializado en comercio electrónico",
+              "og:type=website",
+              "og:image=https://onexfy.com/wp-content/uploads/2023/03/cropped-x-onexfy-1.png"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Twitter Cards",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "twitter:card"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "twitter:card=summary_large_image"
+            ]
+          }
+        ],
+        "website": "https://developer.twitter.com"
+      },
+      {
+        "name": "Facebook Pixel",
+        "category": "Advertising",
+        "confidence": 80,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "connect.facebook.net/en_US/fbevents.js",
+              "connect.facebook.net"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_fbp"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "fbq",
+              "_fbq"
+            ]
+          }
+        ],
+        "website": "https://www.facebook.com/business"
+      },
+      {
+        "name": "PHP",
+        "category": "Programming Language",
+        "confidence": 73,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              ".php"
+            ]
+          },
+          {
+            "type": "headers",
+            "matches": [
+              "X-Powered-By: PHP/8.1.34"
+            ]
+          }
+        ],
+        "website": "https://php.net",
+        "version": "8.1.34"
+      },
+      {
+        "name": "Elementor",
+        "category": "Page Builder",
+        "confidence": 70,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "elementor",
+              "elementor-widget"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "elementor/assets/"
+            ]
+          }
+        ],
+        "website": "https://elementor.com"
+      },
+      {
+        "name": "WordPress",
+        "category": "CMS",
+        "confidence": 65,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "wp-content/",
+              "wp-includes/",
+              "wp-json"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "wp-includes/js/",
+              "wp-content/plugins/"
+            ]
+          },
+          {
+            "type": "headers",
+            "matches": [
+              "Link: <https://onexfy.com/wp-json/>; rel=\"https://api.w.org/\"\n<https://onexfy.com/wp-json/wp/v2/pages/2129>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://onexfy.com/>; rel=shortlink"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "wp"
+            ]
+          }
+        ],
+        "website": "https://wordpress.org",
+        "version": "9"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Flask",
+        "category": "Programming Language",
+        "confidence": 38,
+        "evidence": [
+          {
+            "type": "cookies",
+            "matches": [
+              "session"
+            ]
+          }
+        ],
+        "website": "https://flask.palletsprojects.com"
+      },
+      {
+        "name": "Yoast SEO",
+        "category": "SEO",
+        "confidence": 38,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "yoast-schema-graph",
+              "yoast"
+            ]
+          }
+        ],
+        "website": "https://yoast.com"
+      },
+      {
+        "name": "Chakra UI",
+        "category": "CSS Framework",
+        "confidence": 30,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "css-"
+            ]
+          }
+        ],
+        "website": "https://chakra-ui.com"
+      },
+      {
+        "name": "Alpine.js",
+        "category": "JavaScript Library",
+        "confidence": 25,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "x-on"
+            ]
+          }
+        ],
+        "website": "https://alpinejs.dev"
+      },
+      {
+        "name": "Material UI",
+        "category": "CSS Framework",
+        "confidence": 23,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "Mui"
+            ]
+          }
+        ],
+        "website": "https://mui.com"
+      },
+      {
+        "name": "Font Awesome",
+        "category": "Font/Icon Library",
+        "confidence": 23,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fontawesome"
+            ]
+          }
+        ],
+        "website": "https://fontawesome.com"
+      },
+      {
+        "name": "Woocommerce",
+        "category": "E-commerce",
+        "confidence": 20,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "woocommerce",
+              "wc-block"
+            ]
+          }
+        ],
+        "website": "https://woocommerce.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "JavaScript Library": [
+        "jQuery",
+        "Alpine.js"
+      ],
+      "Analytics": [
+        "Google Analytics",
+        "Hotjar",
+        "Google Analytics 4"
+      ],
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "Web Server": [
+        "LiteSpeed"
+      ],
+      "Performance": [
+        "Lazy Loading"
+      ],
+      "SEO": [
+        "Schema.org",
+        "Open Graph",
+        "Twitter Cards",
+        "Yoast SEO"
+      ],
+      "Advertising": [
+        "Facebook Pixel"
+      ],
+      "Programming Language": [
+        "PHP",
+        "Flask"
+      ],
+      "Page Builder": [
+        "Elementor"
+      ],
+      "CMS": [
+        "WordPress",
+        "Magento"
+      ],
+      "CSS Framework": [
+        "Chakra UI",
+        "Material UI"
+      ],
+      "Font/Icon Library": [
+        "Font Awesome"
+      ],
+      "E-commerce": [
+        "Woocommerce"
+      ]
+    },
+    "analysisTimeMs": 3242,
+    "analyzedAt": "2026-05-18T03:17:38.365Z"
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "domain": "galileilearning.com",
+    "url": "https://www.galileilearning.com/",
+    "emails": [
+      "galileo@galileilearning.com"
+    ],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": "https://wa.me/message/OKIABYGUWLJSP1",
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": "galileo@galileilearning.com",
+    "emailPatternConfidence": 0.3,
+    "generatedEmails": [],
+    "emailVerification": [
+      {
+        "email": "galileo@galileilearning.com",
+        "status": "unknown",
+        "mxValid": true
+      }
+    ],
+    "score": 23,
+    "grade": "F",
+    "scoreBreakdown": {
+      "contactReachability": 8,
+      "businessLegitimacy": 7,
+      "onlinePresence": 4,
+      "websiteQuality": 4,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Email address found",
+        "category": "contactReachability",
+        "points": 6,
+        "detail": "galileo@galileilearning.com"
+      },
+      {
+        "signal": "Messaging channels available",
+        "category": "contactReachability",
+        "points": 2,
+        "detail": "1 platform(s)"
+      },
+      {
+        "signal": "Privacy policy found",
+        "category": "businessLegitimacy",
+        "points": 4,
+        "detail": "Legal compliance signal"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "technology"
+      },
+      {
+        "signal": "Social media profile found",
+        "category": "onlinePresence",
+        "points": 4,
+        "detail": "1 platform"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "technology",
+    "businessKeywords": [
+      "galilei",
+      "negocio",
+      "learning",
+      "para",
+      "equipo",
+      "company",
+      "cliente",
+      "empleados"
+    ],
+    "cmsDetected": null,
+    "techSignals": [],
+    "trackingTags": {
+      "googleTagManager": null,
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": "Squarespace Domains II LLC",
+      "createdDate": "2023-04-22T01:31:45Z",
+      "expiresDate": "2027-04-22T01:31:45Z",
+      "updatedDate": "2026-04-07T02:13:28.784785Z",
+      "nameServers": [
+        "ns-875.awsdns-45.net ns-1599.awsdns-07.co.uk ns-1396.awsdns-46.org ns-391.awsdns-48.com"
+      ],
+      "registrantOrg": "Galilei Learning",
+      "registrantCountry": "CO"
+    },
+    "pagesCrawled": 5,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T07:27:10.873Z"
+  }
+]

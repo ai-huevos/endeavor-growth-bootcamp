@@ -1,0 +1,271 @@
+[
+  {
+    "data_captured_at": "2026-05-18T03:13:49.881671",
+    "type": "authority",
+    "domain": "https://www.maximacolombia.com",
+    "mode": "subdomains",
+    "domain_rating": 2.6,
+    "backlinks": 71,
+    "refdomains": 62,
+    "dofollow_backlinks": 25,
+    "dofollow_refdomains": 19,
+    "website_authority": {
+      "domainRating": 2.6,
+      "urlRating": null,
+      "ahrefsRank": null,
+      "backlinks": 71,
+      "refdomains": 62,
+      "dofollowBacklinks": 25,
+      "dofollowRefdomains": 19
+    }
+  },
+  {
+    "data_captured_at": "2026-05-18T03:13:50.787632",
+    "type": "traffic",
+    "domain": "https://www.maximacolombia.com",
+    "mode": "subdomains",
+    "website_overall_search_traffic_history": [],
+    "website_overall_search_traffic_value_history": [],
+    "website_traffic": {
+      "trafficMonthlyAvg": 355,
+      "costMontlyAvg": 854
+    },
+    "website_traffic_history": [
+      {
+        "date": "2025-12-01",
+        "organic": 277
+      },
+      {
+        "date": "2026-01-01",
+        "organic": 301
+      },
+      {
+        "date": "2026-02-01",
+        "organic": 306
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      }
+    ],
+    "website_overall_search_traffic_by_country": [],
+    "website_traffic_by_country": [
+      {
+        "country": "co",
+        "share": 100,
+        "monthly_traffic": [
+          {
+            "date": "2025-12-01",
+            "organic": 277
+          },
+          {
+            "date": "2026-01-01",
+            "organic": 301
+          },
+          {
+            "date": "2026-02-01",
+            "organic": 306
+          },
+          {
+            "date": "2026-03-01",
+            "organic": 363
+          },
+          {
+            "date": "2026-04-01",
+            "organic": 301
+          },
+          {
+            "date": "2026-05-01",
+            "organic": 352
+          }
+        ]
+      }
+    ],
+    "website_traffic_top_pages": [
+      {
+        "url": "https://www.maximacolombia.com/producto/lubricante-de-cadena-sintetico-para-motos-off-road-maxima-syn-chain-guard/",
+        "traffic": 84,
+        "share": 24.561403508771928
+      },
+      {
+        "url": "https://www.maximacolombia.com/categoria-producto/motos/motos-2t/",
+        "traffic": 44,
+        "share": 12.865497076023392
+      },
+      {
+        "url": "https://www.maximacolombia.com/filtros-de-aire/",
+        "traffic": 27,
+        "share": 7.894736842105263
+      },
+      {
+        "url": "Paying Users Only",
+        "traffic": null,
+        "share": null
+      },
+      {
+        "url": "Paying Users Only",
+        "traffic": null,
+        "share": null
+      }
+    ],
+    "website_traffic_top_countries": [
+      {
+        "country": "co",
+        "share": 100
+      }
+    ],
+    "website_overall_search_traffic_keywords": [],
+    "website_traffic_top_keywords": [
+      {
+        "keyword": "lubricante de cadena moto",
+        "position": 6,
+        "traffic": 600
+      },
+      {
+        "keyword": "aceite 2 tiempos",
+        "position": 3,
+        "traffic": 500
+      },
+      {
+        "keyword": "sc1",
+        "position": 1,
+        "traffic": 30
+      },
+      {
+        "keyword": "Paying Users Only",
+        "position": null,
+        "traffic": null
+      },
+      {
+        "keyword": "Paying Users Only",
+        "position": null,
+        "traffic": null
+      }
+    ]
+  },
+  {
+    "data_captured_at": "2026-05-18T03:13:51.225887",
+    "type": "backlinks",
+    "domain": "https://www.maximacolombia.com",
+    "mode": "subdomains",
+    "total_backlinks": 71,
+    "total_referring_domains": 62,
+    "total_dofollow_backlinks": 25,
+    "total_dofollow_referring_domains": 19,
+    "top_backlinks_count": 20,
+    "referal_domains_history": [],
+    "top_backlinks": [
+      {
+        "anchor": "MetaMotor",
+        "domainRating": 60,
+        "redirectChain": [],
+        "textPost": "",
+        "textPre": "",
+        "title": "Medellín Next",
+        "urlFrom": "https://rutanmedellin.org/medellin-next",
+        "urlTo": "https://www.maximacolombia.com/",
+        "inRendered": true,
+        "inRaw": true
+      },
+      {
+        "anchor": "",
+        "domainRating": 4,
+        "redirectChain": [
+          {
+            "url": "https://maximacolombia.com/producto/aceite-semisintetico-con-ester-para-motos-maxima-syn-blend-ester-15w50/",
+            "redirectCode": 301
+          }
+        ],
+        "textPost": "",
+        "textPre": "",
+        "title": "ACEITE SEMISINTETICO TRANSM SYN BLEND 15W50 – Motomercado",
+        "urlFrom": "https://motomercado.co/shop/aceite-semisintetico-transm-syn-blend-15w50/",
+        "urlTo": "https://www.maximacolombia.com/producto/aceite-semisintetico-con-ester-para-motos-maxima-syn-blend-ester-15w50/",
+        "inRendered": false,
+        "inRaw": true
+      },
+      {
+        "anchor": "fast indexing whitehat traffic maximacolombia.com Google ranking upto 10x | Seoboost.agency World no 1 Seo Agency",
+        "domainRating": 13,
+        "redirectChain": [
+          {
+            "url": "https://maximacolombia.com/",
+            "redirectCode": 301
+          }
+        ],
+        "textPost": "",
+        "textPre": "",
+        "title": "Google Ranking Booster: Manual Work: Ahrefs DR + MOZ DA+Pbn Backlinks Visit SeoBoost.agency – rankongoogle.agency",
+        "urlFrom": "https://rankongoogle.agency/ga8fzgo-google-ranking-lift-traffic-with-contextual-seo-backlinks/",
+        "urlTo": "https://www.maximacolombia.com/",
+        "inRendered": false,
+        "inRaw": true
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      }
+    ],
+    "backlink_check": {
+      "backlinks": 71,
+      "refdomains": 62,
+      "dofollowBacklinks": 25,
+      "dofollowRefdomains": 19
+    }
+  }
+]

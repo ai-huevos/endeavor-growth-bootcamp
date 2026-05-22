@@ -1,0 +1,195 @@
+[
+  {
+    "title": "Centro Envios Downtown * Agencia Envios de Dinero y Carga",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Money transfer service",
+    "address": "255 E Flagler St Suite 99, Miami, FL 33131",
+    "neighborhood": "Downtown Miami",
+    "street": "255 E Flagler St Suite 99",
+    "city": "Miami",
+    "postalCode": "33131",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.centroenviosymas.com/",
+    "phone": "(305) 371-8833",
+    "phoneUnformatted": "+13053718833",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 25.7749079,
+      "lng": -80.1890758
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": "QRF6+X9 Miami, Florida",
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.9,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJhxFvdZ622YgRsh9bNR8TB7Y",
+    "categories": [
+      "Money transfer service",
+      "ATM",
+      "Check cashing service",
+      "Courier service",
+      "Freight forwarding service",
+      "Mailbox rental service",
+      "Shipping and mailing service",
+      "Shipping company",
+      "Shipping service"
+    ],
+    "fid": "0x88d9b69e756f1187:0xb607131f355b1fb2",
+    "cid": "13116473464499937202",
+    "reviewsCount": 412,
+    "imagesCount": 25,
+    "imageCategories": [
+      "All",
+      "Exterior",
+      "Videos",
+      "By owner",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T03:10:49.770Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8:30 AM to 6 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8:30 AM to 6 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8:30 AM to 6 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8:30 AM to 6 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8:30 AM to 6 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "9 AM to 3 PM"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Envios y carga express",
+        "reviewsCount": 10,
+        "totalScore": 4.4
+      },
+      {
+        "category": "People also search for",
+        "title": "Emi Envios",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "latin express envios",
+        "reviewsCount": 17,
+        "totalScore": 4.3
+      },
+      {
+        "category": "People also search for",
+        "title": "Ria Money Transfer - Envios y carga Express.com inc",
+        "reviewsCount": 5,
+        "totalScore": 1.8
+      },
+      {
+        "category": "People also search for",
+        "title": "Centro Envios Kendall Centro * Agencia Envios de Dinero y Carga",
+        "reviewsCount": 283,
+        "totalScore": 4.9
+      }
+    ],
+    "placesTags": [
+      {
+        "title": "Services",
+        "count": 1
+      }
+    ],
+    "reviewsTags": [
+      {
+        "title": "staff friendliness",
+        "count": 13
+      },
+      {
+        "title": "speed",
+        "count": 15
+      },
+      {
+        "title": "secure shipping",
+        "count": 2
+      },
+      {
+        "title": "punctuality",
+        "count": 5
+      },
+      {
+        "title": "package shipping",
+        "count": 7
+      },
+      {
+        "title": "exchange rate",
+        "count": 4
+      },
+      {
+        "title": "willingness to help",
+        "count": 3
+      },
+      {
+        "title": "best rate",
+        "count": 2
+      },
+      {
+        "title": "kindness",
+        "count": 42
+      },
+      {
+        "title": "security",
+        "count": 7
+      }
+    ],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Centro%20Envios%20Downtown%20*%20Agencia%20Envios%20de%20Dinero%20y%20Carga&query_place_id=ChIJhxFvdZ622YgRsh9bNR8TB7Y",
+    "searchPageUrl": "https://www.google.com/maps/search/Verifty%20Colombia?hl=en",
+    "searchString": "Verifty Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEawSN6OXC9C7sRPYUtDr9oQsdBOgaUmoGLVXEB70ngvHfTlOJ2HMyV90WOX8awlBo1ReNGWqQR8L_TbcUmHqHsEPLwgfxGZnP4uZ0NM66H4ShxyxTEsIXNU94s8JGidzQPJrBFdQ=w408-h306-k-no",
+    "kgmid": "/g/1tdfjh1l"
+  }
+]

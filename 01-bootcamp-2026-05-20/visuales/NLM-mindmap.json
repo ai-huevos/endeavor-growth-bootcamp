@@ -1,0 +1,111 @@
+{
+  "name": "Hormozi & AI Huevos Growth Framework",
+  "children": [
+    {
+      "name": "The Value Equation",
+      "children": [
+        {
+          "name": "Maximize Dream Outcome",
+          "children": [
+            { "name": "Status Increase" },
+            { "name": "Destination vs Vehicle" }
+          ]
+        },
+        {
+          "name": "Maximize Perceived Likelihood",
+          "children": [
+            { "name": "Case Studies" },
+            { "name": "Guarantees" }
+          ]
+        },
+        {
+          "name": "Minimize Time Delay",
+          "children": [
+            { "name": "Fast Beats Free" },
+            { "name": "First Win in 14 Days" }
+          ]
+        },
+        {
+          "name": "Minimize Effort & Sacrifice",
+          "children": [
+            { "name": "Tools beat Training" },
+            { "name": "DFY > DWY > DIY" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grand Slam Offer Construction",
+      "children": [
+        { "name": "Obstacle Enumeration" },
+        { "name": "Obstacle-to-Solution Conversion" },
+        { "name": "Delivery Cube Design" },
+        { "name": "Trim & Stack" },
+        { "name": "Enhancement Layers" }
+      ]
+    },
+    {
+      "name": "Persuasion Architecture (Schwartz)",
+      "children": [
+        {
+          "name": "Stages of Awareness",
+          "children": [
+            { "name": "Unaware" },
+            { "name": "Problem Aware" },
+            { "name": "Solution Aware" },
+            { "name": "Product Aware" },
+            { "name": "Most Aware" }
+          ]
+        },
+        {
+          "name": "Market Sophistication",
+          "children": [
+            { "name": "Direct Claim" },
+            { "name": "Mechanism Focus" },
+            { "name": "Identification Shift" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Business Model Viability (Campbell)",
+      "children": [
+        {
+          "name": "Monetization Levers",
+          "children": [
+            { "name": "Value Metric Alignment" },
+            { "name": "Pricing Power Assessment" }
+          ]
+        },
+        {
+          "name": "Retention Strategy",
+          "children": [
+            { "name": "Voluntary Churn" },
+            { "name": "Involuntary Churn Fixes" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI Huevos Implementation",
+      "children": [
+        {
+          "name": "Systematic Growth",
+          "children": [
+            { "name": "ICP Scoring" },
+            { "name": "AI-First Operations" },
+            { "name": "30-Day Execution Plan" }
+          ]
+        },
+        {
+          "name": "Escala Value Ladder",
+          "children": [
+            { "name": "Lead Magnet" },
+            { "name": "Core Offer" },
+            { "name": "Premium High-Ticket" }
+          ]
+        }
+      ]
+    }
+  ]
+}

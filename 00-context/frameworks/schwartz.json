@@ -1,0 +1,337 @@
+{
+  "expert": {
+    "name": "Eugene M. Schwartz",
+    "domain": "1A - Persuasion Architecture",
+    "active_period": "1927-1995 (Breakthrough Advertising [1966], The Brilliance Breakthrough)",
+    "core_thesis": "Copy does not create desire. It channels pre-existing mass desire onto a specific product through strategically sequenced belief-building. The conversion power originates in the market, not in the writer.",
+    "key_questions": [
+      "What is the dominant mass desire attachable to this product? (12 words or fewer)",
+      "Prospect's State of Awareness: Unaware / Problem Aware / Solution Aware / Product Aware / Most Aware?",
+      "Market's State of Sophistication: Stage 1-5?",
+      "Prospect's belief environment: what cannot be violated?",
+      "Product's mechanism and market familiarity with it?",
+      "Dominant objections: complexity, importance, price, trust?"
+    ],
+    "operating_beliefs": [
+      "Copy channels existing desire; it cannot create it.",
+      "Desire selection is the highest-leverage decision. Wrong desire = unrecoverable.",
+      "The headline does not sell. It stops discard and earns the next paragraph.",
+      "Each sentence sells the next. Persuasion is sequential.",
+      "The prospect's beliefs are immovable first-move constraints.",
+      "One fully believed promise beats many partially believed promises.",
+      "Write to the 'chimpanzee brain': vivid, concrete, gut-level. If praised AS writing, that's a warning signal.",
+      "Define product by what it DOES ('doeses'), not what it IS.",
+      "Powerful claims create disbelief unless the ad prepares and proves. Biography builds belief.",
+      "Ugly can outperform beautiful when sameness is the enemy."
+    ],
+    "biases": [
+      "Favors long-form, copy-driven persuasion. May undervalue visual-first or design-driven conversion.",
+      "Treats copy as primary selling instrument. Underweights exogenous trust (brand, reviews, influencer).",
+      "Rewards mechanism-heavy copy. May overpenalize minimalist copy that converts via pre-built brand equity.",
+      "Assumes direct response context. Less reliable when copy is one touchpoint in multi-touch sequence."
+    ],
+    "limitations": [
+      "Product UX / checkout friction. Strong copy does not guarantee conversion if interface fails.",
+      "Short-form social ads. Sentence-chain applies but platform dynamics (delivery, fatigue, scroll) are outside scope.",
+      "Micro-niche audiences. 'Mass desire' model may underrate viable niche plays with high LTV but tiny scope.",
+      "Multi-touch non-linear consumption. Single-piece Unaware-to-Most-Aware progression is less reliable when users bounce between assets.",
+      "Exogenous trust signals (reviews, influencer, platform trust) can dominate copy but are not modeled here.",
+      "Ultra-minimal pages for pre-aware audiences where belief sits outside the page.",
+      "Luxury/fashion copy that converts via vibe and brand equity without explicit mechanism or proof."
+    ]
+  },
+  "frameworks": [
+    {
+      "name": "Mass Desire Channeling",
+      "source": "Breakthrough Advertising; Phillips Publishing lecture",
+      "purpose": "What force already exists in the market that, if correctly aimed, will cause buying behavior?",
+      "mechanics": {
+        "description": "Mass desire = a private want spread publicly to enough people to form a market. Copy focuses it onto one product through one mechanism. Every product contains a physical product (the thing) and a functional product (what it DOES: its 'doeses'). Features are raw materials; performances are selling units.",
+        "components": [
+          {
+            "name": "Desire Identification",
+            "definition": "The single dominant desire, statable in 12 words or fewer.",
+            "key_questions": [
+              "Can you state the dominant desire in <=12 words? If not, copy fails focus.",
+              "Is it pre-existing or manufactured?",
+              "Does every section tie back to it?",
+              "Does headline carry one desire or multiple?"
+            ],
+            "red_flags": "Wrong desire for market/product. Unrecoverable."
+          },
+          {
+            "name": "Desire Power",
+            "definition": "Three dimensions: urgency (demands satisfaction now), staying power (renews, resists satiation), scope (enough people at paying intensity).",
+            "key_questions": [
+              "Rate urgency, staying power, scope. If weak on any, require compensating strength elsewhere."
+            ]
+          },
+          {
+            "name": "Physical-to-Functional Translation",
+            "definition": "Whether copy translates features into functional performances ('doeses') under the dominant desire.",
+            "key_questions": [
+              "List all 'doeses.' Are they coherent under one desire or unrelated pile?",
+              "Is product defined by what it DOES, not IS?"
+            ]
+          }
+        ]
+      },
+      "decision_rules": [
+        "IF copy attempts to 'create desire,' THEN penalize (channeling axiom violation).",
+        "IF multiple desires compete in headline/lead, THEN penalize scattered desire.",
+        "IF desire selection is wrong, THEN FATAL.",
+        "IF headline desire != body desire, THEN penalize 'desire breach.'",
+        "IF copy leads with physical attributes without desire linkage, THEN penalize."
+      ]
+    },
+    {
+      "name": "Five Stages of Awareness",
+      "source": "Breakthrough Advertising, 'Your Prospect's State of Awareness'",
+      "purpose": "What can you say first without being rejected, and what must the copy accomplish before asking for the sale?",
+      "mechanics": {
+        "description": "Copy must start where the prospect IS. Five stages define what the copy can safely say first and how direct it can be.",
+        "components": [
+          {
+            "name": "Unaware",
+            "definition": "Prospect doesn't recognize the need. Headline must NOT sell. Enter via curiosity, story, acceptable imagery. Introduce problem indirectly.",
+            "red_flags": "Opens with product/offer/selling to unaware audience."
+          },
+          {
+            "name": "Problem Aware",
+            "definition": "Feels pain but doesn't know solution category. Headline names problem/consequences, promises relief (not product). Intensify problem before introducing solution."
+          },
+          {
+            "name": "Solution Aware",
+            "definition": "Knows solutions exist, evaluating options. Headline positions better way via mechanism/unique angle. Differentiate via 'why this works when others fail.'"
+          },
+          {
+            "name": "Product Aware",
+            "definition": "Knows product, not convinced. Lead with advantage, offer, proof, risk reversal. Counter objections, make purchase safe."
+          },
+          {
+            "name": "Most Aware",
+            "definition": "Knows product, wants it, needs trigger. Offer-forward: price, deadline, bonus, guarantee. Short and operational."
+          }
+        ]
+      },
+      "decision_rules": [
+        "IF product name + price/offer opens but body must educate, THEN stage mismatch.",
+        "IF headline is 'deal oriented' but lead is 'educational,' THEN internal inconsistency.",
+        "IF copy introduces rejected-at-top claims without preparation, THEN penalize.",
+        "IF CTA before problem is established for early stages, THEN FATAL.",
+        "IF selling language hits Unaware/Problem Aware immediately, THEN FATAL."
+      ]
+    },
+    {
+      "name": "Five Stages of Market Sophistication",
+      "source": "Breakthrough Advertising, Market Sophistication chapter",
+      "purpose": "Given competitive claim saturation, what type of claim will still feel fresh and believable?",
+      "mechanics": {
+        "description": "Sophistication = what the market has been promised, tried, and learned to distrust. Determines the primary selling lever.",
+        "components": [
+          {
+            "name": "Stage 1: First in Market",
+            "definition": "Simple direct claim. Novelty carries. Penalize overcomplication."
+          },
+          {
+            "name": "Stage 2: Competition Appears",
+            "definition": "Enlarge/dramatize the successful claim. Faster, easier, bigger. Specific amplification."
+          },
+          {
+            "name": "Stage 3: Claim Fatigue",
+            "definition": "Need NEW MECHANISM to make familiar promise fresh. Must be new, believable, emotionally loaded."
+          },
+          {
+            "name": "Stage 4: Mechanism Saturation",
+            "definition": "Elaborate/embellish mechanism, or explain why prior mechanisms fail. Deeper proof, more specificity."
+          },
+          {
+            "name": "Stage 5: Exhausted Market",
+            "definition": "Shift from promise/mechanism to IDENTIFICATION. Identity-based entry. New problem framing or desire angle."
+          }
+        ]
+      },
+      "decision_rules": [
+        "IF Stage 1 + complex mechanism, THEN penalize overcomplication.",
+        "IF Stage 3+ with old claim phrased plainly, THEN penalize stale.",
+        "IF Stage 5 with bigger promises instead of identification, THEN FATAL.",
+        "IF saturated market + pure generic benefit, THEN near-fatal."
+      ]
+    },
+    {
+      "name": "Verbalization: 38 Headline Strengthening Techniques",
+      "source": "Breakthrough Advertising; reproduced lists",
+      "purpose": "Given the right claim, how to state it so it hits harder, feels fresher, earns the read.",
+      "mechanics": {
+        "description": "Verbalization strengthens a chosen claim by binding images, measurements, proof cues, or curiosity triggers. It is DOWNSTREAM of desire, awareness, and sophistication. Cannot fix strategic misalignment. 38 techniques grouped by function:",
+        "functional_groups": [
+          {
+            "group": "Measuring/Concretizing",
+            "techniques": "1-3: Measure size, speed, comparison. Add specific numbers, quantified scale, relative measurement.",
+            "example": "'17,000 blooms'"
+          },
+          {
+            "group": "Sensory/Vividness",
+            "techniques": "4-6: Metaphorize, sensitize (feel/see/hear), demonstrate with prime example.",
+            "example": "'60 mph... electric clock'"
+          },
+          {
+            "group": "Drama/Pattern Breaks",
+            "techniques": "7-9: Dramatize result, paradox, remove limitations ('without X, even if Z')."
+          },
+          {
+            "group": "Identity/Engagement",
+            "techniques": "10-12: Associate with valued people, show breadth of work, state as question."
+          },
+          {
+            "group": "Method/Authority",
+            "techniques": "13-15: 'How to' framing, tie authority, before-and-after."
+          },
+          {
+            "group": "Novelty/Exclusivity",
+            "techniques": "16-18: Stress newness, exclusivity, turn into challenge."
+          },
+          {
+            "group": "Compression/Symbolism",
+            "techniques": "19-21: Case-history quote, condense (interchange), symbolize.",
+            "example": "'Atlantic Ocean becomes one-fifth as long'"
+          },
+          {
+            "group": "Mechanism/Need",
+            "techniques": "22-24: Connect mechanism to claim, startle by contradicting expected mechanism, connect need to claim.",
+            "example": "'Feeds waste gas fumes back into your engine'"
+          },
+          {
+            "group": "Story/Naming",
+            "techniques": "25-27: Offer information, case history, name the problem."
+          },
+          {
+            "group": "Risk/Ease",
+            "techniques": "28-30: Warn pitfalls, emphasize by phraseology, show ease via overcome limitation.",
+            "example": "'If you can count to eleven...'"
+          },
+          {
+            "group": "Differentiation/Reversals",
+            "techniques": "31-34: State difference, show limitations overcome, address non-buyers, address directly.",
+            "example": "'To the man who will settle for nothing less...'"
+          },
+          {
+            "group": "Belief Challenges",
+            "techniques": "35-38: Dramatize production difficulty, accuse of too good, challenge beliefs, Q&A headline."
+          }
+        ]
+      },
+      "decision_rules": [
+        "IF low sophistication, THEN fewer layers needed. Penalize over-verbalization that obscures.",
+        "IF high sophistication, THEN verbalization required to freshen. Penalize plain claims.",
+        "IF headline introduces mechanism, THEN body must mechanize and prove it. Penalize name-drops without support."
+      ]
+    },
+    {
+      "name": "Seven Body Copy Techniques",
+      "source": "Breakthrough Advertising; Aures Notes summaries",
+      "purpose": "What body copy method transforms desire into belief and action?",
+      "mechanics": {
+        "description": "Seven techniques, each with a distinct job. Mix must match Awareness and Sophistication.",
+        "components": [
+          {
+            "name": "Intensification (13 Parts)",
+            "definition": "Fresh fulfillments of dominant desire. NOT repeating same benefit in new adjectives.",
+            "thirteen_parts": "1) Direct claim presentation, 2) Claims in action, 3) Bring in reader/first-day demo, 4) Show how to test, 5) Stretch in time, 6) Bring in audience, 7) Expert approval, 8) Compare/contrast/superiority, 9) Picture the black side, 10) Show ease, 11) Metaphor/analogy, 12) Summarize (no repetition), 13) Guarantee as climax.",
+            "key_questions": "Count parts present. Is each a genuinely new angle? Is there product-in-action, reader-as-actor, and testable demonstration?",
+            "red_flags": "Same phrasing repeated, flat benefit list, 'fake variation' via adjective swaps."
+          },
+          {
+            "name": "Identification",
+            "definition": "Build saleable personality/role into product. Product as instrument or acknowledgment of desired role (character roles or achievement roles).",
+            "key_questions": "What role is offered? Character or achievement? Tied to product features or pasted on? Primary image respected or contradicted?",
+            "red_flags": "Identity contradicts audience's established self-concept."
+          },
+          {
+            "name": "Gradualization",
+            "definition": "Build belief BEFORE stating the claim. Chain of acceptances: start with what they accept, link each new claim inside accepted claim.",
+            "devices": "Inclusion questions (force 'yes'), detailed identification qualifiers, contradiction of false beliefs (with authority), logic connectors ('because,' 'therefore'), syllogistic chains (A->B->C), if-then structures, paragraph parallelism.",
+            "key_questions": "Map the 'belief ladder.' Is first acceptance a nod? Are bridge steps small? Where does proof appear relative to doubt? Are big claims embedded in accepted frames?",
+            "red_flags": "Demands worldview reversal without bridge."
+          },
+          {
+            "name": "Redefinition",
+            "definition": "Remove objections before prospect forms them. Three modes: Simplification (too complicated), Escalation (not important enough), Price Reduction (too expensive, shift comparison frame).",
+            "key_questions": "What's the biggest objection? Pre-handled or ignored? Which mode? Backed by proof or mere wordplay?"
+          },
+          {
+            "name": "Mechanization",
+            "definition": "Verbal proof product does what it claims. Three stages: 1) Name mechanism (when known), 2) Describe mechanism (when unknown/tired, keep emotionally loaded), 3) Feature mechanism (when sophisticated or dramatic, elevate to headline).",
+            "key_questions": "Can you isolate the mechanism phrase? Used as reason-why proof or jargon? Demonstrated in action? Correct stage for market? Emotionally loaded or sterile?",
+            "red_flags": "Big claims + no mechanism/proof in proof-demanding context."
+          },
+          {
+            "name": "Concentration",
+            "definition": "Destroy alternate paths to desire satisfaction. Expose competitor weakness while proving your solution avoids it. Not mere attack.",
+            "key_questions": "Does copy neutralize alternatives (DIY, competitor, procrastination)? With evidence, not insults? Only attacks weaknesses it can solve?"
+          },
+          {
+            "name": "Camouflage",
+            "definition": "Borrow conviction via non-ad format. Three elements: Format (looks like editorial), Phraseology (sounds like the medium), Mood (understatement, sincerity, reduced 'ad language').",
+            "key_questions": "Does piece match expected channel voice? Believability borrowed from credible structures or merely asserted? Format minimizes editorial-to-ad shift?"
+          }
+        ],
+        "technique_selection": "Low awareness: heavier Intensification + Gradualization. High sophistication: heavier Mechanization + Concentration. High skepticism: Camouflage. Logical long-form sequence: Intensify -> Gradualize -> Mechanize -> Redefine -> Concentrate -> Close."
+      },
+      "decision_rules": [
+        "IF Most Aware + over-intensification, THEN penalize hype.",
+        "IF weak desire + abstract intensification, THEN penalize 'benefit list without vivid action.'",
+        "IF Stage 5 sophistication, THEN identification must lead. Penalize promise-only.",
+        "IF high-skepticism claim without Gradualization preparation or authority proof, THEN penalize.",
+        "IF mechanism becomes dry/technical/emotionless, THEN penalize.",
+        "IF Stage 3+ + same mechanism as competitors, THEN penalize.",
+        "IF copy doesn't answer 'why this way,' THEN prospect satisfies desire elsewhere."
+      ]
+    },
+    {
+      "name": "Final Touches and Execution Quality",
+      "source": "Breakthrough Advertising; Phillips Publishing lecture; The Brilliance Breakthrough (partial)",
+      "purpose": "Is the copy believable, absorbing, emotionally charged, vivid, and continuously pulling forward?",
+      "mechanics": {
+        "components": [
+          {
+            "name": "Verification (Proof Placement)",
+            "definition": "Proof where the reader demands it. Short, dramatic, specific. 'Biography builds belief' for big claims.",
+            "key_questions": "Identify each doubt point. Is proof right there? Specific and credible, or vague and dull?",
+            "red_flags": "Proof contradicts itself or uses fake specificity."
+          },
+          {
+            "name": "Interweaving",
+            "definition": "Blend emotion + image + logic in the same sentence. Every word carries image/feeling.",
+            "key_questions": "Sample 5 random sentences. Each include at least one of: image, emotion, logic?"
+          },
+          {
+            "name": "Momentum",
+            "definition": "Forward-pulling transitions and teasers. Two types: momentum phrases (transitions) and incomplete statements (raise question, imply answer).",
+            "key_questions": "Count transitions. Are open loops created and paid off? Does each section transition promise info, raise question, or imply payoff?"
+          },
+          {
+            "name": "Mood and Simplicity",
+            "definition": "Tone matches channel/audience. Write to 'chimpanzee brain': vivid, concrete, low-friction. Connectors ('because,' 'so,' 'which means') make logic obvious. Word pictures cause reader to generate mental images.",
+            "key_questions": "Abstraction density: how many sentences contain concrete image vs abstract nouns? Can reader visualize promise in 3 seconds? Do connectors make logic effortless? Does reader ever have to reread?"
+          }
+        ]
+      },
+      "decision_rules": [
+        "IF big claims + proof absent/misplaced, THEN penalize heavily.",
+        "IF logic without imagery/emotion, THEN penalize interweaving failure.",
+        "IF no forward pull (no teasers, no questions), THEN penalize momentum failure.",
+        "IF 'salesy' tone in skeptical channel, THEN penalize mood mismatch.",
+        "IF 'smart sounding' jargon adding no persuasion function, THEN penalize."
+      ]
+    }
+  ],
+  "vocabulary": {
+    "mass_desire": "Not 'interest.' Pre-existing force in the market. Copy channels it, cannot create it.",
+    "doeses": "Schwartz's term for the multiple functional performances one product delivers. Each is a potential selling angle.",
+    "sophistication": "NOT intelligence. Market's exposure to and fatigue from similar promises/mechanisms.",
+    "mechanism": "The 'why it works' that makes promise believable. Not trivia. Must be emotionally loaded, not sterile.",
+    "channeling_vs_creating": "Channeling = routing existing demand. Creating = mass education (economically implausible for most).",
+    "sentence_chain": "Each sentence sells the next. You can say unbelievable things later if copy prepared belief earlier."
+  }
+}

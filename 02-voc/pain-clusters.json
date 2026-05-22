@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "generated": "2026-05-21",
+    "purpose": "Single source of truth de pain clusters para L2 (angle synth), L4 (DM sales), L5 (sequencer), L6 (review). Derivado de 105 founders Marzo 2026 + 31 autodiagnósticos bootcamp 2026-05-20.",
+    "sources": [
+      "entregables-nlm/briefing-doc-nlm.md (105 founders, Marzo 2026)",
+      "entregables-nlm/guion-20mayo2026.md (31 autodiagnósticos del batch)",
+      "research/<empresa>/BRIEFING.md (18 briefings detallados)",
+      "StartupsEmergentes(1).xlsx.csv (205 startups firmographics)"
+    ]
+  },
+  "clusters": {
+    "motor_comercial": {
+      "id": "motor_comercial",
+      "label_es": "Motor Comercial Inexistente",
+      "label_en": "Non-existent Commercial Motor",
+      "prevalence_pct": 52,
+      "symptom": "No formal sales process or metrics. Sell by relationship, not by process.",
+      "verbatims_canon": [
+        "Venden por relación, no por proceso.",
+        "Hoy están vendiendo por relación, a puro pulmón y por intuición.",
+        "El 90% no tiene un proceso de adquisición medible.",
+        "17 de los 31 founders declararon que su gran problema son las ventas y el marketing."
+      ],
+      "hormozi_lens": "Value Equation: Dream Outcome y Perceived Likelihood débiles. No hay oferta empaquetada.",
+      "schwartz_lens": "Hablan a clientes que están Solution-aware pero el founder asume Product-aware. Mismatch de lenguaje.",
+      "campbell_lens": "Quemar capital en acquisition cuando el juego es Monetización. 5:3:2 desbalanceado.",
+      "lead_magnet_fit": "Diagnóstico 7 Piezas del Funnel (entry) — perfecto fit",
+      "escala_tier_route": "Tripwire $97-297 (mini-curso de motor comercial) → Mid $497-997 (cohorte) → Bootcamp $2K+",
+      "weight_in_calendar": 0.40
+    },
+    "ops_escala": {
+      "id": "ops_escala",
+      "label_es": "Escalar Sin Romper",
+      "label_en": "Scaling Without Breaking",
+      "prevalence_pct": 29,
+      "symptom": "Operations cannot support current growth. Founder es el cuello de botella.",
+      "verbatims_canon": [
+        "El cuello de botella eres tú actuando como técnico.",
+        "Tu CRM funciona en proporción inversa a las decisiones que pasan por ti.",
+        "Sistematizar tareas solo escala tu cansancio. Lo que escala son las decisiones."
+      ],
+      "hormozi_lens": "Effort & Sacrifice altísimo. La promesa se rompe al escalar.",
+      "schwartz_lens": "Cliente está Most-aware del costo de la operación manual; necesita sistema, no más esfuerzo.",
+      "campbell_lens": "Activation: bajar el effort del cliente y del founder vía sistemas.",
+      "lead_magnet_fit": "15 AI Prompts Comerciales (utility) — para automatizar pensamiento, no tareas",
+      "escala_tier_route": "Tripwire $297 (sistema de delegación) → Mid $997 (decision log + AI agents) → Bootcamp $2K+",
+      "weight_in_calendar": 0.22
+    },
+    "demand_gen": {
+      "id": "demand_gen",
+      "label_es": "Generación de Demanda",
+      "label_en": "Demand Generation",
+      "prevalence_pct": 25,
+      "symptom": "Pipeline depends entirely on personal networks. Sin canales escalables.",
+      "verbatims_canon": [
+        "58% no tiene canales escalables.",
+        "Pipeline depends on personal networks.",
+        "80% jura que tiene una propuesta de valor poderosa — pero la mitad la tiene objetivamente débil."
+      ],
+      "hormozi_lens": "Sin oferta clara, ningún canal funciona. La oferta es upstream del canal.",
+      "schwartz_lens": "Awareness gap: el mercado no busca lo que el founder ofrece. Hay que conectar problema con solución en lenguaje del prospect.",
+      "campbell_lens": "Acquisition lever sin Monetización clara = quemar caja.",
+      "lead_magnet_fit": "Reporte 'Estado Motor Comercial LatAm' (mid) — posiciona expertise, atrae al ICP correcto",
+      "escala_tier_route": "Reporte $297 → Mid $497 (canales escalables playbook) → Bootcamp $2K+",
+      "weight_in_calendar": 0.18
+    },
+    "capital": {
+      "id": "capital",
+      "label_es": "Capital y Financiamiento",
+      "label_en": "Capital and Financing",
+      "prevalence_pct": 16,
+      "symptom": "Bootstrapping at its limit. Sin runway para invertir en crecimiento.",
+      "verbatims_canon": [
+        "Bootstrapping at its limit.",
+        "Capital relacional en 1.0 — aislamiento estratégico.",
+        "Gestión financiera intuitiva sin Unit Economics."
+      ],
+      "hormozi_lens": "Effort & Sacrifice (capital) demasiado alto vs Dream Outcome.",
+      "schwartz_lens": "Founder Product-aware sobre opciones de capital pero no las articula.",
+      "campbell_lens": "Monetización urgente: subir pricing antes que buscar capital externo.",
+      "lead_magnet_fit": "Diagnóstico 7 Piezas — sección de Unit Economics priorizada",
+      "escala_tier_route": "Tripwire $97 (Unit Economics calculator) → Mid $497 (pricing audit) → Consultoría $2K+",
+      "weight_in_calendar": 0.12
+    },
+    "market_expansion": {
+      "id": "market_expansion",
+      "label_es": "Expansión de Mercado",
+      "label_en": "Market Expansion",
+      "prevalence_pct": 15,
+      "symptom": "Lack of replicable playbook for new markets/verticals.",
+      "verbatims_canon": [
+        "No replicable playbook for new markets.",
+        "Tecnología no articulada como valor en mercados nuevos."
+      ],
+      "hormozi_lens": "Dream Outcome es global pero entrega es local. Mismatch.",
+      "schwartz_lens": "Distintos awareness stages por geografía requieren copy distinta.",
+      "campbell_lens": "Expansión consume capital de Acquisition antes de validar Monetización.",
+      "lead_magnet_fit": "15 AI Prompts (utility) — prompt de market expansion incluido",
+      "escala_tier_route": "Tripwire $297 (expansion playbook) → Bootcamp $2K+",
+      "weight_in_calendar": 0.08
+    }
+  },
+  "voc_sources": [
+    {
+      "id": "105_historico",
+      "date": "2026-03",
+      "size": 105,
+      "method": "NotebookLM analysis of pre-bootcamp diagnostics",
+      "weight": 0.5
+    },
+    {
+      "id": "31_bootcamp_2026_05_20",
+      "date": "2026-05-20",
+      "size": 31,
+      "method": "Live bootcamp + autodiagnostics + facilitator notes",
+      "weight": 0.5,
+      "status": "pending_processing — see voc/2026-05-20/SOURCES.md"
+    }
+  ]
+}

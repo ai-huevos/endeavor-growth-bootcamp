@@ -1,0 +1,288 @@
+[
+  {
+    "url": "https://www.verifty.com/",
+    "domain": "www.verifty.com",
+    "https": true,
+    "technologiesCount": 13,
+    "categories": "Advertising, Analytics, Build Tool, CMS, Hosting, JavaScript Framework, PWA, Performance, SEO, Tag Manager",
+    "technologies": [
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "GTM-"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtm.js"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "Turbopack",
+        "category": "Build Tool",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "turbopack"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "_next/static/chunks"
+            ]
+          }
+        ],
+        "website": "https://turbo.build/pack"
+      },
+      {
+        "name": "Lazy Loading",
+        "category": "Performance",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "loading=\"lazy\""
+            ]
+          }
+        ],
+        "website": "https://web.dev/lazy-loading"
+      },
+      {
+        "name": "Schema.org",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "schema.org",
+              "application/ld+json"
+            ]
+          }
+        ],
+        "website": "https://schema.org"
+      },
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title",
+              "og:description"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=Software SGSST con Flujos de Trabajo Digitales | Verifty Colombia",
+              "og:type=website",
+              "og:image=https://mrkfhifngcuqcydkwjzu.supabase.co/storage/v1/object/public/logos/verifty-logo-cuadrado.png"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Twitter Cards",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "twitter:card"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "twitter:card=summary_large_image",
+              "twitter:title=Software SGSST con Flujos de Trabajo Digitales | Verifty Colombia"
+            ]
+          }
+        ],
+        "website": "https://developer.twitter.com"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js?id=G-"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Vercel",
+        "category": "Hosting",
+        "confidence": 63,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "X-Vercel-Id: iad1::ddsq4-1779073863257-a130d8779914",
+              "Server: Vercel",
+              "X-Vercel-Cache: HIT"
+            ]
+          }
+        ],
+        "website": "https://vercel.com"
+      },
+      {
+        "name": "Google Analytics",
+        "category": "Analytics",
+        "confidence": 58,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_ga"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "PWA",
+        "category": "PWA",
+        "confidence": 57,
+        "evidence": [
+          {
+            "type": "meta",
+            "matches": [
+              "theme-color=#ffffff"
+            ]
+          }
+        ],
+        "website": "https://web.dev/progressive-web-apps"
+      },
+      {
+        "name": "Next.js",
+        "category": "JavaScript Framework",
+        "confidence": 41,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "_next/static",
+              "__next"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "_next/static/",
+              "_next/"
+            ]
+          }
+        ],
+        "website": "https://nextjs.org"
+      },
+      {
+        "name": "Google Ads",
+        "category": "Advertising",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googleads.g.doubleclick.net"
+            ]
+          }
+        ],
+        "website": "https://ads.google.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "Build Tool": [
+        "Turbopack"
+      ],
+      "Performance": [
+        "Lazy Loading"
+      ],
+      "SEO": [
+        "Schema.org",
+        "Open Graph",
+        "Twitter Cards"
+      ],
+      "Analytics": [
+        "Google Analytics 4",
+        "Google Analytics"
+      ],
+      "Hosting": [
+        "Vercel"
+      ],
+      "PWA": [
+        "PWA"
+      ],
+      "JavaScript Framework": [
+        "Next.js"
+      ],
+      "Advertising": [
+        "Google Ads"
+      ],
+      "CMS": [
+        "Magento"
+      ]
+    },
+    "analysisTimeMs": 3354,
+    "analyzedAt": "2026-05-18T03:11:07.251Z"
+  }
+]

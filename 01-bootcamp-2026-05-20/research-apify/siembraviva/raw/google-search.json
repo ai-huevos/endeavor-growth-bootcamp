@@ -1,0 +1,196 @@
+[
+  {
+    "#debug": {
+      "requestId": "NhiYtul0rFL96Sk",
+      "url": "http://www.google.com.co/search?q=SiembraViva+Colombia&hl=es",
+      "loadedUrl": "http://www.google.com.co/search?q=SiembraViva+Colombia&hl=es",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": [],
+      "statusCode": 200
+    },
+    "#error": false,
+    "searchQuery": {
+      "term": "SiembraViva Colombia",
+      "url": "http://www.google.com.co/search?q=SiembraViva+Colombia&hl=es",
+      "device": "DESKTOP",
+      "page": 1,
+      "type": "SEARCH",
+      "domain": "google.com.co",
+      "countryCode": "CO",
+      "languageCode": "es",
+      "locationUule": null,
+      "resultsPerPage": 10
+    },
+    "url": "http://www.google.com.co/search?q=SiembraViva+Colombia&hl=es",
+    "hasNextPage": true,
+    "serpProviderCode": "N",
+    "resultsTotal": null,
+    "relatedQueries": [],
+    "paidResults": [],
+    "paidProducts": [],
+    "organicResults": [
+      {
+        "title": "Siembra Viva",
+        "websiteTitle": "siembraviva.com",
+        "url": "https://siembraviva.com/",
+        "displayedUrl": "https://siembraviva.com",
+        "description": "Medimos lo que realmente está circulando hoy en la planta. Para saber si lo que estás invirtiendo se está usando.",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 1
+      },
+      {
+        "title": "Siembra Viva, un emprendimiento social - SAC",
+        "websiteTitle": "Sociedad de Agricultores de Colombia SAC",
+        "url": "https://sac.org.co/siembra-viva-un-emprendimiento-social/",
+        "displayedUrl": "https://sac.org.co › Revista 1015",
+        "description": "Siembra Viva es una singular empresa concebida con dos fines: facilitarles a sus cultivadores vinculados la transición de la agricultura ...",
+        "date": "2021-07-31T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "Siembra Viva es una singular empresa concebida con dos fines"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 2
+      },
+      {
+        "title": "SiembraViva",
+        "websiteTitle": "Instagram · siembraviva",
+        "url": "https://www.instagram.com/siembraviva/?hl=es",
+        "displayedUrl": "Instagram › siembraviva",
+        "description": "Del 20 al 27 de septiembre Medellín y Jericó – Antioquia Más info: https://ime.edu.co/octava-feria-nacional-de-la-cultura-organica/ #FeriaOrgánica # ...",
+        "emphasizedKeywords": [
+          "Del 20 al 27 de septiembre Medellín y Jericó – Antioquia"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 22,2 k seguidores",
+        "channelName": "siembraviva",
+        "type": "organic",
+        "position": 3
+      },
+      {
+        "title": "Siembra Viva",
+        "websiteTitle": "Regeneración en Acción",
+        "url": "https://regeneracionenaccion.org/ejemplo-inspirador/siembraviva/",
+        "displayedUrl": "https://regeneracionenaccion.org › ejemplo-inspirador",
+        "description": "SiembraViva es una empresa que nace en el 2013 con un propósito, hacer sostenible la producción de alimentos sin destruir nuestro planeta.",
+        "emphasizedKeywords": [
+          "SiembraViva es una empresa que nace en el 2013"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 4
+      },
+      {
+        "title": "SiembraViva",
+        "websiteTitle": "Acumen",
+        "url": "https://acumen.org/es/companies/siembraviva/",
+        "displayedUrl": "https://acumen.org › companies › siembraviva",
+        "description": "SiembraViva trabaja con los pequeños agricultores en múltiples niveles. A través del uso de la tecnología y de una innovadora plataforma física y digital, ...",
+        "emphasizedKeywords": [
+          "SiembraViva trabaja con los pequeños agricultores en múltiples niveles"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 5
+      },
+      {
+        "title": "SiembraViva | Mercar vegetales orgánicos en Eatsy Medellin",
+        "websiteTitle": "Eatsy Market",
+        "url": "https://eatsymarket.com/collections/siembraviva-vegetales-organicos?srsltid=AfmBOopBGxJiKCFpmx-2KKDSPUHxx5gNdQWPyALWwEitHfhAN2M8_Q9t",
+        "displayedUrl": "https://eatsymarket.com › collections › siembraviva-vege...",
+        "description": "La magia del campo en tu mesa!   Alimentos orgánicos en la puerta de tu casa   Cultivados localmente por pequeños agricultores en Santa Elena, ANT.",
+        "emphasizedKeywords": [
+          "Alimentos orgánicos en la puerta de tu casa"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 6
+      },
+      {
+        "title": "SiembraViva",
+        "websiteTitle": "LinkedIn · SiembraViva",
+        "url": "https://co.linkedin.com/company/siembraviva",
+        "displayedUrl": "LinkedIn › SiembraViva",
+        "description": "Para lograr esto, SiembraViva desarrolla pequeños productores en agricultura orgánica regenerativa y los conecta directamente con consumidores ...",
+        "emphasizedKeywords": [
+          "SiembraViva desarrolla pequeños productores en agricultura orgánica regenerativa"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 900 seguidores",
+        "type": "organic",
+        "position": 7
+      },
+      {
+        "title": "CASO SIEMBRA VIVA – Portal de conocimiento",
+        "websiteTitle": "Universidad Icesi",
+        "url": "https://www.icesi.edu.co/mgis-portal-conocimiento/caso-siembra-viva-2.html",
+        "displayedUrl": "https://www.icesi.edu.co › mgis-portal-conocimiento",
+        "description": "Esta iniciativa se centra en un portal de internet donde los consumidores de la ciudad pueden seleccionar y comprar a domicilio productos ...",
+        "date": "2019-05-19T12:00:00.000Z",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 8
+      },
+      {
+        "title": "SiembraViva: una historia del campo colombiano",
+        "websiteTitle": "Acumen",
+        "url": "https://acumen.org/blog/siembraviva-una-historia-del-campo-colombiano/",
+        "displayedUrl": "https://acumen.org › blog › siembraviva-una-historia-d...",
+        "description": "Es la historia del campo colombiano, es una empresa que lo tiene todo: cuidado del medio ambiente, redes institucionales, mejora en la calidad ...",
+        "date": "2020-05-02T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "Es la historia del campo colombiano"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 9
+      }
+    ],
+    "suggestedResults": [],
+    "peopleAlsoAsk": [
+      {
+        "answer": "SiembraViva ofrece servicios como el Plan de Siembra, en el cual se planifica la actividad de siembra y cosecha de cada agricultor de acuerdo a la demanda, lo que disminuye las mermas del 30% al 5%. La compañía garantiza al agricultor la compra de su producción a un precio preestablecido por encima del mercado.",
+        "question": "¿Qué es la siembra viva?",
+        "title": null,
+        "url": null,
+        "date": null
+      },
+      {
+        "answer": "Cacao: Alta rentabilidad y demanda internacional El cacao colombiano continúa consolidándose como uno de los cultivos con mejor rentabilidad, especialmente el cacao fino de aroma, que representa el 85% de la producción nacional.",
+        "question": "¿Cuál es el negocio agropecuario más rentable en Colombia?",
+        "title": null,
+        "url": null,
+        "date": null
+      },
+      {
+        "answer": "¿Qué tipos de siembra puedes realizar en tu huerto doméstico?\nSiembra en semilleros. ... Siembra en línea o hileras. ... Siembra a voleo. ... Siembra a tresbolillo. ... Siembra en hoyos o a chorrillo.",
+        "question": "¿Cuáles son los 4 tipos de siembra?",
+        "title": null,
+        "url": null,
+        "date": "9/09/2024"
+      },
+      {
+        "answer": "Las zonas con mayores ventajas comparativas y competitivas para producir soya en Colombia son: los Llanos Orientales (parlicularmente el Meta), el Valle del Cauca, el Tolima-Huila y la Costa Atlántica.",
+        "question": "¿Dónde se produce la soya en Colombia?",
+        "title": "LA PRODUCCION DE SOYA EN LA ORINOQUIA COLOMBIANA ...",
+        "url": "https://repository.agrosavia.co/bitstreams/7d55da6b-93b7-414f-b215-f1333b9d10b8/download#:~:text=Las%20zonas%20con%20mayores%20ventajas,Huila%20y%20la%20Costa%20Atl%C3%A1ntica.",
+        "date": null
+      }
+    ],
+    "customData": null,
+    "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/I4dR0lgO0M70lXBHy/records/NhiYtul0rFL96Sk-0.html?signature=1uKPvlEnuebUoN9gKOjn3"
+  }
+]

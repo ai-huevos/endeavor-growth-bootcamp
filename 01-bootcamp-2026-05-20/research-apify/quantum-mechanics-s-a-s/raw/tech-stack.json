@@ -1,0 +1,525 @@
+[
+  {
+    "url": "https://www.koet.co",
+    "domain": "www.koet.co",
+    "https": true,
+    "technologiesCount": 21,
+    "categories": "Advertising, Analytics, CMS, CSS Framework, E-commerce, Email Marketing, Font/Icon Library, JavaScript Library, Programming Language, SEO, Security, Tag Manager, UI Component",
+    "technologies": [
+      {
+        "name": "HubSpot CMS",
+        "category": "CMS",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "hs-scripts.com",
+              "hubspot"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "js.hs-scripts.com"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "_hsq"
+            ]
+          }
+        ],
+        "website": "https://hubspot.com"
+      },
+      {
+        "name": "jQuery",
+        "category": "JavaScript Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "jquery.min.js",
+              "jquery-"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "jQuery"
+            ]
+          }
+        ],
+        "website": "https://jquery.com",
+        "version": "3.7.1"
+      },
+      {
+        "name": "Google Analytics",
+        "category": "Analytics",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_ga"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Clarity",
+        "category": "Analytics",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "clarity.ms/tag/"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "clarity"
+            ]
+          }
+        ],
+        "website": "https://clarity.microsoft.com"
+      },
+      {
+        "name": "Facebook Pixel",
+        "category": "Advertising",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "facebook.com/tr?"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "connect.facebook.net/en_US/fbevents.js",
+              "connect.facebook.net"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_fbp"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "fbq",
+              "_fbq"
+            ]
+          }
+        ],
+        "website": "https://www.facebook.com/business"
+      },
+      {
+        "name": "HubSpot",
+        "category": "Email Marketing",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "js.hs-scripts.com",
+              "js.hs-analytics.net"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "hubspotutk",
+              "__hstc",
+              "__hssc"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "_hsq",
+              "HubSpotConversations"
+            ]
+          }
+        ],
+        "website": "https://hubspot.com"
+      },
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "fonts.googleapis.com",
+              "fonts.gstatic.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Schema.org",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "schema.org",
+              "application/ld+json"
+            ]
+          }
+        ],
+        "website": "https://schema.org"
+      },
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=Inicio - Koet",
+              "og:type=website"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Twitter Cards",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "twitter:card"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "twitter:card=summary_large_image"
+            ]
+          }
+        ],
+        "website": "https://developer.twitter.com"
+      },
+      {
+        "name": "Woocommerce",
+        "category": "E-commerce",
+        "confidence": 80,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "woocommerce",
+              "wc-block"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "woocommerce"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "wc_add_to_cart_params",
+              "woocommerce_params"
+            ]
+          }
+        ],
+        "website": "https://woocommerce.com"
+      },
+      {
+        "name": "WordPress",
+        "category": "CMS",
+        "confidence": 73,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "wp-content/",
+              "wp-includes/",
+              "wp-json"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "wp-includes/js/",
+              "wp-content/plugins/",
+              "wp-content/themes/"
+            ]
+          },
+          {
+            "type": "headers",
+            "matches": [
+              "Link: <https://koet.co/wp-json/>; rel=\"https://api.w.org/\", <https://koet.co/wp-json/wp/v2/pages/1677>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://koet.co/>; rel=shortlink"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "wp"
+            ]
+          },
+          {
+            "type": "robots",
+            "matches": [
+              "wp-admin"
+            ]
+          }
+        ],
+        "website": "https://wordpress.org",
+        "version": "6.10.1"
+      },
+      {
+        "name": "Slick Slider",
+        "category": "UI Component",
+        "confidence": 70,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "slick.min.js"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "slick.css",
+              "slick-theme.css"
+            ]
+          }
+        ],
+        "website": "https://kenwheeler.github.io/slick"
+      },
+      {
+        "name": "Sucuri",
+        "category": "Security",
+        "confidence": 63,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "X-Sucuri-ID: 14004",
+              "Server: Sucuri/Cloudproxy"
+            ]
+          }
+        ],
+        "website": "https://sucuri.net"
+      },
+      {
+        "name": "PHP",
+        "category": "Programming Language",
+        "confidence": 55,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              ".php"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "PHPSESSID"
+            ]
+          }
+        ],
+        "website": "https://php.net"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 50,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "mage/"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "PHPSESSID"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "Flask",
+        "category": "Programming Language",
+        "confidence": 38,
+        "evidence": [
+          {
+            "type": "cookies",
+            "matches": [
+              "session"
+            ]
+          }
+        ],
+        "website": "https://flask.palletsprojects.com"
+      },
+      {
+        "name": "Yoast SEO",
+        "category": "SEO",
+        "confidence": 38,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "yoast-schema-graph",
+              "yoast",
+              "Yoast SEO plugin"
+            ]
+          }
+        ],
+        "website": "https://yoast.com"
+      },
+      {
+        "name": "Chakra UI",
+        "category": "CSS Framework",
+        "confidence": 30,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "css-"
+            ]
+          }
+        ],
+        "website": "https://chakra-ui.com"
+      }
+    ],
+    "technologyGroups": {
+      "CMS": [
+        "HubSpot CMS",
+        "WordPress",
+        "Magento"
+      ],
+      "JavaScript Library": [
+        "jQuery"
+      ],
+      "Analytics": [
+        "Google Analytics",
+        "Clarity",
+        "Google Analytics 4"
+      ],
+      "Advertising": [
+        "Facebook Pixel"
+      ],
+      "Email Marketing": [
+        "HubSpot"
+      ],
+      "Font/Icon Library": [
+        "Google Fonts"
+      ],
+      "SEO": [
+        "Schema.org",
+        "Open Graph",
+        "Twitter Cards",
+        "Yoast SEO"
+      ],
+      "E-commerce": [
+        "Woocommerce"
+      ],
+      "UI Component": [
+        "Slick Slider"
+      ],
+      "Security": [
+        "Sucuri"
+      ],
+      "Programming Language": [
+        "PHP",
+        "Flask"
+      ],
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "CSS Framework": [
+        "Chakra UI"
+      ]
+    },
+    "analysisTimeMs": 3637,
+    "analyzedAt": "2026-05-18T07:31:28.436Z"
+  }
+]

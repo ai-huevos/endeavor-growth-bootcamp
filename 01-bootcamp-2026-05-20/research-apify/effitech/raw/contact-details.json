@@ -1,0 +1,133 @@
+[
+  {
+    "domain": "effitech.online",
+    "url": "https://www.effitech.online/",
+    "emails": [
+      "gerencia@effitech.me"
+    ],
+    "phones": [
+      "+57 310 4620576"
+    ],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": null,
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [
+      {
+        "email": "gerencia@effitech.me",
+        "status": "unknown",
+        "mxValid": true
+      }
+    ],
+    "score": 37,
+    "grade": "F",
+    "scoreBreakdown": {
+      "contactReachability": 22,
+      "businessLegitimacy": 8,
+      "onlinePresence": 0,
+      "websiteQuality": 7,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Email address found",
+        "category": "contactReachability",
+        "points": 6,
+        "detail": "gerencia@effitech.me"
+      },
+      {
+        "signal": "Phone number found",
+        "category": "contactReachability",
+        "points": 8,
+        "detail": "+57 310 4620576"
+      },
+      {
+        "signal": "Both email and phone available",
+        "category": "contactReachability",
+        "points": 5,
+        "detail": "Multiple contact channels"
+      },
+      {
+        "signal": "Contact form available",
+        "category": "contactReachability",
+        "points": 3,
+        "detail": "Web contact form"
+      },
+      {
+        "signal": "CMS/framework detected",
+        "category": "businessLegitimacy",
+        "points": 5,
+        "detail": "WordPress"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "government"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Modern CMS/framework",
+        "category": "websiteQuality",
+        "points": 3,
+        "detail": "WordPress"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "government",
+    "businessKeywords": [
+      "effitech",
+      "control",
+      "sistemas",
+      "productos",
+      "tcm",
+      "para",
+      "nosotros",
+      "administración"
+    ],
+    "cmsDetected": "WordPress",
+    "techSignals": [
+      "WordPress",
+      "jQuery"
+    ],
+    "trackingTags": {
+      "googleTagManager": null,
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": null,
+      "createdDate": null,
+      "expiresDate": null,
+      "updatedDate": null,
+      "nameServers": null,
+      "registrantOrg": null,
+      "registrantCountry": null
+    },
+    "pagesCrawled": 5,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T05:22:23.977Z"
+  }
+]

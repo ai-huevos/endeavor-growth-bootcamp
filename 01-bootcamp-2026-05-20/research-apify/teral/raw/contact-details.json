@@ -1,0 +1,139 @@
+[
+  {
+    "domain": "teral.ai",
+    "url": "https://teral.ai/",
+    "emails": [
+      "daniela@teral.com.co"
+    ],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/p/Teral-100081832520545/?_rdr",
+      "instagram": "https://www.instagram.com/teral.doc/",
+      "linkedin": "https://www.linkedin.com/company/teralmed/",
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": null,
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [
+      {
+        "email": "daniela@teral.com.co",
+        "status": "unknown",
+        "mxValid": true
+      }
+    ],
+    "score": 41,
+    "grade": "D",
+    "scoreBreakdown": {
+      "contactReachability": 9,
+      "businessLegitimacy": 12,
+      "onlinePresence": 13,
+      "websiteQuality": 7,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Email address found",
+        "category": "contactReachability",
+        "points": 6,
+        "detail": "daniela@teral.com.co"
+      },
+      {
+        "signal": "Contact form available",
+        "category": "contactReachability",
+        "points": 3,
+        "detail": "Web contact form"
+      },
+      {
+        "signal": "About page present",
+        "category": "businessLegitimacy",
+        "points": 5,
+        "detail": "Company description available"
+      },
+      {
+        "signal": "Privacy policy found",
+        "category": "businessLegitimacy",
+        "points": 4,
+        "detail": "Legal compliance signal"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "healthcare"
+      },
+      {
+        "signal": "Social media profiles found",
+        "category": "onlinePresence",
+        "points": 8,
+        "detail": "3 platforms"
+      },
+      {
+        "signal": "LinkedIn profile",
+        "category": "onlinePresence",
+        "points": 5,
+        "detail": "https://www.linkedin.com/company/teralmed/"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Google Analytics installed",
+        "category": "websiteQuality",
+        "points": 3,
+        "detail": "G-H8D6JBPFH4"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "healthcare",
+    "businessKeywords": [
+      "teral",
+      "doctors",
+      "app",
+      "cases",
+      "patient",
+      "medical",
+      "hospital",
+      "care"
+    ],
+    "cmsDetected": null,
+    "techSignals": [
+      "Google Analytics",
+      "Calendly"
+    ],
+    "trackingTags": {
+      "googleTagManager": null,
+      "googleAnalytics": "G-H8D6JBPFH4",
+      "facebookPixel": "475778912133544"
+    },
+    "whois": {
+      "registrar": "NAMECHEAP INC",
+      "createdDate": "2024-08-13T22:55:17.00Z",
+      "expiresDate": "2026-08-13T22:55:20.00Z",
+      "updatedDate": "2024-08-19T00:00:15.00Z",
+      "nameServers": [
+        "ns-1019.awsdns-63.net ns-1167.awsdns-17.org ns-1925.awsdns-48.co.uk ns-292.awsdns-36.com"
+      ],
+      "registrantOrg": "Privacy service provided by Withheld for Privacy ehf",
+      "registrantCountry": "IS"
+    },
+    "pagesCrawled": 5,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T09:35:21.879Z"
+  }
+]

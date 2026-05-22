@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Sense AI",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Data entry service",
+    "address": "Cl. 32E #80 b - 14, Medellín, Belén, Medellín, Antioquia, Colombia",
+    "neighborhood": "Miravalle",
+    "street": "Cl. 32E #80 b - 14",
+    "city": "Medellín, Belén, Medellin",
+    "postalCode": "050030",
+    "state": "Antioquia",
+    "countryCode": "CO",
+    "website": "http://www.sense-ai.co/",
+    "phone": "+57 304 6673641",
+    "phoneUnformatted": "+573046673641",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 6.2371455,
+      "lng": -75.6017837
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": "69PX+V7 Medellin, Antioquia, Colombia",
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ9x3cWpcpRI4RHrUDiU083Dw",
+    "categories": [
+      "Data entry service"
+    ],
+    "fid": "0x8e4429975adc1df7:0x3cdc3c4d8903b51e",
+    "cid": "4385446440860890398",
+    "reviewsCount": null,
+    "imagesCount": 7,
+    "imageCategories": [
+      "All",
+      "Inside",
+      "By owner",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T05:24:41.005Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 3 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Dsi Software",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "AREATIC",
+        "reviewsCount": 1,
+        "totalScore": 5
+      },
+      {
+        "category": "People also search for",
+        "title": "Asitec",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Sevensense S.A.S",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Inteligencia e innovación",
+        "reviewsCount": 3,
+        "totalScore": 3.7
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Sense%20AI&query_place_id=ChIJ9x3cWpcpRI4RHrUDiU083Dw",
+    "searchPageUrl": "https://www.google.com/maps/search/Sense%20AI%20S.A.S%20Colombia?hl=en",
+    "searchString": "Sense AI S.A.S Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZCZGL5BRgjNxXp8VhituEAM6Y7Hx4Br78yWDTK1ysgXsoufkk9gWTuEidBOPwL5RxCpt2XiXmguTYSD-9paVZfOfgnx79UNv5fliWTitHb8DDu4ZgI96tvSp6zAfTj9IZuKhGS_u5tNcK=w426-h240-k-no",
+    "kgmid": "/g/11s3v69ms2"
+  }
+]

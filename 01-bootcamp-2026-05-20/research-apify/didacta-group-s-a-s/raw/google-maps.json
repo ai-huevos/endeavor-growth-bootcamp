@@ -1,0 +1,122 @@
+[
+  {
+    "title": "GRUPO DIDACTA SAS",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Corporate office",
+    "address": "Mosquera, Cundinamarca, Colombia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Mosquera",
+    "postalCode": null,
+    "state": "Cundinamarca",
+    "countryCode": "CO",
+    "website": "http://grupodidacta.com/",
+    "phone": "+57 18299790",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 4.7256435,
+      "lng": -74.2417173
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": "PQG5+78 Mosquera, Cundinamarca, Colombia",
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.9,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJn6y2lHt5P44RZjao589C95c",
+    "categories": [
+      "Corporate office"
+    ],
+    "fid": "0x8e3f797b94b6ac9f:0x97f742cfe7a83666",
+    "cid": "10950294479686874726",
+    "reviewsCount": 9,
+    "reviewsDistribution": {
+      "oneStar": 1,
+      "twoStar": 0,
+      "threeStar": 1,
+      "fourStar": 4,
+      "fiveStar": 3
+    },
+    "imagesCount": 7,
+    "imageCategories": [
+      "All",
+      "Building",
+      "By owner"
+    ],
+    "scrapedAt": "2026-05-18T07:32:42.631Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Grupo Distriya Sas",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Digioca Colombia S.A.S.",
+        "reviewsCount": 26,
+        "totalScore": 4.4
+      },
+      {
+        "category": "People also search for",
+        "title": "Laboratorios Demac",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "CEDI TITTAN",
+        "reviewsCount": 55,
+        "totalScore": 4.7
+      },
+      {
+        "category": "People also search for",
+        "title": "Farmacéutica",
+        "reviewsCount": 0,
+        "totalScore": 0
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=GRUPO%20DIDACTA%20SAS&query_place_id=ChIJn6y2lHt5P44RZjao589C95c",
+    "searchPageUrl": "https://www.google.com/maps/search/Didacta%20Group%20S.A.S.%20Colombia?hl=en",
+    "searchString": "Didacta Group S.A.S. Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0XoaBAhGpBIFZO_RYBIl4b1pC6saFwXIAtvio1wMbc3hMuObWLSHOyioYkXYCihC37XXqlF74ceIwVaQOZldjsGgxTVJ94uGKzXknw-yiHOOL1A8uCHmrudk6LLFd0M-IVo_q=w408-h544-k-no",
+    "kgmid": "/g/11f7qz8cm0"
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "#debug": {
+      "requestId": "76kiHLWC9F6guLG",
+      "url": "http://www.google.com.co/search?q=Copsun+Colombia&hl=es",
+      "loadedUrl": "http://www.google.com.co/search?q=Copsun+Colombia&hl=es",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": [],
+      "statusCode": 200
+    },
+    "#error": false,
+    "searchQuery": {
+      "term": "Copsun Colombia",
+      "url": "http://www.google.com.co/search?q=Copsun+Colombia&hl=es",
+      "device": "DESKTOP",
+      "page": 1,
+      "type": "SEARCH",
+      "domain": "google.com.co",
+      "countryCode": "CO",
+      "languageCode": "es",
+      "locationUule": null,
+      "resultsPerPage": 10
+    },
+    "url": "http://www.google.com.co/search?q=Copsun+Colombia&hl=es",
+    "hasNextPage": true,
+    "serpProviderCode": "N",
+    "resultsTotal": null,
+    "relatedQueries": [],
+    "paidResults": [],
+    "paidProducts": [],
+    "organicResults": [
+      {
+        "title": "COPSUN – Limpieza y Análisis de Paneles Solares",
+        "websiteTitle": "COPSUN",
+        "url": "https://copsun.co/",
+        "displayedUrl": "https://copsun.co",
+        "description": "Robot limpiador. Somos un I + D Colombiano. Nuestros Aliados. LOGO-ALTA-2. batx. download. logo_ruta (1).",
+        "emphasizedKeywords": [
+          "Colombiano"
+        ],
+        "siteLinks": [
+          {
+            "title": "About Us",
+            "url": "https://copsun.co/about-us/",
+            "description": "... Colombia y el mundo. Visión. En COPSUN, nos visualizamos ..."
+          },
+          {
+            "title": "Casos de Éxito",
+            "url": "https://copsun.co/casos-de-exito/",
+            "description": "Gracias a nuestro aliado Darwin Solar, logramos recuperar la ..."
+          },
+          {
+            "title": "Contact Us",
+            "url": "https://copsun.co/contact-us-2/",
+            "description": "Envíanos un e-mail. ¿Cómo te llamas? Correo electrónico ..."
+          },
+          {
+            "title": "Design",
+            "url": "https://copsun.co/tag/design/",
+            "description": "Actualmente no hay publicaciones bajo esta etiqueta. Lo mas nuevo."
+          },
+          {
+            "title": "Protegido: APP",
+            "url": "https://copsun.co/app/",
+            "description": "... contraseña. Para verlo introduce la contraseña. Contraseña ..."
+          },
+          {
+            "title": "Más resultados de copsun.co »",
+            "url": "https://www.google.com.co/search?q=Copsun+Colombia+site:copsun.co&sca_esv=4cb3565f44845cbd&gl=CO&hl=es&sa=X&ved=2ahUKEwixwNGExMKUAxXCnSYFHW4UHXMQrAN6BAgjEAE",
+            "description": ""
+          }
+        ],
+        "productInfo": {},
+        "type": "organic",
+        "position": 1
+      },
+      {
+        "title": "COPSUN",
+        "websiteTitle": "LinkedIn · COPSUN",
+        "url": "https://www.linkedin.com/company/copsun",
+        "displayedUrl": "LinkedIn › COPSUN",
+        "description": "Website: https://copsun.co/. External link for COPSUN ; Industry: Renewable Energy Equipment Manufacturing ; Company size: 2-10 employees ; Type: Self-Owned ...",
+        "emphasizedKeywords": [
+          "Website: https://copsun.co"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 230 seguidores",
+        "type": "organic",
+        "position": 2
+      },
+      {
+        "title": "COPSUN (@copsunco) • Instagram photos and videos",
+        "websiteTitle": "Instagram · copsunco",
+        "url": "https://www.instagram.com/copsunco/",
+        "displayedUrl": "Instagram › copsunco",
+        "description": "COPSUN ha sido seleccionada como una de las 100 startups de Colombia con mayor potencial de desarrollo y crecimiento en la lista Colombia Early Stage 100 .",
+        "emphasizedKeywords": [
+          "COPSUN",
+          "Colombia",
+          "Colombia"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 80 seguidores",
+        "channelName": "copsunco",
+        "type": "organic",
+        "position": 3
+      },
+      {
+        "title": "Programa de cooperación internacional articulado por ...",
+        "websiteTitle": "Alcaldía de Medellín",
+        "url": "https://www.medellin.gov.co/es/sala-de-prensa/noticias/empresa-colombiana-recibe-40-millones-gracias-a-programa-de-cooperacion-internacional-articulado-por-ruta-n/",
+        "displayedUrl": "https://www.medellin.gov.co › sala-de-prensa › noticias",
+        "description": "Empresa colombiana recibe $40 millones, gracias a programa de cooperación internacional articulado por Ruta N.",
+        "date": "2026-10-02T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "colombiana"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 4
+      },
+      {
+        "title": "COPSUN",
+        "websiteTitle": "F6S",
+        "url": "https://www.f6s.com/company/copsun",
+        "displayedUrl": "https://www.f6s.com › company",
+        "description": "COPSUN is a Latin American startup that develops robotic and intelligent solutions to optimize the maintenance of solar farms.",
+        "emphasizedKeywords": [
+          "COPSUN"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 5
+      },
+      {
+        "title": "Anderson Mesa - COPSUN",
+        "websiteTitle": "LinkedIn · Anderson Mesa",
+        "url": "https://www.linkedin.com/in/anderson-mesa2241",
+        "displayedUrl": "LinkedIn › Anderson Mesa",
+        "description": "Por su vocación de servicio y la dedicación para promover los valores sociales, brindando así un notable aporte a la transformación en la investigación e ...",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 1,2 K seguidores",
+        "type": "organic",
+        "position": 6
+      },
+      {
+        "title": "así funciona el programa Colombia Solar para la economía ...",
+        "websiteTitle": "Ministerio de Minas y Energía",
+        "url": "https://www.minenergia.gov.co/es/sala-de-prensa/noticias-index/energia-electrica-con-paneles-solares-negocios-pais-asi-funciona-programa-colombia-solar-para-economia-popular/",
+        "displayedUrl": "https://www.minenergia.gov.co › noticias-index › energi...",
+        "description": "El programa Colombia Solar para Economías Populares busca que pequeños negocios de todo el país puedan acceder a sistemas solares fotovoltaicos ...",
+        "date": "2025-09-21T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "programa Colombia Solar para Economías Populares"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 7
+      }
+    ],
+    "suggestedResults": [],
+    "peopleAlsoAsk": [],
+    "aiOverview": {
+      "type": "live",
+      "content": "",
+      "sources": []
+    },
+    "customData": null,
+    "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/fQ2JtIebsII45Mfre/records/76kiHLWC9F6guLG-0.html?signature=cjZ5y1oa3RHO5cQbidyr"
+  }
+]

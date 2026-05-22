@@ -1,0 +1,293 @@
+[
+  {
+    "url": "https://www.sense-ai.co",
+    "domain": "www.sense-ai.co",
+    "https": true,
+    "technologiesCount": 13,
+    "categories": "Analytics, CMS, CSS Framework, Font/Icon Library, Hosting, PWA, Performance, SEO, Tag Manager",
+    "technologies": [
+      {
+        "name": "Clarity",
+        "category": "Analytics",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "clarity.ms/tag/"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "clarity"
+            ]
+          }
+        ],
+        "website": "https://clarity.microsoft.com"
+      },
+      {
+        "name": "Vercel",
+        "category": "Hosting",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "X-Vercel-Id: iad1::rj4n2-1779081895307-3b95f3722bc5",
+              "Server: Vercel",
+              "X-Vercel-Cache: HIT"
+            ]
+          },
+          {
+            "type": "dns",
+            "matches": [
+              "vercel-dns.com"
+            ]
+          }
+        ],
+        "website": "https://vercel.com"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "GTM-"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtm.js"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Lazy Loading",
+        "category": "Performance",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "loading=\"lazy\""
+            ]
+          }
+        ],
+        "website": "https://web.dev/lazy-loading"
+      },
+      {
+        "name": "Schema.org",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "schema.org",
+              "application/ld+json"
+            ]
+          }
+        ],
+        "website": "https://schema.org"
+      },
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title",
+              "og:description"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=Sense AI — Full Stack IoT desde Medellín",
+              "og:type=website",
+              "og:image=https://www.sense-ai.co/assets/og/og-image.jpg"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Twitter Cards",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "twitter:card"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "twitter:card=summary_large_image",
+              "twitter:title=Sense AI — Full Stack IoT desde Medellin"
+            ]
+          }
+        ],
+        "website": "https://developer.twitter.com"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js?id=G-"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Google Analytics",
+        "category": "Analytics",
+        "confidence": 58,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_ga"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "PWA",
+        "category": "PWA",
+        "confidence": 57,
+        "evidence": [
+          {
+            "type": "meta",
+            "matches": [
+              "theme-color=#08080e"
+            ]
+          }
+        ],
+        "website": "https://web.dev/progressive-web-apps"
+      },
+      {
+        "name": "Bootstrap",
+        "category": "CSS Framework",
+        "confidence": 23,
+        "evidence": [
+          {
+            "type": "htmlClasses",
+            "matchRatio": 38,
+            "sample": [
+              "row",
+              "btn-primary",
+              "card-body"
+            ]
+          }
+        ],
+        "website": "https://getbootstrap.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "Analytics": [
+        "Clarity",
+        "Google Analytics 4",
+        "Google Analytics"
+      ],
+      "Hosting": [
+        "Vercel"
+      ],
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "Font/Icon Library": [
+        "Google Fonts"
+      ],
+      "Performance": [
+        "Lazy Loading"
+      ],
+      "SEO": [
+        "Schema.org",
+        "Open Graph",
+        "Twitter Cards"
+      ],
+      "PWA": [
+        "PWA"
+      ],
+      "CSS Framework": [
+        "Bootstrap"
+      ],
+      "CMS": [
+        "Magento"
+      ]
+    },
+    "analysisTimeMs": 3318,
+    "analyzedAt": "2026-05-18T05:24:59.279Z"
+  }
+]

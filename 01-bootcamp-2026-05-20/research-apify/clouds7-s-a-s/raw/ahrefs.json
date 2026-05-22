@@ -1,0 +1,175 @@
+[
+  {
+    "data_captured_at": "2026-05-18T03:12:13.824132",
+    "type": "authority",
+    "domain": "https://www.clouds7.com",
+    "mode": "subdomains",
+    "domain_rating": 10,
+    "backlinks": 75,
+    "refdomains": 3,
+    "dofollow_backlinks": 100,
+    "dofollow_refdomains": 100,
+    "website_authority": {
+      "domainRating": 10,
+      "urlRating": null,
+      "ahrefsRank": null,
+      "backlinks": 75,
+      "refdomains": 3,
+      "dofollowBacklinks": 100,
+      "dofollowRefdomains": 100
+    }
+  },
+  {
+    "data_captured_at": "2026-05-18T03:12:15.662730",
+    "type": "traffic",
+    "domain": "https://www.clouds7.com",
+    "mode": "subdomains",
+    "website_overall_search_traffic_history": [],
+    "website_overall_search_traffic_value_history": [],
+    "website_traffic": {
+      "trafficMonthlyAvg": 1,
+      "costMontlyAvg": 46
+    },
+    "website_traffic_history": [
+      {
+        "date": "2025-12-01",
+        "organic": 0
+      },
+      {
+        "date": "2026-01-01",
+        "organic": 0
+      },
+      {
+        "date": "2026-02-01",
+        "organic": 5
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      }
+    ],
+    "website_overall_search_traffic_by_country": [],
+    "website_traffic_by_country": [
+      {
+        "country": "es",
+        "share": 100,
+        "monthly_traffic": [
+          {
+            "date": "2025-12-01",
+            "organic": 0
+          },
+          {
+            "date": "2026-01-01",
+            "organic": 0
+          },
+          {
+            "date": "2026-02-01",
+            "organic": 5
+          },
+          {
+            "date": "2026-03-01",
+            "organic": 6
+          },
+          {
+            "date": "2026-04-01",
+            "organic": 5
+          },
+          {
+            "date": "2026-05-01",
+            "organic": 3
+          }
+        ]
+      }
+    ],
+    "website_traffic_top_pages": [
+      {
+        "url": "https://clouds7.com/",
+        "traffic": 1,
+        "share": 100
+      }
+    ],
+    "website_traffic_top_countries": [
+      {
+        "country": "es",
+        "share": 100
+      }
+    ],
+    "website_overall_search_traffic_keywords": [],
+    "website_traffic_top_keywords": [
+      {
+        "keyword": "cloud 7",
+        "position": 7,
+        "traffic": 30
+      }
+    ]
+  },
+  {
+    "data_captured_at": "2026-05-18T03:12:16.847481",
+    "type": "backlinks",
+    "domain": "https://www.clouds7.com",
+    "mode": "subdomains",
+    "total_backlinks": 75,
+    "total_referring_domains": 3,
+    "total_dofollow_backlinks": 100,
+    "total_dofollow_referring_domains": 100,
+    "top_backlinks_count": 3,
+    "referal_domains_history": [],
+    "top_backlinks": [
+      {
+        "anchor": "link clouds7.com",
+        "domainRating": 91,
+        "redirectChain": [
+          {
+            "url": "http://www.clouds7.com/",
+            "redirectCode": 301
+          }
+        ],
+        "textPost": "",
+        "textPre": "",
+        "title": "@clouds7 | Juan Fernando Ruiz, Jenifer Duque | Beacons",
+        "urlFrom": "https://beacons.ai/clouds7",
+        "urlTo": "https://www.clouds7.com/",
+        "inRendered": true,
+        "inRaw": false
+      },
+      {
+        "anchor": "Clouds7",
+        "domainRating": 60,
+        "redirectChain": [],
+        "textPost": "",
+        "textPre": "",
+        "title": "Medellín Next",
+        "urlFrom": "https://rutanmedellin.org/medellin-next",
+        "urlTo": "https://www.clouds7.com/",
+        "inRendered": true,
+        "inRaw": true
+      },
+      {
+        "anchor": "http://www.clouds7.com",
+        "domainRating": 71,
+        "redirectChain": [],
+        "textPost": "",
+        "textPre": "",
+        "title": "Clouds7 | | Colombian B2B Marketplace",
+        "urlFrom": "https://b2bmarketplace.procolombia.co/es/clouds7-25720",
+        "urlTo": "http://www.clouds7.com/",
+        "inRendered": false,
+        "inRaw": true
+      }
+    ],
+    "backlink_check": {
+      "backlinks": 75,
+      "refdomains": 3,
+      "dofollowBacklinks": 100,
+      "dofollowRefdomains": 100
+    }
+  }
+]

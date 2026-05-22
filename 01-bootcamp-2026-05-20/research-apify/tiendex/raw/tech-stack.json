@@ -1,0 +1,352 @@
+[
+  {
+    "url": "https://www.tiendex.com",
+    "domain": "www.tiendex.com",
+    "https": true,
+    "technologiesCount": 17,
+    "categories": "Advertising, Analytics, Build Tool, CDN, CMS, CSS Framework, Font/Icon Library, JavaScript Framework, JavaScript Library, Tag Manager",
+    "technologies": [
+      {
+        "name": "Angular",
+        "category": "JavaScript Framework",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "ng-version",
+              "[_ngcontent"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "runtime.",
+              "polyfills."
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "getAllAngularRootElements"
+            ]
+          }
+        ],
+        "website": "https://angular.io",
+        "version": "11.0.9"
+      },
+      {
+        "name": "Facebook Pixel",
+        "category": "Advertising",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "facebook.com/tr?"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "connect.facebook.net/en_US/fbevents.js",
+              "connect.facebook.net"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_fbp"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "fbq",
+              "_fbq"
+            ]
+          }
+        ],
+        "website": "https://www.facebook.com/business"
+      },
+      {
+        "name": "unpkg",
+        "category": "CDN",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "unpkg.com"
+            ]
+          }
+        ],
+        "website": "https://unpkg.com"
+      },
+      {
+        "name": "Google Analytics",
+        "category": "Analytics",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Fastly",
+        "category": "CDN",
+        "confidence": 63,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "X-Served-By: cache-iad-kcgs7200111-IAD"
+            ]
+          }
+        ],
+        "website": "https://fastly.com"
+      },
+      {
+        "name": "Webpack",
+        "category": "Build Tool",
+        "confidence": 63,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "webpackJsonp"
+            ]
+          }
+        ],
+        "website": "https://webpack.js.org"
+      },
+      {
+        "name": "jQuery",
+        "category": "JavaScript Library",
+        "confidence": 56,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "jQuery"
+            ]
+          }
+        ],
+        "website": "https://jquery.com",
+        "version": "3.6.0"
+      },
+      {
+        "name": "Bulma",
+        "category": "CSS Framework",
+        "confidence": 50,
+        "evidence": [
+          {
+            "type": "htmlClasses",
+            "matchRatio": 33,
+            "sample": [
+              "columns",
+              "column"
+            ]
+          }
+        ],
+        "website": "https://bulma.io"
+      },
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 50,
+        "evidence": [
+          {
+            "type": "css",
+            "matches": [
+              "fonts.gstatic.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Font Awesome",
+        "category": "Font/Icon Library",
+        "confidence": 46,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "font-awesome"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "font-awesome"
+            ]
+          }
+        ],
+        "website": "https://fontawesome.com"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "Google Ads",
+        "category": "Advertising",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googleads.g.doubleclick.net"
+            ]
+          }
+        ],
+        "website": "https://ads.google.com"
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "CSS Framework",
+        "confidence": 30,
+        "evidence": [
+          {
+            "type": "htmlClasses",
+            "matchRatio": 31,
+            "sample": [
+              "flex",
+              "items-center",
+              "py-",
+              "mt-",
+              "mb-"
+            ]
+          }
+        ],
+        "website": "https://tailwindcss.com"
+      },
+      {
+        "name": "HubSpot CMS",
+        "category": "CMS",
+        "confidence": 25,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "hubspot"
+            ]
+          }
+        ],
+        "website": "https://hubspot.com"
+      },
+      {
+        "name": "Bootstrap",
+        "category": "CSS Framework",
+        "confidence": 23,
+        "evidence": [
+          {
+            "type": "htmlClasses",
+            "matchRatio": 63,
+            "sample": [
+              "container-fluid",
+              "row",
+              "col-md-",
+              "col-lg-",
+              "card-body"
+            ]
+          }
+        ],
+        "website": "https://getbootstrap.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "JavaScript Framework": [
+        "Angular"
+      ],
+      "Advertising": [
+        "Facebook Pixel",
+        "Google Ads"
+      ],
+      "CDN": [
+        "unpkg",
+        "Fastly"
+      ],
+      "Analytics": [
+        "Google Analytics",
+        "Google Analytics 4"
+      ],
+      "Build Tool": [
+        "Webpack"
+      ],
+      "JavaScript Library": [
+        "jQuery"
+      ],
+      "CSS Framework": [
+        "Bulma",
+        "Tailwind CSS",
+        "Bootstrap"
+      ],
+      "Font/Icon Library": [
+        "Google Fonts",
+        "Font Awesome"
+      ],
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "CMS": [
+        "HubSpot CMS",
+        "Magento"
+      ]
+    },
+    "analysisTimeMs": 3181,
+    "analyzedAt": "2026-05-18T05:21:44.118Z"
+  }
+]

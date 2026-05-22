@@ -1,0 +1,178 @@
+[
+  {
+    "#debug": {
+      "requestId": "zP5HlBNpG9xsl0D",
+      "url": "http://www.google.com.co/search?q=Galieli+Learning+Colombia&hl=es",
+      "loadedUrl": "http://www.google.com.co/search?q=Galieli+Learning+Colombia&hl=es",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": [],
+      "statusCode": 200
+    },
+    "#error": false,
+    "searchQuery": {
+      "term": "Galieli Learning Colombia",
+      "url": "http://www.google.com.co/search?q=Galieli+Learning+Colombia&hl=es",
+      "device": "DESKTOP",
+      "page": 1,
+      "type": "SEARCH",
+      "domain": "google.com.co",
+      "countryCode": "CO",
+      "languageCode": "es",
+      "locationUule": null,
+      "resultsPerPage": 10
+    },
+    "url": "http://www.google.com.co/search?q=Galieli+Learning+Colombia&hl=es",
+    "hasNextPage": true,
+    "serpProviderCode": "N",
+    "resultsTotal": null,
+    "relatedQueries": [],
+    "paidResults": [],
+    "paidProducts": [],
+    "organicResults": [
+      {
+        "title": "Galilei — Transform Work Into Hobbies",
+        "url": "https://galileilearning.com/",
+        "displayedUrl": "https://galileilearning.com",
+        "description": "Galilei transforma la capacitación de restaurantes y hoteles en juegos de 2 minutos que mejoran habilidades, reducen rotación y generan resultados.",
+        "emphasizedKeywords": [
+          "Galilei transforma la capacitación de restaurantes y hoteles en juegos de 2 minutos"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 1
+      },
+      {
+        "title": "App de entrenamiento para restaurantes (@galileilatam)",
+        "url": "https://www.instagram.com/galileilatam/",
+        "displayedUrl": "Instagram › galileilatam",
+        "description": "En Galilei utilizamos los 8 motivadores de la conducta humana para que los empleados no solo cumplan metas, sino que se emocionen al hacerlo. Desde aumentar el ...",
+        "emphasizedKeywords": [
+          "utilizamos los 8 motivadores de la conducta humana"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 4,9 K seguidores",
+        "channelName": "galileilatam",
+        "type": "organic",
+        "position": 2
+      },
+      {
+        "title": "Galilei Learning Latam | Medellín",
+        "url": "https://www.facebook.com/p/Galilei-Learning-Latam-61580090497726/",
+        "displayedUrl": "Facebook › Galilei Learning Latam",
+        "description": "Galilei Learning Latam, Medellín. 103 likes. Alineamos los objetivos de los restaurantes (ventas, servicio, reviews) con las expectativas de los...",
+        "emphasizedKeywords": [
+          "Galilei Learning Latam, Medellín"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 100 seguidores",
+        "type": "organic",
+        "position": 3
+      },
+      {
+        "title": "GALILEI LEARNING S.A.S",
+        "url": "https://empresas.larepublica.co/colombia/antioquia/medellin/galilei-learning-s-a-s-901687984",
+        "displayedUrl": "https://empresas.larepublica.co › antioquia › medellin",
+        "description": "Otras actividades de tecnologías de información y actividades de servicios informáticos. ¿Cuál es su dirección? CALLE 11 B # 40 - 47 ...",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 4
+      },
+      {
+        "title": "Galilei Learning S A S: NIT, teléfono y contacto",
+        "url": "https://www.informacolombia.com/directorio-empresas/informacion-empresa/galilei-learning-sas",
+        "displayedUrl": "https://www.informacolombia.com › informacion-empresa",
+        "description": "La empresa Galilei Learning S A S tiene como domicilio principal de su actividad la dirección, CALLE 11 B 40 47 en la ciudad de MEDELLIN, ANTIOQUIA.",
+        "emphasizedKeywords": [
+          "CALLE 11 B 40 47 en la ciudad de MEDELLIN, ANTIOQUIA"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 5
+      },
+      {
+        "title": "Trabajar en Galilei Learning - Glassdoor",
+        "url": "https://www.glassdoor.com.ar/Descripci%C3%B3n-general/Trabajar-en-Galilei-Learning-EI_IE10010188.12,28.htm",
+        "displayedUrl": "https://www.glassdoor.com.ar › Descripción-general",
+        "description": "Glassdoor te ofrece una mirada desde adentro sobre cómo es trabajar en Galilei Learning, lo cual incluye sueldos, evaluaciones, fotos de las oficinas y más.",
+        "emphasizedKeywords": [
+          "Glassdoor te ofrece una mirada desde adentro sobre cómo es trabajar en Galilei Learning"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 6
+      },
+      {
+        "title": "Simón Duque Echeverri - Co-founder and CPO at Galilei ...",
+        "url": "https://co.linkedin.com/in/sduquee",
+        "displayedUrl": "LinkedIn › Simón Duque Echeverri",
+        "description": "Co-founder and CPO at Galilei Learning (Techstars Miami 24') | Platzi Teacher. Galilei Learning Purdue University. Medellín, Antioquia, Colombia. 4 mil ...",
+        "emphasizedKeywords": [
+          "Galilei Learning Purdue University"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "personalInfo": {
+          "location": "Medellín, Antioquia, Colombia",
+          "jobTitle": "Co-founder & CPO",
+          "companyName": "Galilei Learning",
+          "rawText": "Medellín, Antioquia, Colombia · Co-founder & CPO · Galilei Learning"
+        },
+        "followersAmount": "Más de 3,8 K seguidores",
+        "type": "organic",
+        "position": 7
+      },
+      {
+        "title": "FUNDACIÓN GALILEO- Centro experimental educativo en ...",
+        "url": "https://www.fundaciongalileo.org/",
+        "displayedUrl": "https://www.fundaciongalileo.org",
+        "description": "Es un espacio educativo alternativo que prioriza las Ciencias Naturales y las Artes como ejes fundamentales del aprendizaje. Este enfoque integra procesos de ...",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 8
+      },
+      {
+        "title": "Términos y Condiciones — Galilei Learning",
+        "url": "https://galileilearning.com/legal/tos/es/business",
+        "displayedUrl": "https://galileilearning.com › legal › tos › business",
+        "description": "GALILEI LEARNING es una solución SaaS de entrenamiento corporativo que, a través del uso de herramientas avanzadas de análisis, extracción, ...",
+        "date": "2025-02-20T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "GALILEI LEARNING es una solución SaaS de entrenamiento corporativo"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 9
+      },
+      {
+        "title": "Galilei Learning (@Galileilearning) / Posts / X",
+        "url": "https://x.com/Galileilearning",
+        "displayedUrl": "X › Galileilearning",
+        "description": "Este mes @dgonzac18 y el equipo de Galilei Learning vienen con toda a enseñarte qué es Gamificación y cómo tu empresa lo puede aprovechar . El evento es ...",
+        "emphasizedKeywords": [
+          "Galilei Learning"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "7 seguidores",
+        "tweetCards": [],
+        "type": "organic",
+        "position": 10
+      }
+    ],
+    "suggestedResults": [],
+    "peopleAlsoAsk": [],
+    "customData": null,
+    "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/OPm9VHJ2ZOdSdBFMS/records/zP5HlBNpG9xsl0D-0.html?signature=xaBjHuUXx4vcfk6QZain"
+  }
+]

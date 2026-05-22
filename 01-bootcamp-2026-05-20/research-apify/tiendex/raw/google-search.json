@@ -1,0 +1,170 @@
+[
+  {
+    "#debug": {
+      "requestId": "M3qaw4OYSOId3LP",
+      "url": "http://www.google.com.co/search?q=Tiendex+Colombia&hl=es",
+      "loadedUrl": "http://www.google.com.co/search?q=Tiendex+Colombia&hl=es",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": [],
+      "statusCode": 200
+    },
+    "#error": false,
+    "searchQuery": {
+      "term": "Tiendex Colombia",
+      "url": "http://www.google.com.co/search?q=Tiendex+Colombia&hl=es",
+      "device": "DESKTOP",
+      "page": 1,
+      "type": "SEARCH",
+      "domain": "google.com.co",
+      "countryCode": "CO",
+      "languageCode": "es",
+      "locationUule": null,
+      "resultsPerPage": 10
+    },
+    "url": "http://www.google.com.co/search?q=Tiendex+Colombia&hl=es",
+    "hasNextPage": true,
+    "serpProviderCode": "N",
+    "resultsTotal": null,
+    "relatedQueries": [
+      {
+        "title": "Tiendex pos",
+        "url": "https://www.google.com.co/search?sca_esv=cd56e7bb8d58966a&gl=CO&hl=es&q=Tiendex+pos&sa=X&ved=2ahUKEwib8IXLi8KUAxWCsVYBHevFJxsQ1QJ6BAg2EAE"
+      },
+      {
+        "title": "Tiendex erp",
+        "url": "https://www.google.com.co/search?sca_esv=cd56e7bb8d58966a&gl=CO&hl=es&q=Tiendex+erp&sa=X&ved=2ahUKEwib8IXLi8KUAxWCsVYBHevFJxsQ1QJ6BAg4EAE"
+      },
+      {
+        "title": "Tiendex app",
+        "url": "https://www.google.com.co/search?sca_esv=cd56e7bb8d58966a&gl=CO&hl=es&q=Tiendex+app&sa=X&ved=2ahUKEwib8IXLi8KUAxWCsVYBHevFJxsQ1QJ6BAg1EAE"
+      },
+      {
+        "title": "Tiendex pos",
+        "url": "https://www.google.com.co/search?sca_esv=cd56e7bb8d58966a&gl=CO&hl=es&q=Tiendex+pos&sa=X&ved=2ahUKEwib8IXLi8KUAxWCsVYBHevFJxsQ1QJ6BAg2EAE"
+      },
+      {
+        "title": "Tiendex erp",
+        "url": "https://www.google.com.co/search?sca_esv=cd56e7bb8d58966a&gl=CO&hl=es&q=Tiendex+erp&sa=X&ved=2ahUKEwib8IXLi8KUAxWCsVYBHevFJxsQ1QJ6BAg4EAE"
+      },
+      {
+        "title": "Tiendex app",
+        "url": "https://www.google.com.co/search?sca_esv=cd56e7bb8d58966a&gl=CO&hl=es&q=Tiendex+app&sa=X&ved=2ahUKEwib8IXLi8KUAxWCsVYBHevFJxsQ1QJ6BAg1EAE"
+      }
+    ],
+    "paidResults": [],
+    "paidProducts": [],
+    "organicResults": [
+      {
+        "title": "Tiendex",
+        "url": "https://tiendex.com/",
+        "displayedUrl": "https://tiendex.com",
+        "description": "",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 1
+      },
+      {
+        "title": "Tiendex (@tiendexco)",
+        "url": "https://www.facebook.com/tiendexco/",
+        "displayedUrl": "Facebook › Tiendex",
+        "description": "Tiendex. Más que una aplicación, somos tu mejor aliado para administrar tu negocio de una forma fácil y productiva.",
+        "emphasizedKeywords": [
+          "Tiendex"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "averageRating": 5,
+        "numberOfReviews": 1,
+        "followersAmount": "Más de 400 seguidores",
+        "type": "organic",
+        "position": 2
+      },
+      {
+        "title": "Tiendex",
+        "url": "https://tiendex.store/",
+        "displayedUrl": "https://tiendex.store",
+        "description": "Elegancia masculina ; Combo Reloj Smartwatch Ultra 3 Diadema · $45.000,00 ; Lima Eléctrica Pies Callos · $60.000,00 ; Reloj premium + perfume de impacto · $174.900,00.",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 3
+      },
+      {
+        "title": "Tiendex (@tiendexco) · Medellín",
+        "url": "https://www.instagram.com/tiendexco/reels/",
+        "displayedUrl": "https://www.instagram.com › tiendexco",
+        "description": "2.6K+ followers · 185 posts · Todo lo que tu negocio necesita, en un solo lugar. ERP, POS, Tienda Virtual, Facturación Electrónica y más. Conoce Tiendex.",
+        "emphasizedKeywords": [
+          "ERP, POS, Tienda Virtual, Facturación Electrónica y más"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "channelName": "tiendexco",
+        "type": "organic",
+        "position": 4
+      },
+      {
+        "title": "500 tenderos de Barranquilla reciben licencias de software ...",
+        "url": "https://www.mintic.gov.co/portal/715/w3-article-276539.html",
+        "displayedUrl": "https://www.mintic.gov.co › portal › w3-article-276539",
+        "description": "Tiendex es un desarrollo hecho en Colombia, el cual permite la administración digital de unidades productivas, y que en alianza con el ...",
+        "date": "2023-06-15T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "Tiendex es un desarrollo hecho en Colombia"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 5
+      },
+      {
+        "title": "TIENDEX S.A.S.",
+        "url": "https://empresas.larepublica.co/colombia/antioquia/medellin/tiendex-s-a-s-901589342",
+        "displayedUrl": "https://empresas.larepublica.co › antioquia › medellin",
+        "description": "Actividades de desarrollo de sistemas informáticos (planificación análisis diseño programación pruebas), Comercio al por menor de computadores equipos ...",
+        "emphasizedKeywords": [
+          "Actividades de desarrollo de sistemas informáticos"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 6
+      },
+      {
+        "title": "¿Necesita licencia Tiendex? | Bucaramanga",
+        "url": "https://caracol.com.co/2023/09/25/necesita-licencia-tiendex/",
+        "displayedUrl": "https://caracol.com.co › 2023/09/25 › necesita-licencia-...",
+        "description": "Tiendex que es una herramienta digital diseñada especialmente para tenderos y comerciantes que forman parte de la economía popular y comunitaria ...",
+        "date": "2023-09-25T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "Tiendex"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 7
+      },
+      {
+        "title": "Tiendex es la solución que necesitas para gestionar bien tu ...",
+        "url": "https://www.facebook.com/tiendexco/videos/tiendex-es-la-soluci%C3%B3n-que-necesitas-para-gestionar-bien-tu-inventario-aqu%C3%AD-te-e/640363375169194/",
+        "displayedUrl": "Facebook › Tiendex",
+        "description": "Los negocios también tienen acento colombiano ... Feb 3, 2026 · 350 views. 00:39. El cuadre es el momento de la verdad.... Jan 30 ...",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "reactions": "Más de 60 reacciones",
+        "lastUpdated": "hace 1 año",
+        "type": "organic",
+        "position": 8
+      }
+    ],
+    "suggestedResults": [],
+    "peopleAlsoAsk": [],
+    "customData": null,
+    "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/nEEYkqeQ8YCfqjGGg/records/M3qaw4OYSOId3LP-0.html?signature=mEmS5oI9efO8nJo7UCGh"
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "title": "Suncolombia",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Solar energy equipment supplier",
+    "address": "Cl. 163a #20 - 15, Bogotá, Colombia",
+    "neighborhood": "Orquideas, Usaquén",
+    "street": "Cl. 163a #20 - 15",
+    "city": "Bogotá",
+    "postalCode": "110131",
+    "state": "Bogota",
+    "countryCode": "CO",
+    "website": "http://www.suncolombia.com/",
+    "phone": "+57 14864718",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 4.7435246,
+      "lng": -74.0442378
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ58rEeJ2FP44R_h6ug6bkP-U",
+    "categories": [
+      "Solar energy equipment supplier"
+    ],
+    "fid": "0x8e3f859d78c4cae7:0xe53fe4a683ae1efe",
+    "cid": "16519173362043199230",
+    "reviewsCount": 2,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 0,
+      "fiveStar": 2
+    },
+    "imagesCount": 3,
+    "imageCategories": [
+      "All",
+      "By owner",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T09:34:32.300Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {
+      "Su": [],
+      "Mo": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 62
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 72
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 86
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 87
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 88
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 92
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 91
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 96
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 93
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 81
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "Tu": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 59
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 73
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 74
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 76
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 79
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 82
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 87
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 86
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 79
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "We": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 73
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 81
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 86
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 89
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 88
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 100
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 97
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 94
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 88
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 77
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "Th": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 62
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 72
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 75
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 72
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 72
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 82
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 86
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 89
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 77
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 62
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "Fr": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 80
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 85
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 87
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 93
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 100
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 97
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 82
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 52
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 29
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "Sa": []
+    },
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 6 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "SOLPHOWER Tienda de Energía Solar, venta de paneles solares",
+        "reviewsCount": 16,
+        "totalScore": 4.4
+      },
+      {
+        "category": "People also search for",
+        "title": "Senergysol",
+        "reviewsCount": 6,
+        "totalScore": 5
+      },
+      {
+        "category": "People also search for",
+        "title": "Sunco",
+        "reviewsCount": 0,
+        "totalScore": 0
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Suncolombia&query_place_id=ChIJ58rEeJ2FP44R_h6ug6bkP-U",
+    "searchPageUrl": "https://www.google.com/maps/search/Copsun%20Colombia?hl=en",
+    "searchString": "Copsun Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0aSzLuFmRd0JvLBcRmkmNQU0rMoMgxm8HbjFvKA7YZsl7fh_h0Wi5jcDSPPk0tuUyRdszSQxvmh_qSUfQS164eVaCs9Bd9j-FPOM8P3pGWVzZ2o8h6lhzjWsJju7u17gCOZZ2mqKzZOk=w408-h725-k-no",
+    "kgmid": "/g/11gf8g5j6m"
+  }
+]

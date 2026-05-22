@@ -1,0 +1,147 @@
+[
+  {
+    "title": "lup dup",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Corporate office",
+    "address": "Edificio Flormorado Ofi 302, Ak 7 #116 - 50 torre B, Usaquén, Bogotá, Cundinamarca, Colombia",
+    "neighborhood": "Sagrado Corazon, Usaquén",
+    "street": "Edificio Flormorado Ofi 302, Ak 7 #116 - 50 torre B",
+    "city": "Bogotá",
+    "postalCode": "110111",
+    "state": "Cundinamarca",
+    "countryCode": "CO",
+    "phone": "+57 12219828",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 4.6941588,
+      "lng": -74.0324909
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJFTD7lFuFP44Rxy5iU56W5nU",
+    "categories": [
+      "Corporate office"
+    ],
+    "fid": "0x8e3f855b94fb3015:0x75e6969e53622ec7",
+    "cid": "8495643353828961991",
+    "reviewsCount": 1,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 0,
+      "fiveStar": 1
+    },
+    "imagesCount": 5,
+    "imageCategories": [
+      "All",
+      "By owner",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T03:15:52.995Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 6:30 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "9 AM to 6:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 6:30 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 6:30 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 6:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Drupow",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Duppla",
+        "reviewsCount": 31,
+        "totalScore": 4.9
+      },
+      {
+        "category": "People also search for",
+        "title": "Luppo Design",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "FLP",
+        "reviewsCount": 2,
+        "totalScore": 5
+      },
+      {
+        "category": "People also search for",
+        "title": "Doppelmayr Colombia SAS",
+        "reviewsCount": 1,
+        "totalScore": 5
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=lup%20dup&query_place_id=ChIJFTD7lFuFP44Rxy5iU56W5nU",
+    "searchPageUrl": "https://www.google.com/maps/search/Lup%20Colombia?hl=en",
+    "searchString": "Lup Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3fed0vGvjDb8WdSmCHUYhw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=123.0465&pitch=0&thumbfov=100",
+    "kgmid": "/g/11j90v7tq6"
+  }
+]

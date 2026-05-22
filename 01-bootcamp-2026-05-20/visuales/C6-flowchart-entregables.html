@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Bootcamp Endeavor — Flowchart de Entregables</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #0a0a0a;
+    color: #fff;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.5;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  h1 {
+    color: #FFD400;
+    font-size: 42px;
+    margin: 0;
+    letter-spacing: -1px;
+  }
+  .subtitle {
+    color: #FF6B00;
+    font-size: 18px;
+    margin-top: 8px;
+  }
+
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    max-width: 1400px;
+    margin: 0 auto 60px;
+  }
+  .phase {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 24px;
+    border-top: 4px solid #FFD400;
+  }
+  .phase.during { border-top-color: #FF6B00; }
+  .phase.post { border-top-color: #22C55E; }
+  .phase h2 {
+    margin: 0 0 16px;
+    font-size: 22px;
+    color: #fff;
+  }
+  .phase-date {
+    color: #888;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  .deliverable {
+    background: #0a0a0a;
+    border-left: 3px solid #FFD400;
+    padding: 12px 16px;
+    margin: 8px 0;
+    border-radius: 6px;
+  }
+  .during .deliverable { border-left-color: #FF6B00; }
+  .post .deliverable { border-left-color: #22C55E; }
+  .deliverable strong {
+    color: #FFD400;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .during .deliverable strong { color: #FF6B00; }
+  .post .deliverable strong { color: #22C55E; }
+  .deliverable span {
+    color: #ccc;
+    font-size: 14px;
+  }
+
+  .blocks {
+    max-width: 1400px;
+    margin: 60px auto 0;
+  }
+  .blocks h2 {
+    color: #FFD400;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .block-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .block {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 24px;
+    position: relative;
+  }
+  .block::before {
+    content: attr(data-time);
+    position: absolute;
+    top: -10px;
+    left: 16px;
+    background: #FFD400;
+    color: #0a0a0a;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .block h3 {
+    margin: 8px 0 12px;
+    color: #fff;
+    font-size: 18px;
+  }
+  .block .question {
+    color: #FF6B00;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 16px;
+  }
+  .block ul {
+    margin: 0;
+    padding-left: 18px;
+    color: #ccc;
+    font-size: 13px;
+  }
+  .block ul li {
+    margin: 4px 0;
+  }
+  .lens-row {
+    display: flex;
+    gap: 6px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+  .lens-tag {
+    background: #0a0a0a;
+    color: #FFD400;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    border: 1px solid #FFD400;
+  }
+
+  .legend {
+    max-width: 1400px;
+    margin: 60px auto;
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 32px;
+  }
+  .legend h2 {
+    color: #FFD400;
+    margin: 0 0 20px;
+  }
+  .legend-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .legend-item {
+    color: #ccc;
+    font-size: 14px;
+  }
+  .legend-item strong {
+    color: #fff;
+    display: block;
+  }
+
+  .arrow {
+    color: #FFD400;
+    font-size: 32px;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .file-link {
+    color: #FFD400;
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    font-size: 12px;
+    background: #0a0a0a;
+    padding: 2px 6px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>BOOTCAMP ENDEAVOR × RUTA N</h1>
+  <div class="subtitle">FLOWCHART INTEGRADO DE ENTREGABLES · 20 DE MAYO 2026</div>
+</div>
+
+<div class="timeline">
+
+  <!-- PRE -->
+  <div class="phase pre">
+    <div class="phase-date">PRE-BOOTCAMP · HASTA 19 MAYO</div>
+    <h2>🟡 Preparación</h2>
+
+    <div class="deliverable">
+      <strong>Kit Pre-Work (ya entregado)</strong>
+      <span>3 videos: embudo / ICP / datos únicos. Enviado 11 May.</span>
+    </div>
+
+    <div class="deliverable">
+      <strong>Kit Expectativas (enviar 18 May)</strong>
+      <span>B1 one-pager · B2 qué traer · B3 saldrás con · B4 anti-objeciones · B5 contrato emocional</span>
+      <div class="file-link">~/Documents/Endeavor/kit-expectativas/</div>
+    </div>
+
+    <div class="deliverable">
+      <strong>Apify Digital Footprint</strong>
+      <span>8 actors × 30 attendees → 1-pager por founder. 4 batches × 2h.</span>
+      <div class="file-link">~/Documents/Endeavor/research/</div>
+    </div>
+
+    <div class="deliverable">
+      <strong>Live Demo Dry Run (output backup)</strong>
+      <span>5 empresas con mayor Value Equation gap ya pre-generadas (Clouds7, Sense AI, Pocki, Copsun, Metamotor).</span>
+      <div class="file-link">playbook-v5/A5-dry-run-output.md</div>
+    </div>
+
+    <div class="deliverable">
+      <strong>Visuales</strong>
+      <span>C0 mindmap · C1-C4 infografías · C5 fallback HTML · C6 (este)</span>
+      <div class="file-link">~/Documents/Endeavor/visuales/</div>
+    </div>
+  </div>
+
+  <!-- DURING -->
+  <div class="phase during">
+    <div class="phase-date">DURANTE · 20 MAY · 8:30-13:30</div>
+    <h2>🟠 5 Horas Construyendo</h2>
+
+    <div class="deliverable">
+      <strong>Playbook v5 (Daniel-facing)</strong>
+      <span>A1-A4 scripts × bloque · A5 demo script · A6 12 objeciones · A7 timing minuto-a-minuto</span>
+      <div class="file-link">~/Documents/Endeavor/playbook-v5/</div>
+    </div>
+
+    <div class="deliverable">
+      <strong>13 Herramientas Toolbox</strong>
+      <span>Diagnóstico funnel · 7 piezas · ICP scoring · Discovery · 15 prompts · Value Ladder · KW · Cal 30d · Soap Opera · Plan 30d · Robot.txt</span>
+    </div>
+
+    <div class="deliverable">
+      <strong>Live Demo IA (6 min teatro)</strong>
+      <span>ChatGPT/Claude aplica Value Equation a 105 respuestas en vivo. Si falla wifi → backup deck del dry run.</span>
+    </div>
+
+    <div class="deliverable">
+      <strong>Compromiso Público Filmado</strong>
+      <span>Cada founder dice su prioridad #1 en voz alta. 1 min × 20-25 founders. Grabación interna Endeavor.</span>
+    </div>
+  </div>
+
+  <!-- POST -->
+  <div class="phase post">
+    <div class="phase-date">POST-BOOTCAMP · DESDE 21 MAYO</div>
+    <h2>🟢 Continuidad</h2>
+
+    <div class="deliverable">
+      <strong>Plan 30 Días Email</strong>
+      <span>Endeavor envía template consolidado + Robot.txt guide el mismo día.</span>
+    </div>
+
+    <div class="deliverable">
+      <strong>Survey 7/21/30 días</strong>
+      <span>3 preguntas Campbell-style en martes 27 May / 10 Jun / 17 Jun. Target 60%/50%/60% respuesta.</span>
+    </div>
+
+    <div class="deliverable">
+      <strong>Workshop TOP 5</strong>
+      <span>3h presencial o 2h virtual. GrowthOS personalizado + roadmap 90d + check-in 1:1 con Daniel a 30d.</span>
+    </div>
+
+    <div class="deliverable">
+      <strong>Mentorías 1:1 (opt-in)</strong>
+      <span>Alcance y precio se definen con Endeavor según necesidades del Workshop.</span>
+    </div>
+
+    <div class="deliverable">
+      <strong>Bootcamp Noviembre 2026</strong>
+      <span>Mismo formato, evaluado post-Mayo. Plan replicable desde repositorio actual.</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- BLOQUES DETALLE -->
+<div class="blocks">
+  <h2>LOS 4 BLOQUES — ARQUITECTURA DEL DÍA</h2>
+
+  <div class="block-grid">
+    <div class="block" data-time="08:32-09:30 · 60 MIN">
+      <h3>Bloque 1</h3>
+      <div class="question">¿Dónde estoy?</div>
+      <ul>
+        <li>Stage Triage (Traction/Validation/Pre-PMF)</li>
+        <li>Apertura: 80%/25% + 10/10 vs 2/10</li>
+        <li>Las 7 Piezas del Embudo</li>
+        <li>Ghost: founder-dependence</li>
+        <li>Live Demo (6 min)</li>
+        <li>Ejercicio mesa + voluntarios</li>
+      </ul>
+      <div class="lens-row">
+        <span class="lens-tag">Hormozi Offer Audit</span>
+        <span class="lens-tag">Schwartz 5 Awareness</span>
+        <span class="lens-tag">Campbell 3 Levers</span>
+      </div>
+    </div>
+
+    <div class="block" data-time="09:30-11:00 · 90 MIN">
+      <h3>Bloque 2</h3>
+      <div class="question">¿Con qué cuento?</div>
+      <ul>
+        <li>HubSpot Triage + setup</li>
+        <li>Pipeline 5 etapas + 3 props ICP</li>
+        <li>ICP refinement top-20 → top-10</li>
+        <li>Discovery Call + Belief Environment</li>
+        <li>ACF backstory en pares</li>
+        <li>15 prompts comerciales demo</li>
+        <li>Mini: contratación va a fallar</li>
+      </ul>
+      <div class="lens-row">
+        <span class="lens-tag">Hormozi Value Equation</span>
+        <span class="lens-tag">Schwartz ACF</span>
+        <span class="lens-tag">Campbell Value Metric</span>
+      </div>
+    </div>
+
+    <div class="block" data-time="11:20-12:30 · 70 MIN">
+      <h3>Bloque 3</h3>
+      <div class="question">¿Cómo escalo?</div>
+      <ul>
+        <li>Value Ladder canvas (Free→Premium)</li>
+        <li>KW Research Mass Desire</li>
+        <li>Calendario 30 días (5 × 6)</li>
+        <li>Soap Opera 5 emails + Seinfeld</li>
+        <li>Data → Caso de éxito</li>
+        <li>Mini: Acelerar Ciclos Largos</li>
+      </ul>
+      <div class="lens-row">
+        <span class="lens-tag">Hormozi Guarantee</span>
+        <span class="lens-tag">Schwartz Mass Desire</span>
+        <span class="lens-tag">Campbell Mon>Acq</span>
+      </div>
+    </div>
+
+    <div class="block" data-time="12:30-13:30 · 60 MIN">
+      <h3>Bloque 4</h3>
+      <div class="question">¿Qué hago el lunes?</div>
+      <ul>
+        <li>Integración 30 días</li>
+        <li>Campbell WTP micro-survey</li>
+        <li>Plan consolidado individual</li>
+        <li>Robot.txt para LLMs</li>
+        <li><strong>Compromiso público (20 min)</strong></li>
+        <li>Workshop TOP 5 anuncio</li>
+        <li>Foto + close</li>
+      </ul>
+      <div class="lens-row">
+        <span class="lens-tag">Hormozi Audit re-run</span>
+        <span class="lens-tag">Schwartz One promise</span>
+        <span class="lens-tag">Campbell 5:3:2</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LEYENDA -->
+<div class="legend">
+  <h2>VIRAL FRAMEWORK × BOOTCAMP</h2>
+  <div class="legend-grid">
+    <div class="legend-item">
+      <strong>RADAR™ → Bloque 1</strong>
+      Mapeo del estado actual del embudo.
+    </div>
+    <div class="legend-item">
+      <strong>ESCALA™ → Bloque 2</strong>
+      Offer architecture. CRM + ICP + Discovery.
+    </div>
+    <div class="legend-item">
+      <strong>IMÁN™ + FLUJO™ → Bloque 3</strong>
+      Atracción (KW + content) + nurturing (Soap Opera).
+    </div>
+    <div class="legend-item">
+      <strong>ALMA™ → Bloque 4 (sembrado)</strong>
+      Voz pública del founder. Commitment es ALMA artifact #1.
+    </div>
+    <div class="legend-item">
+      <strong>3 Lentes Expertos transversales</strong>
+      Hormozi (offer) · Schwartz (persuasión) · Campbell (monetización).
+    </div>
+    <div class="legend-item">
+      <strong>Pipeline AI Huevos</strong>
+      Bootcamp ($) → Workshop TOP 5 (gratis) → Mentorías 1:1 ($$) → Bootcamp Nov 2026 ($).
+    </div>
+  </div>
+</div>
+
+<div style="text-align:center; color:#666; margin-top:60px; font-size:12px;">
+  Generado 2026-05-17 · Plan completo: /Users/naboo/.claude/plans/using-notebooklm-mcp-help-lexical-hammock.md
+</div>
+
+</body>
+</html>

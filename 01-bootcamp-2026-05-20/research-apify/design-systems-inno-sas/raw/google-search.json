@@ -1,0 +1,165 @@
+[
+  {
+    "#debug": {
+      "requestId": "RdqeA9ZxFRZFvSL",
+      "url": "http://www.google.com.co/search?q=Design+Systems+Inno+SAS+Colombia&hl=es",
+      "loadedUrl": "http://www.google.com.co/search?q=Design+Systems+Inno+SAS+Colombia&hl=es",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": [],
+      "statusCode": 200
+    },
+    "#error": false,
+    "searchQuery": {
+      "term": "Design Systems Inno SAS Colombia",
+      "url": "http://www.google.com.co/search?q=Design+Systems+Inno+SAS+Colombia&hl=es",
+      "device": "DESKTOP",
+      "page": 1,
+      "type": "SEARCH",
+      "domain": "google.com.co",
+      "countryCode": "CO",
+      "languageCode": "es",
+      "locationUule": null,
+      "resultsPerPage": 10
+    },
+    "url": "http://www.google.com.co/search?q=Design+Systems+Inno+SAS+Colombia&hl=es",
+    "hasNextPage": true,
+    "serpProviderCode": "N",
+    "resultsTotal": null,
+    "relatedQueries": [],
+    "paidResults": [],
+    "paidProducts": [],
+    "organicResults": [
+      {
+        "title": "Design Systems Inno",
+        "url": "https://www.dsinno.io/",
+        "displayedUrl": "https://www.dsinno.io",
+        "description": "Consultoría de Software · Conceptualización de software · Desarrollo de Software · RPA (Automatización Robotica de Procesos) · Integración de sistemas ...",
+        "emphasizedKeywords": [
+          "Consultoría de Software"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 1
+      },
+      {
+        "title": "Design Systems Inno S A S: NIT, teléfono y contacto",
+        "url": "https://www.informacolombia.com/directorio-empresas/informacion-empresa/design-systems-inno-sas",
+        "displayedUrl": "https://www.informacolombia.com › informacion-empresa",
+        "description": "La empresa Design Systems Inno S A S tiene como domicilio principal de su actividad la dirección, DIAGONAL 75 34 07 en la ciudad de BELLO, ANTIOQUIA.",
+        "emphasizedKeywords": [
+          "DIAGONAL 75 34 07 en la ciudad de BELLO, ANTIOQUIA"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 2
+      },
+      {
+        "title": "DSI (@dsinno.io) · Medellín",
+        "url": "https://www.instagram.com/dsinno.io/",
+        "displayedUrl": "Instagram › dsinno.io",
+        "description": "¿Ya conoces los módulos de HECHO? Nuestra plataforma está diseñada para optimizar la gestión clínica y administrativa de tu IPS, todo desde un mismo lugar. En ...",
+        "emphasizedKeywords": [
+          "Nuestra plataforma está diseñada para optimizar la gestión clínica y administrativa de tu IPS"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 200 seguidores",
+        "channelName": "dsinno.io",
+        "type": "organic",
+        "position": 3
+      },
+      {
+        "title": "DESIGN SYSTEMS INNO. S.A.S.",
+        "url": "https://empresas.larepublica.co/colombia/antioquia/bello/design-systems-inno-s-a-s-901615005",
+        "displayedUrl": "https://empresas.larepublica.co › antioquia › bello › des...",
+        "description": "Actividades de desarrollo de sistemas informáticos (planificación análisis diseño programación pruebas), Edición de programas de informática (software), ...",
+        "emphasizedKeywords": [
+          "Actividades de desarrollo de sistemas informáticos"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 4
+      },
+      {
+        "title": "Contáctanos",
+        "url": "https://www.dsinno.io/cont%C3%A1ctanos",
+        "displayedUrl": "https://www.dsinno.io › contáctanos",
+        "description": "Contáctanos y déjanos saber cómo podemos ayudarte ¡Estamos aquí para resolver todas tus dudas y brindarte el mejor servicio!",
+        "emphasizedKeywords": [
+          "Contáctanos"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 5
+      },
+      {
+        "title": "La fábrica de software COLOMBIANA que transformará el futuro",
+        "url": "https://www.youtube.com/watch?v=nN4CL5SrdBI",
+        "displayedUrl": "YouTube › Design Systems Inno (DSI.)",
+        "description": "... @dsinno.io. La fábrica de software COLOMBIANA que transformará el futuro. 423 views · 2 years ago ...more. Design Systems Inno (DSI.) 76.",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "views": "Más de 420 vistas",
+        "lastUpdated": "hace 2 años",
+        "type": "organic",
+        "position": 6
+      },
+      {
+        "title": "Empowering digital transformation",
+        "url": "https://www.dsinno.io/en/",
+        "displayedUrl": "https://www.dsinno.io › ...",
+        "description": "We provide innovative solutions that have optimized internal processes, improving the user experience and generating a positive impact on your business results.",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 7
+      },
+      {
+        "title": "Design Systems Inno (DSI.) Email Format | dsinno.io Emails",
+        "url": "https://rocketreach.co/design-systems-inno-dsi-email-format_b75829b0c53e6a5e",
+        "displayedUrl": "https://rocketreach.co › design-systems-inno-dsi-email-f...",
+        "description": "Design Systems Inno (DSI.) uses 2 email formats: 1. first '.' last@dsinno.io (50.0%). Enter a name to find & verify an email >>>",
+        "emphasizedKeywords": [
+          "Design Systems Inno (DSI"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 8
+      },
+      {
+        "title": "calificación de empresas dentro del proceso de selección ...",
+        "url": "https://www.mintic.gov.co/portal/715/articles-237333_DESTREZAS_4_0_V2.pdf",
+        "displayedUrl": "https://www.mintic.gov.co › portal › articles-2373...",
+        "description": "Empresa no elegible - no pertenece a la industria digital. Empresa que no cumple con el requisito de estar relacionado con algunas de las siguientes actividades ...",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 9
+      },
+      {
+        "title": "Innova Systems S.A.S.",
+        "url": "https://guiatic.com/co/directorio/230-innova-systems-s-a-s",
+        "displayedUrl": "https://guiatic.com › Proveedores",
+        "description": "Con 26 años de experiencia en el mercado y más de 190 clientes en tres países, somos una compañía especializada en desarrollo y administración de sistemas ...",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 10
+      }
+    ],
+    "suggestedResults": [],
+    "peopleAlsoAsk": [],
+    "customData": null,
+    "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/9mFZLOkox5INakpPB/records/RdqeA9ZxFRZFvSL-0.html?signature=1d9khYr9BIELhgRYZYot4"
+  }
+]

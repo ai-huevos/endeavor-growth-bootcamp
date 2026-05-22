@@ -1,0 +1,343 @@
+[
+  {
+    "url": "https://lup.com.co/",
+    "domain": "lup.com.co",
+    "https": true,
+    "technologiesCount": 15,
+    "categories": "Advertising, Analytics, CDN, CMS, CSS Framework, Font/Icon Library, Performance, Programming Language, SEO, Tag Manager",
+    "technologies": [
+      {
+        "name": "Hotjar",
+        "category": "Analytics",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "static.hotjar.com",
+              "hotjar"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_hj"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "hj",
+              "hjSiteSettings"
+            ]
+          }
+        ],
+        "website": "https://hotjar.com"
+      },
+      {
+        "name": "Facebook Pixel",
+        "category": "Advertising",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "facebook.com/tr?"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "connect.facebook.net/en_US/fbevents.js",
+              "connect.facebook.net"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_fbp"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "fbq",
+              "_fbq"
+            ]
+          }
+        ],
+        "website": "https://www.facebook.com/business"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "GTM-"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtm.js"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Lazy Loading",
+        "category": "Performance",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "loading=\"lazy\""
+            ]
+          }
+        ],
+        "website": "https://web.dev/lazy-loading"
+      },
+      {
+        "name": "Schema.org",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "schema.org",
+              "application/ld+json"
+            ]
+          }
+        ],
+        "website": "https://schema.org"
+      },
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title",
+              "og:description"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=Lup - OKRs con IA para tu equipo | Logra 40% más resultados",
+              "og:type=website",
+              "og:image=https://lupv2.lovable.app/og-image.png"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Twitter Cards",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "twitter:card"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "twitter:card=summary_large_image",
+              "twitter:title=Lup - OKRs con IA para tu equipo | Logra 40% más resultados"
+            ]
+          }
+        ],
+        "website": "https://developer.twitter.com"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js?id=G-"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Google Analytics",
+        "category": "Analytics",
+        "confidence": 58,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_ga"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Flask",
+        "category": "Programming Language",
+        "confidence": 38,
+        "evidence": [
+          {
+            "type": "cookies",
+            "matches": [
+              "session"
+            ]
+          }
+        ],
+        "website": "https://flask.palletsprojects.com"
+      },
+      {
+        "name": "Google Ads",
+        "category": "Advertising",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googleads.g.doubleclick.net"
+            ]
+          }
+        ],
+        "website": "https://ads.google.com"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "CDN",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "Server: cloudflare",
+              "CF-RAY: 9fd7b3732a936589-IAD"
+            ]
+          }
+        ],
+        "website": "https://cloudflare.com"
+      },
+      {
+        "name": "Material UI",
+        "category": "CSS Framework",
+        "confidence": 23,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "Mui"
+            ]
+          }
+        ],
+        "website": "https://mui.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "Analytics": [
+        "Hotjar",
+        "Google Analytics 4",
+        "Google Analytics"
+      ],
+      "Advertising": [
+        "Facebook Pixel",
+        "Google Ads"
+      ],
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "Font/Icon Library": [
+        "Google Fonts"
+      ],
+      "Performance": [
+        "Lazy Loading"
+      ],
+      "SEO": [
+        "Schema.org",
+        "Open Graph",
+        "Twitter Cards"
+      ],
+      "Programming Language": [
+        "Flask"
+      ],
+      "CDN": [
+        "Cloudflare"
+      ],
+      "CSS Framework": [
+        "Material UI"
+      ],
+      "CMS": [
+        "Magento"
+      ]
+    },
+    "analysisTimeMs": 3563,
+    "analyzedAt": "2026-05-18T03:16:08.784Z"
+  }
+]

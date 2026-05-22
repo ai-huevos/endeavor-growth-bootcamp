@@ -1,0 +1,108 @@
+[
+  {
+    "url": "https://www.siembraviva.com",
+    "domain": "www.siembraviva.com",
+    "https": true,
+    "technologiesCount": 5,
+    "categories": "CDN, CMS, CSS Framework, JavaScript Framework, SEO",
+    "technologies": [
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=aquiempieza",
+              "og:type=website"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Angular",
+        "category": "JavaScript Framework",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "runtime."
+            ]
+          }
+        ],
+        "website": "https://angular.io"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "CDN",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "Server: cloudflare",
+              "CF-RAY: 9fd9e260ce617f72-IAD"
+            ]
+          }
+        ],
+        "website": "https://cloudflare.com"
+      },
+      {
+        "name": "Bootstrap",
+        "category": "CSS Framework",
+        "confidence": 23,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "bootstrap"
+            ]
+          }
+        ],
+        "website": "https://getbootstrap.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "SEO": [
+        "Open Graph"
+      ],
+      "JavaScript Framework": [
+        "Angular"
+      ],
+      "CDN": [
+        "Cloudflare"
+      ],
+      "CSS Framework": [
+        "Bootstrap"
+      ],
+      "CMS": [
+        "Magento"
+      ]
+    },
+    "analysisTimeMs": 3234,
+    "analyzedAt": "2026-05-18T09:37:42.286Z"
+  }
+]

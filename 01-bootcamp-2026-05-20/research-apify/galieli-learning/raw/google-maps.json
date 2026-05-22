@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Instituto Galileo",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "School house",
+    "address": "Tv. 53a #292, Puente Aranda, Bogotá, Cundinamarca, Colombia",
+    "neighborhood": "La Camelia, Puente Aranda",
+    "street": "Tv. 53a #292",
+    "city": "Bogotá",
+    "postalCode": "111621",
+    "state": "Cundinamarca",
+    "countryCode": "CO",
+    "phone": "+57 301 7029441",
+    "phoneUnformatted": "+573017029441",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 4.6145439,
+      "lng": -74.1186482
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJPfWoJUyZP44RelK5EOwOD_c",
+    "categories": [
+      "School house",
+      "School"
+    ],
+    "fid": "0x8e3f994c25a8f53d:0xf70f0eec10b9527a",
+    "cid": "17802464259074511482",
+    "reviewsCount": 23,
+    "imagesCount": 13,
+    "imageCategories": [
+      "All",
+      "From visitors",
+      "By owner",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T07:27:54.583Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "1 to 4 AM, 8 AM to 12 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "1 to 4 AM, 8 AM to 12 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "1 to 4 AM, 8 AM to 12 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "1 to 4 AM, 8 AM to 12 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "1 to 4 AM, 8 AM to 12 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 to 11 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Liceo Experimental Galileo nueva sede",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "COLEGIO ROMEL VELASCO",
+        "reviewsCount": 17,
+        "totalScore": 3.8
+      },
+      {
+        "category": "People also search for",
+        "title": "Modalidad Internado",
+        "reviewsCount": 28,
+        "totalScore": 3.5
+      },
+      {
+        "category": "People also search for",
+        "title": "Liceo Experimental Galileo",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Colegio Kapeirot",
+        "reviewsCount": 0,
+        "totalScore": 0
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [
+      {
+        "title": "facilities",
+        "count": 2
+      },
+      {
+        "title": "learning",
+        "count": 3
+      }
+    ],
+    "additionalInfo": {
+      "From the business": [
+        {
+          "Identifies as women-owned": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Assistive hearing loop": false
+        },
+        {
+          "Wheelchair accessible seating": false
+        }
+      ],
+      "Amenities": [
+        {
+          "Gender-neutral restroom": true
+        }
+      ],
+      "Crowd": [
+        {
+          "LGBTQ+ friendly": true
+        },
+        {
+          "Transgender safespace": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Instituto%20Galileo&query_place_id=ChIJPfWoJUyZP44RelK5EOwOD_c",
+    "searchPageUrl": "https://www.google.com/maps/search/Galieli%20Learning%20Colombia?hl=en",
+    "searchString": "Galieli Learning Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGuf0YEoe02Ygv8d9dj1DB_cAOLNcTmwbhZUBM-uicEF1XCILpeFEdqsu5WwVFFv8Hq5p224aE3itbyuZeKq3ZJfTsBH6DCmv4jg1xsj6sIFq4etwLM_JlWMxvDMZa5d0BpigOA7Q=w408-h306-k-no",
+    "kgmid": "/g/11b7q8gzzh"
+  }
+]

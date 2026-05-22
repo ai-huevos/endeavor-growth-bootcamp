@@ -1,0 +1,106 @@
+[
+  {
+    "domain": "stronglify.com",
+    "url": "https://stronglify.com",
+    "emails": [],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": null,
+      "instagram": "https://www.instagram.com/stronglify_",
+      "linkedin": "https://www.linkedin.com/company/stronglify/",
+      "twitter": "https://x.com/stronglify",
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": null,
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [],
+    "score": 22,
+    "grade": "F",
+    "scoreBreakdown": {
+      "contactReachability": 0,
+      "businessLegitimacy": 3,
+      "onlinePresence": 13,
+      "websiteQuality": 6,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "marketing"
+      },
+      {
+        "signal": "Social media profiles found",
+        "category": "onlinePresence",
+        "points": 8,
+        "detail": "3 platforms"
+      },
+      {
+        "signal": "LinkedIn profile",
+        "category": "onlinePresence",
+        "points": 5,
+        "detail": "https://www.linkedin.com/company/stronglify/"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Google Tag Manager",
+        "category": "websiteQuality",
+        "points": 2,
+        "detail": "GTM-KSV9WKZP"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "marketing",
+    "businessKeywords": [
+      "para",
+      "sitios",
+      "seo",
+      "stronglify",
+      "crea",
+      "web",
+      "proyecto",
+      "optimizados"
+    ],
+    "cmsDetected": null,
+    "techSignals": [
+      "Cloudflare"
+    ],
+    "trackingTags": {
+      "googleTagManager": "GTM-KSV9WKZP",
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": "NAMECHEAP INC",
+      "createdDate": "2020-03-30T18:40:32.00Z",
+      "expiresDate": "2027-03-30T18:40:32.00Z",
+      "updatedDate": "2026-03-24T18:50:40.86Z",
+      "nameServers": [
+        "darl.ns.cloudflare.com keira.ns.cloudflare.com"
+      ],
+      "registrantOrg": "Privacy service provided by Withheld for Privacy ehf",
+      "registrantCountry": "IS"
+    },
+    "pagesCrawled": 5,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T05:19:17.333Z"
+  }
+]

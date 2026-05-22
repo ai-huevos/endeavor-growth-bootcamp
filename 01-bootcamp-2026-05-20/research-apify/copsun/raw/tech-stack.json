@@ -1,0 +1,399 @@
+[
+  {
+    "url": "https://copsun.co/",
+    "domain": "copsun.co",
+    "https": true,
+    "technologiesCount": 18,
+    "categories": "Analytics, CMS, CSS Framework, E-commerce, Font/Icon Library, JavaScript Framework, JavaScript Library, Page Builder, Performance, Programming Language, SEO, Tag Manager, UI Component, Web Server",
+    "technologies": [
+      {
+        "name": "jQuery",
+        "category": "JavaScript Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "jquery.min.js",
+              "jquery-"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "jQuery"
+            ]
+          }
+        ],
+        "website": "https://jquery.com",
+        "version": "3.7.1"
+      },
+      {
+        "name": "Google Analytics",
+        "category": "Analytics",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_ga"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Nginx",
+        "category": "Web Server",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "Server: nginx"
+            ]
+          }
+        ],
+        "website": "https://nginx.org"
+      },
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Lazy Loading",
+        "category": "Performance",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "loading=\"lazy\"",
+              "data-src",
+              "lazyload"
+            ]
+          }
+        ],
+        "website": "https://web.dev/lazy-loading"
+      },
+      {
+        "name": "Schema.org",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "schema.org"
+            ]
+          }
+        ],
+        "website": "https://schema.org"
+      },
+      {
+        "name": "Elementor",
+        "category": "Page Builder",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "elementor",
+              "elementor-widget"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "elementor/assets/"
+            ]
+          },
+          {
+            "type": "htmlClasses",
+            "matchRatio": 100,
+            "sample": [
+              "elementor-section",
+              "elementor-widget-wrap",
+              "elementor-element"
+            ]
+          }
+        ],
+        "website": "https://elementor.com"
+      },
+      {
+        "name": "WordPress",
+        "category": "CMS",
+        "confidence": 73,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "wp-content/",
+              "wp-includes/",
+              "wp-json"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "wp-includes/js/",
+              "wp-content/plugins/",
+              "wp-content/themes/"
+            ]
+          },
+          {
+            "type": "headers",
+            "matches": [
+              "Link: <https://copsun.co/wp-json/>; rel=\"https://api.w.org/\", <https://copsun.co/wp-json/wp/v2/pages/465>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://copsun.co/>; rel=shortlink"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "wp"
+            ]
+          },
+          {
+            "type": "robots",
+            "matches": [
+              "wp-admin"
+            ]
+          }
+        ],
+        "website": "https://wordpress.org",
+        "version": "6.9.4"
+      },
+      {
+        "name": "Swiper",
+        "category": "UI Component",
+        "confidence": 70,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "swiper.min.js"
+            ]
+          },
+          {
+            "type": "htmlClasses",
+            "matchRatio": 100,
+            "sample": [
+              "swiper-container",
+              "swiper-wrapper",
+              "swiper-slide"
+            ]
+          }
+        ],
+        "website": "https://swiperjs.com"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "Angular",
+        "category": "JavaScript Framework",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "runtime."
+            ]
+          }
+        ],
+        "website": "https://angular.io"
+      },
+      {
+        "name": "Chakra UI",
+        "category": "CSS Framework",
+        "confidence": 30,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "css-"
+            ]
+          }
+        ],
+        "website": "https://chakra-ui.com"
+      },
+      {
+        "name": "PHP",
+        "category": "Programming Language",
+        "confidence": 27,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              ".php"
+            ]
+          }
+        ],
+        "website": "https://php.net"
+      },
+      {
+        "name": "Font Awesome",
+        "category": "Font/Icon Library",
+        "confidence": 23,
+        "evidence": [
+          {
+            "type": "htmlClasses",
+            "matchRatio": 50,
+            "sample": [
+              "fa-",
+              "fas "
+            ]
+          }
+        ],
+        "website": "https://fontawesome.com"
+      },
+      {
+        "name": "Woocommerce",
+        "category": "E-commerce",
+        "confidence": 20,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "woocommerce"
+            ]
+          }
+        ],
+        "website": "https://woocommerce.com"
+      },
+      {
+        "name": "Webflow",
+        "category": "CMS",
+        "confidence": 19,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "w-slider"
+            ]
+          }
+        ],
+        "website": "https://webflow.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "JavaScript Library": [
+        "jQuery"
+      ],
+      "Analytics": [
+        "Google Analytics",
+        "Google Analytics 4"
+      ],
+      "Web Server": [
+        "Nginx"
+      ],
+      "Font/Icon Library": [
+        "Google Fonts",
+        "Font Awesome"
+      ],
+      "Performance": [
+        "Lazy Loading"
+      ],
+      "SEO": [
+        "Schema.org"
+      ],
+      "Page Builder": [
+        "Elementor"
+      ],
+      "CMS": [
+        "WordPress",
+        "Webflow",
+        "Magento"
+      ],
+      "UI Component": [
+        "Swiper"
+      ],
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "JavaScript Framework": [
+        "Angular"
+      ],
+      "CSS Framework": [
+        "Chakra UI"
+      ],
+      "Programming Language": [
+        "PHP"
+      ],
+      "E-commerce": [
+        "Woocommerce"
+      ]
+    },
+    "analysisTimeMs": 3613,
+    "analyzedAt": "2026-05-18T09:34:47.664Z"
+  }
+]

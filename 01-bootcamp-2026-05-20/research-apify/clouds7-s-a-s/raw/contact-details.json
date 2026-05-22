@@ -1,0 +1,118 @@
+[
+  {
+    "domain": "clouds7.com",
+    "url": "https://www.clouds7.com",
+    "emails": [],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/Clouds7-103774277634037/",
+      "instagram": "https://www.instagram.com/infoclouds7/",
+      "linkedin": "https://www.linkedin.com/company/infoclouds7",
+      "twitter": "https://www.twitter.com/infoclouds7",
+      "youtube": "https://www.youtube.com/channel/UCZcASFWn5nCNv82taWd1d0Q/videos",
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": "https://wa.me/573104151198",
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [],
+    "score": 37,
+    "grade": "F",
+    "scoreBreakdown": {
+      "contactReachability": 2,
+      "businessLegitimacy": 8,
+      "onlinePresence": 20,
+      "websiteQuality": 7,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Messaging channels available",
+        "category": "contactReachability",
+        "points": 2,
+        "detail": "1 platform(s)"
+      },
+      {
+        "signal": "CMS/framework detected",
+        "category": "businessLegitimacy",
+        "points": 5,
+        "detail": "WordPress"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "technology"
+      },
+      {
+        "signal": "Extensive social media presence",
+        "category": "onlinePresence",
+        "points": 15,
+        "detail": "6 platforms"
+      },
+      {
+        "signal": "LinkedIn profile",
+        "category": "onlinePresence",
+        "points": 5,
+        "detail": "https://www.linkedin.com/company/infoclouds7"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Modern CMS/framework",
+        "category": "websiteQuality",
+        "points": 3,
+        "detail": "WordPress"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "technology",
+    "businessKeywords": [
+      "seguridad",
+      "clouds",
+      "nube",
+      "tiempo",
+      "datos",
+      "recuperación",
+      "ante",
+      "soluciones"
+    ],
+    "cmsDetected": "WordPress",
+    "techSignals": [
+      "WordPress"
+    ],
+    "trackingTags": {
+      "googleTagManager": null,
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": "Cloudflare, Inc.",
+      "createdDate": "2019-02-02T19:35:23Z",
+      "expiresDate": "2028-02-02T19:35:23Z",
+      "updatedDate": "2026-04-26T08:08:39Z",
+      "nameServers": [
+        "darwin.ns.cloudflare.com martha.ns.cloudflare.com"
+      ],
+      "registrantOrg": "DATA REDACTED",
+      "registrantCountry": "CO"
+    },
+    "pagesCrawled": 1,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T03:11:40.379Z"
+  }
+]

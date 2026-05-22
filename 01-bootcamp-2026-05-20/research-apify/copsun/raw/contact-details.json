@@ -1,0 +1,132 @@
+[
+  {
+    "domain": "copsun.co",
+    "url": "https://copsun.co/",
+    "emails": [],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": null,
+      "instagram": "https://www.instagram.com/copsunco?igsh=MWFtYXIwdzNoaTd1eg==",
+      "linkedin": "https://www.linkedin.com/in/danielalejandrop%C3%A9rezcasta%C3%B1o/",
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": "https://www.tiktok.com/@copsunsas",
+      "whatsapp": "http://wa.me/+573196757318",
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [],
+    "score": 42,
+    "grade": "D",
+    "scoreBreakdown": {
+      "contactReachability": 5,
+      "businessLegitimacy": 13,
+      "onlinePresence": 17,
+      "websiteQuality": 7,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Contact form available",
+        "category": "contactReachability",
+        "points": 3,
+        "detail": "Web contact form"
+      },
+      {
+        "signal": "Messaging channels available",
+        "category": "contactReachability",
+        "points": 2,
+        "detail": "1 platform(s)"
+      },
+      {
+        "signal": "About page present",
+        "category": "businessLegitimacy",
+        "points": 5,
+        "detail": "Company description available"
+      },
+      {
+        "signal": "CMS/framework detected",
+        "category": "businessLegitimacy",
+        "points": 5,
+        "detail": "WordPress"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "energy"
+      },
+      {
+        "signal": "Strong social media presence",
+        "category": "onlinePresence",
+        "points": 12,
+        "detail": "4 platforms"
+      },
+      {
+        "signal": "LinkedIn profile",
+        "category": "onlinePresence",
+        "points": 5,
+        "detail": "https://www.linkedin.com/in/danielalejandrop%C3%A9rezcasta%C3%B1o/"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Modern CMS/framework",
+        "category": "websiteQuality",
+        "points": 3,
+        "detail": "WordPress"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "energy",
+    "businessKeywords": [
+      "paneles",
+      "solares",
+      "limpieza",
+      "copsun",
+      "análisis",
+      "sistema",
+      "nuestros",
+      "suciedad"
+    ],
+    "cmsDetected": "WordPress",
+    "techSignals": [
+      "WordPress",
+      "Google Analytics",
+      "jQuery"
+    ],
+    "trackingTags": {
+      "googleTagManager": null,
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": "Tucows Domains Inc.",
+      "createdDate": "2023-09-01T17:41:49.0Z",
+      "expiresDate": null,
+      "updatedDate": "2025-09-05T00:31:34.0Z",
+      "nameServers": [
+        "NS2.SITEGROUND.NET NS1.SITEGROUND.NET"
+      ],
+      "registrantOrg": null,
+      "registrantCountry": null
+    },
+    "pagesCrawled": 3,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T09:33:37.150Z"
+  }
+]

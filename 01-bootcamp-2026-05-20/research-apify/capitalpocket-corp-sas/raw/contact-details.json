@@ -1,0 +1,134 @@
+[
+  {
+    "domain": "pocki.ai",
+    "url": "https://www.pocki.ai",
+    "emails": [],
+    "phones": [
+      "+57 320 5832189"
+    ],
+    "contacts": [
+      {
+        "name": "Pocki Team",
+        "title": null,
+        "email": null
+      }
+    ],
+    "socialLinks": {
+      "facebook": null,
+      "instagram": "https://www.instagram.com/pocki_ai",
+      "linkedin": "https://co.linkedin.com/company/c-pocket",
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": "https://www.tiktok.com/@pocki_ai?_r=1&amp;_t=ZS-95LZehC8TOk",
+      "whatsapp": "https://wa.me/573219506873?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Pocki",
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [],
+    "score": 50,
+    "grade": "D",
+    "scoreBreakdown": {
+      "contactReachability": 13,
+      "businessLegitimacy": 8,
+      "onlinePresence": 17,
+      "websiteQuality": 7,
+      "teamTransparency": 5
+    },
+    "signals": [
+      {
+        "signal": "Phone number found",
+        "category": "contactReachability",
+        "points": 8,
+        "detail": "+57 320 5832189"
+      },
+      {
+        "signal": "Contact form available",
+        "category": "contactReachability",
+        "points": 3,
+        "detail": "Web contact form"
+      },
+      {
+        "signal": "Messaging channels available",
+        "category": "contactReachability",
+        "points": 2,
+        "detail": "1 platform(s)"
+      },
+      {
+        "signal": "CMS/framework detected",
+        "category": "businessLegitimacy",
+        "points": 5,
+        "detail": "Next.js"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "retail"
+      },
+      {
+        "signal": "Strong social media presence",
+        "category": "onlinePresence",
+        "points": 12,
+        "detail": "4 platforms"
+      },
+      {
+        "signal": "LinkedIn profile",
+        "category": "onlinePresence",
+        "points": 5,
+        "detail": "https://co.linkedin.com/company/c-pocket"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Modern CMS/framework",
+        "category": "websiteQuality",
+        "points": 3,
+        "detail": "Next.js"
+      },
+      {
+        "signal": "Contact person found",
+        "category": "teamTransparency",
+        "points": 5,
+        "detail": "Pocki Team"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "retail",
+    "businessKeywords": [
+      "pocki",
+      "whatsapp",
+      "agente",
+      "conversacional",
+      "recarga",
+      "resuelve",
+      "facturas",
+      "para"
+    ],
+    "cmsDetected": "Next.js",
+    "techSignals": [
+      "Next.js"
+    ],
+    "trackingTags": {
+      "googleTagManager": null,
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": null,
+    "pagesCrawled": 5,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T07:28:30.588Z"
+  }
+]

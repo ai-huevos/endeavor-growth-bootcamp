@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Yara Colombia S.A.",
+    "subTitle": "Yara Colombia S.A.S./ Planta norte",
+    "description": null,
+    "price": null,
+    "categoryName": "Chemical plant",
+    "address": "Mamonal, Cartagena, Bolivar, Colombia",
+    "neighborhood": "Mamonal",
+    "street": null,
+    "city": "Cartagena",
+    "postalCode": null,
+    "state": "Bolivar",
+    "countryCode": "CO",
+    "website": "http://www.yara.com.co/",
+    "phone": "+57 56931200",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 10.3105651,
+      "lng": -75.5000263
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJqQGjIb4n9o4RoPiW-quxgqc",
+    "categories": [
+      "Chemical plant"
+    ],
+    "fid": "0x8ef627be21a301a9:0xa782b1abfa96f8a0",
+    "cid": "12070405303508072608",
+    "reviewsCount": 29,
+    "reviewsDistribution": {
+      "oneStar": 2,
+      "twoStar": 2,
+      "threeStar": 2,
+      "fourStar": 5,
+      "fiveStar": 18
+    },
+    "imagesCount": 98,
+    "imageCategories": [
+      "All",
+      "Building",
+      "Videos"
+    ],
+    "scrapedAt": "2026-05-18T07:26:20.767Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Yara Planta Sur",
+        "reviewsCount": 3,
+        "totalScore": 5
+      },
+      {
+        "category": "People also search for",
+        "title": "Yara",
+        "reviewsCount": 3,
+        "totalScore": 3.7
+      },
+      {
+        "category": "People also search for",
+        "title": "Yara Soluciones y Servicios",
+        "reviewsCount": 29,
+        "totalScore": 4.4
+      },
+      {
+        "category": "People also search for",
+        "title": "Cabot Colombiana S.A.",
+        "reviewsCount": 92,
+        "totalScore": 4.4
+      },
+      {
+        "category": "People also search for",
+        "title": "Real S.A.",
+        "reviewsCount": 16,
+        "totalScore": 4.2
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Yara%20Colombia%20S.A.&query_place_id=ChIJqQGjIb4n9o4RoPiW-quxgqc",
+    "searchPageUrl": "https://www.google.com/maps/search/Aira%20Biotech%20Colombia?hl=en",
+    "searchString": "Aira Biotech Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFzjEQBmmJgxorETI4slHJHFfgFT9CEWJ-ECD3mhaEgKW3xjAZoymltAT6XER4CwqXAh3Ri33nd_DdAn7Wpr7qtYJ-Gu6jGs-BPIUcgNRlN7qWLo7SA9Da-flyNfRLjUS7q5Q9_=w408-h306-k-no",
+    "kgmid": "/g/1hdzx1n5f"
+  }
+]

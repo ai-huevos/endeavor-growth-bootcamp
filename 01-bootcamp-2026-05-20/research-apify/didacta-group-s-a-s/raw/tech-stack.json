@@ -1,0 +1,250 @@
+[
+  {
+    "url": "https://www.intrena.co",
+    "domain": "www.intrena.co",
+    "https": true,
+    "technologiesCount": 11,
+    "categories": "Analytics, CDN, CMS, CSS Framework, Font/Icon Library, Hosting, JavaScript Library, Tag Manager",
+    "technologies": [
+      {
+        "name": "jQuery",
+        "category": "JavaScript Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "jquery-"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "jQuery"
+            ]
+          }
+        ],
+        "website": "https://jquery.com",
+        "version": "3.1.1."
+      },
+      {
+        "name": "Google Analytics",
+        "category": "Analytics",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "google-analytics.com/analytics.js",
+              "googletagmanager.com/gtag/js",
+              "www.google-analytics.com"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_ga",
+              "_gid",
+              "_gat"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "ga",
+              "gtag",
+              "GoogleAnalyticsObject"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js?id=G-"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Hotjar",
+        "category": "Analytics",
+        "confidence": 75,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "static.hotjar.com",
+              "hotjar"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "hj"
+            ]
+          }
+        ],
+        "website": "https://hotjar.com"
+      },
+      {
+        "name": "AWS",
+        "category": "Hosting",
+        "confidence": 63,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "X-Amz-Request-Id: tx000007b6599fe292d85e2-006a078756-2cfc2-nyc3e"
+            ]
+          }
+        ],
+        "website": "https://aws.amazon.com"
+      },
+      {
+        "name": "Bootstrap",
+        "category": "CSS Framework",
+        "confidence": 46,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "bootstrap"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "bootstrap.css"
+            ]
+          }
+        ],
+        "website": "https://getbootstrap.com"
+      },
+      {
+        "name": "Chart.js",
+        "category": "JavaScript Library",
+        "confidence": 44,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "chart.min.js"
+            ]
+          }
+        ],
+        "website": "https://chartjs.org"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "CDN",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "Server: cloudflare",
+              "CF-RAY: 9fd92b895d1a5009-IAD",
+              "CF-Cache-Status: HIT"
+            ]
+          }
+        ],
+        "website": "https://cloudflare.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "JavaScript Library": [
+        "jQuery",
+        "Chart.js"
+      ],
+      "Analytics": [
+        "Google Analytics",
+        "Google Analytics 4",
+        "Hotjar"
+      ],
+      "Font/Icon Library": [
+        "Google Fonts"
+      ],
+      "Hosting": [
+        "AWS"
+      ],
+      "CSS Framework": [
+        "Bootstrap"
+      ],
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "CDN": [
+        "Cloudflare"
+      ],
+      "CMS": [
+        "Magento"
+      ]
+    },
+    "analysisTimeMs": 3124,
+    "analyzedAt": "2026-05-18T07:32:51.804Z"
+  }
+]

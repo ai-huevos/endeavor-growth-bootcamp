@@ -1,0 +1,134 @@
+[
+  {
+    "domain": "intrena.co",
+    "url": "https://www.intrena.co",
+    "emails": [
+      "info@intrena.co"
+    ],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/intrena/",
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/15918209/",
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": null,
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": "info@intrena.co",
+    "emailPatternConfidence": 0.3,
+    "generatedEmails": [],
+    "emailVerification": [
+      {
+        "email": "info@intrena.co",
+        "status": "unknown",
+        "mxValid": true
+      }
+    ],
+    "score": 36,
+    "grade": "F",
+    "scoreBreakdown": {
+      "contactReachability": 9,
+      "businessLegitimacy": 7,
+      "onlinePresence": 13,
+      "websiteQuality": 7,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Email address found",
+        "category": "contactReachability",
+        "points": 6,
+        "detail": "info@intrena.co"
+      },
+      {
+        "signal": "Contact form available",
+        "category": "contactReachability",
+        "points": 3,
+        "detail": "Web contact form"
+      },
+      {
+        "signal": "Privacy policy found",
+        "category": "businessLegitimacy",
+        "points": 4,
+        "detail": "Legal compliance signal"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "education"
+      },
+      {
+        "signal": "Social media profiles found",
+        "category": "onlinePresence",
+        "points": 8,
+        "detail": "2 platforms"
+      },
+      {
+        "signal": "LinkedIn profile",
+        "category": "onlinePresence",
+        "points": 5,
+        "detail": "https://www.linkedin.com/company/15918209/"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Google Analytics installed",
+        "category": "websiteQuality",
+        "points": 3,
+        "detail": "UA-110546759-1"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "education",
+    "businessKeywords": [
+      "learning",
+      "intrena",
+      "proper",
+      "employees",
+      "work",
+      "people",
+      "business",
+      "basic"
+    ],
+    "cmsDetected": null,
+    "techSignals": [
+      "Hotjar",
+      "Google Analytics",
+      "Recaptcha"
+    ],
+    "trackingTags": {
+      "googleTagManager": null,
+      "googleAnalytics": "UA-110546759-1",
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": "NAMECHEAP INC",
+      "createdDate": "2016-10-12T03:07:36.00Z",
+      "expiresDate": "2026-10-11T23:59:59.00Z",
+      "updatedDate": "2025-09-16T07:51:24.00Z",
+      "nameServers": [
+        "dns1.registrar-servers.com dns2.registrar-servers.com"
+      ],
+      "registrantOrg": "Privacy service provided by Withheld for Privacy ehf",
+      "registrantCountry": "IS"
+    },
+    "pagesCrawled": 5,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T07:31:51.761Z"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "#debug": {
+      "requestId": "VRtbBmxoUBAs69Z",
+      "url": "http://www.google.com.co/search?q=Effitech+Colombia&hl=es",
+      "loadedUrl": "http://www.google.com.co/search?q=Effitech+Colombia&hl=es",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": [],
+      "statusCode": 200
+    },
+    "#error": false,
+    "searchQuery": {
+      "term": "Effitech Colombia",
+      "url": "http://www.google.com.co/search?q=Effitech+Colombia&hl=es",
+      "device": "DESKTOP",
+      "page": 1,
+      "type": "SEARCH",
+      "domain": "google.com.co",
+      "countryCode": "CO",
+      "languageCode": "es",
+      "locationUule": null,
+      "resultsPerPage": 10
+    },
+    "url": "http://www.google.com.co/search?q=Effitech+Colombia&hl=es",
+    "hasNextPage": true,
+    "serpProviderCode": "N",
+    "resultsTotal": null,
+    "relatedQueries": [],
+    "paidResults": [],
+    "paidProducts": [],
+    "organicResults": [
+      {
+        "title": "Effitech: Inicio",
+        "url": "https://effitech.online/",
+        "displayedUrl": "https://effitech.online",
+        "description": "Banner-effitech-home. global-epidemic-of-covid-19-and-disinfection-of-. Banner ... Medellín - Colombia. Nosotros. Quienes somos · Misión | Visión · Objetivos ...",
+        "emphasizedKeywords": [
+          "effitech",
+          "Colombia"
+        ],
+        "siteLinks": [
+          {
+            "title": "Nosotros",
+            "url": "https://effitech.online/nosotros/",
+            "description": "Posicionar nuestra empresa como proveedora de soluciones en ..."
+          },
+          {
+            "title": "Contacto",
+            "url": "https://effitech.online/compras/",
+            "description": "Medellín - Colombia. Nosotros. Quienes somos · Misión ..."
+          },
+          {
+            "title": "Más resultados de effitech.online »",
+            "url": "https://www.google.com.co/search?q=Effitech+Colombia+site:effitech.online&sca_esv=cd56e7bb8d58966a&gl=CO&hl=es&sa=X&ved=2ahUKEwiDr5vui8KUAxU9g_0HHR7UJC0QrAN6BAhHEAE",
+            "description": ""
+          }
+        ],
+        "productInfo": {},
+        "type": "organic",
+        "position": 1
+      },
+      {
+        "title": "Effitech TCM",
+        "url": "https://www.effitech.co/",
+        "displayedUrl": "https://www.effitech.co",
+        "description": "El sistema administrativo y de control de salas de juego con mesas de juego y máquinas pagamonedas. El sistema consiste en un dispositivo electrónico que se ...",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 2
+      },
+      {
+        "title": "EFICTECH | Falabella Colombia",
+        "url": "https://www.falabella.com.co/falabella-co/seller/EFICTECH",
+        "displayedUrl": "https://www.falabella.com.co › falabella-co › seller › E...",
+        "description": "Encuentra variedad de productos de EFICTECH. Entra a falabella.com y conoce nuestras ofertas y promociones.",
+        "emphasizedKeywords": [
+          "Encuentra variedad de productos de EFICTECH"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 3
+      },
+      {
+        "title": "Effitech (@effitechCol)",
+        "url": "https://www.facebook.com/effitechCol/",
+        "displayedUrl": "Facebook › Effitech",
+        "description": "Effitech. 107 likes. Empresa dedicada a fomentar las fuentes de energía renovables y cuidar el medio ambientes mediante el buen uso de estas.",
+        "emphasizedKeywords": [
+          "Empresa dedicada a fomentar las fuentes de energía renovables"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 100 seguidores",
+        "type": "organic",
+        "position": 4
+      },
+      {
+        "title": "Effitech El Cerrito Sas: NIT, teléfono y contacto",
+        "url": "https://www.informacolombia.com/directorio-empresas/informacion-empresa/effitech-cerrito-sas",
+        "displayedUrl": "https://www.informacolombia.com › informacion-empresa",
+        "description": "El teléfono de Effitech El Cerrito Sas es el 3104231098. Esta empresa fué constituida como SOCIEDAD POR ACCIONES SIMPLIFICADA y se dedica a Instalaciones ...",
+        "emphasizedKeywords": [
+          "Effitech El Cerrito Sas"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 5
+      },
+      {
+        "title": "Acerca - Effitech TCM",
+        "url": "https://effitech.co/About.aspx",
+        "displayedUrl": "https://effitech.co › About",
+        "description": "Somos una empresa innovadora dedicada al diseño, desarrollo y comercialización de tecnologías eficientes aplicadas a la automatización de los sistemas de ...",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 6
+      },
+      {
+        "title": "effitech sas (@effitech_SAS) / Posts / X",
+        "url": "https://x.com/effitech_sas",
+        "displayedUrl": "X › effitech_SAS",
+        "description": "Effitech sas : con sus productos, para el mejoramientos de las personas. ... Conoces nuestra linea TCM... Informate de nuestros productos para este comienzo de ...",
+        "emphasizedKeywords": [
+          "Effitech sas"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "2 seguidores",
+        "tweetCards": [],
+        "type": "organic",
+        "position": 7
+      },
+      {
+        "title": "EFFITECH (@effitech9) • Instagram photos and videos",
+        "url": "https://www.instagram.com/effitech9/",
+        "displayedUrl": "Instagram › effitech9",
+        "description": "Desarrollamos tecnologías eficientes optimizando los procesos e innovando en los mismos. Nos especializamos en sistemas de control.",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 200 seguidores",
+        "channelName": "effitech9",
+        "type": "organic",
+        "position": 8
+      },
+      {
+        "title": "Tienda de Computadores y Tecnología | FC TECH Colombia",
+        "url": "https://www.fctechstore.co/?srsltid=AfmBOor_QV_BcDcZ2VSAQ3JdufXFyBGiD3jFZUrm0Ij1e1xcjQWHPNLY",
+        "displayedUrl": "https://www.fctechstore.co",
+        "description": "Descubre en FC TECH Colombia lo mejor en tecnología para tu hogar y oficina, computadores usados, celulares y más. ¡Productos totalmente garantizados!",
+        "emphasizedKeywords": [
+          "FC TECH Colombia"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 9
+      }
+    ],
+    "suggestedResults": [],
+    "peopleAlsoAsk": [],
+    "customData": null,
+    "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/yvSZjeXIYDjdCXcbE/records/VRtbBmxoUBAs69Z-0.html?signature=14Dv5nedh7N0WGA8O05HH"
+  }
+]

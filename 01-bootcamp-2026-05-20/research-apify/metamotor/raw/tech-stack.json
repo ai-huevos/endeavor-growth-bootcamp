@@ -1,0 +1,487 @@
+[
+  {
+    "url": "https://WWW.MAXIMACOLOMBIA.COM",
+    "domain": "www.maximacolombia.com",
+    "https": true,
+    "technologiesCount": 21,
+    "categories": "Advertising, Analytics, CMS, CSS Framework, E-commerce, Font/Icon Library, Hosting, JavaScript Framework, JavaScript Library, Page Builder, Performance, Programming Language, Tag Manager, UI Component, Web Server",
+    "technologies": [
+      {
+        "name": "jQuery",
+        "category": "JavaScript Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "jquery.min.js",
+              "jquery.js",
+              "jquery-"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "jQuery"
+            ]
+          }
+        ],
+        "website": "https://jquery.com",
+        "version": "3.7.1"
+      },
+      {
+        "name": "Google Analytics",
+        "category": "Analytics",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_ga"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Facebook Pixel",
+        "category": "Advertising",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "facebook.com/tr?"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "connect.facebook.net/en_US/fbevents.js",
+              "connect.facebook.net"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_fbp"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "fbq",
+              "_fbq"
+            ]
+          }
+        ],
+        "website": "https://www.facebook.com/business"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "GTM-"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtm.js"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "Apache",
+        "category": "Web Server",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "Server: Apache"
+            ]
+          }
+        ],
+        "website": "https://httpd.apache.org"
+      },
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Lazy Loading",
+        "category": "Performance",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "loading=\"lazy\"",
+              "data-src",
+              "lazyload"
+            ]
+          }
+        ],
+        "website": "https://web.dev/lazy-loading"
+      },
+      {
+        "name": "WordPress",
+        "category": "CMS",
+        "confidence": 88,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "wp-content/",
+              "wp-includes/",
+              "wp-json"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "generator=Powered by Slider Revolution 6.6.9 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "wp-includes/js/",
+              "wp-content/plugins/",
+              "wp-content/themes/"
+            ]
+          },
+          {
+            "type": "headers",
+            "matches": [
+              "Link: <https://www.maximacolombia.com/wp-json/>; rel=\"https://api.w.org/\", <https://www.maximacolombia.com/wp-json/wp/v2/pages/44>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://www.maximacolombia.com/>; rel=shortlink"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "wp"
+            ]
+          },
+          {
+            "type": "robots",
+            "matches": [
+              "wp-admin"
+            ]
+          }
+        ],
+        "website": "https://wordpress.org",
+        "version": "6.8.5"
+      },
+      {
+        "name": "Woocommerce",
+        "category": "E-commerce",
+        "confidence": 80,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "woocommerce",
+              "wc-block"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "woocommerce"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "wc_add_to_cart_params",
+              "woocommerce_params"
+            ]
+          }
+        ],
+        "website": "https://woocommerce.com"
+      },
+      {
+        "name": "Elementor",
+        "category": "Page Builder",
+        "confidence": 70,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "elementor",
+              "elementor-widget"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "elementor/assets/"
+            ]
+          }
+        ],
+        "website": "https://elementor.com"
+      },
+      {
+        "name": "Font Awesome",
+        "category": "Font/Icon Library",
+        "confidence": 46,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "font-awesome",
+              "fontawesome"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "font-awesome",
+              "fontawesome"
+            ]
+          }
+        ],
+        "website": "https://fontawesome.com"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Slick Slider",
+        "category": "UI Component",
+        "confidence": 40,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "slick.min.js"
+            ]
+          }
+        ],
+        "website": "https://kenwheeler.github.io/slick"
+      },
+      {
+        "name": "AWS",
+        "category": "Hosting",
+        "confidence": 38,
+        "evidence": [
+          {
+            "type": "dns",
+            "matches": [
+              "aws"
+            ]
+          }
+        ],
+        "website": "https://aws.amazon.com"
+      },
+      {
+        "name": "Flask",
+        "category": "Programming Language",
+        "confidence": 38,
+        "evidence": [
+          {
+            "type": "cookies",
+            "matches": [
+              "session"
+            ]
+          }
+        ],
+        "website": "https://flask.palletsprojects.com"
+      },
+      {
+        "name": "Angular",
+        "category": "JavaScript Framework",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "runtime."
+            ]
+          }
+        ],
+        "website": "https://angular.io"
+      },
+      {
+        "name": "Google Ads",
+        "category": "Advertising",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googleads.g.doubleclick.net"
+            ]
+          }
+        ],
+        "website": "https://ads.google.com"
+      },
+      {
+        "name": "Chakra UI",
+        "category": "CSS Framework",
+        "confidence": 30,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "css-"
+            ]
+          }
+        ],
+        "website": "https://chakra-ui.com"
+      },
+      {
+        "name": "Swiper",
+        "category": "UI Component",
+        "confidence": 30,
+        "evidence": [
+          {
+            "type": "css",
+            "matches": [
+              "swiper-bundle.min.css"
+            ]
+          }
+        ],
+        "website": "https://swiperjs.com"
+      },
+      {
+        "name": "PHP",
+        "category": "Programming Language",
+        "confidence": 27,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              ".php"
+            ]
+          }
+        ],
+        "website": "https://php.net"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "JavaScript Library": [
+        "jQuery"
+      ],
+      "Analytics": [
+        "Google Analytics",
+        "Google Analytics 4"
+      ],
+      "Advertising": [
+        "Facebook Pixel",
+        "Google Ads"
+      ],
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "Web Server": [
+        "Apache"
+      ],
+      "Font/Icon Library": [
+        "Google Fonts",
+        "Font Awesome"
+      ],
+      "Performance": [
+        "Lazy Loading"
+      ],
+      "CMS": [
+        "WordPress",
+        "Magento"
+      ],
+      "E-commerce": [
+        "Woocommerce"
+      ],
+      "Page Builder": [
+        "Elementor"
+      ],
+      "UI Component": [
+        "Slick Slider",
+        "Swiper"
+      ],
+      "Hosting": [
+        "AWS"
+      ],
+      "Programming Language": [
+        "Flask",
+        "PHP"
+      ],
+      "JavaScript Framework": [
+        "Angular"
+      ],
+      "CSS Framework": [
+        "Chakra UI"
+      ]
+    },
+    "analysisTimeMs": 4493,
+    "analyzedAt": "2026-05-18T03:14:26.100Z"
+  }
+]

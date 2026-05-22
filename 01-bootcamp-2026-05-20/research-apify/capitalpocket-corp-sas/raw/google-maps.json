@@ -1,0 +1,213 @@
+[
+  {
+    "title": "CapitalColombia.com",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Computer store",
+    "address": "Cra. 109 # 81-44, Bogotá, Colombia",
+    "neighborhood": "Bolivia Real, Engativá",
+    "street": "Cra. 109 # 81-44",
+    "city": "Bogotá",
+    "postalCode": "111011",
+    "state": "Bogota",
+    "countryCode": "CO",
+    "website": "https://www.capitalcolombia.com/",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 4.7174102,
+      "lng": -74.1151002
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJqfBaVzqFP44RTavy6VNb5hg",
+    "categories": [
+      "Computer store"
+    ],
+    "fid": "0x8e3f853a575af0a9:0x18e65b53e9f2ab4d",
+    "cid": "1794221917519129421",
+    "reviewsCount": 69,
+    "reviewsDistribution": {
+      "oneStar": 2,
+      "twoStar": 0,
+      "threeStar": 3,
+      "fourStar": 3,
+      "fiveStar": 61
+    },
+    "imagesCount": 18,
+    "imageCategories": [
+      "All",
+      "Inside",
+      "Computer",
+      "By owner",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T07:29:31.462Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8:30 AM to 5:30 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8:30 AM to 5:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8:30 AM to 5:30 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8:30 AM to 5:30 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8:30 AM to 5:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Mantenimiento de Computadores a Domicilio Colombia Computer Support",
+        "reviewsCount": 1,
+        "totalScore": 1
+      },
+      {
+        "category": "People also search for",
+        "title": "Huion Colombia",
+        "reviewsCount": 5,
+        "totalScore": 3.4
+      },
+      {
+        "category": "People also search for",
+        "title": "Computadores En Colombia",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Conalcomputo Ltda",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Clasificados Colombia - Venta Tecnologia - Repuestos Impresoras",
+        "reviewsCount": 1,
+        "totalScore": 5
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [
+      {
+        "title": "phone advice",
+        "count": 2
+      },
+      {
+        "title": "printer handling",
+        "count": 2
+      },
+      {
+        "title": "training",
+        "count": 13
+      },
+      {
+        "title": "product quality",
+        "count": 2
+      },
+      {
+        "title": "sale",
+        "count": 3
+      },
+      {
+        "title": "kindness",
+        "count": 2
+      },
+      {
+        "title": "punctuality",
+        "count": 3
+      },
+      {
+        "title": "dedication",
+        "count": 2
+      },
+      {
+        "title": "explanation",
+        "count": 2
+      },
+      {
+        "title": "information",
+        "count": 2
+      }
+    ],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Online appointments": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "In-store pickup": true
+        },
+        {
+          "Onsite services": true
+        }
+      ],
+      "Planning": [
+        {
+          "Quick visit": true
+        }
+      ],
+      "Payments": [
+        {
+          "Debit cards": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=CapitalColombia.com&query_place_id=ChIJqfBaVzqFP44RTavy6VNb5hg",
+    "searchPageUrl": "https://www.google.com/maps/search/CapitalPocket%20Corp%20SAS%20Colombia?hl=en",
+    "searchString": "CapitalPocket Corp SAS Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEkV5AMkG5XLAOH7CBrEBVj8whDQassAfDmc9tXbs1UOeFUb465ODdtpqPBiKLbHLCD4hMq5r1Tepii0s_P1TlazcWDGczFLW5Jn8zCtrLHtSmbOgu47m4AEOa_SqUFk6Es1xKuYA=w426-h240-k-no",
+    "kgmid": "/g/11g4lm8_kk"
+  }
+]

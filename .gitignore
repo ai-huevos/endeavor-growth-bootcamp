@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Claude Code local state
+.claude/
+
+# Environment / secrets
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Node
+node_modules/
+
+# Netlify
+.netlify
+
+# Convex generated (kept out, regenerated on build)
+**/_generated/
+
+# Logs / pids
+*.log
+*.pid
+
+# Build / dist
+dist/
+build/

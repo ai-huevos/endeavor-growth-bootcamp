@@ -1,0 +1,177 @@
+[
+  {
+    "title": "SiembraViva",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Warehouse",
+    "address": "5FRP+RH, Envigado, Plan, Envigado, Antioquia, Colombia",
+    "neighborhood": null,
+    "street": "5FRP+RH",
+    "city": "Envigado, Plan, Envigado",
+    "postalCode": null,
+    "state": "Antioquia",
+    "countryCode": "CO",
+    "website": "http://www.siembraviva.com/",
+    "phone": "+57 302 2131321",
+    "phoneUnformatted": "+573022131321",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 6.1895878,
+      "lng": -75.5133624
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJn6NEn8ApRI4R7NOCS8Uo6i4",
+    "categories": [
+      "Warehouse",
+      "Organic farm"
+    ],
+    "fid": "0x8e4429c09f44a39f:0x2eea28c54b82d3ec",
+    "cid": "3380559298135512044",
+    "reviewsCount": 106,
+    "reviewsDistribution": {
+      "oneStar": 3,
+      "twoStar": 1,
+      "threeStar": 8,
+      "fourStar": 16,
+      "fiveStar": 78
+    },
+    "imagesCount": 143,
+    "imageCategories": [
+      "All",
+      "By owner",
+      "Videos",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T09:37:28.447Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 1 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "8 AM to 1 PM"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Siembraviva S.a.s",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "biota agricultura orgánica",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Saviandina Organics",
+        "reviewsCount": 0,
+        "totalScore": 0
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [
+      {
+        "title": "organic products",
+        "count": 12
+      },
+      {
+        "title": "environmental care",
+        "count": 5
+      },
+      {
+        "title": "sustainability",
+        "count": 2
+      },
+      {
+        "title": "harvesting experience",
+        "count": 3
+      },
+      {
+        "title": "gastronomic experience",
+        "count": 2
+      },
+      {
+        "title": "crops",
+        "count": 4
+      },
+      {
+        "title": "gardens",
+        "count": 2
+      },
+      {
+        "title": "landscapes",
+        "count": 2
+      },
+      {
+        "title": "learn",
+        "count": 3
+      },
+      {
+        "title": "wonderful experience",
+        "count": 3
+      }
+    ],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": false
+        },
+        {
+          "Wheelchair accessible parking lot": false
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=SiembraViva&query_place_id=ChIJn6NEn8ApRI4R7NOCS8Uo6i4",
+    "searchPageUrl": "https://www.google.com/maps/search/SiembraViva%20Colombia?hl=en",
+    "searchString": "SiembraViva Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGsfJi07cT2ScHxQiD4Ah96i3ScUBzrxflGOpuWe-8fbsqI5Ed9EAycIIyHIOhsWVIM6xRt9-abZP5Y0nMzCwuqgPCLRnS731zt59cb4HKwXYIMq4Vu_7ixahiEdCCq9DOQdPtk=w408-h306-k-no",
+    "kgmid": "/g/11bxdxp5j9"
+  }
+]

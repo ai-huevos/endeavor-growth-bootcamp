@@ -1,0 +1,817 @@
+[
+  {
+    "title": "Clouds7",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Computer support and services",
+    "address": "Cl. 43 #79-55, Laureles - Estadio, Medellín, Laureles, Medellín, Antioquia, Colombia",
+    "neighborhood": "Lorena, Laureles - Estadio, Medellin",
+    "street": "Cl. 43 #79-55",
+    "city": "Medellín, Laureles - Estadio, Medellin",
+    "postalCode": "050031",
+    "state": "Antioquia",
+    "countryCode": "CO",
+    "website": "http://www.clouds7.com/",
+    "phone": "+57 312 2709069",
+    "phoneUnformatted": "+573122709069",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 6.2494346,
+      "lng": -75.5982025
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": "6CX2+QP Medellin, Antioquia, Colombia",
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJgzl-Z3UpRI4Re4b2AQpStWs",
+    "categories": [
+      "Computer support and services",
+      "Software company"
+    ],
+    "fid": "0x8e442975677e3983:0x6bb5520a01f6867b",
+    "cid": "7761199735779001979",
+    "reviewsCount": null,
+    "imagesCount": 66,
+    "imageCategories": [
+      "All",
+      "By owner",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T03:12:33.780Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": "Now: Usually not too busy",
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {
+      "Su": [
+        {
+          "hour": 4,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 5,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 6,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 0,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 1,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 2,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 3,
+          "occupancyPercent": 28
+        }
+      ],
+      "Mo": [
+        {
+          "hour": 4,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 5,
+          "occupancyPercent": 85
+        },
+        {
+          "hour": 6,
+          "occupancyPercent": 78
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 71
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 85
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 78
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 78
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 0,
+          "occupancyPercent": 21
+        },
+        {
+          "hour": 1,
+          "occupancyPercent": 21
+        },
+        {
+          "hour": 2,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 3,
+          "occupancyPercent": 42
+        }
+      ],
+      "Tu": [
+        {
+          "hour": 4,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 5,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 6,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 85
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 92
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 78
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 21
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 14
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 7
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 14
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 14
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 21
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 0,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 1,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 2,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 3,
+          "occupancyPercent": 50
+        }
+      ],
+      "We": [
+        {
+          "hour": 4,
+          "occupancyPercent": 71
+        },
+        {
+          "hour": 5,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 6,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 21
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 21
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 7
+        },
+        {
+          "hour": 0,
+          "occupancyPercent": 7
+        },
+        {
+          "hour": 1,
+          "occupancyPercent": 7
+        },
+        {
+          "hour": 2,
+          "occupancyPercent": 21
+        },
+        {
+          "hour": 3,
+          "occupancyPercent": 42
+        }
+      ],
+      "Th": [
+        {
+          "hour": 4,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 5,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 6,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 71
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 0,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 1,
+          "occupancyPercent": 14
+        },
+        {
+          "hour": 2,
+          "occupancyPercent": 14
+        },
+        {
+          "hour": 3,
+          "occupancyPercent": 21
+        }
+      ],
+      "Fr": [
+        {
+          "hour": 4,
+          "occupancyPercent": 85
+        },
+        {
+          "hour": 5,
+          "occupancyPercent": 78
+        },
+        {
+          "hour": 6,
+          "occupancyPercent": 78
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 71
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 100
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 92
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 0,
+          "occupancyPercent": 78
+        },
+        {
+          "hour": 1,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 2,
+          "occupancyPercent": 71
+        },
+        {
+          "hour": 3,
+          "occupancyPercent": 64
+        }
+      ],
+      "Sa": [
+        {
+          "hour": 4,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 5,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 6,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 85
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 85
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 92
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 92
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 57
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 71
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 64
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 0,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 1,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 2,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 3,
+          "occupancyPercent": 28
+        }
+      ]
+    },
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "CLOUDTHINX",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Cloud-As",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "Cloud As- Herramientas para la Administración de Negocios - Sistema de Facturación Electrónica",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "COMPUSOLUCIONES",
+        "reviewsCount": 1,
+        "totalScore": 5
+      },
+      {
+        "category": "People also search for",
+        "title": "Vodac",
+        "reviewsCount": 0,
+        "totalScore": 0
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Clouds7&query_place_id=ChIJgzl-Z3UpRI4Re4b2AQpStWs",
+    "searchPageUrl": "https://www.google.com/maps/search/Clouds7%20S.A.S.%20Colombia?hl=en",
+    "searchString": "Clouds7 S.A.S. Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mx011Hw263oEaXqtF3chBQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=171.46043&pitch=0&thumbfov=100",
+    "kgmid": "/g/11j3t86vf1"
+  }
+]

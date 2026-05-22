@@ -1,0 +1,261 @@
+[
+  {
+    "#debug": {
+      "requestId": "2UXmygQChr17z7c",
+      "url": "http://www.google.com.co/search?q=Verifty+Colombia&hl=es",
+      "loadedUrl": "http://www.google.com.co/search?q=Verifty+Colombia&hl=es",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": [],
+      "statusCode": 200
+    },
+    "#error": false,
+    "searchQuery": {
+      "term": "Verifty Colombia",
+      "url": "http://www.google.com.co/search?q=Verifty+Colombia&hl=es",
+      "device": "DESKTOP",
+      "page": 1,
+      "type": "SEARCH",
+      "domain": "google.com.co",
+      "countryCode": "CO",
+      "languageCode": "es",
+      "locationUule": null,
+      "resultsPerPage": 10
+    },
+    "url": "http://www.google.com.co/search?q=Verifty+Colombia&hl=es",
+    "hasNextPage": true,
+    "serpProviderCode": "N",
+    "resultsTotal": null,
+    "relatedQueries": [
+      {
+        "title": "Www buscardatos com Colombia",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Www+buscardatos+com+Colombia&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg1EAE"
+      },
+      {
+        "title": "Verificar IMEI",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Verificar+IMEI&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg6EAE"
+      },
+      {
+        "title": "Verificar cédula",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Verificar+c%C3%A9dula&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg5EAE"
+      },
+      {
+        "title": "Verificar identidad de una persona",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Verificar+identidad+de+una+persona&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg4EAE"
+      },
+      {
+        "title": "Consulta DNI Colombia",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Consulta+DNI+Colombia&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg3EAE"
+      },
+      {
+        "title": "Verificar DNI",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Verificar+DNI&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg2EAE"
+      },
+      {
+        "title": "Como verificar un documento de identidad",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Como+verificar+un+documento+de+identidad&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAgzEAE"
+      },
+      {
+        "title": "Verifik",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Verifik&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg0EAE"
+      },
+      {
+        "title": "Www buscardatos com Colombia",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Www+buscardatos+com+Colombia&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg1EAE"
+      },
+      {
+        "title": "Verificar IMEI",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Verificar+IMEI&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg6EAE"
+      },
+      {
+        "title": "Verificar cédula",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Verificar+c%C3%A9dula&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg5EAE"
+      },
+      {
+        "title": "Verificar identidad de una persona",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Verificar+identidad+de+una+persona&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg4EAE"
+      },
+      {
+        "title": "Consulta DNI Colombia",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Consulta+DNI+Colombia&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg3EAE"
+      },
+      {
+        "title": "Verificar DNI",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Verificar+DNI&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg2EAE"
+      },
+      {
+        "title": "Como verificar un documento de identidad",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Como+verificar+un+documento+de+identidad&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAgzEAE"
+      },
+      {
+        "title": "Verifik",
+        "url": "https://www.google.com.co/search?sca_esv=e5a8e362355d4d87&gl=CO&hl=es&q=Verifik&sa=X&ved=2ahUKEwidoeSm7sGUAxWl_rsIHS07K2YQ1QJ6BAg0EAE"
+      }
+    ],
+    "paidResults": [],
+    "paidProducts": [],
+    "organicResults": [
+      {
+        "title": "Verifik: Mejor Plataforma de Verificación de Identidad para ...",
+        "url": "https://verifik.co/",
+        "displayedUrl": "https://verifik.co",
+        "description": "Verifik te ayuda a verificar personas y empresas, revisar documentos de identidad y gestionar el riesgo con precisión. El proceso se mantiene fluido para tus ...",
+        "emphasizedKeywords": [
+          "Verifik te ayuda a verificar personas y empresas"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 1
+      },
+      {
+        "title": "Validación Identidad Colombia",
+        "url": "https://verifik.co/validacion-identidad-colombia/",
+        "displayedUrl": "https://verifik.co › validacion-identidad-colombia",
+        "description": "Verifica identidades con precisión, rapidez y confianza. Nuestra solución está diseñada para empresas que requieren autenticación masiva de Cédulas Colombianas, ...",
+        "emphasizedKeywords": [
+          "Verifica identidades con precisión, rapidez y confianza"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 2
+      },
+      {
+        "title": "Control Verify Colombia",
+        "url": "https://controlt.io/control-verify-verificacion-automatizada/",
+        "displayedUrl": "https://controlt.io › control-verify-verificacion-automati...",
+        "description": "Control Verify Colombia es ideal para la verificación de antecedentes, validando datos de conductores, vehículos y empresas en segundos. ¡Adquiérelo!",
+        "emphasizedKeywords": [
+          "Control Verify Colombia"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 3
+      },
+      {
+        "title": "Veriff se une a Colombia Fintech",
+        "url": "https://colombiafintech.co/2025/03/21/veriff-se-une-a-colombia-fintech/",
+        "displayedUrl": "https://colombiafintech.co › 2025/03/21 › veriff-se-une...",
+        "description": "Nuestra conocida plataforma para verificar la identidad analiza más de 1,000 puntos de información, incluidos la persona, el documento, el ...",
+        "date": "2025-03-21T12:00:00.000Z",
+        "emphasizedKeywords": [
+          "Nuestra conocida plataforma para verificar la identidad"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 4
+      },
+      {
+        "title": "Consultar Documento Trámite - Cancillería",
+        "url": "https://verificacion.cancilleria.gov.co/",
+        "displayedUrl": "https://verificacion.cancilleria.gov.co",
+        "description": "Para realizar la consulta del documento expedido por el ... Colombia Nos Une and processes not provided for an exclusive to diplomatic personnel.",
+        "emphasizedKeywords": [
+          "Colombia"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 5
+      },
+      {
+        "title": "Verifíquese Cédula: Inicio",
+        "url": "http://www.verifique.se/es",
+        "displayedUrl": "http://www.verifique.se › ...",
+        "description": "Verifíquese Cédula es una aplicación que permite escanear y validar información pública en Internet de los siguientes documentos: Cédula de ciudadanía de ...",
+        "emphasizedKeywords": [
+          "Verifíquese Cédula"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 6
+      },
+      {
+        "title": "E-Verify | Xylem Colombia",
+        "url": "https://www.xylem.com/es-co/careers_/e-verify/",
+        "displayedUrl": "https://www.xylem.com › es-co › careers_ › e-verify",
+        "description": "E-Verify. La ley federal exige a Xylem verificar la identidad y la aptitud para el empleo de todas las personas contratadas para trabajar en los Estados Unidos.",
+        "emphasizedKeywords": [
+          "Verify"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 7
+      },
+      {
+        "title": "Verificación IMEI",
+        "url": "https://www.mintic.gov.co/portal/715/w3-propertyvalue-111111.html",
+        "displayedUrl": "https://www.mintic.gov.co › w3-propertyvalue-111111",
+        "description": "Módulo de Consulta y Verificación de IMEI. El módulo de consulta y verificación de IMEI habilitado por el Ministerio TIC permite que los importadores de ...",
+        "emphasizedKeywords": [
+          "Módulo de Consulta y Verificación de IMEI"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 8
+      },
+      {
+        "title": "Verificar la identidad digital, pieza clave para frenar el ...",
+        "url": "https://www.latamfintech.co/articles/verificar-la-identidad-digital-pieza-clave-para-frenar-el-fraude-y-acelerar-la-inclusion-financiera-i-jumio",
+        "displayedUrl": "https://www.latamfintech.co › articles › verificar-la-iden...",
+        "description": "En zonas rurales o remotas, el onboarding digital con prueba de vida y captura de documento desde un teléfono, abre la puerta a productos ...",
+        "date": "2025-09-10T12:00:00.000Z",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 9
+      },
+      {
+        "title": "Verificación de certificados | CCB",
+        "url": "https://www.ccb.org.co/tramites-y-consultas/certificados/verificacion-de-certificados",
+        "displayedUrl": "https://www.ccb.org.co › Trámites y consultas",
+        "description": "Asegura la autenticidad de tus certificados con el código de verificación de la Cámara de Comercio de Bogotá. Verifica en línea de manera sencilla y ...",
+        "emphasizedKeywords": [],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 10
+      }
+    ],
+    "suggestedResults": [],
+    "peopleAlsoAsk": [
+      {
+        "answer": null,
+        "question": "¿Qué es verify en Colombia?",
+        "title": "Verifik: Mejor Plataforma de Verificación de Identidad para ...",
+        "url": "https://verifik.co/#:~:text=Una%20plataforma%20inteligente%20para%20cada,fraude%20antes%20de%20que%20ocurra.",
+        "date": null
+      },
+      {
+        "answer": "E-Verify es un sistema basado en Internet que compara la información ingresada por un empleador a partir del Formulario I-9, Verificación de Elegibilidad de Empleo, de un empleado, con los registros disponibles en el Departamento de Seguridad Nacional de Estados Unidos y la Administración del Seguro Social para ...",
+        "question": "¿Qué es verify empresa?",
+        "title": "¿Qué es E-Verify?",
+        "url": "https://www.e-verify.gov/es/acerca-de-e-verify/que-es-e-verify#:~:text=E%2DVerify%20es%20un%20sistema,Administraci%C3%B3n%20del%20Seguro%20Social%20para",
+        "date": null
+      },
+      {
+        "answer": null,
+        "question": "¿Cómo consultar una cédula colombiana?",
+        "title": null,
+        "url": null,
+        "date": null
+      },
+      {
+        "answer": null,
+        "question": "¿Qué es validación en Colombia?",
+        "title": null,
+        "url": null,
+        "date": null
+      }
+    ],
+    "customData": null,
+    "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/IhOjVaqM93IFOXw2M/records/2UXmygQChr17z7c-0.html?signature=ednDqfyzrrJM0XrUMqtQ"
+  }
+]

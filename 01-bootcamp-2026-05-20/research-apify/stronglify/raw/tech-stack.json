@@ -1,0 +1,249 @@
+[
+  {
+    "url": "https://stronglify.com",
+    "domain": "stronglify.com",
+    "https": true,
+    "technologiesCount": 10,
+    "categories": "Analytics, CDN, CMS, CSS Framework, Font/Icon Library, SEO, Tag Manager, UI Component",
+    "technologies": [
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "GTM-"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtm.js"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title",
+              "og:description"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=Stronglify - Genera sitios web optimizados para SEO",
+              "og:type=website",
+              "og:image=https://stronglify-img.s3.amazonaws.com/12/open-graph-1742078625.jpg"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Twitter Cards",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "twitter:card"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "twitter:card=summary_large_image",
+              "twitter:title=Stronglify - Genera sitios web optimizados para SEO"
+            ]
+          }
+        ],
+        "website": "https://developer.twitter.com"
+      },
+      {
+        "name": "Swiper",
+        "category": "UI Component",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "swiper-bundle.min.js"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "swiper-bundle.min.css"
+            ]
+          },
+          {
+            "type": "htmlClasses",
+            "matchRatio": 67,
+            "sample": [
+              "swiper-wrapper",
+              "swiper-slide"
+            ]
+          }
+        ],
+        "website": "https://swiperjs.com"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "CDN",
+        "confidence": 53,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "Server: cloudflare",
+              "CF-RAY: 9fd86996feb18678-IAD",
+              "CF-Cache-Status: DYNAMIC"
+            ]
+          },
+          {
+            "type": "dns",
+            "matches": [
+              "cloudflare"
+            ]
+          }
+        ],
+        "website": "https://cloudflare.com"
+      },
+      {
+        "name": "Font Awesome",
+        "category": "Font/Icon Library",
+        "confidence": 46,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "font-awesome"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "font-awesome"
+            ]
+          }
+        ],
+        "website": "https://fontawesome.com"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Tailwind CSS",
+        "category": "CSS Framework",
+        "confidence": 30,
+        "evidence": [
+          {
+            "type": "htmlClasses",
+            "matchRatio": 75,
+            "sample": [
+              "flex",
+              "items-center",
+              "justify-between",
+              "bg-white",
+              "px-"
+            ]
+          }
+        ],
+        "website": "https://tailwindcss.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "Font/Icon Library": [
+        "Google Fonts",
+        "Font Awesome"
+      ],
+      "SEO": [
+        "Open Graph",
+        "Twitter Cards"
+      ],
+      "UI Component": [
+        "Swiper"
+      ],
+      "CDN": [
+        "Cloudflare"
+      ],
+      "Analytics": [
+        "Google Analytics 4"
+      ],
+      "CSS Framework": [
+        "Tailwind CSS"
+      ],
+      "CMS": [
+        "Magento"
+      ]
+    },
+    "analysisTimeMs": 3182,
+    "analyzedAt": "2026-05-18T05:20:28.019Z"
+  }
+]

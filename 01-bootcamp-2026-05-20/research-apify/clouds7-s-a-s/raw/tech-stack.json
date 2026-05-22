@@ -1,0 +1,142 @@
+[
+  {
+    "url": "https://www.clouds7.com",
+    "domain": "www.clouds7.com",
+    "https": true,
+    "technologiesCount": 5,
+    "categories": "CDN, CMS, CSS Framework, Programming Language",
+    "technologies": [
+      {
+        "name": "PHP",
+        "category": "Programming Language",
+        "confidence": 73,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              ".php"
+            ]
+          },
+          {
+            "type": "headers",
+            "matches": [
+              "X-Powered-By: PHP/8.2.30"
+            ]
+          }
+        ],
+        "website": "https://php.net",
+        "version": "8.2.30"
+      },
+      {
+        "name": "WordPress",
+        "category": "CMS",
+        "confidence": 69,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "wp-content/",
+              "wp-includes/",
+              "wp-json"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "generator=WordPress 6.7.5"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "wp-includes/js/"
+            ]
+          },
+          {
+            "type": "headers",
+            "matches": [
+              "Link: <https://clouds7.com/wp-json/>; rel=\"https://api.w.org/\""
+            ]
+          },
+          {
+            "type": "robots",
+            "matches": [
+              "wp-admin"
+            ]
+          }
+        ],
+        "website": "https://wordpress.org",
+        "version": "6.7.5"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "CDN",
+        "confidence": 60,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "cloudflareinsights.com"
+            ]
+          },
+          {
+            "type": "headers",
+            "matches": [
+              "Server: cloudflare",
+              "CF-RAY: 9fd7ae8f9f17c07b-IAD",
+              "CF-Cache-Status: DYNAMIC"
+            ]
+          }
+        ],
+        "website": "https://cloudflare.com"
+      },
+      {
+        "name": "Bulma",
+        "category": "CSS Framework",
+        "confidence": 50,
+        "evidence": [
+          {
+            "type": "htmlClasses",
+            "matchRatio": 33,
+            "sample": [
+              "columns",
+              "column"
+            ]
+          }
+        ],
+        "website": "https://bulma.io"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "Programming Language": [
+        "PHP"
+      ],
+      "CMS": [
+        "WordPress",
+        "Magento"
+      ],
+      "CDN": [
+        "Cloudflare"
+      ],
+      "CSS Framework": [
+        "Bulma"
+      ]
+    },
+    "analysisTimeMs": 3252,
+    "analyzedAt": "2026-05-18T03:12:47.158Z"
+  }
+]

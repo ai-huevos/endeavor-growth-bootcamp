@@ -1,0 +1,119 @@
+[
+  {
+    "title": "EFFITECH S.A.S",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Automation company",
+    "address": "C. 50 #68 111, Laureles - Estadio, Medellín, Laureles, Medellín, Antioquia, Colombia",
+    "neighborhood": "Suramericana, Laureles - Estadio, Medellin",
+    "street": "C. 50 #68 111",
+    "city": "Medellín, Laureles - Estadio, Medellin",
+    "postalCode": "050034",
+    "state": "Antioquia",
+    "countryCode": "CO",
+    "website": "http://effitech.online/",
+    "phone": "+57 300 3818181",
+    "phoneUnformatted": "+573003818181",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 6.2578359,
+      "lng": -75.5851641
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": "7C57+4W Medellin, Antioquia, Colombia",
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJnycOrtEpRI4RWykwuduU_NQ",
+    "categories": [
+      "Automation company",
+      "Casino",
+      "Computer hardware manufacturer",
+      "Disco club",
+      "Electronics company",
+      "Electronics wholesaler",
+      "Pharmacy",
+      "Software company",
+      "Vending machine supplier"
+    ],
+    "fid": "0x8e4429d1ae0e279f:0xd4fc94dbb930295b",
+    "cid": "15347305301597497691",
+    "reviewsCount": 6,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 0,
+      "fiveStar": 6
+    },
+    "imagesCount": 5,
+    "imageCategories": [
+      "All",
+      "Exterior",
+      "By owner",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T05:23:11.564Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "7:30 AM to 6 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "7:30 AM to 6 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "7:30 AM to 6 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "7:30 AM to 6 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "7:30 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [
+      {
+        "title": "products",
+        "count": 3
+      }
+    ],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=EFFITECH%20S.A.S&query_place_id=ChIJnycOrtEpRI4RWykwuduU_NQ",
+    "searchPageUrl": "https://www.google.com/maps/search/Effitech%20Colombia?hl=en",
+    "searchString": "Effitech Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGbEcXgjJvEmb2jhYquNIanXRYJb50Fhu3AWlPlarLT2MJaKP02L5Gx84xUcWi4thTweZ5JYCcbV1UBd5cTxfVqW0W7GLrvsfzlEZaxDuKQAc5oA4zijDJsvYXv3frRQTXgFixnsA=w408-h460-k-no",
+    "kgmid": "/g/11g4cjvkv2"
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "url": "https://www.galileilearning.com/",
+    "domain": "www.galileilearning.com",
+    "https": true,
+    "technologiesCount": 5,
+    "categories": "CDN, Font/Icon Library, Hosting, Performance, SEO",
+    "technologies": [
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Lazy Loading",
+        "category": "Performance",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "loading=\"lazy\""
+            ]
+          }
+        ],
+        "website": "https://web.dev/lazy-loading"
+      },
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title",
+              "og:description"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=Galilei — Transform Work Into Hobbies"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "AWS",
+        "category": "Hosting",
+        "confidence": 63,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "Server: AmazonS3"
+            ]
+          }
+        ],
+        "website": "https://aws.amazon.com"
+      },
+      {
+        "name": "AWS CloudFront",
+        "category": "CDN",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "X-Amz-Cf-Id: cclmfOE20idGrM6zHkjnxgUgQzJBQ7V7t-e2TPYKJyVMiNuJ5IF9WQ==",
+              "X-Amz-Cf-Pop: IAD61-P1",
+              "Via: 1.1 05c82d802dd7dc7f98fd5d5083d604ba.cloudfront.net (CloudFront)"
+            ]
+          }
+        ],
+        "website": "https://aws.amazon.com/cloudfront"
+      }
+    ],
+    "technologyGroups": {
+      "Font/Icon Library": [
+        "Google Fonts"
+      ],
+      "Performance": [
+        "Lazy Loading"
+      ],
+      "SEO": [
+        "Open Graph"
+      ],
+      "Hosting": [
+        "AWS"
+      ],
+      "CDN": [
+        "AWS CloudFront"
+      ]
+    },
+    "analysisTimeMs": 3193,
+    "analyzedAt": "2026-05-18T07:28:04.942Z"
+  }
+]

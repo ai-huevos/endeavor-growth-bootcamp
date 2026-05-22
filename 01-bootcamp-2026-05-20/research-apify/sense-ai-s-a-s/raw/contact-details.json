@@ -1,0 +1,144 @@
+[
+  {
+    "domain": "sense-ai.co",
+    "url": "https://www.sense-ai.co",
+    "emails": [
+      "hola@sense-ai.co"
+    ],
+    "phones": [
+      "+57 305 2315571"
+    ],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": null,
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/sense-ai-capture-anything/",
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": null,
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": "hola@sense-ai.co",
+    "emailPatternConfidence": 0.3,
+    "generatedEmails": [],
+    "emailVerification": [
+      {
+        "email": "hola@sense-ai.co",
+        "status": "unknown",
+        "mxValid": true
+      }
+    ],
+    "score": 48,
+    "grade": "D",
+    "scoreBreakdown": {
+      "contactReachability": 22,
+      "businessLegitimacy": 11,
+      "onlinePresence": 9,
+      "websiteQuality": 6,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Email address found",
+        "category": "contactReachability",
+        "points": 6,
+        "detail": "hola@sense-ai.co"
+      },
+      {
+        "signal": "Phone number found",
+        "category": "contactReachability",
+        "points": 8,
+        "detail": "+57 305 2315571"
+      },
+      {
+        "signal": "Both email and phone available",
+        "category": "contactReachability",
+        "points": 5,
+        "detail": "Multiple contact channels"
+      },
+      {
+        "signal": "Contact form available",
+        "category": "contactReachability",
+        "points": 3,
+        "detail": "Web contact form"
+      },
+      {
+        "signal": "Physical address found",
+        "category": "businessLegitimacy",
+        "points": 8,
+        "detail": "Medellín, Antioquia, CO"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "technology"
+      },
+      {
+        "signal": "Social media profile found",
+        "category": "onlinePresence",
+        "points": 4,
+        "detail": "1 platform"
+      },
+      {
+        "signal": "LinkedIn profile",
+        "category": "onlinePresence",
+        "points": 5,
+        "detail": "https://www.linkedin.com/company/sense-ai-capture-anything/"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Google Tag Manager",
+        "category": "websiteQuality",
+        "points": 2,
+        "detail": "GTM-KLWDNGNK"
+      }
+    ],
+    "address": "Medellín, Antioquia, CO",
+    "businessIndustry": "technology",
+    "businessKeywords": [
+      "sense",
+      "para",
+      "decisiones",
+      "datos",
+      "hardware",
+      "telemetría",
+      "iot",
+      "tiempo"
+    ],
+    "cmsDetected": null,
+    "techSignals": [
+      "Calendly"
+    ],
+    "trackingTags": {
+      "googleTagManager": "GTM-KLWDNGNK",
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": null,
+      "createdDate": null,
+      "expiresDate": null,
+      "updatedDate": null,
+      "nameServers": null,
+      "registrantOrg": null,
+      "registrantCountry": null
+    },
+    "pagesCrawled": 5,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T05:23:53.140Z"
+  }
+]

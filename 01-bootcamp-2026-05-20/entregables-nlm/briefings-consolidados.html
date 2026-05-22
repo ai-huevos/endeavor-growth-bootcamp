@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Briefings Personalizados — Bootcamp Endeavor 20 May 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --huevos-yellow: #FFD400;
+    --huevos-blue: #0033FF;
+    --huevos-violet: #7B3FE4;
+    --huevos-red: #FF3B30;
+    --huevos-black: #0a0a0a;
+    --huevos-gray: #6B7280;
+    --huevos-gray-light: #E5E7EB;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fafafa;
+    color: var(--huevos-black);
+    margin: 0;
+    line-height: 1.55;
+    font-size: 16px;
+  }
+  .cover {
+    background: var(--huevos-yellow);
+    color: var(--huevos-black);
+    padding: 80px 60px;
+    text-align: left;
+  }
+  .cover h1 {
+    font-size: 56px;
+    line-height: 1.05;
+    margin: 0 0 16px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+  }
+  .cover .sub {
+    font-family: 'Geist Mono', 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 32px;
+  }
+  .cover .desc {
+    max-width: 720px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .cover .desc strong { color: var(--huevos-blue); }
+  .toc {
+    background: var(--huevos-black);
+    color: white;
+    padding: 60px;
+  }
+  .toc h2 {
+    color: var(--huevos-yellow);
+    font-size: 32px;
+    margin: 0 0 24px;
+    font-weight: 600;
+  }
+  .toc ul {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+    column-gap: 40px;
+  }
+  .toc li {
+    padding: 8px 0;
+    border-bottom: 1px solid #222;
+    break-inside: avoid;
+  }
+  .toc a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+  }
+  .toc a::before {
+    content: '→ ';
+    color: var(--huevos-yellow);
+    font-family: 'Geist Mono', monospace;
+  }
+  .toc a:hover { color: var(--huevos-yellow); }
+
+  .container {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .briefing {
+    background: white;
+    margin: 0;
+    padding: 60px;
+    border-bottom: 1px solid var(--huevos-gray-light);
+    page-break-after: always;
+  }
+  .briefing-header {
+    border-bottom: 4px solid var(--huevos-yellow);
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+  }
+  .briefing-header h1 { display: none; }  /* h1 comes from md content */
+
+  .briefing-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-family: 'Geist Mono', monospace;
+    font-size: 12px;
+    color: var(--huevos-gray);
+    margin-top: 8px;
+    text-transform: lowercase;
+  }
+  .briefing-meta a { color: var(--huevos-blue); text-decoration: none; }
+  .briefing-meta a:hover { text-decoration: underline; }
+
+  .briefing-body h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--huevos-black);
+    margin: 0 0 24px;
+    letter-spacing: -1px;
+  }
+  .briefing-body h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--huevos-blue);
+    margin: 36px 0 12px;
+    border-left: 4px solid var(--huevos-yellow);
+    padding-left: 12px;
+  }
+  .briefing-body p {
+    margin: 0 0 16px;
+    color: #222;
+  }
+  .briefing-body ul, .briefing-body ol {
+    margin: 16px 0;
+    padding-left: 28px;
+  }
+  .briefing-body li {
+    margin: 8px 0;
+  }
+  .briefing-body ol li {
+    padding-left: 8px;
+  }
+  .briefing-body strong {
+    color: var(--huevos-black);
+    font-weight: 600;
+  }
+  .briefing-body em {
+    color: var(--huevos-violet);
+    font-style: italic;
+  }
+  .briefing-body code {
+    font-family: 'Geist Mono', monospace;
+    background: var(--huevos-gray-light);
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  .briefing-body hr {
+    border: none;
+    border-top: 1px solid var(--huevos-gray-light);
+    margin: 32px 0;
+  }
+  .briefing-body .meta {
+    font-family: 'Geist Mono', monospace;
+    font-size: 11px;
+    color: var(--huevos-gray);
+    text-transform: lowercase;
+    margin-top: 24px;
+  }
+
+  /* Pregunta dura — la sección 6 — destacarla visualmente */
+  .briefing-body h2 + p em:only-child,
+  .briefing-body h2:nth-of-type(6) ~ p em {
+    display: block;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 24px;
+    background: var(--huevos-yellow);
+    color: var(--huevos-black);
+    font-style: normal;
+    border-radius: 6px;
+    border-left: 6px solid var(--huevos-black);
+  }
+
+  .footer {
+    background: var(--huevos-black);
+    color: var(--huevos-gray);
+    padding: 40px 60px;
+    text-align: center;
+    font-family: 'Geist Mono', monospace;
+    font-size: 12px;
+    text-transform: lowercase;
+  }
+  .footer .yellow { color: var(--huevos-yellow); }
+
+  /* Print styles */
+  @media print {
+    body { background: white; }
+    .cover { break-after: page; }
+    .toc { break-after: page; }
+    .briefing {
+      box-shadow: none;
+      padding: 40px;
+      break-after: page;
+    }
+    .toc a { color: white !important; }
+  }
+
+  /* Mobile */
+  @media (max-width: 720px) {
+    .cover { padding: 48px 24px; }
+    .cover h1 { font-size: 36px; }
+    .toc { padding: 32px 24px; }
+    .toc ul { columns: 1; }
+    .briefing { padding: 32px 24px; }
+    .briefing-body h1 { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div class="sub">briefings personalizados · bootcamp endeavor × ruta n · 20 may 2026</div>
+  <h1>18 Founders.<br/>3 Lentes Expertos.<br/>54 Quick Wins.</h1>
+  <p class="desc">
+    Briefings personalizados para cada attendee del bootcamp Endeavor, generados con
+    <strong>NotebookLM</strong> aplicando los frameworks de
+    <strong>Hormozi</strong> (Value Equation),
+    <strong>Schwartz</strong> (Awareness Stages) y
+    <strong>Campbell</strong> (Three Growth Levers)
+    sobre el diagnóstico real del cohorte. Cada briefing incluye una pregunta dura para Daniel — la que cambia el día.
+  </p>
+</section>
+
+<section class="toc">
+  <h2>Tabla de contenidos</h2>
+  <ul><li><a href="#verifty">Verifty</a></li><li><a href="#clouds7-s-a-s">Clouds7 S.A.S.</a></li><li><a href="#metamotor">Metamotor</a></li><li><a href="#lup">Lup</a></li><li><a href="#onex-media-sas">Onex Media SAS</a></li><li><a href="#design-systems-inno-sas">Design Systems Inno SAS</a></li><li><a href="#strong-strong-strong">Strong Strong Strong</a></li><li><a href="#tiendex">Tiendex</a></li><li><a href="#effitech">Effitech</a></li><li><a href="#sense-ai-s-a-s">Sense AI S.A.S</a></li><li><a href="#aira-biotech">Aira Biotech</a></li><li><a href="#galieli-learning">Galieli Learning</a></li><li><a href="#capitalpocket-corp-sas">CapitalPocket Corp SAS</a></li><li><a href="#quantum-mechanics-s-a-s">Quantum Mechanics S.A.S</a></li><li><a href="#didacta-group-s-a-s">Didacta Group S.A.S.</a></li><li><a href="#copsun">Copsun</a></li><li><a href="#teral">Teral</a></li><li><a href="#siembraviva">SiembraViva</a></li></ul>
+</section>
+
+<main>
+
+<section class="briefing" id="verifty">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Manuela Parra Acevedo,  / Santiago Salcedo Forero</span>
+      <span class="metric">💰 2025 $115M → 2026 $2,964M</span>
+      <span class="web">🌐 <a href="https://www.verifty.com/" target="_blank">https://www.verifty.com/</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Verifty</h1>
+<h2>1. Quién es Verifty (3 frases máx)</h2>
+<p>
+Verifty es un sistema operativo de campo que automatiza el cumplimiento y la seguridad en industrias de alto riesgo usando IA propietaria (OCR) y biometría facial. Lo que los hace únicos es que no son un simple software de registro pasivo, sino un "gatekeeper" activo que bloquea automáticamente tareas si detecta brechas de cumplimiento o personal no asegurado. Simplifican el caos del papeleo manual y protegen a las empresas industriales de millonarios riesgos de responsabilidad civil solidaria y accidentes.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Eliminar el error humano, la responsabilidad civil y los accidentes en industrias de alto riesgo, garantizando que solo personal 100% idóneo y autorizado opere en la planta.</li>
+<li><strong>Perceived Likelihood:</strong> Muy débil hoy. Proyectan un crecimiento masivo de 25x (pasar de $115M a $2.964M COP), pero el diagnóstico revela un "aislamiento del ecosistema" crítico (calificación 1,5 en redes) y baja eficiencia comercial (Unit Economics en 2.8). Si están aislados, el comprador corporativo dudará de sus promesas.</li>
+<li><strong>Time Delay:</strong> Inmediato. Su tecnología OCR procesa documentos de seguridad "en segundos" y la biometría sustituye firmas en papel al instante.</li>
+<li><strong>Effort & Sacrifice:</strong> Bajo para el operario de campo (poner la cara frente a un lector en vez de llenar planillas), pero alto para el comprador corporativo que debe cambiar la forma en que audita toda su operación.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood (Credibilidad).</strong> Tienen que romper su aislamiento estratégico urgentemente. Ningún corporativo va a confiarle su seguridad y cumplimiento legal a una startup que el mercado percibe como "aislada" y sin una diferenciación competitiva innegable.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Sus prospectos B2B están en <strong>Problem Aware</strong> (saben que el control manual de contratistas es un dolor de cabeza y un riesgo legal altísimo) o <strong>Solution Aware</strong> (ya usan software básico o formatos físicos para controlarlo). Verifty no debe perder tiempo educando sobre la importancia de la seguridad; deben usar su <em>Mecanismo Único</em> (gatekeeper con biometría e IA) para diferenciarse de los sistemas pasivos. Deben mostrar cómo los métodos tradicionales siguen permitiendo errores humanos, posicionando a Verifty como el único sistema que realmente "gobierna" la operación antes de que ocurra el accidente.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+Actualmente están quemando demasiada energía y dinero en Adquisición, pero con baja rentabilidad ("invierten recursos considerables para captar cada cliente en relación con el retorno" — Unit Economics de 2.8). La palanca de Monetización está completamente sub-invertida, ya que su estrategia de precios está "en consolidación". Según Campbell, deben rebalancear su esfuerzo hacia la <strong>Monetización (3/10)</strong>, dejando de vender por intuición para estructurar un modelo de precios (Value Metric) que capture económicamente el enorme valor del riesgo legal y operativo que le ahorran a sus clientes.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Auditoría de Pricing (Value Metric):</strong> Reestructurar su modelo de precios (actualmente en consolidación) alineándolo al valor real que protegen (ej. cobrar por riesgo evitado, por módulo activado o por operario auditado), lo que mejorará su eficiencia de capital.</li>
+<li><strong>Caso de Éxito Innegable:</strong> Tomar su mejor cliente actual y documentar la reducción exacta en horas de ingreso a planta o mitigación de riesgos de cumplimiento legal. Esto atacará su debilidad de "diferenciación competitiva" demostrando resultados reales.</li>
+<li><strong>Plan de Infiltración de Redes (Romper el aislamiento):</strong> Seleccionar 5 prospectos corporativos clave y usar el nuevo Caso de Éxito para pedir introducciones específicas, atacando frontalmente su calificación de 1,5 en capital relacional.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Manuela, proyectan multiplicar sus ventas por 25 este año, pasando de 115 millones a casi 3.000 millones. Sin embargo, su diagnóstico revela que tienen una eficiencia comercial baja, invirtiendo mucho para cerrar poco, y una debilidad crítica de 'aislamiento del ecosistema'. Si hoy les cuesta y les sale caro conseguir clientes, ¿cuál es el motor matemático real que va a sostener un crecimiento de 25x, o estamos frente a un salto de fe en su Excel?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM (Hormozi + Schwartz + Campbell + diagnóstico cohorte) · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="clouds7-s-a-s">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Juan Fernando Ruiz, /  Jenifer Sofia Duque Quiroz</span>
+      <span class="metric">💰 2025 $280M → 2026 $2,064M</span>
+      <span class="web">🌐 <a href="https://www.clouds7.com" target="_blank">https://www.clouds7.com</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Clouds7</h1>
+<h2>1. Quién es Clouds7 (3 frases máx)</h2>
+<p>
+Clouds7 desarrolla CamClouds7, una herramienta de inteligencia artificial aplicada a la videovigilancia para la gestión y análisis de información visual en entornos organizacionales, gubernamentales y ciudadanos. Su propuesta de valor busca transformar la simple grabación pasiva de cámaras en inteligencia accionable. Sin embargo, sufren de dispersión operativa y estratégica al intentar abarcar demasiados mercados simultáneamente sin un producto empaquetado.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Prometen "gestión y análisis de información visual" para gobiernos, empresas y ciudadanos. Es un outcome genérico, enfocado en las características de la tecnología (el vehículo) y no en el dolor final del cliente (el destino).</li>
+<li><strong>Perceived Likelihood:</strong> Crítica (Alerta Roja). Su diagnóstico revela que tienen "un solo cliente", "les cuesta cerrar negocios" y "el equipo no está 100% dedicado". Un prospecto B2B o B2G no confiará su infraestructura de seguridad a una plataforma sin tracción comprobada ni soporte a tiempo completo.</li>
+<li><strong>Time Delay:</strong> Alto. Implementar analítica de IA sobre sistemas de videovigilancia corporativa o gubernamental implica integraciones complejas y procesos de compra lentos.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. El comprador corporativo debe cambiar sus rutinas actuales de monitoreo y entrenar a su personal para interpretar la nueva data visual.</li>
+<li><strong>Componente más débil:</strong> <strong>Dream Outcome y Perceived Likelihood.</strong> Tienen "muchos casos de uso y muchos segmentos por explorar pero cero enfoque". Según Hormozi, si le vendes a todos, la probabilidad percibida se destruye. Nadie cree que una misma solución sirva perfectamente para un ciudadano común y para un gobierno.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Al intentar abarcar organizaciones, gobiernos y ciudadanos con un mensaje técnico ("IA aplicada a video vigilancia"), le están hablando a un mercado masivo en etapa <strong>Unaware (Inconsciente)</strong>. El mercado no se levanta pensando que necesita "gestionar información visual". Tienen que elegir un único nicho y hablarle a compradores que estén en <strong>Problem Aware</strong> (ej. un gerente de logística perdiendo inventario que sabe que sus cámaras no previenen robos) para canalizar ese dolor específico hacia su IA.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+El diagnóstico indica que tienen "incertidumbre en el pricing" y "sus Unit Economics no están definidos". Están fallando en la base de la <strong>Monetización (3/10)</strong>. No pueden meterle esfuerzo a la Adquisición si no saben cuánto cuesta adquirir un cliente (CAC), cuánto vale en el tiempo (LTV) y cómo cobrar por la IA de forma escalable (Value Metric). Deben detener las ventas aleatorias para estructurar primero cómo capturan valor.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Niche Down Extremo:</strong> Agarrar su lista de "muchos segmentos por explorar" y tachar todos menos uno. Elegir un único caso de uso donde el dolor sea urgente, la disposición a pagar sea alta y el ciclo de venta más corto.</li>
+<li><strong>El Único Caso de Éxito:</strong> Tomar a su "único cliente" actual y documentar el antes y el después. Esa historia con datos duros será su única herramienta de prueba social para generar credibilidad en reuniones con clientes idénticos.</li>
+<li><strong>Auditoría de Pricing (Value Metric):</strong> Eliminar la "incertidumbre en el pricing" definiendo una métrica de cobro clara que el cliente entienda inmediatamente (ej. cobro por cámara conectada, por alerta generada o por metro cuadrado vigilado), sentando las bases de sus Unit Economics.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Juan Fernando, Jenifer: proyectan cerrar el 2026 facturando más de 2.000 millones de pesos. Pero el diagnóstico dice que hoy tienen un solo cliente, tienen 'cero enfoque', no saben cómo cobrar y el equipo ni siquiera está dedicado al 100% a la empresa. ¿Cómo se sostiene matemáticamente un crecimiento hacia los 2 mil millones este año si no tenemos el foco, el tiempo completo ni los Unit Economics definidos, o es un salto de fe en el Excel?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="metamotor">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Carlos Martinez / Juan Carlos Builes</span>
+      <span class="metric">💰 2025 $1,374M → 2026 $1,600M</span>
+      <span class="web">🌐 <a href="https://WWW.MAXIMACOLOMBIA.COM" target="_blank">https://WWW.MAXIMACOLOMBIA.COM</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Metamotor</h1>
+<h2>1. Quién es Metamotor (3 frases máx)</h2>
+<p>
+Metamotor opera un negocio físico de lubricantes altamente rentable (facturó $1.374M COP en 2025) y ahora busca dar un salto tecnológico construyendo un "ecosistema digital" masivo para democratizar la información y conectar a la comunidad motociclista. Su principal reto es que su nueva capa tecnológica aún no sale al mercado, no tiene su precio validado y sufre de una fuerte dependencia operativa hacia los KPIs del negocio tradicional. En resumen, tienen el desafío de lograr que el éxito de su negocio físico financie su transición digital sin quemar la caja en una tecnología fácilmente replicable.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> "Democratizar la información del sector motos... conectar personas, pasiones y motocicletas en un solo lugar". Prometen el ecosistema definitivo, la comunidad total (venden una visión masiva).</li>
+<li><strong>Perceived Likelihood:</strong> Débil (Alerta Roja). Su tecnología "aún no sale al mercado" y tienen una "brecha en talento técnico interno" (software y datos). Al no tener protección de propiedad intelectual, el mercado (y los inversionistas) verán que su ecosistema es fácilmente replicable por alguien con más capital.</li>
+<li><strong>Time Delay:</strong> Alto. Construir un ecosistema que conecte todo el mundo de las motos requiere alcanzar una masa crítica (efecto de red) para que realmente haya valor y conexión instantánea para el usuario.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. El mayor sacrificio hoy lo vive la propia empresa: deben cambiar su enfoque, ya que sus procesos actuales están "muy volcados al negocio físico de lubricantes", lo que dificulta la transición a un modelo de software.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood y Dream Outcome</strong>. Vender un "ecosistema" es aspiracional y muy difuso. Como indica Hormozi, debes vender la solución a un dolor específico, no un ecosistema. Al no haber salido a mercado, la probabilidad percibida de éxito de su app frente a los ojos del mercado es cero.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Sus clientes físicos de lubricantes hoy están en <strong>Solution o Product Aware</strong> (saben qué necesitan para el mantenimiento de su moto). Pero al presentar su nuevo desarrollo como una herramienta para "democratizar la información y conectar pasiones", están hablándole a un mercado masivo en etapa <strong>Unaware</strong>. Los motociclistas no se despiertan pensando en descargar un "ecosistema". Metamotor necesita identificar un dolor agudo (<em>Problem Aware</em>), como la falta de mecánicos de confianza o la dificultad para conseguir repuestos genuinos, y usar ese dolor específico como caballo de Troya para introducirlos en su comunidad.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+La alerta máxima de Metamotor está en la palanca de <strong>Monetización (3/10)</strong>, la cual está completamente inexplorada para la nueva línea. El diagnóstico lo dice textualmente: <em>"Propuesta de precio no validada: la disposición a pagar por la capa tecnológica no ha sido probada con rigor"</em>. Antes de preocuparse por la Adquisición (marketing) o construir más código para la app, tienen que descifrar su <em>Value Metric</em>: ¿El usuario va a pagar suscripción? ¿Se cobrará comisión por transacción? ¿Será gratis y venderán pauta a las marcas? Tienen que resolver el modelo matemático de cómo van a cobrar antes de lanzar.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Trim & Stack (Recortar a una sola oferta):</strong> Dejar de construir el "ecosistema" completo. Tomar la plataforma tecnológica que están por lanzar, extraer la funcionalidad que resuelva el dolor más molesto del motociclista (ej. compra fácil de lubricantes a domicilio o agendamiento de talleres), y salir al mercado solo con eso para lograr validación real.</li>
+<li><strong>Entrevistas de Disposición a Pagar (WTP):</strong> Aprovechar la inmensa base de clientes cautivos que ya les factura casi 1.400 millones en el mundo físico y sentarse con 20 de ellos para aplicar la metodología de sensibilidad de precio de Van Westendorp frente a la nueva plataforma digital.</li>
+<li><strong>Mapeo de la Barrera Competitiva:</strong> Ante la alerta de "vulnerabilidad por replicabilidad", deben documentar inmediatamente qué activos de su negocio físico (su logística, base de datos de compradores de lubricantes, acuerdos con marcas) pueden inyectar en la plataforma tecnológica para crear una ventaja estructural que un competidor digital puro no pueda copiar.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Carlos, Juan Carlos: tienen un negocio físico y tradicional brutalmente exitoso que facturó casi 1.400 millones de pesos, pero quieren pivotar a una plataforma digital que aún no sale al mercado, cuya disposición a pagar no está validada, y que según el diagnóstico tiene baja protección contra copias. ¿Cómo vamos a estructurar las finanzas y el talento para que el sueño del ecosistema digital para motos no termine quemando la rentabilidad y el foco de la 'vaca lechera' que hoy es el negocio de los lubricantes?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="lup">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Adrián Bolívar López,  / Luis Miguel Cortés</span>
+      <span class="metric">💰 2025 $204M → 2026 $1,500M</span>
+      <span class="web">🌐 <a href="https://lup.com.co/" target="_blank">https://lup.com.co/</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Lup</h1>
+<h2>1. Quién es Lup (3 frases máx)</h2>
+<p>
+Lup es una plataforma tecnológica que crea una capa inteligente (AI Native Execution Layer) dentro de las organizaciones B2B para conectar estrategia, datos y la operación diaria. A diferencia de usar herramientas aisladas, Lup integra OKRs, flujos de trabajo, experimentación y métricas en una sola arquitectura impulsada por inteligencia artificial. Lo que los hace únicos es que su IA no solo organiza la información, sino que prioriza automáticamente el trabajo de mayor impacto, convirtiendo la estrategia en acción medible y aprendiendo de los resultados.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Eliminar la desconexión entre la planeación y la operación diaria, logrando que los equipos ejecuten la estrategia (OKRs) con una priorización automática que aumenta el impacto del negocio.</li>
+<li><strong>Perceived Likelihood:</strong> Débil (Alerta). Al ser una empresa fundada en 2024 que promete cambiar la "capa de ejecución" de sus clientes corporativos, el diagnóstico señala que tienen una clara "falta madurez y tiempo para posicionarse en el mercado". Además, la vulnerabilidad en la protección de su propiedad intelectual (IP) genera dudas sobre su ventaja estructural a largo plazo.</li>
+<li><strong>Time Delay:</strong> Alto. Cambiar la forma en la que toda una organización B2B mide sus metas y ejecuta su trabajo diario implica implementaciones largas y una adopción tecnológica progresiva.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. El prospecto B2B tiene que abandonar sus sistemas tradicionales de software y adaptar la mentalidad de su equipo para centralizar sus workflows en una nueva arquitectura impulsada por IA.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood</strong>. Según Hormozi, si no hay credibilidad comprobada, la oferta se cae. Venderle a un corporativo que confíe la médula de su operación (la ejecución estratégica) a una herramienta que aún carece de madurez en posicionamiento hace que el mercado perciba un alto riesgo.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Al promover un "AI Native Execution Layer", están usando un concepto tecnológico muy avanzado para un mercado que apenas está en la etapa <strong>Problem Aware</strong> (saben que sus equipos no cumplen los OKRs o están desalineados) o <strong>Solution Aware</strong> (buscan software de gestión de proyectos tradicional). Los líderes de negocio no se despiertan pensando en comprar una "arquitectura RAG" o una "capa de ejecución nativa"; se despiertan frustrados porque la estrategia no se ejecuta. Lup debe dejar de vender el vehículo (la IA o la capa de ejecución) y empezar a hablarle a esa frustración operativa para canalizar el dolor hacia su plataforma.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+Lup proyecta multiplicar sus ventas por 7x (pasando de $203.8M en 2025 a $1.500M COP en 2026). Este nivel de aceleración podría empujarlos a sobre-invertir en Adquisición. Sin embargo, al carecer aún de madurez de mercado, Campbell recomendaría priorizar la palanca de <strong>Monetización (3/10)</strong>. Tienen que definir su <em>Value Metric</em> (cómo van a cobrar: ¿por usuario, por OKR gestionado, por área integrada?) para asegurarse de que, al penetrar empresas B2B, sus ingresos de expansión crezcan de manera automática a medida que el cliente agrega más equipos a la plataforma, bajando así la fricción de entrada.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días</h2>
+<ol>
+<li><strong>Auditoría de Protección de IP:</strong> Atender inmediatamente el hallazgo del diagnóstico ("oportunidades para proteger IP") levantando un inventario de sus activos y algoritmos de priorización y contactando a un experto para proteger sus secretos industriales o registrar la arquitectura de su software.</li>
+<li><strong>Estrategia "Caballo de Troya" (Bajar el Effort):</strong> Para contrarrestar su falta de posicionamiento corporativo, deben evitar intentar reemplazar todo el software de una empresa el día 1. Tienen que diseñar un plan para vender la implementación en un solo departamento pequeño (ej. solo el área de ventas), lograr el éxito en semanas, y usar esos datos para convencer al resto de la organización.</li>
+<li><strong>Traducción del Dream Outcome:</strong> Eliminar toda la jerga de "AI Native Execution Layer" en sus primeras reuniones comerciales. Reescribir su pitch enfocado 100% en la métrica final de dolor del cliente: <em>"Hacemos que su equipo priorice automáticamente las tareas que sí mueven los OKRs de su empresa"</em>.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Adrián, Luis Miguel: Lup promete convertirse en el cerebro operativo de las empresas, usando IA para priorizar el trabajo de los equipos, y esperan saltar a los 1.500 millones de facturación en 2026. Sin embargo, el diagnóstico señala que el producto es muy reciente y aún carece de la madurez y tiempo necesarios para posicionarse sólidamente, además de tener brechas en la protección de su tecnología. ¿Cómo van a convencer a un cliente corporativo —que tradicionalmente huye del riesgo— de que le entregue la ejecución de su estrategia y sus datos a una plataforma que apenas se está abriendo paso, sin que los procesos de venta se vuelvan interminables?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="onex-media-sas">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Juan Pablo Agudelo</span>
+      <span class="metric">💰 2025 $556M → 2026 $1,200M</span>
+      <span class="web">🌐 <a href="https://onexfy.com/" target="_blank">https://onexfy.com/</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Onex Media</h1>
+<h2>1. Quién es Onex Media (3 frases máx)</h2>
+<p>
+Onex Media (a través de su plataforma Onexfy) es un SaaS enfocado en resolver el caos operativo del eCommerce y el retail, centralizando la gestión administrativa, logística y contable en un solo lugar. Aunque operan en un mercado de altísima demanda, se enfrentan a un cuello de botella interno profundo: un equipo con capacidades limitadas y baja capacidad de adaptación frente al entorno. Tienen el reto agresivo de duplicar sus ingresos este año (pasar de $555M a $1.200M COP), pero antes deben estructurar un motor comercial que hoy está en una etapa muy básica y estabilizar su planeación financiera.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Simplificar, ordenar y unificar la operación del eCommerce o tienda física, permitiendo gestionar el inventario, los envíos y la contabilidad desde una sola plataforma para crecer sin que la operación se rompa.</li>
+<li><strong>Perceived Likelihood:</strong> Débil. Un SaaS que administra el corazón financiero y logístico de un retail requiere altísima confianza. Si comercialmente se presentan de forma "poco estructurada" y su equipo tiene "baja capacidad de adaptación", el prospecto B2B dudará de su solidez a largo plazo y de su capacidad de soporte.</li>
+<li><strong>Time Delay:</strong> Moderado-Alto. Adoptar un ERP o sistema de gestión centralizado (SaaS logístico/contable) implica un proceso de migración de datos, configuración y un tiempo de aprendizaje para los operarios.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. El cliente B2B tiene que abandonar sus métodos actuales (múltiples Excels o plataformas aisladas) y entrenar a sus empleados de bodega y administración en una herramienta nueva.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood.</strong> Venden el sistema nervioso central de un negocio. Según Hormozi, si no proyectan una estructura sólida, la probabilidad de éxito en la mente del comprador cae a cero. Deben enfocarse en generar confianza innegable a pesar de las limitaciones de su equipo actual.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Su mercado objetivo (dueños de eCommerce y retail) oscila entre <strong>Problem Aware</strong> (les duele que el inventario no cuadra con los despachos, sufren desorden) y <strong>Solution Aware</strong> (están buscando activamente un ERP o software de gestión). Onexfy no necesita gastar energía y presupuesto educando al cliente sobre por qué la digitalización es buena. Su mensaje debe enfocarse en la Concentración (mostrar por qué los sistemas actuales son un caos o muy caros) y posicionar su SaaS como el <em>Mecanismo Único</em> que conecta las tres patas críticas: administración, logística y contabilidad de la forma más fluida.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+El diagnóstico de Onex Media enciende múltiples alertas. Quieren acelerar las ventas, pero reportan "desempeño comercial limitado", "procesos poco estructurados" y graves "debilidades en planeación financiera y control, así como en consumo de capital". Según Campbell, meterle gasolina a la palanca de Adquisición ahora mismo quemará la caja. Deben rebalancear urgentemente y frenar hacia la <strong>Monetización (3/10)</strong>. Necesitan mapear y controlar sus <em>Unit Economics</em>: entender con urgencia el CAC, LTV y márgenes para asegurarse de que su estructura de precios y su consumo de capital soporten el escalamiento antes de seguir buscando más clientes a ciegas.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Auditoría de Costos y Pricing:</strong> Ante la amenaza clara en su "sostenibilidad y consumo de capital", deben hacer un corte de cuentas inmediato. Validar cuánto les está costando realmente sostener el software y el equipo versus cuánto le están cobrando a sus clientes, para cerrar cualquier fuga de liquidez.</li>
+<li><strong>Playbook Comercial Básico (Discovery Estándar):</strong> Dado que tienen un "desempeño comercial con procesos poco estructurados" y un equipo "insuficiente", deben quitarle la venta basada en la intuición a sus vendedores. Crear un guion de 7 preguntas obligatorias (<em>Discovery Call</em>) para estandarizar la venta, haciendo que un vendedor promedio rinda como uno experto.</li>
+<li><strong>El Caso de Éxito "Cero Fricción":</strong> Para atacar el doloroso <em>Effort & Sacrifice</em> de migrar de plataforma, deben tomar a su cliente más reciente o exitoso y documentar paso a paso cómo fue la transición logística/contable. Este caso de estudio será su principal herramienta para destruir objeciones y aumentar la probabilidad percibida (<em>Perceived Likelihood</em>).</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Juan Pablo, proyectan un salto agresivo este año, pasando de facturar 555 millones a 1.200 millones de pesos. Sin embargo, su diagnóstico levanta banderas rojas muy pesadas: un equipo con capacidades insuficientes, baja adaptación, procesos comerciales poco estructurados y debilidades en planeación y control financiero. Si el motor hoy cruje vendiendo 555 millones, ¿cuál es el plan para pisar el acelerador a fondo y duplicar la empresa sin que se queme el capital o se desborde la operación interna?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="design-systems-inno-sas">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Jairo Alonso Carvajal Ochoa</span>
+      <span class="metric">💰 2025 $650M → 2026 $1,000M</span>
+      <span class="web">🌐 <a href="https://hecho.cloud/" target="_blank">https://hecho.cloud/</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Hecho (Design Systems Inno SAS)</h1>
+<h2>1. Quién es Hecho (3 frases máx)</h2>
+<p>
+Hecho (Design Systems Inno SAS) es una plataforma tecnológica que funciona como un "sistema operativo de salud" para orquestar procesos clínicos y administrativos combinando inteligencia artificial con supervisión humana. Su propuesta estrella (el Value Stream VS00) automatiza el armado, auditoría y radicación de cuentas médicas para reducir glosas y acelerar el flujo de caja de las IPS. Sin embargo, se enfrentan a obstáculos severos: su innovación aún es percibida como "genérica", carecen de una estrategia clara de acceso al mercado y presentan una alarmante debilidad en su planeación y control de consumo de capital.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Eliminar las glosas evitables, los reprocesos y los retrasos en la facturación, garantizando que la IPS reciba el pago por su atención de forma rápida y sin fricción.</li>
+<li><strong>Perceived Likelihood:</strong> Muy débil. Su diagnóstico indica textualmente que su nivel de innovación y diferenciación se percibe como "genérico" y que les falta "madurez y tiempo para posicionarse en el mercado". Si un hospital percibe una plataforma de facturación como genérica o inmadura, la probabilidad percibida de confiarles su flujo de caja cae a cero.</li>
+<li><strong>Time Delay:</strong> Alto. Implementar un "sistema operativo" de orquestación clínica implica integraciones tecnológicas complejas con los sistemas preexistentes del hospital y ciclos de venta corporativos B2B largos.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. Las IPS tienen que transformar sus procesos de facturación manuales tradicionales y confiar la auditoría a "agentes IA y bots", lo que requiere un fuerte sacrificio en gestión del cambio organizacional.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood (Credibilidad).</strong> Vender una "Célula Orquestada" impulsada por IA a un sector tan tradicional y regulado como la salud requiere prueba social blindada. Si el mercado los ve "genéricos", ninguna promesa de software salvará la oferta.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Los gerentes financieros y auditores de las IPS se encuentran en etapa <strong>Problem Aware</strong> (sufren financieramente por los altos índices de glosas y la demora en los pagos) o <strong>Solution Aware</strong> (ya buscan y usan software de facturación tradicional). El error de Hecho es presentar su solución con un lenguaje masivo y técnico como "plataforma de orquestación" o "Células Orquestadas". A los clientes no les importa el vehículo técnico (la IA o los bots), sino el destino; Hecho debe concentrarse en el dolor del flujo de caja, posicionando su tecnología como el único <em>Mecanismo Nuevo</em> capaz de detener la pérdida de dinero antes de radicar la cuenta.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+Tienen una urgencia crítica en la base del negocio. El diagnóstico reporta que la empresa es <strong>"débil en planeación, control financiero y consumo de capital"</strong>. Según el modelo de Campbell, no pueden permitirse inyectar esfuerzo o recursos a la Adquisición (ventas y marketing) si su modelo económico interno cruje. Deben frenar y rebalancear todos sus esfuerzos hacia la <strong>Monetización (3/10)</strong>, asegurando que sus <em>Unit Economics</em> (lo que les cuesta operar los agentes IA + la supervisión humana versus lo que le cobran a la IPS) sean rentables y no terminen quemando su caja a medida que escalan hacia los 1.000 millones proyectados.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Matar el mensaje "Genérico" (Niche Down):</strong> Dejar de venderse ampliamente como el "sistema operativo de salud inteligente" y centrar el 100% de su esfuerzo comercial en vender únicamente el VS00. Reescribir su <em>Pitch</em> de ventas a: "Aceleramos el flujo de caja de su IPS y eliminamos glosas médicas mediante auditoría con IA antes de radicar".</li>
+<li><strong>Auditoría de Control de Capital:</strong> Dado su hallazgo de "débil planeación financiera", deben sentarse inmediatamente a costear cuánto vale mantener operando una "Célula Orquestada" para un solo cliente. Si el consumo de capital supera lo que cobran, deben ajustar el <em>Pricing</em> antes de buscar nuevas clínicas.</li>
+<li><strong>El Caso de Estudio Financiero:</strong> Tomar a los clientes responsables de sus $650 millones facturados y documentar la métrica exacta de impacto. "La clínica X redujo sus glosas en un Y% y aceleró sus pagos en Z días". Esa historia cuantificable será su única herramienta para destruir la percepción de inmadurez en el mercado.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Jairo, prometen ser el sistema operativo que orquesta las clínicas y proyectan alcanzar los 1.000 millones de facturación este año. Pero el diagnóstico enciende alertas pesadas: el mercado todavía los percibe como genéricos, carecen de canales definidos de ventas y su control financiero y de consumo de capital es débil. Si hoy no hay una máquina comercial clara y el control de la caja no es sólido, ¿cómo planean sostener el escalamiento de la operación sin que el consumo de capital hunda a la empresa en un sector de ventas tan lentas como el de la salud?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="strong-strong-strong">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Jorge Fernando Jaramillo Gómez,  / Anderson Díaz Zuluaga, /  Jorge Suárez, David Casas.</span>
+      <span class="metric">💰 2025 $620M → 2026 $1,000M</span>
+      <span class="web">🌐 <a href="https://stronglify.com" target="_blank">https://stronglify.com</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Stronglify (Strong Strong Strong)</h1>
+<h2>1. Quién es Stronglify (3 frases máx)</h2>
+<p>
+Stronglify es un SaaS que elimina los cuellos de botella técnicos en SEO, permitiendo a los equipos crear miles de páginas web optimizadas para buscadores y LLMs en minutos. Lo que los hace únicos es que liberan a los equipos de marketing de las limitaciones de su CMS tradicional y de la constante dependencia del área de ingeniería para poder ejecutar su estrategia digital. En resumen, transforman la estrategia de crecimiento web en ejecución técnica inmediata y sin fricción.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Escalar el tráfico orgánico publicando miles de páginas ultrarrápidas y optimizadas, sin depender nunca más de los desarrolladores ni pelear con un CMS limitado.</li>
+<li><strong>Perceived Likelihood:</strong> Moderada a débil. Aunque tienen tracción real, el diagnóstico señala que les falta "madurez para posicionarse en el mercado" y tienen "oportunidades para mejorar su estrategia de acceso". Sin un posicionamiento sólido, el cliente corporativo percibirá un alto riesgo al entregarles el control de su infraestructura SEO.</li>
+<li><strong>Time Delay:</strong> Muy bajo. Prometen despliegue de miles de páginas "en minutos", ofreciendo una victoria técnica casi instantánea.</li>
+<li><strong>Effort & Sacrifice:</strong> Bajo para el cliente a nivel operativo (eliminan el código y el diseño complejo), pero alto a nivel de confianza, ya que deben "sacrificar" su CMS tradicional para integrar una plataforma externa en su ecosistema web.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood.</strong> Prometer multiplicar la presencia web en minutos suena a magia. Según Hormozi, las promesas grandes requieren pruebas innegables. Tienen que construir credibilidad rápidamente documentando casos de éxito con su base instalada actual para mitigar el miedo técnico del cliente.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Los equipos de marketing y growth están en etapa <strong>Problem Aware</strong> (su web no crece, el SEO está estancado y el equipo de tecnología nunca tiene tiempo para sus requerimientos) o <strong>Solution Aware</strong> (ya pelean tratando de optimizar su CMS actual con plugins). Stronglify no debe perder tiempo educando sobre la importancia del SEO; deben enfocar su mensaje en la frustración del bloqueo técnico. Tienen que posicionarse como el único <em>Mecanismo Nuevo</em> capaz de puentear a los desarrolladores y ejecutar la estrategia de inmediato.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+Alerta roja en la base del negocio. El diagnóstico indica que aunque facturan muy bien, <strong>"sus unit economics aún no están definidos"</strong> y <strong>"la planeación y el control financiero aún es incipiente"</strong>. Según Campbell, intentar empujar la palanca de Adquisición (marketing y ventas) en un SaaS sin conocer sus unit economics es suicida. Deben rebalancear sus prioridades urgentes hacia la <strong>Monetización (3/10)</strong>: definir exactamente su modelo de cobro (Value Metric: ¿cobran por URL generada, por dominio, por ancho de banda?), estructurar su LTV y su CAC, y establecer control financiero antes de seguir escalando.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Auditoría de Pricing y Unit Economics:</strong> Detener la venta intuitiva para definir cómo cobran de forma escalable (<em>Value Metric</em>). Si el cliente genera "miles de páginas", el sistema de cobro debe capturar ese valor automáticamente para asegurar rentabilidad a medida que el cliente crece.</li>
+<li><strong>Dashboard de Métricas Clave:</strong> Dado que el diagnóstico dice que "no miden activamente sus indicadores", deben armar un panel mínimo viable hoy mismo. Necesitan saber su CAC, tasa de conversión y Churn mensual para tomar el control de su desempeño comercial.</li>
+<li><strong>Documentar la Prueba Social (Risk Reversal):</strong> Tomar a su cliente más exitoso y redactar un Caso de Estudio irrefutable: <em>"Cómo X empresa pasó de 0 a 10.000 páginas optimizadas en 5 minutos sin usar desarrolladores"</em>. Esta es la pieza clave para inyectar credibilidad a su embudo.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Jorge, Anderson, equipo: facturaron 620 millones el año pasado y proyectan llegar a los mil millones este año, lo cual demuestra que su producto resuelve un dolor real. Pero el diagnóstico revela banderas rojas severas para un SaaS: no tienen definidos sus Unit Economics, no miden activamente sus indicadores clave y su planeación financiera es incipiente. Si hoy no sabemos con exactitud matemática cuánto nos cuesta adquirir un cliente y cuánto margen real nos deja en el tiempo, ¿cómo sabemos que al escalar hacia los mil millones no estamos simplemente acelerando hacia un abismo de flujo de caja?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="tiendex">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Santiago Naranjo Sanchez, /  Mauricio Valencia Escobar</span>
+      <span class="metric">💰 2025 $319M → 2026 $917M</span>
+      <span class="web">🌐 <a href="https://www.tiendex.com" target="_blank">https://www.tiendex.com</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Tiendex</h1>
+<h2>1. Quién es Tiendex (3 frases máx)</h2>
+<p>
+Tiendex es una infraestructura tecnológica que permite a los negocios unificar su operación comercial y financiera para vender de forma omnicanal. Lo que los hace únicos es que consolidan ERP, POS, facturación electrónica, e-commerce y contabilidad en un solo sistema sincronizado en tiempo real. Eliminan el caos de tener múltiples plataformas desconectadas, devolviéndole al cliente el control total de sus inventarios, canales y operaciones.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Tener el control total del negocio y escalar las ventas omnicanal (tienda física, online y marketplaces) desde una única plataforma sincronizada, eliminando el caos administrativo.</li>
+<li><strong>Perceived Likelihood:</strong> Débil (Alerta). El diagnóstico indica que tienen un "posicionamiento poco claro y nivel de diferenciación limitado en el mercado". Si el mercado no entiende qué los hace únicos frente a cualquier ERP genérico o plataforma de e-commerce, la probabilidad percibida de que Tiendex sea la solución definitiva se desploma.</li>
+<li><strong>Time Delay:</strong> Alto. Migrar el ERP, el POS, la facturación y el e-commerce de una empresa a una nueva infraestructura centralizada requiere implementaciones largas y migraciones de datos sensibles.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. El cliente B2B debe abandonar todos sus sistemas actuales ("sacrificio") y capacitar a sus empleados de tienda, bodega y contabilidad para usar una herramienta completamente nueva ("esfuerzo").</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood (Credibilidad / Diferenciación).</strong> Prometen ser el sistema nervioso central del negocio, pero su posicionamiento es débil. Según Hormozi, si el cliente te percibe como un commodity o "un software más", no asumirá el altísimo esfuerzo (Effort & Sacrifice) de cambiar toda la operación de su tienda por ti.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Sus clientes B2B están en <strong>Problem Aware</strong> (les duele que el inventario físico no cruce con la tienda online y la contabilidad sea un caos) o <strong>Solution Aware</strong> (ya usan un POS o un ERP básico). El error de Tiendex sería hablarles con jerga técnica como "infraestructura de comercio omnicanal", un lenguaje que le habla a la etapa Unaware. Deben canalizar la frustración de la desconexión (<em>"¿Vendes por WhatsApp y se descuadra el inventario físico?"</em>) y presentar a Tiendex como el único <em>Mecanismo Nuevo</em> diseñado para unificar el caos, no como otro software contable.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+El diagnóstico de Tiendex enciende las alertas más pesadas de Campbell: tienen una clara "debilidad en indicadores de tracción y unit economics (CAC, LTV, etc.)" y una estrategia de <em>go-to-market</em> "poco definida y no escalable". Intentar empujar la palanca de Adquisición (ventas y marketing) en este estado es quemar recursos a ciegas. Deben rebalancear sus prioridades hacia la <strong>Monetización (3/10)</strong> y la estructuración del modelo, definiendo matemáticamente cuánto les cuesta adquirir un comercio (CAC), cuánto margen retienen (LTV) y estructurando un esquema de precios (<em>Value Metric</em>) que crezca junto con las transacciones de sus clientes.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Mapeo de Unit Economics Base:</strong> Establecer de urgencia su panel de control financiero. Tienen que medir inmediatamente su CAC y su LTV. No pueden proyectar crecer sus ventas a $917M si no saben cuánto les está costando traer cada peso nuevo a la plataforma.</li>
+<li><strong>Niche Down (Claridad de Posicionamiento):</strong> Para atacar su "posicionamiento poco claro y nivel de diferenciación limitado", deben dejar de venderle a "cualquier negocio" y elegir un micro-nicho inicial (ej. solo <em>retail</em> de moda o solo ferreterías de múltiples sedes), adaptando su discurso para adueñarse de un mercado específico antes de ser generales.</li>
+<li><strong>Auditoría de Roles y Procesos:</strong> Ante la "falta de claridad en roles y estructura organizacional", deben detenerse a documentar exactamente quién es responsable del cierre comercial y quién del <em>onboarding</em>, estandarizando el proceso para evitar que la falta de estructura rompa la experiencia del cliente al escalar.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Santiago, Mauricio: prometen casi triplicar sus ingresos este año y saltar de 318 millones a 917 millones de pesos vendiendo la infraestructura central para que los comercios operen. Sin embargo, su diagnóstico levanta banderas rojas en la base del negocio: el posicionamiento no es claro, el equipo carece de roles definidos y los Unit Economics (CAC y LTV) son débiles. Si hoy el motor cruje porque la estrategia comercial no es escalable y no sabemos con certeza cuánto nos cuesta adquirir a un cliente, ¿cómo vamos a pisar el acelerador para triplicar las ventas sin que el crecimiento desborde la operación y queme la caja?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="effitech">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Hector Hugo Estrada</span>
+      <span class="metric">💰 2025 $720M → 2026 $850M</span>
+      <span class="web">🌐 <a href="https://www.effitech.online/" target="_blank">https://www.effitech.online/</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Effitech (Super Barman)</h1>
+<h2>1. Quién es Effitech (3 frases máx)</h2>
+<p>
+Effitech (con su producto Super Barman) combina hardware de precisión y software analítico en la nube para automatizar de forma inteligente el servido de licor en bares, hoteles y restaurantes. Lo que los hace únicos es que transforman el licor —un activo tradicionalmente propenso a mermas, sobre-servidos y robos— en un activo auditable y optimizable en tiempo real. En resumen, le devuelven el control de los inventarios a los dueños de negocios para garantizar su rentabilidad.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Eliminar para siempre las pérdidas de dinero por mermas y sobre-servidos, garantizando la rentabilidad exacta de cada botella de licor vendida en el bar o restaurante.</li>
+<li><strong>Perceived Likelihood:</strong> Débil (Alerta). El diagnóstico señala una "estrategia de acceso al mercado débil y posicionamiento poco claro", junto con una "débil protección de propiedad intelectual y barreras tecnológicas". Si un corporativo (hotel o gran restaurante) percibe que la tecnología es fácilmente replicable o inmadura, la probabilidad percibida de confiar su operación física de bebidas a este sistema cae.</li>
+<li><strong>Time Delay:</strong> Moderado. Integrar hardware de precisión (equipos físicos) en las barras y sincronizarlo con analítica en la nube requiere instalación en sitio y tiempo de adaptación operativa.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. El "sacrificio" no es solo financiero, sino cultural: requiere cambiar los hábitos de trabajo de los bartenders y modificar la operación en caliente del local.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood (Posicionamiento/Credibilidad).</strong> Vender hardware B2B tiene una barrera de confianza inmensa. Si el <em>Go-To-Market</em> no es contundente y el mercado siente que el equipo puede fallar en medio de la noche, el <em>Dream Outcome</em> de rentabilidad no será suficiente para cerrar ventas.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Sus clientes corporativos están claramente en <strong>Problem Aware</strong> (les duele saber que pierden botellas, sufren robos de empleados o no tienen control de la rentabilidad del bar) o en <strong>Solution Aware</strong> (utilizan medidores manuales de onzas o control de inventarios físicos). Effitech no debe vender "hardware IoT" ni "software analítico" (el vehículo); deben usar el dolor de la pérdida de rentabilidad y posicionar a Super Barman como el <em>Mecanismo Único</em> capaz de bloquear matemáticamente la fuga de dinero en el punto de servido.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+Alerta roja en el núcleo financiero. El diagnóstico reporta explícitamente "ausencia de métricas clave como CAC, LTV y claridad en unit economics", sumado a una "débil disciplina financiera a nivel unitario". Según Campbell, meterle acelerador a la palanca de Adquisición (ventas y marketing) vendiendo hardware físico sin conocer estos números es un suicidio de flujo de caja. Deben concentrarse en la palanca de <strong>Monetización (3/10)</strong> y retención, entendiendo la matemática base: cuánto margen deja el software y hardware a lo largo del tiempo (LTV) versus cuánto les está costando cerrar a cada bar (CAC).
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Mapeo de Unit Economics Base:</strong> Detener la expansión a ciegas para costear exactamente la operación. Deben separar el costo del hardware (CAPEX para el bar) de la suscripción al software (SaaS) y definir su CAC y LTV de forma urgente antes de salir a prospectar.</li>
+<li><strong>Niche Down Extremo:</strong> Ante un "Go-To-Market débil", no pueden venderle al mismo tiempo a bares pequeños, hoteles de cadena y restaurantes de barrio. Elegir un único nicho (ej. cadenas de gastrobares de alto volumen) para estandarizar el mensaje, el proceso de instalación y la estrategia comercial.</li>
+<li><strong>El Caso de Estudio de Mermas (Prueba Social):</strong> Tomar el cliente donde Super Barman ha tenido mejor desempeño y documentar la métrica de dinero recuperado: <em>"El bar X redujo sus mermas en un Y% y recuperó $Z en 30 días"</em>. Esta es la pieza clave para inyectar credibilidad a su embudo.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Héctor: proyectan llegar a 850 millones de pesos de facturación este año con un modelo complejo que combina la fabricación e instalación de hardware físico y analítica de software en caliente. Sin embargo, el diagnóstico señala que tienen un Go-To-Market débil y una ausencia total de métricas clave como el CAC, el LTV y la disciplina financiera a nivel unitario. Si hoy no sabemos con exactitud matemática cuánto nos cuesta traer un restaurante y retenerlo para que la instalación sea rentable, ¿cómo van a financiar la expansión comercial de un producto tan demandante en hardware sin que el crecimiento desfonde la caja operativa de la empresa?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="sense-ai-s-a-s">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Tomás Correa Sierra. /  Daniel Escobar Saltarén</span>
+      <span class="metric">💰 2025 $530M → 2026 $800M</span>
+      <span class="web">🌐 <a href="https://www.sense-ai.co" target="_blank">https://www.sense-ai.co</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Sense AI</h1>
+<h2>1. Quién es Sense AI (3 frases máx)</h2>
+<p>
+Sense AI desarrolla soluciones Deep Tech que combinan hardware IoT propio con una plataforma SaaS de IA para transformar operaciones físicas en datos accionables. Prometen automatizar procesos críticos de forma "agnóstica" para dar estabilidad operativa a las empresas. Sin embargo, la realidad de su diagnóstico muestra que su nueva línea es apenas un piloto sin tracción comercial, con un mercado objetivo totalmente difuso y un desempeño comercial débil.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Automatizar procesos físicos críticos con "total confiabilidad" mediante una plataforma "agnóstica". Al ser para todo el mundo, la promesa es el vehículo (la tecnología), no el destino final del cliente.</li>
+<li><strong>Perceived Likelihood:</strong> Crítica (Alerta Roja). El producto está "en piloto", la nueva línea "no tiene tracción comercial" y "no hay evidencia de disposición a pagar". Ningún corporativo asume riesgos con hardware y software que no tiene prueba social clara.</li>
+<li><strong>Time Delay:</strong> Alto. Implementar hardware (sensores IoT) y conectar un SaaS a operaciones físicas requiere despliegue en campo y curvas de aprendizaje.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. El comprador B2B debe instalar equipos, entrenar personal y adaptar su operación diaria a una nueva plataforma tecnológica.</li>
+<li><strong>Componente más débil:</strong> <strong>Dream Outcome y Perceived Likelihood.</strong> El error letal aquí es vender una "plataforma agnóstica". Según Hormozi, si le vendes a todos, nadie te cree. Una tecnología que promete servir para cualquier industria destruye automáticamente su propia probabilidad percibida de éxito.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Al posicionarse como una solución "agnóstica" de "Deep Tech e IoT", le están hablando a un mercado masivo en etapa <strong>Unaware (Inconsciente)</strong>. Las empresas no se levantan por la mañana deseando "fusionar IoT con IA"; se levantan con dolores como mermas de inventario, daños de maquinaria o cuellos de botella logísticos. Sense AI debe dejar de empujar la tecnología y buscar un nicho en etapa <strong>Problem Aware</strong>, canalizando un dolor urgente y específico hacia su hardware como el <em>Mecanismo Único</em> de solución.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+La palanca de <strong>Monetización (3/10)</strong> está rota y es su mayor urgencia. El diagnóstico es contundente: "sus unit economics no están definidos", "su estructura de costos y rentabilidad no está definida" y "no hay evidencia de disposición a pagar". Según Campbell, no pueden invertir un solo peso en Adquisición si no han resuelto la matemática base de su hardware de "alto margen". Tienen que validar urgente su modelo de precios y su WTP (Willingness to Pay) antes de salir a vender.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Destruir lo "Agnóstico" (Niche Down):</strong> Olvidarse de ser la plataforma para todos. Seleccionar 1 solo caso de uso industrial donde el dolor de no tener datos físicos cueste mucho dinero, y reescribir toda su propuesta de valor solo para ellos.</li>
+<li><strong>Entrevistas de Disposición a Pagar (WTP):</strong> Ejecutar una micro-encuesta de sensibilidad de precio (estilo Van Westendorp) con 10 prospectos del nicho elegido para validar con datos duros si alguien realmente va a abrir la billetera por la suscripción.</li>
+<li><strong>Documentar el Piloto (Caso de Estudio):</strong> Tomar el piloto actual y transformarlo en un caso de éxito innegable con métricas operativas del "antes y después". Esta será su única arma para construir Perceived Likelihood.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Tomás, Daniel: proyectan vender 800 millones de pesos este año con una plataforma que describen como 'agnóstica'. Pero su diagnóstico es brutalmente honesto: el producto está en piloto, la nueva línea no tiene tracción, el mercado es difuso y ni siquiera hay evidencia de disposición a pagar. Si no sabemos exactamente a quién le duele ni cuánto están dispuestos a pagar, ¿cómo pasamos de un piloto sin métricas a 800 millones en seis meses, o esto es un salto de fe tecnológico?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="aira-biotech">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Felipe Troyano / Ana Maria Parra / Julian Gallego</span>
+      <span class="metric">💰 2025 $684M → 2026 $800M</span>
+      <span class="web">🌐 <a href="https://www.airanatural.co" target="_blank">https://www.airanatural.co</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Aira Biotech</h1>
+<h2>1. Quién es Aira Biotech (3 frases máx)</h2>
+<p>
+Aira Biotech convierte datos ambientales y biométricos en cosmética hiper-personalizada utilizando inteligencia artificial. Su motor cruza el tipo de piel o cabello del usuario con el clima geolocalizado en tiempo real (humedad, radiación UV, temperatura) para ajustar dinámicamente las formulaciones. A diferencia de la industria tradicional, no venden productos estáticos, sino soluciones científicamente optimizadas que se adaptan al entorno exacto de la persona.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Tener la piel y el cabello perfectos en todo momento, gracias a productos que se adaptan automáticamente a tu biología y al clima exacto de la ciudad en la que estás.</li>
+<li><strong>Perceived Likelihood:</strong> Débil (Alerta Roja). El diagnóstico revela que tienen una "vulnerabilidad en propiedad intelectual (sin patentes)" y están metidos en el "Océano Rojo" de la cosmética natural con una diferenciación poco robusta. Si el cliente (o un inversionista) ve que su tecnología no está blindada, percibirán que es "solo otra crema más" disfrazada de IA.</li>
+<li><strong>Time Delay:</strong> Bajo. La IA procesa los datos y define la formulación ideal al instante.</li>
+<li><strong>Effort & Sacrifice:</strong> Bajo. El usuario solo debe proveer su información biométrica y de ubicación para recibir un producto a la medida.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood.</strong> Al competir en un Océano Rojo, no pueden permitirse debilidades de marca. Según Hormozi, si el mercado no cree que tu <em>Mecanismo Único</em> está protegido y es superior a la competencia, la oferta se desploma por falta de confianza.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+El mercado de la cosmética masiva está en <strong>Solution Aware</strong> o <strong>Product Aware</strong>, con un nivel de sofisticación extremadamente alto (Stage 4 o 5). El error de Aira es intentar competir con el mensaje de "cosmética natural" en un Océano Rojo. A esta audiencia ya no se le seduce con promesas de ingredientes botánicos. Aira debe usar su motor de IA + clima como un <em>Mecanismo Nuevo</em> irrefutable, educando al cliente para que vea cualquier cosmético tradicional (que ignora el clima y la humedad local) como algo obsoleto.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+Alerta roja en la palanca de <strong>Monetización y Retención</strong>. El diagnóstico señala explícitamente una "debilidad en métricas de cliente (Unit Economics): brechas en la sofisticación de la medición del CLV (Customer Lifetime Value) y el CAC". Según Campbell, en el negocio de los productos físicos y la cosmética, el primer pedido suele ir a margen cero o pérdida; el negocio sobrevive exclusivamente por la recurrencia (CLV). Empujar la palanca de Adquisición (marketing) en B2C sin tener la métrica matemática de cuánto cuesta adquirir a una persona y cuántas veces vuelve a comprar, es quemar la caja.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Ruta de Protección de IP:</strong> Atacar inmediatamente su "vulnerabilidad en propiedad intelectual". Deben iniciar los trámites legales o documentar sólidamente el Secreto Industrial de su algoritmo de formulación climática para construir una barrera real contra competidores corporativos.</li>
+<li><strong>Dashboard de CLV/CAC (Frenar la ceguera):</strong> Antes de gastar un peso más en pauta, configurar la medición exacta de sus Unit Economics. Tienen que saber matemáticamente cuántos meses se queda un cliente comprando sus rutinas para poder diseñar su techo de inversión en Adquisición.</li>
+<li><strong>Infiltración B2B (Estrategia Océano Azul):</strong> El diagnóstico advierte una "red de contactos limitada (falta B2B)". En vez de pelear por clics en Instagram, deben armar un piloto para ofrecer amenidades hiper-personalizadas a un hotel boutique premium o a clínicas dermatológicas, apalancándose en B2B para generar caja institucional rápida.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Felipe, Ana María, Julián: prometen revolucionar el cuidado personal con IA y biometría para llegar a los 800 millones de facturación. Sin embargo, su diagnóstico levanta las alertas más peligrosas: están en el océano rojo de la cosmética natural sin patentes, el CEO es un cuello de botella operando las finanzas y la tecnología al mismo tiempo, y no tienen claros sus números de CAC y CLV. En una industria donde las marcas gigantes se devoran todo, ¿cómo esperan ganar el juego escalando las ventas si su tecnología no está blindada y la matemática unitaria de sus clientes está a ciegas?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="galieli-learning">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Diego Gonzalez  / Simon Duque  / Andres Motavita</span>
+      <span class="metric">💰 2025 $140M → 2026 $743M</span>
+      <span class="web">🌐 <a href="https://www.galileilearning.com/" target="_blank">https://www.galileilearning.com/</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Galilei Learning</h1>
+<h2>1. Quién es Galilei Learning (3 frases máx)</h2>
+<p>
+Galilei Learning es un sistema operativo que transforma las metas operativas de un negocio físico en un juego para los empleados "deskless". Su modelo conecta al dueño, al empleado y al cliente: el staff se entrena jugando y gana premios reales al cumplir los KPIs del negocio, mientras el cliente valida la calidad del servicio en tiempo real. Básicamente, gamifican la operación diaria en sectores de alta rotación para garantizar que las metas se cumplan sin que "nadie odie los lunes".
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Lograr que los equipos operativos (meseros, staff de tienda) cumplan las metas del negocio de forma autónoma y motivada, reduciendo la rotación y mejorando el servicio al cliente.</li>
+<li><strong>Perceived Likelihood:</strong> Débil. El diagnóstico señala que les "falta tiempo y madurez para posicionarse como referente en el mercado" y advierte "brechas en protección de marca y propiedad industrial". Si el mercado los percibe como inmaduros y sin tecnología blindada, dudarán en entregarles la gestión de su cultura organizacional.</li>
+<li><strong>Time Delay:</strong> Medio-Alto. Implementar un "sistema operativo" y lograr que los empleados de campo adopten una nueva dinámica de juego en su rutina diaria toma tiempo de entrenamiento y adaptación.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. El dueño del negocio debe cambiar su forma tradicional de medir y recompensar, y los empleados deben comprometerse a interactuar con la plataforma durante su operación.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood (Credibilidad).</strong> Además de la falta de posicionamiento, el diagnóstico lanza una alerta roja: existe un "desgaste de tanto pivotar". Según Hormozi, la credibilidad se destruye si no hay enfoque; un cliente B2B no confiará en una empresa que cambia de rumbo constantemente.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Al declarar que atacan "un mercado de 2.700 millones de empleados deskless en cualquier industria", están intentando hablarle a un mercado masivo en etapa <strong>Unaware (Inconsciente)</strong>. Tratar de convencer a "cualquier industria" de que necesitan gamificar a su personal es el camino más caro y difícil. Galilei no debe intentar educar a todo el planeta. Deben retroceder al nicho donde ya tienen tracción (hoteles y restaurantes). Este sector se encuentra en etapa <strong>Problem Aware</strong> (les duele la altísima rotación y el mal servicio), lo que les permite usar su juego como el <em>Mecanismo Único</em> que resuelve ese dolor específico de forma mucho más barata y directa.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+A diferencia de otras empresas del batch, Galilei tiene una base matemática sana: el diagnóstico indica que "tiene claros sus units economics, pero los esta puliendo y preparando para crecer". Con la palanca de Monetización bajo control, deben concentrar sus recursos en la <strong>Adquisición (5/10)</strong>. Sin embargo, tienen un "capital relacional poco aprovechado". En lugar de invertir a ciegas en canales digitales para abarcar industrias desconocidas, Campbell recomendaría exprimir esa red de contactos para adquirir clientes en su nicho validado a un CAC (Costo de Adquisición) cercano a cero.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Niche Down Radical:</strong> Eliminar la narrativa de "cualquier industria" de su comunicación comercial. Reescribir su pitch enfocándose 100% en hoteles y restaurantes, atacando frontalmente el dolor de la rotación de personal y el servicio al cliente.</li>
+<li><strong>Exprimir el Capital Relacional:</strong> Tomar ese "capital relacional poco aprovechado" y armar una lista de 20 contactos de alto nivel en el sector HORECA. Usar sus casos de éxito actuales para pedir introducciones cálidas y acelerar los cierres comerciales.</li>
+<li><strong>Auditoría de Propiedad Intelectual:</strong> Para mitigar el riesgo de las "brechas en protección de marca y propiedad industrial e intelectual", deben registrar inmediatamente su marca y documentar el Secreto Industrial detrás de su algoritmo de gamificación.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Diego, Simón, Andrés: proyectan facturar 743 millones este año. Sin embargo, su diagnóstico levanta una bandera roja preocupante: advierte un 'desgaste de tanto pivotar' y un capital relacional poco aprovechado. Si el equipo ya viene desgastado por los cambios de rumbo, y ahora pretenden abarcar a '2.700 millones de empleados en cualquier industria', ¿cómo van a lograr la disciplina y el foco para ejecutar este crecimiento sin que la falta de especialización termine por quebrar la operación de la empresa?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="capitalpocket-corp-sas">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Alexis Aronategui</span>
+      <span class="metric">💰 2025 $300M → 2026 $500M</span>
+      <span class="web">🌐 <a href="https://www.pocki.ai" target="_blank">https://www.pocki.ai</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: CapitalPocket (Pocki)</h1>
+<h2>1. Quién es CapitalPocket (3 frases máx)</h2>
+<p>
+CapitalPocket desarrolla Pocki, un ecosistema de agentes virtuales impulsados por IA que transforma WhatsApp en un centro de transacciones financieras B2C y operaciones B2B. Prometen simplificar el comercio conversacional permitiendo pagar facturas o automatizar tareas complejas en segundos sin salir del chat. Sin embargo, la empresa se enfrenta a un modelo de negocio con baja evidencia de adopción real, problemas de recurrencia y limitaciones críticas en la viabilidad de sus Unit Economics.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Hacer transacciones financieras o automatizar operaciones de negocio de forma "simple, segura y conversacional" directamente desde WhatsApp, sin descargar apps adicionales.</li>
+<li><strong>Perceived Likelihood:</strong> Débil (Alerta Roja). Su diagnóstico reconoce una "baja evidencia de tracción (adopción, recurrencia)" y una "débil protección de propiedad intelectual". En el sector Fintech, si el mercado no ve adopción masiva o un respaldo hiper-seguro, la probabilidad de que un usuario confíe su dinero a un bot en WhatsApp se desploma.</li>
+<li><strong>Time Delay:</strong> Muy bajo. La inmediatez es su fuerte: los agentes ejecutan pagos y procesos "en segundos a partir de instrucciones simples".</li>
+<li><strong>Effort & Sacrifice:</strong> Aparentemente bajo porque el usuario ya tiene WhatsApp instalado. Sin embargo, hay un "sacrificio" oculto en la fricción psicológica de vencer la desconfianza hacia la seguridad del chat para operaciones financieras.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood</strong>. Según Hormozi, si la probabilidad percibida es baja, la oferta entera se cae. Prometer IA financiera no sirve si no logran retener a los usuarios, ya que el mercado percibe a los bots genéricos como poco confiables o riesgosos.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Al dirigirse al segmento B2C para pago de facturas y servicios, están atacando un mercado altamente saturado (bancos, Nequi, Daviplata) que ya está en la etapa <strong>Solution / Product Aware</strong>. El usuario ya sabe cómo pagar sus facturas digitales. Intentar convencerlos hablando de "Agentes Virtuales impulsados por IA" es un error táctico, porque al usuario final no le importa la tecnología (el vehículo), sino la conveniencia (el destino). Para B2B, sus clientes están en <strong>Problem Aware</strong> (sufren con tareas manuales repetitivas en WhatsApp); aquí Pocki debe canalizar la frustración de perder tiempo operando canales de chat y presentarse como el único <em>Mecanismo Nuevo</em> para automatizar el cierre de ventas.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+El diagnóstico revela "limitaciones en unit economics y en la estructuración profunda de la viabilidad financiera". Bajo la óptica de Campbell, la palanca de <strong>Retención (2/10)</strong> y la de <strong>Monetización (3/10)</strong> están rotas y deben ser la máxima prioridad. No tiene sentido inyectar esfuerzo o dinero en la palanca de Adquisición si tienen "baja evidencia de adopción y recurrencia"; estarían metiendo leads en un balde con agujeros. Tienen que validar matemáticamente que el margen de sus transacciones o la suscripción B2B supera el costo de la infraestructura de IA y la API de WhatsApp (LTV:CAC) antes de intentar escalar comercialmente.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Auditoría de Churn (Retención):</strong> Llamar a 10-15 usuarios que usaron Pocki una vez y nunca volvieron a transaccionar. Entender si la barrera fue el miedo a la seguridad, una falla técnica o falta de valor real. Identificar este dolor es más urgente que buscar nuevos usuarios.</li>
+<li><strong>Niche Down B2C (Micro-segmentación):</strong> En lugar de vender "pagos de múltiples categorías" (donde compiten con los bancos grandes), adueñarse de un solo caso de uso de alta fricción (ej. pines de videojuegos o un nicho desatendido) para construir adopción y recurrencia diaria de forma contenida.</li>
+<li><strong>Mapeo de Unit Economics Base:</strong> Establecer un dashboard mínimo viable de finanzas unitarias. Tienen que saber exactamente cuánto les cuesta cada interacción en la API de WhatsApp / LLM vs. el porcentaje de comisión o fee que logran cobrar, para saber si el modelo tiene futuro matemático.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Alexis, proponen revolucionar las finanzas y los pagos directamente desde WhatsApp, una idea ambiciosa por la que proyectan 500 millones para este año. Pero el diagnóstico muestra debilidades críticas: baja adopción, baja recurrencia y limitaciones en los Unit Economics. En el mundo Fintech la confianza es todo; si hoy los usuarios prueban a Pocki pero no se quedan, ¿qué sentido tiene salir a buscar más clientes comerciales si el modelo financiero unitario y la retención del producto todavía no nos dan la razón?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="quantum-mechanics-s-a-s">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Daniel Vélez,  / Santiago Saldarriaga</span>
+      <span class="metric">💰 2025 $230M → 2026 $450M</span>
+      <span class="web">🌐 <a href="https://www.koet.co" target="_blank">https://www.koet.co</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Quantum Mechanics (Koet)</h1>
+<h2>1. Quién es Quantum Mechanics / Koet (3 frases máx)</h2>
+<p>
+Quantum Mechanics (Koet) desarrolla productos en torno a la movilidad sostenible y el desarrollo industrial para segmentos B2C y B2B. A pesar de haber construido un producto técnico maduro, sufren de un aislamiento estratégico severo (calificación de 1.0 en capital relacional) y tienen vacíos críticos en sus roles comerciales, priorizando siempre la labor operativa técnica sobre las ventas. En resumen, han logrado construir buena tecnología, pero han fallado en articularla como un valor real que el cliente entienda y compre.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Solucionar necesidades de movilidad sostenible o desarrollo industrial con productos tecnológicos eficientes.</li>
+<li><strong>Perceived Likelihood:</strong> Muy débil (Alerta Roja). El diagnóstico revela explícitamente que su tecnología "no se traduce claramente en beneficios diferenciadores percibidos por el cliente". Si el mercado no entiende el valor real del producto y la empresa sufre de un "aislamiento estratégico" (capital relacional en 1.0), la probabilidad percibida de éxito por parte de un comprador B2B se desploma.</li>
+<li><strong>Time Delay:</strong> Variable. La falta de roles comerciales dedicados hace que el proceso de prospección y cierre, liderado operativamente por los fundadores, sea lento y poco escalable.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto para los propios fundadores, quienes asumen toda la "labor operativa" de ventas sin procesos claros, y alto para el prospecto que tiene que hacer el esfuerzo de "traducir" la tecnología para entender qué problema le resuelve.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood (Diferenciación y Valor).</strong> Según Hormozi, la mejor tecnología del mundo no se vende sola. Si el producto es maduro pero la tecnología "no está articulada como valor", el cliente simplemente los percibirá como un commodity técnico más en el mercado.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Al tener una "tecnología no articulada como valor", están asumiendo que su cliente está en la etapa <strong>Product Aware</strong>, hablándole desde los tecnicismos y las características de sus equipos. Sin embargo, su mercado real está en la etapa <strong>Problem Aware</strong> (buscan transporte eficiente o soluciones industriales rentables). Koet debe dejar de vender "tecnología" (el vehículo) y empezar a canalizar el dolor del cliente para presentar sus productos como el <em>Mecanismo Único</em> que resuelve problemas reales, traduciendo de inmediato lo técnico a beneficios de negocio tangibles.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+Las bases del negocio están a ciegas. El diagnóstico indica una "inexistencia de métricas de tracción" y una "gestión financiera intuitiva" que carece de control de consumo de capital y medición de Unit Economics. Según el modelo de Campbell, intentar impulsar la palanca de Adquisición (ventas y marketing) en este estado es quemar esfuerzo. Deben frenar la intuición y rebalancear urgentemente hacia la <strong>Monetización (3/10)</strong>, definiendo y midiendo matemáticamente cuánto les cuesta adquirir un cliente B2C vs B2B (CAC) y qué margen retienen (LTV) antes de salir a vender.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Traducción de Valor (Matar el Tecnicismo):</strong> Ante el diagnóstico de que "la tecnología no se traduce claramente en beneficios", los fundadores deben hacer una lista de las 5 características principales de su producto y obligarse a reescribirlas como resultados financieros u operativos tangibles para el cliente.</li>
+<li><strong>Dashboard Financiero Base (Muerte a la Intuición):</strong> Abandonar hoy mismo la "gestión financiera intuitiva". Armar un panel mínimo viable donde midan con datos duros sus Unit Economics (CAC, LTV, márgenes), dejando de tomar decisiones financieras a ciegas.</li>
+<li><strong>Plan de Rescate de Capital Relacional:</strong> Para atacar su aislamiento estratégico (calificación 1.0) y sus vacíos en roles comerciales, los fundadores deben bloquear una hora diaria en sus agendas exclusivamente para buscar introducciones cálidas y reconectar con el ecosistema, delegando por ese momento la labor operativa.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Daniel, Santiago: el diagnóstico de Koet revela un escenario complejo: aislamiento estratégico con un capital relacional de 1.0, vacíos críticos en roles comerciales y una gestión financiera guiada puramente por la intuición. Han construido un producto maduro, pero afirman que la tecnología no se está articulando como valor. Proyectan casi duplicar sus ventas este año a 450 millones de pesos, pero si están atrapados en la operación, no hay equipo de ventas y los números base no existen, ¿cómo van a lograr ese crecimiento sin quemarse intentando vender de forma manual una tecnología que el mercado aún no percibe como valiosa?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="didacta-group-s-a-s">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Simón Moreno Santa María - /  Juan Sebastián Escobar Correa -  / Jorge Alejandro Sierra Tamayo</span>
+      <span class="metric">💰 2025 $250M → 2026 $375M</span>
+      <span class="web">🌐 <a href="https://www.intrena.co" target="_blank">https://www.intrena.co</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Didacta Group (Intrena)</h1>
+<h2>1. Quién es Didacta Group (3 frases máx)</h2>
+<p>
+Didacta Group (Intrena) transforma la capacitación corporativa permitiendo a los empleados aprender desde cualquier lugar mediante una app 24/7 y cursos vía WhatsApp, apoyados en una plataforma administrativa. A pesar de tener un vehículo tecnológico accesible, enfrentan el reto de llevar 10 años en el mercado con un desempeño comercial bajo, una estructura organizacional débil y múltiples intentos de contratación fallidos. Su objetivo inmediato es salir del estancamiento comercial encontrando un posicionamiento diferencial real y estructurando un motor de ventas escalable.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Capacitar al personal operativo de forma rápida, constante y sin fricción, asegurando altas tasas de adopción mediante herramientas que los empleados ya usan todos los días (como WhatsApp).</li>
+<li><strong>Perceived Likelihood:</strong> Débil (Alerta Roja). Su diagnóstico revela explícitamente un "débil entendimiento del entorno competitivo y bajo posicionamiento diferencial". Según Hormozi, si el mercado no ve una diferencia clara entre Intrena y cualquier otro LMS o plataforma de e-learning genérica, la perciben como un <em>commodity</em> y la probabilidad de éxito atribuida a su solución se desploma.</li>
+<li><strong>Time Delay:</strong> Bajo para el empleado (acceso inmediato a los cursos desde su celular), pero alto para el cliente corporativo (RRHH) que debe tomar la decisión de implementar y migrar a una nueva plataforma.</li>
+<li><strong>Effort & Sacrifice:</strong> Bajo para el usuario final (aprender por WhatsApp elimina barreras de entrada), pero requiere un esfuerzo organizacional por parte de la empresa para re-estructurar su plan de capacitación.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood (Diferenciación).</strong> Venden en un mercado saturado. Al tener un "bajo posicionamiento diferencial", el cliente asume que son "una plataforma más". Tienen que construir credibilidad urgente separándose del resto de la industria de capacitación tradicional para poder justificar su valor.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Los líderes de Recursos Humanos están en la etapa <strong>Solution Aware</strong> o <strong>Product Aware</strong>. Ellos ya saben que necesitan capacitar a su personal y es altamente probable que ya utilicen plataformas (Moodle, intranets, etc.). El error de Intrena es competir con un mensaje genérico ("transformamos la manera de aprender") en un mercado sofisticado. Deben dejar de vender la "plataforma de capacitación" (el vehículo) y usar la omnicanalidad (WhatsApp) como su <em>Mecanismo Único</em>, posicionándose como <em>"la única herramienta diseñada específicamente para entrenar a personal sin escritorio que jamás abriría un computador"</em>.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+El diagnóstico es duro: tienen una "estrategia de acceso al mercado poco estructurada, con bajo desempeño en ventas" y una "falta de estructura organizacional clara y roles definidos". Con este escenario, empujar ciegamente la palanca de <strong>Adquisición (marketing)</strong> para saltar de $250M a los $375M proyectados solo quemará leads y agravará su desorden interno. Campbell recomendaría frenar y enfocarse en la <strong>Monetización (3/10)</strong> y la estructuración de su posicionamiento base. Tienen que definir exactamente por qué cobran (su <em>Value Metric</em>), rediseñar su propuesta de valor para salir del estancamiento de ser un <em>commodity</em> y estabilizar su estructura interna antes de acelerar las ventas.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Traducción del Diferenciador (Niche Down):</strong> Ante el "bajo posicionamiento diferencial", deben cambiar el <em>copy</em> de su página web hoy mismo. Pasar del genérico "transformamos la manera de aprender" a adueñarse de un micro-nicho doloroso: <em>"Capacitación corporativa por WhatsApp para empresas con fuerza laboral de campo"</em>.</li>
+<li><strong>Playbook de Contratación Comercial Base:</strong> Después de 10 años y "múltiples intentos de hiring fallidos", deben detener la contratación por intuición. Tienen que documentar un perfil exacto y un proceso de <em>onboarding</em> de 30 días para su próximo rol comercial, asegurando que la persona no entre a un ambiente sin "roles definidos".</li>
+<li><strong>Auditoría de Embudo Consultivo:</strong> Dado su "bajo desempeño en ventas", deben abandonar la venta relacional y crear un guion de 7 preguntas estándar de descubrimiento (<em>Discovery Call</em>). Esto quitará la dependencia de la "inspiración" del vendedor y estandarizará la forma en la que califican si un cliente sirve o no.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Simón, fundaron la empresa en 2015. Llevan una década en el mercado y para este año proyectan facturar 375 millones de pesos. Sin embargo, su diagnóstico levanta las alertas más críticas: falta de estructura organizacional, múltiples intentos de contratación fallidos, estrategia comercial poco estructurada y un débil posicionamiento diferencial. Si en 10 años el motor comercial y el equipo aún no han logrado consolidarse para salir del estancamiento, ¿qué decisión radical van a tomar hoy para dejar de tropezar con la misma falta de estructura y asegurar que el modelo por fin logre escalar?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="copsun">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Anderson Mesa, /  Esteban Cano y / Daniel Peréz</span>
+      <span class="metric">💰 2025 $50M → 2026 $300M</span>
+      <span class="web">🌐 <a href="https://copsun.co/" target="_blank">https://copsun.co/</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Copsun</h1>
+<h2>1. Quién es Copsun (3 frases máx)</h2>
+<p>
+Copsun automatiza la operación y mantenimiento de granjas solares utilizando robótica y software para limpiar los módulos de forma segura, eficiente y reduciendo el uso de agua. Su plataforma busca transformar el mantenimiento físico en decisiones basadas en datos mediante reportes verificables. Sin embargo, la empresa se enfrenta a un desafío enorme: su tecnología está en etapas tempranas (prototipo), tienen ejecución comercial incipiente, vacíos en propiedad intelectual y ninguna claridad en sus <em>Unit Economics</em>.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Maximizar la disponibilidad de energía, eliminar las paradas operativas y reducir radicalmente los costos de mantenimiento de una granja solar.</li>
+<li><strong>Perceived Likelihood:</strong> Muy débil (Alerta Roja). Al estar en fase de "prototipo o validación inicial" y con "ejecución comercial incipiente", la probabilidad percibida es casi nula. Un cliente corporativo B2B verá un riesgo inmenso en dejar que un robot no validado toque su infraestructura crítica.</li>
+<li><strong>Time Delay:</strong> Alto. Integrar hardware (robots) en operaciones de infraestructura energética requiere pilotos, validaciones de seguridad y ciclos de compra largos.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. El comprador asume el riesgo físico de que un panel se raye o dañe, además de tener que adaptar sus protocolos de operación y mantenimiento a una nueva plataforma de software.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood (Credibilidad).</strong> Intentar vender un prototipo de hardware industrial a corporativos energéticos destruye la Ecuación de Valor. Si el cliente no confía 100% en que el robot limpiará sin destruir sus activos, el <em>Dream Outcome</em> no importa.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Los operadores de granjas solares se encuentran en <strong>Problem Aware</strong> (saben que limpiar paneles a mano gasta mucha agua, es lento y riesgoso) o <strong>Solution Aware</strong> (ya usan hidrolavadoras, tercerizan, o evalúan otros métodos mecánicos). Copsun no debe perder tiempo educando sobre por qué hay que limpiar los paneles. Su estrategia debe canalizar esa frustración hacia su robot como un <em>Mecanismo Nuevo</em>: enfocando el mensaje no en "el robot" (el vehículo), sino en la seguridad innegable, la reducción operativa comprobada y el nulo riesgo de dañar la infraestructura.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+Tienen una alerta crítica en la palanca de <strong>Monetización (3/10)</strong>. El diagnóstico de Copsun resalta literalmente una "falta de claridad en Unit Economics" y que "aún no miden ni validan las métricas clave de adquisición y valor del cliente". Según Campbell, empujar la palanca de Adquisición (ventas) ahora mismo es un error fatal. Primero deben definir cómo cobrar: ¿Venden el robot de contado (CAPEX)? ¿Cobran un <em>fee</em> mensual por robot como servicio (RaaS)? ¿O facturan por un <em>Value Metric</em> como metro cuadrado limpiado o porcentaje de energía extra generada?
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Definir el Modelo de Pricing (Value Metric):</strong> Copsun tiene que sentarse a decidir cómo captura valor de su hardware. Deben definir un modelo (ej. Robot-as-a-Service) que baje la barrera de entrada y permita proyectar sus costos (Unit Economics) de manera real antes de tocar otra puerta comercial.</li>
+<li><strong>Garantía Implícita (Risk Reversal de Hormozi):</strong> Para aniquilar la baja "Perceived Likelihood" del prototipo, deben estructurar una oferta B2B donde Copsun asuma todo el riesgo operativo. Por ejemplo, cobrar $0 por el equipo inicial y facturar únicamente con base en el rendimiento o ahorro real demostrado en el primer mes.</li>
+<li><strong>El Piloto Innegable:</strong> Tomar su mejor (o único) piloto actual y exprimir los datos hasta sacar un <em>Caso de Estudio</em> irrefutable. Documentar exactamente los litros de agua ahorrados, la energía extra generada y pruebas de que cero paneles sufrieron daños físicos. Esa será su única herramienta para abrir puertas en la industria.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Anderson, Esteban, Daniel: están proyectando ventas por 300 millones de pesos este año en un mercado corporativo (B2B energético) que no perdona errores operativos. Pero su diagnóstico indica que la tecnología está en fase de prototipo, no hay barreras tecnológicas ni patentes, y sus *Unit Economics* no están claros. Si ni siquiera nosotros tenemos claro el modelo de cobro y validación de la métrica de valor, ¿cómo vamos a convencer a un fondo de inversión o a un gran operador solar de que asuma el riesgo de poner nuestro prototipo sobre sus paneles, o estamos esperando que ellos paguen por nuestra validación?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="teral">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 David Alberto Calderon Duarte,  / Meisser Alberto Lopez Lopez, /  Alan Sepulveda Lozano</span>
+      <span class="metric">💰 2025 $202M → 2026 $150M</span>
+      <span class="web">🌐 <a href="https://teral.ai/" target="_blank">https://teral.ai/</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: Teral</h1>
+<h2>1. Quién es Teral (3 frases máx)</h2>
+<p>
+Teral es una plataforma de colaboración clínica que conecta médicos con especialistas y con inteligencia artificial para acelerar las interconsultas y mejorar la atención médica. Lo que los hace únicos es que transforman un proceso ineficiente en un flujo de trabajo trazable, auditable y respaldado por IA en el punto de decisión. Su mayor cuello de botella actual es una desproporción profunda entre su solidez técnica y su gestión comercial, ya que las ventas dependen 100% de los fundadores en un sector de ciclos corporativos muy lentos.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Reducir la brecha de atención primaria, acelerar las interconsultas y brindar a las instituciones de salud la capacidad de resolver casos médicos más rápido, con trazabilidad y apoyo de IA.</li>
+<li><strong>Perceived Likelihood:</strong> Débil (Alerta Roja). El diagnóstico evidencia una "vulnerabilidad competitiva" debido a un bajo posicionamiento de marca y una baja protección de propiedad intelectual (IP). Si un hospital B2B los percibe como un actor digital sin un diferencial blindado o inmaduro frente a las plataformas de salud tradicionales, la probabilidad percibida de confiarles sus datos médicos se desploma.</li>
+<li><strong>Time Delay:</strong> Alto. Operan con clientes institucionales (hospitales, redes médicas), lo que genera "ciclos de venta largos" que requieren múltiples reuniones, aprobaciones y validaciones de cumplimiento normativo antes de ver la plataforma implementada.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. La institución médica debe cambiar su cultura de trabajo ("sacrificio") y capacitar a sus especialistas para migrar sus interconsultas a una nueva plataforma digital centralizada ("esfuerzo").</li>
+<li><strong>Componente más débil:</strong> <strong>Time Delay y Perceived Likelihood.</strong> Según las reglas de Hormozi, si los ciclos de venta son eternos y el comprador duda de la solidez técnica (baja IP y posicionamiento), la ecuación se rompe. Teral no puede vender solo "software"; deben empaquetar una promesa de reducción operativa irrefutable que obligue al hospital a actuar rápido.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+Los directivos de hospitales e instituciones de salud se encuentran en etapa <strong>Problem Aware</strong> (les duelen las demoras en las remisiones y las fallas en los procesos médicos) o <strong>Solution Aware</strong> (ya usan herramientas aisladas o software tradicional de salud). Teral está cometiendo el error de depender de la venta manual de sus fundadores en un mercado altamente sofisticado. Tienen que dejar de vender "comunicación clínica" (el vehículo) y comenzar a canalizar el dolor del gerente financiero o médico mediante su <em>Mecanismo Único</em> (el triaje con IA y observabilidad total), posicionándose como la única herramienta que frena el reproceso clínico y baja los costos de operación.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+Las bases financieras y el equipo están en peligro. El diagnóstico advierte una "debilidad crítica en Unit Economics" (no miden la relación LTV/CAC) y "ausencia de procesos financieros sistemáticos", operando con lógica de flujo de caja inmediato antes del punto de equilibrio. Bajo el modelo de Campbell, inyectar esfuerzo a la palanca de Adquisición (ventas y marketing) en este estado solo quemará recursos. Deben rebalancear sus prioridades hacia la <strong>Monetización (3/10)</strong> y Retención: definir matemáticamente cuánto les cuesta cerrar un hospital corporativo, cuánto dinero les deja en el tiempo y estructurar un modelo de precios estándar que no tenga que rediseñarse en cada negociación.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>El "Discovery" Estandarizado (Delegación Base):</strong> Para sacar al equipo fundador de la dependencia comercial, deben crear un <em>Playbook</em> con un guion de 7 preguntas de calificación y empaquetar todos los requisitos técnicos y regulatorios de los hospitales en un solo "Dossier de Seguridad y Cumplimiento". Esto estandariza la primera línea de venta.</li>
+<li><strong>Dashboard de Unit Economics a la Fuerza:</strong> Detener la expansión a ciegas para costear su LTV y CAC reales. Tienen que saber inmediatamente la matemática de cuánto margen real les deja una clínica frente a lo que les cuesta el esfuerzo comercial de cerrarla, protegiendo su liquidez.</li>
+<li><strong>Esquema de Incentivos Tangibles:</strong> Atacar la alerta de "ausencia de incentivos económicos formales" en el equipo. El compromiso basado solo en "el propósito" es insostenible en una startup bajo presión. Deben diseñar hoy mismo un modelo de comisiones por metas o plan de opciones (vesting) que blinde la retención del talento clave.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"David, Teral promete revolucionar la salud con IA y proyectan más de 200 millones en ventas, pero su diagnóstico expone una desconexión crítica: las ventas no son un sistema sino que dependen 100% de ti, tienen una debilidad en la propiedad intelectual, sus Unit Economics (CAC/LTV) están a ciegas y, para rematar, su equipo trabaja sin incentivos económicos reales, solo impulsados por propósito. Con ciclos de venta tan largos y lentos en el sector salud, ¿cómo planeas levantar capital y escalar esta empresa si la base de retención del talento es frágil y financieramente estamos volando sin instrumentos?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+<section class="briefing" id="siembraviva">
+  <div class="briefing-header">
+    <div class="briefing-meta">
+      <span class="founder">👤 Diego Benitez</span>
+      <span class="metric">💰 2025 $120M → 2026 N/A</span>
+      <span class="web">🌐 <a href="https://www.siembraviva.com" target="_blank">https://www.siembraviva.com</a></span>
+    </div>
+  </div>
+  <div class="briefing-body">
+    <h1>Briefing: SiembraViva</h1>
+<h2>1. Quién es SiembraViva (3 frases máx)</h2>
+<p>
+SiembraViva desarrolla una infraestructura de decisión agrícola (Agri-Tech) que utiliza un asistente de inteligencia artificial llamado JUACO para analizar mediciones fisiológicas, metabólicas y de suelo en tiempo real. A diferencia de soluciones genéricas, cruzan más de 13 años de conocimiento técnico con los datos de cada finca para detectar bloqueos en los cultivos antes de que aparezcan síntomas visibles. Básicamente, buscan eliminar las decisiones a ciegas en el campo, ayudando a los productores a anticiparse a los problemas y regenerar sus tierras.
+</p>
+<h2>2. Su Value Equation (Hormozi) — diagnóstico</h2>
+<ul>
+<li><strong>Dream Outcome:</strong> Tener cosechas altamente predecibles y productivas, evitando pérdidas económicas al anticiparse a las plagas o problemas de clima y suelo antes de que la planta se enferme.</li>
+<li><strong>Perceived Likelihood:</strong> Muy débil (Alerta Roja). El diagnóstico revela textualmente una "validación insuficiente del cliente objetivo y del problema", sumado a un "bajo nivel de evidencia de adopción". En el sector agrícola tradicional, si el productor percibe que la tecnología es inmadura o no entiende cómo funciona, no asumirá el riesgo y la credibilidad se desplomará.</li>
+<li><strong>Time Delay:</strong> Moderado a Alto. Por la misma naturaleza de la "estacionalidad agrícola" y los ciclos de cultivo, el agricultor debe esperar el desarrollo de la cosecha para ver el impacto económico real de las recomendaciones de JUACO.</li>
+<li><strong>Effort & Sacrifice:</strong> Alto. El productor debe cambiar radicalmente sus hábitos: tiene que tomar análisis metabólicos en savia, hacer mediciones fisiológicas y reportar la trazabilidad operativa constantemente vía WhatsApp.</li>
+<li><strong>Componente más débil:</strong> <strong>Perceived Likelihood (Credibilidad de adopción)</strong>. Vender tecnología hiper-avanzada (arquitectura RAG, análisis metabólico) a un sector tradicional es dificilísimo. Según Hormozi, la "Perceived Likelihood" es lo que sostiene una oferta; si hoy la validación del problema es insuficiente y la adopción es baja, el cliente está viendo un experimento riesgoso, no una solución definitiva.</li>
+</ol>
+<h2>3. Awareness Stage de sus clientes (Schwartz)</h2>
+<p>
+El agricultor promedio se encuentra en la etapa <strong>Problem Aware</strong>: sabe que pierde plata por culpa del clima impredecible, las plagas o el alto costo de los fertilizantes. El mayor error que puede cometer SiembraViva es hablarle a este mercado con jerga técnica como "asistente con arquitectura RAG", "DLI" o "Delta térmico"; este lenguaje le habla a una etapa <em>Unaware</em> y solo genera confusión. Tienen que dejar de empujar la tecnología (el vehículo) y posicionar a JUACO simplemente como el <em>Mecanismo Único</em> capaz de avisarle al finquero qué le pasa a su planta días antes de que se dañe la cosecha.
+</p>
+<h2>4. Three Growth Levers (Campbell) — recomendación 5:3:2</h2>
+<p>
+Las alarmas están encendidas en la base del negocio. Su diagnóstico advierte explícitamente una "debilidad en unit economics (CAC, LTV, eficiencia del crecimiento)". Empujar la palanca de Adquisición (ventas y marketing) en este estado es quemar plata. Campbell recomendaría frenar y rebalancear la urgencia hacia la <strong>Monetización (3/10)</strong>. Tienen que descifrar su <em>Value Metric</em> (¿le cobran al agricultor por hectárea, por consulta a la IA o por temporada?) y estructurar un modelo de cobro que pueda soportar los baches de flujo de caja que genera la difícil estacionalidad agrícola.
+</p>
+<h2>5. Sus 3 Quick Wins en 30 días (lo que pueden ejecutar el lunes)</h2>
+<ol>
+<li><strong>Niche Down Radical (Micro-validación):</strong> Ante la "validación insuficiente del cliente objetivo", deben dejar de intentar venderle a todo el ecosistema agrícola. Elegir un único tipo de cultivo de muy alto margen (ej. aguacate hass o arándano de exportación) y enfocar todos los recursos en lograr adopción y casos de éxito innegables solo en ese nicho.</li>
+<li><strong>Matar el Tecnicismo (Discovery Simplificado):</strong> Revisar su <em>pitch</em> de ventas y purgarlo de palabras complejas. Cambiar el discurso tecnológico ("arquitectura RAG multicapa") a beneficios financieros y de reducción de pérdida agrícola, bajando dramáticamente la fricción mental que hoy causa la baja adopción.</li>
+<li><strong>Auditoría de Costos y Rentabilidad (Unit Economics):</strong> Sentarse a mapear exactamente cuánto les cuesta ir al campo o integrar a un nuevo finquero (CAC) versus el margen que logran retener a lo largo del año (LTV). Deben plantear escenarios de cómo la estacionalidad frena o acelera los pagos para proteger la caja.</li>
+</ol>
+<h2>6. Una pregunta dura para Daniel en piso</h2>
+<p class="meta"><em>"Diego: han construido en SiembraViva un asistente con inteligencia artificial, análisis metabólico e infraestructura de datos muy avanzada para el agro, pero el diagnóstico señala que tienen una validación insuficiente del cliente, bajo nivel de adopción, debilidad en sus Unit Economics y no tienen todavía una proyección de ventas para 2026. En un sector tan tradicional, riesgoso y atado a la estacionalidad como la agricultura, ¿cómo evitamos estar gastando el capital en construir un 'Ferrari tecnológico' para clientes que todavía confían más en la intuición de toda la vida, y cómo logramos que realmente abran la billetera por esto?"</em></p>
+<hr/>
+<p class="meta"><em>Generado vía NotebookLM · 2026-05-18</em></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>generado 2026-05-18 · <span class="yellow">ai huevos</span> × endeavor × ruta n · daniel cardona, mentor endeavor</p>
+  <p>para imprimir como pdf → Ctrl/Cmd + P → guardar como pdf</p>
+</footer>
+
+</body>
+</html>

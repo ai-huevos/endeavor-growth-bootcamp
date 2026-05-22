@@ -1,0 +1,155 @@
+[
+  {
+    "url": "https://www.pocki.ai",
+    "domain": "www.pocki.ai",
+    "https": true,
+    "technologiesCount": 7,
+    "categories": "Build Tool, Hosting, JavaScript Framework, Performance, SEO",
+    "technologies": [
+      {
+        "name": "Lazy Loading",
+        "category": "Performance",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "loading=\"lazy\""
+            ]
+          }
+        ],
+        "website": "https://web.dev/lazy-loading"
+      },
+      {
+        "name": "Schema.org",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "schema.org",
+              "application/ld+json"
+            ]
+          }
+        ],
+        "website": "https://schema.org"
+      },
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title",
+              "og:description"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=Pocki - El agente conversacional que te resuelve"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Twitter Cards",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "twitter:card"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "twitter:card=summary_large_image",
+              "twitter:title=Pocki - El agente conversacional que te resuelve"
+            ]
+          }
+        ],
+        "website": "https://developer.twitter.com"
+      },
+      {
+        "name": "Vercel",
+        "category": "Hosting",
+        "confidence": 63,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "X-Vercel-Id: iad1::wkszj-1779089399016-3a1ab3460867",
+              "Server: Vercel",
+              "X-Vercel-Cache: HIT"
+            ]
+          }
+        ],
+        "website": "https://vercel.com"
+      },
+      {
+        "name": "Turbopack",
+        "category": "Build Tool",
+        "confidence": 57,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "_next/static/chunks"
+            ]
+          }
+        ],
+        "website": "https://turbo.build/pack"
+      },
+      {
+        "name": "Next.js",
+        "category": "JavaScript Framework",
+        "confidence": 41,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "_next/static",
+              "__next"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "_next/static/",
+              "_next/"
+            ]
+          }
+        ],
+        "website": "https://nextjs.org"
+      }
+    ],
+    "technologyGroups": {
+      "Performance": [
+        "Lazy Loading"
+      ],
+      "SEO": [
+        "Schema.org",
+        "Open Graph",
+        "Twitter Cards"
+      ],
+      "Hosting": [
+        "Vercel"
+      ],
+      "Build Tool": [
+        "Turbopack"
+      ],
+      "JavaScript Framework": [
+        "Next.js"
+      ]
+    },
+    "analysisTimeMs": 3165,
+    "analyzedAt": "2026-05-18T07:30:02.404Z"
+  }
+]

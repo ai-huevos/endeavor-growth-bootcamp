@@ -1,0 +1,287 @@
+[
+  {
+    "#debug": {
+      "requestId": "Tr1wOX9WAGJtRjC",
+      "url": "http://www.google.com.co/search?q=Aira+Biotech+Colombia&hl=es",
+      "loadedUrl": "http://www.google.com.co/search?q=Aira+Biotech+Colombia&hl=es",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": [],
+      "statusCode": 200
+    },
+    "#error": false,
+    "searchQuery": {
+      "term": "Aira Biotech Colombia",
+      "url": "http://www.google.com.co/search?q=Aira+Biotech+Colombia&hl=es",
+      "device": "DESKTOP",
+      "page": 1,
+      "type": "SEARCH",
+      "domain": "google.com.co",
+      "countryCode": "CO",
+      "languageCode": "es",
+      "locationUule": null,
+      "resultsPerPage": 10
+    },
+    "url": "http://www.google.com.co/search?q=Aira+Biotech+Colombia&hl=es",
+    "hasNextPage": true,
+    "serpProviderCode": "N",
+    "resultsTotal": null,
+    "relatedQueries": [
+      {
+        "title": "Aira ofertas laborales",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+ofertas+laborales&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhHEAE"
+      },
+      {
+        "title": "AIRA Falabella",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=AIRA+Falabella&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhbEAE"
+      },
+      {
+        "title": "Aira Sodimac Colombia",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+Sodimac+Colombia&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhREAE"
+      },
+      {
+        "title": "Aira empleos Colombia",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+empleos+Colombia&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhTEAE"
+      },
+      {
+        "title": "Aira virtual empleos",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+virtual+empleos&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhUEAE"
+      },
+      {
+        "title": "Aira registrarse",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+registrarse&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhSEAE"
+      },
+      {
+        "title": "Aira Colombia",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+Colombia&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhPEAE"
+      },
+      {
+        "title": "Aira sura",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+sura&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhIEAE"
+      },
+      {
+        "title": "Aira ofertas laborales",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+ofertas+laborales&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhHEAE"
+      },
+      {
+        "title": "AIRA Falabella",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=AIRA+Falabella&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhbEAE"
+      },
+      {
+        "title": "Aira Sodimac Colombia",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+Sodimac+Colombia&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhREAE"
+      },
+      {
+        "title": "Aira empleos Colombia",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+empleos+Colombia&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhTEAE"
+      },
+      {
+        "title": "Aira virtual empleos",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+virtual+empleos&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhUEAE"
+      },
+      {
+        "title": "Aira registrarse",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+registrarse&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhSEAE"
+      },
+      {
+        "title": "Aira Colombia",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+Colombia&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhPEAE"
+      },
+      {
+        "title": "Aira sura",
+        "url": "https://www.google.com.co/search?sca_esv=a33ca892a7f12036&gl=CO&hl=es&q=Aira+sura&sa=X&ved=2ahUKEwiG5ta1p8KUAxV-SDABHckjLHUQ1QJ6BAhIEAE"
+      }
+    ],
+    "paidResults": [],
+    "paidProducts": [],
+    "organicResults": [
+      {
+        "title": "AIRA",
+        "url": "https://aira.airavirtual.com/",
+        "displayedUrl": "https://aira.airavirtual.com",
+        "description": "Aira, nuestra asistente de reclutamiento y selección te ayudará a encontrar a los mejores colaboradores.",
+        "emphasizedKeywords": [
+          "Aira"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 1
+      },
+      {
+        "title": "Home - AIRA el amor en cada caricia",
+        "url": "https://www.airanatural.co/",
+        "displayedUrl": "https://www.airanatural.co",
+        "description": "AIRA. Cosmética natural y sostenible. Desde Colombia para el mundo. Productos. Skincare; Haircare; Bodycare; Kits & Sets. AIRA. Nuestra esencia; Ingredientes ...",
+        "emphasizedKeywords": [
+          "AIRA"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 2
+      },
+      {
+        "title": "Aira: Software Reclutamiento y Selección",
+        "url": "https://www.airavirtual.com/",
+        "displayedUrl": "https://www.airavirtual.com",
+        "description": "Inteligencia Artificial aplicada a Recursos Humanos para el Reclutamiento y Selección de talento en empresas. Incluye test psicométricos, video presentación ...",
+        "emphasizedKeywords": [
+          "Inteligencia Artificial aplicada a Recursos Humanos"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 3
+      },
+      {
+        "title": "Biotech Health Care Colombia (@biotech_col) · Bogotá",
+        "url": "https://www.instagram.com/biotech_col/",
+        "displayedUrl": "Instagram › biotech_col",
+        "description": "Brindamos soluciones en la industria oftálmica en Colombia.",
+        "emphasizedKeywords": [
+          "Colombia"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 510 seguidores",
+        "channelName": "biotech_col",
+        "type": "organic",
+        "position": 4
+      },
+      {
+        "title": "Quienes somos - Aira Colombia",
+        "url": "https://www.airacolombia.com/about.php",
+        "displayedUrl": "https://www.airacolombia.com › about",
+        "description": "En Aira Colombia nos enfocamos en crear ideas diferentes, que tengan lo mejor de la tecnología aplicado a la mercadotecnia de atracción.",
+        "emphasizedKeywords": [
+          "Aira Colombia"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 5
+      },
+      {
+        "title": "Aira | Medical Intelligence 4.0",
+        "url": "https://airah.co/",
+        "displayedUrl": "https://airah.co",
+        "description": "Consultoría estratégica en gestión y transformación en salud ... Acompañamos a instituciones del sector salud en su evolución digital, operativa y organizacional ...",
+        "emphasizedKeywords": [
+          "Consultoría estratégica en gestión y transformación en salud"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 6
+      },
+      {
+        "title": "AIRA Health",
+        "url": "https://www.aira.healthcare/",
+        "displayedUrl": "https://www.aira.healthcare",
+        "description": "AIRA is a unified AI platform for study design and protocol development · Designed for regulated environments. · Platform Capabilities · Built for every clinical ...",
+        "emphasizedKeywords": [
+          "AIRA is a unified AI platform for study design and protocol development"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 7
+      },
+      {
+        "title": "Aira",
+        "url": "https://www.linkedin.com/company/aira-virtual/",
+        "displayedUrl": "LinkedIn › Aira",
+        "description": "Aira es la plataforma de talento y selección de RH líder de América Latina - 89% satisfacción candidato y 10x eficiencia · Report this company",
+        "emphasizedKeywords": [
+          "Aira es la plataforma de talento y selección de RH líder de América Latina"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "followersAmount": "Más de 48,8 k seguidores",
+        "type": "organic",
+        "position": 8
+      },
+      {
+        "title": "Our Job Opportunities",
+        "url": "https://career.airahome.com/jobs",
+        "displayedUrl": "https://career.airahome.com › jobs",
+        "description": "Our open positions · Plumbing and Heating Engineer · Renewable Energy Sales (self employed) · Renewable Energy Sales (self employed) · Renewable Energy Sales (self ...",
+        "emphasizedKeywords": [
+          "Plumbing and Heating Engineer"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 9
+      },
+      {
+        "title": "AIRA COLOMBIA S.A.S - Datos de empresas",
+        "url": "https://www.datacreditoempresas.com.co/directorio/aira-colombia-sas.html",
+        "displayedUrl": "https://www.datacreditoempresas.com.co › directorio › ai...",
+        "description": "La empresa Aira Colombia S.a.s fue constituida el 10-12-2018. Su dirección reportada en Registro mercantil es CL 69 A # 9 - 66 en la ciudad de Bogotá, D.c., ...",
+        "emphasizedKeywords": [
+          "Aira Colombia S.a.s fue constituida el 10-12-2018"
+        ],
+        "siteLinks": [],
+        "productInfo": {},
+        "type": "organic",
+        "position": 10
+      }
+    ],
+    "suggestedResults": [],
+    "peopleAlsoAsk": [
+      {
+        "answer": "¿Qué es? Es un software que ofrece a las empresas el servicio de reclutamiento y selección de personas, por medio de la inteligencia artificial.",
+        "question": "¿Qué empresa es Aira?",
+        "title": "Aira: El Software de Reclutamiento e Inteligencia Artificial",
+        "url": "https://orientadorlaboral.trabajando.cl/aira-el-software-de-reclutamiento-e-inteligencia-artificial/#:~:text=%C2%BFQu%C3%A9%20es%3F,medio%20de%20la%20inteligencia%20artificial.",
+        "date": "15/11/2021"
+      },
+      {
+        "answer": null,
+        "question": "¿Cómo postularse en Aira?",
+        "title": null,
+        "url": null,
+        "date": null
+      },
+      {
+        "answer": null,
+        "question": "¿Cómo funciona Aira?",
+        "title": null,
+        "url": null,
+        "date": null
+      },
+      {
+        "answer": "Aira es un servicio de interpretación visual que facilita el acceso a la información visual a personas ciegas o con baja visión, o a cualquier persona con discapacidad que pueda beneficiarse de descripciones verbales de información visual.",
+        "question": "¿Aira para qué sirve?",
+        "title": "Servicio de Interpretación Visual Aira - Digital Accessibility Services",
+        "url": "https://translate.google.com/translate?u=https://itsaccessibility.syr.edu/aira-visual-interpreting-service/&hl=es&sl=en&tl=es&client=rq#:~:text=Aira%20es%20un%20servicio%20de,descripciones%20verbales%20de%20informaci%C3%B3n%20visual.",
+        "date": null
+      }
+    ],
+    "aiOverview": {
+      "type": "live",
+      "content": "",
+      "sources": [
+        {
+          "url": "https://www.airanatural.co/",
+          "title": "Home - AIRA el amor en cada caricia",
+          "description": "\"El sérum Ageless es increíble. En menos de un mes vi reducción real en mis líneas de expresión.\" Camila Reyes · Bogotá · Piel mix..."
+        },
+        {
+          "url": "https://blogs.portafolio.co/negocios-e-inspiracion/ruta-n-revela-las-48-startups-que-llevaran-a-medellin-next-al-siguiente-nivel/",
+          "title": "Ruta N revela las 48 startups que llevarán a Medellín Next al ...",
+          "description": "12/03/2026 — ... en zonas como El Poblado, Belén y Guayabal, el programa también incluye proyectos de Villa Hermosa, Castilla y Laureles. Esta ..."
+        },
+        {
+          "url": "https://es.linkedin.com/posts/antonioromerohaupold_startups-venturecapital-inversi%C3%B3n-activity-7451887825748357120-IIU-",
+          "title": "Publicación de Antonio Romero-Haupold Caballero (Ph D)",
+          "description": "20/04/2026 — Carlos felipe Troyano, gráfico · Carlos felipe Troyano. Venture capital Financial Systems Architect | SAP S/4HANA Cloud Finance, S..."
+        }
+      ]
+    },
+    "customData": null,
+    "htmlSnapshotUrl": "https://api.apify.com/v2/key-value-stores/Psq92TK1OEDxyExBZ/records/Tr1wOX9WAGJtRjC-0.html?signature=1kfmESfTn5jpKkyL9ZB8w"
+  }
+]

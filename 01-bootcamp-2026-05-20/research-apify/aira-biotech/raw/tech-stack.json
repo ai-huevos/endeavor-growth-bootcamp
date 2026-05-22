@@ -1,0 +1,600 @@
+[
+  {
+    "url": "https://www.airanatural.co",
+    "domain": "www.airanatural.co",
+    "https": true,
+    "technologiesCount": 28,
+    "categories": "Advertising, Analytics, CDN, CMS, CSS Framework, E-commerce, Font/Icon Library, JavaScript Framework, JavaScript Library, PWA, Page Builder, Payment, Performance, Programming Language, SEO, Tag Manager, Web Server",
+    "technologies": [
+      {
+        "name": "jQuery",
+        "category": "JavaScript Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "jquery.min.js",
+              "jquery-"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "jQuery"
+            ]
+          }
+        ],
+        "website": "https://jquery.com",
+        "version": "3.7.1"
+      },
+      {
+        "name": "Google Analytics",
+        "category": "Analytics",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtag/js"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_ga"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "TikTok Pixel",
+        "category": "Advertising",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "analytics.tiktok.com"
+            ]
+          },
+          {
+            "type": "cookies",
+            "matches": [
+              "_ttp"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "ttq"
+            ]
+          }
+        ],
+        "website": "https://ads.tiktok.com"
+      },
+      {
+        "name": "unpkg",
+        "category": "CDN",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "unpkg.com"
+            ]
+          }
+        ],
+        "website": "https://unpkg.com"
+      },
+      {
+        "name": "Google Tag Manager",
+        "category": "Tag Manager",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "GTM-"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "googletagmanager.com/gtm.js"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "google_tag_manager",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://tagmanager.google.com"
+      },
+      {
+        "name": "LiteSpeed",
+        "category": "Web Server",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "headers",
+            "matches": [
+              "Server: LiteSpeed"
+            ]
+          }
+        ],
+        "website": "https://litespeedtech.com"
+      },
+      {
+        "name": "Google Fonts",
+        "category": "Font/Icon Library",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "fonts.googleapis.com"
+            ]
+          }
+        ],
+        "website": "https://fonts.google.com"
+      },
+      {
+        "name": "Lazy Loading",
+        "category": "Performance",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "lazyload"
+            ]
+          }
+        ],
+        "website": "https://web.dev/lazy-loading"
+      },
+      {
+        "name": "Schema.org",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "schema.org",
+              "application/ld+json"
+            ]
+          }
+        ],
+        "website": "https://schema.org"
+      },
+      {
+        "name": "Open Graph",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "og:title",
+              "og:description"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "og:title=AIRA — Naturaleza que cuida",
+              "og:type=website",
+              "og:image=https://www.airanatural.co/wp-content/uploads/2025/02/cropped-logofinal02_Mesa-de-trabajo-1-scaled-2-136x117.png"
+            ]
+          }
+        ],
+        "website": "https://ogp.me"
+      },
+      {
+        "name": "Twitter Cards",
+        "category": "SEO",
+        "confidence": 100,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "twitter:card"
+            ]
+          },
+          {
+            "type": "meta",
+            "matches": [
+              "twitter:card=summary",
+              "twitter:title=Home - AIRA el amor en cada caricia"
+            ]
+          }
+        ],
+        "website": "https://developer.twitter.com"
+      },
+      {
+        "name": "Woocommerce",
+        "category": "E-commerce",
+        "confidence": 80,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "woocommerce",
+              "wc-block"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "woocommerce"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "wc_add_to_cart_params",
+              "woocommerce_params"
+            ]
+          }
+        ],
+        "website": "https://woocommerce.com"
+      },
+      {
+        "name": "Font Awesome",
+        "category": "Font/Icon Library",
+        "confidence": 77,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "font-awesome"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "font-awesome"
+            ]
+          },
+          {
+            "type": "css",
+            "matches": [
+              "font-awesome"
+            ]
+          }
+        ],
+        "website": "https://fontawesome.com"
+      },
+      {
+        "name": "WordPress",
+        "category": "CMS",
+        "confidence": 73,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "wp-content/",
+              "wp-includes/",
+              "wp-json"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "wp-includes/js/",
+              "wp-content/plugins/",
+              "wp-content/themes/"
+            ]
+          },
+          {
+            "type": "headers",
+            "matches": [
+              "Link: <https://www.airanatural.co/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.airanatural.co/wp-json/wp/v2/pages/554>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\n<https://www.airanatural.co/>; rel=shortlink"
+            ]
+          },
+          {
+            "type": "globalJs",
+            "matches": [
+              "wp"
+            ]
+          },
+          {
+            "type": "robots",
+            "matches": [
+              "wp-admin"
+            ]
+          }
+        ],
+        "website": "https://wordpress.org",
+        "version": "4.8.12"
+      },
+      {
+        "name": "Elementor",
+        "category": "Page Builder",
+        "confidence": 70,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "elementor",
+              "elementor-widget"
+            ]
+          },
+          {
+            "type": "scripts",
+            "matches": [
+              "elementor/assets/"
+            ]
+          }
+        ],
+        "website": "https://elementor.com"
+      },
+      {
+        "name": "PWA",
+        "category": "PWA",
+        "confidence": 57,
+        "evidence": [
+          {
+            "type": "meta",
+            "matches": [
+              "theme-color=#3D7F96"
+            ]
+          }
+        ],
+        "website": "https://web.dev/progressive-web-apps"
+      },
+      {
+        "name": "OpenCart",
+        "category": "E-commerce",
+        "confidence": 50,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "opencart"
+            ]
+          }
+        ],
+        "website": "https://opencart.com"
+      },
+      {
+        "name": "Beaver Builder",
+        "category": "Page Builder",
+        "confidence": 50,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "fl-builder"
+            ]
+          }
+        ],
+        "website": "https://wpbeaverbuilder.com"
+      },
+      {
+        "name": "Google Analytics 4",
+        "category": "Analytics",
+        "confidence": 42,
+        "evidence": [
+          {
+            "type": "globalJs",
+            "matches": [
+              "gtag",
+              "dataLayer"
+            ]
+          }
+        ],
+        "website": "https://analytics.google.com"
+      },
+      {
+        "name": "Flask",
+        "category": "Programming Language",
+        "confidence": 38,
+        "evidence": [
+          {
+            "type": "cookies",
+            "matches": [
+              "session"
+            ]
+          }
+        ],
+        "website": "https://flask.palletsprojects.com"
+      },
+      {
+        "name": "Angular",
+        "category": "JavaScript Framework",
+        "confidence": 33,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "runtime."
+            ]
+          }
+        ],
+        "website": "https://angular.io"
+      },
+      {
+        "name": "Chakra UI",
+        "category": "CSS Framework",
+        "confidence": 30,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "css-"
+            ]
+          }
+        ],
+        "website": "https://chakra-ui.com"
+      },
+      {
+        "name": "Cloudflare",
+        "category": "CDN",
+        "confidence": 27,
+        "evidence": [
+          {
+            "type": "scripts",
+            "matches": [
+              "cdnjs.cloudflare.com"
+            ]
+          }
+        ],
+        "website": "https://cloudflare.com"
+      },
+      {
+        "name": "PHP",
+        "category": "Programming Language",
+        "confidence": 27,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              ".php"
+            ]
+          }
+        ],
+        "website": "https://php.net"
+      },
+      {
+        "name": "Stripe",
+        "category": "Payment",
+        "confidence": 25,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "stripe"
+            ]
+          }
+        ],
+        "website": "https://stripe.com"
+      },
+      {
+        "name": "PayPal",
+        "category": "Payment",
+        "confidence": 25,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "paypal"
+            ]
+          }
+        ],
+        "website": "https://paypal.com"
+      },
+      {
+        "name": "Material UI",
+        "category": "CSS Framework",
+        "confidence": 23,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "Mui"
+            ]
+          }
+        ],
+        "website": "https://mui.com"
+      },
+      {
+        "name": "Magento",
+        "category": "CMS",
+        "confidence": 15,
+        "evidence": [
+          {
+            "type": "html",
+            "matches": [
+              "mage/"
+            ]
+          }
+        ],
+        "website": "https://magento.com"
+      }
+    ],
+    "technologyGroups": {
+      "JavaScript Library": [
+        "jQuery"
+      ],
+      "Analytics": [
+        "Google Analytics",
+        "Google Analytics 4"
+      ],
+      "Advertising": [
+        "TikTok Pixel"
+      ],
+      "CDN": [
+        "unpkg",
+        "Cloudflare"
+      ],
+      "Tag Manager": [
+        "Google Tag Manager"
+      ],
+      "Web Server": [
+        "LiteSpeed"
+      ],
+      "Font/Icon Library": [
+        "Google Fonts",
+        "Font Awesome"
+      ],
+      "Performance": [
+        "Lazy Loading"
+      ],
+      "SEO": [
+        "Schema.org",
+        "Open Graph",
+        "Twitter Cards"
+      ],
+      "E-commerce": [
+        "Woocommerce",
+        "OpenCart"
+      ],
+      "CMS": [
+        "WordPress",
+        "Magento"
+      ],
+      "Page Builder": [
+        "Elementor",
+        "Beaver Builder"
+      ],
+      "PWA": [
+        "PWA"
+      ],
+      "Programming Language": [
+        "Flask",
+        "PHP"
+      ],
+      "JavaScript Framework": [
+        "Angular"
+      ],
+      "CSS Framework": [
+        "Chakra UI",
+        "Material UI"
+      ],
+      "Payment": [
+        "Stripe",
+        "PayPal"
+      ]
+    },
+    "analysisTimeMs": 5503,
+    "analyzedAt": "2026-05-18T07:26:43.845Z"
+  }
+]

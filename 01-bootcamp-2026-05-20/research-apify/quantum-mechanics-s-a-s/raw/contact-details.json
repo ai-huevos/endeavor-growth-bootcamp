@@ -1,0 +1,115 @@
+[
+  {
+    "domain": "koet.co",
+    "url": "https://www.koet.co",
+    "emails": [],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": null,
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [],
+    "score": 22,
+    "grade": "F",
+    "scoreBreakdown": {
+      "contactReachability": 3,
+      "businessLegitimacy": 12,
+      "onlinePresence": 0,
+      "websiteQuality": 7,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Contact form available",
+        "category": "contactReachability",
+        "points": 3,
+        "detail": "Web contact form"
+      },
+      {
+        "signal": "Privacy policy found",
+        "category": "businessLegitimacy",
+        "points": 4,
+        "detail": "Legal compliance signal"
+      },
+      {
+        "signal": "CMS/framework detected",
+        "category": "businessLegitimacy",
+        "points": 5,
+        "detail": "WordPress"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "logistics"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Modern CMS/framework",
+        "category": "websiteQuality",
+        "points": 3,
+        "detail": "WordPress"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "logistics",
+    "businessKeywords": [
+      "kobra",
+      "koet",
+      "flow",
+      "monoplo",
+      "estilo",
+      "inicio",
+      "vehículos",
+      "potencia"
+    ],
+    "cmsDetected": "WordPress",
+    "techSignals": [
+      "WordPress",
+      "HubSpot",
+      "Google Analytics",
+      "jQuery"
+    ],
+    "trackingTags": {
+      "googleTagManager": null,
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": "GoDaddy.com, LLC",
+      "createdDate": "2019-03-05T17:30:06Z",
+      "expiresDate": "2027-03-05T17:30:06Z",
+      "updatedDate": "2025-03-06T10:54:49Z",
+      "nameServers": [
+        "NS35.DOMAINCONTROL.COM NS36.DOMAINCONTROL.COM"
+      ],
+      "registrantOrg": "Domains By Proxy, LLC",
+      "registrantCountry": "US"
+    },
+    "pagesCrawled": 1,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T07:30:37.226Z"
+  }
+]

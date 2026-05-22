@@ -1,0 +1,103 @@
+[
+  {
+    "title": "Quantum Tecnologia Y Servicios Sas",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": null,
+    "address": "Cl. 121 #15 A 50, Bogotá, Colombia",
+    "neighborhood": "Santa Barbara Occidental, Usaquén",
+    "street": "Cl. 121 #15 A 50",
+    "city": "Bogotá",
+    "postalCode": "110111",
+    "state": "Bogota",
+    "countryCode": "CO",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 4.7003328,
+      "lng": -74.0443138
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJXfuGm7GaP44Ro3Uy4BSkav0",
+    "categories": [],
+    "fid": "0x8e3f9ab19b86fb5d:0xfd6aa414e03275a3",
+    "cid": "18260588048694801827",
+    "reviewsCount": 3,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 0,
+      "threeStar": 0,
+      "fourStar": 0,
+      "fiveStar": 3
+    },
+    "imagesCount": 1,
+    "imageCategories": [
+      "All",
+      "Street View & 360°"
+    ],
+    "scrapedAt": "2026-05-18T07:31:13.286Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Quantum Tys",
+        "reviewsCount": 25,
+        "totalScore": 4.4
+      },
+      {
+        "category": "People also search for",
+        "title": "QUANTUM SOLUCIONES INTELIGENTES",
+        "reviewsCount": 33,
+        "totalScore": 3.7
+      },
+      {
+        "category": "People also search for",
+        "title": "Quantum Group Sas",
+        "reviewsCount": 0,
+        "totalScore": 0
+      },
+      {
+        "category": "People also search for",
+        "title": "QUANTUM CONSULTING COLOMBIA",
+        "reviewsCount": 5,
+        "totalScore": 4
+      },
+      {
+        "category": "People also search for",
+        "title": "Quantum-Tech",
+        "reviewsCount": 1,
+        "totalScore": 1
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Quantum%20Tecnologia%20Y%20Servicios%20Sas&query_place_id=ChIJXfuGm7GaP44Ro3Uy4BSkav0",
+    "searchPageUrl": "https://www.google.com/maps/search/Quantum%20Mechanics%20S.A.S%20Colombia?hl=en",
+    "searchString": "Quantum Mechanics S.A.S Colombia",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IiKAsDu-hEjp0b0Q0wjTRQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=3.0359647&pitch=0&thumbfov=100",
+    "kgmid": "/g/11rylmvzrp"
+  }
+]

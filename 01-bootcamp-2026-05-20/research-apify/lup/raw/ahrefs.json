@@ -1,0 +1,317 @@
+[
+  {
+    "data_captured_at": "2026-05-18T03:15:38.178218",
+    "type": "traffic",
+    "domain": "https://lup.com.co/",
+    "mode": "subdomains",
+    "website_overall_search_traffic_history": [],
+    "website_overall_search_traffic_value_history": [],
+    "website_traffic": {
+      "trafficMonthlyAvg": 36,
+      "costMontlyAvg": 110
+    },
+    "website_traffic_history": [
+      {
+        "date": "2025-12-01",
+        "organic": 40
+      },
+      {
+        "date": "2026-01-01",
+        "organic": 38
+      },
+      {
+        "date": "2026-02-01",
+        "organic": 37
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      },
+      {
+        "date": "Paying Users Only",
+        "organic": null
+      }
+    ],
+    "website_overall_search_traffic_by_country": [],
+    "website_traffic_by_country": [
+      {
+        "country": "co",
+        "share": 99.99149834204776,
+        "monthly_traffic": [
+          {
+            "date": "2025-12-01",
+            "organic": 40
+          },
+          {
+            "date": "2026-01-01",
+            "organic": 38
+          },
+          {
+            "date": "2026-02-01",
+            "organic": 37
+          },
+          {
+            "date": "2026-03-01",
+            "organic": 37
+          },
+          {
+            "date": "2026-04-01",
+            "organic": 37
+          },
+          {
+            "date": "2026-05-01",
+            "organic": 37
+          }
+        ]
+      },
+      {
+        "country": "it",
+        "share": 0.005153024529994476,
+        "monthly_traffic": [
+          {
+            "date": "2025-12-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-01-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-02-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-03-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-04-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-05-01",
+            "organic": 1
+          }
+        ]
+      },
+      {
+        "country": "us",
+        "share": 0.002818161658317873,
+        "monthly_traffic": [
+          {
+            "date": "2025-12-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-01-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-02-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-03-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-04-01",
+            "organic": 1
+          },
+          {
+            "date": "2026-05-01",
+            "organic": 1
+          }
+        ]
+      },
+      {
+        "country": "Paying Users Only",
+        "share": null,
+        "monthly_traffic": null
+      },
+      {
+        "country": "Paying Users Only",
+        "share": null,
+        "monthly_traffic": null
+      }
+    ],
+    "website_traffic_top_pages": [
+      {
+        "url": "https://lup.com.co/",
+        "traffic": 37,
+        "share": 100
+      },
+      {
+        "url": "https://lup.com.co/privacy-notice",
+        "traffic": 0,
+        "share": 0
+      }
+    ],
+    "website_traffic_top_countries": [
+      {
+        "country": "co",
+        "share": 99.99149834204776
+      },
+      {
+        "country": "it",
+        "share": 0.005153024529994476
+      },
+      {
+        "country": "us",
+        "share": 0.002818161658317873
+      },
+      {
+        "country": "Paying Users Only",
+        "share": null
+      },
+      {
+        "country": "Paying Users Only",
+        "share": null
+      }
+    ],
+    "website_overall_search_traffic_keywords": [],
+    "website_traffic_top_keywords": [
+      {
+        "keyword": "lup",
+        "position": 1,
+        "traffic": 150
+      }
+    ]
+  },
+  {
+    "data_captured_at": "2026-05-18T03:15:39.722348",
+    "type": "authority",
+    "domain": "https://lup.com.co/",
+    "mode": "subdomains",
+    "domain_rating": 4.9,
+    "backlinks": 74,
+    "refdomains": 47,
+    "dofollow_backlinks": 80,
+    "dofollow_refdomains": 70,
+    "website_authority": {
+      "domainRating": 4.9,
+      "urlRating": null,
+      "ahrefsRank": null,
+      "backlinks": 74,
+      "refdomains": 47,
+      "dofollowBacklinks": 80,
+      "dofollowRefdomains": 70
+    }
+  },
+  {
+    "data_captured_at": "2026-05-18T03:15:40.676179",
+    "type": "backlinks",
+    "domain": "https://lup.com.co/",
+    "mode": "subdomains",
+    "total_backlinks": 74,
+    "total_referring_domains": 47,
+    "total_dofollow_backlinks": 80,
+    "total_dofollow_referring_domains": 70,
+    "top_backlinks_count": 20,
+    "referal_domains_history": [],
+    "top_backlinks": [
+      {
+        "anchor": "Imagen Lup Lup",
+        "domainRating": 22,
+        "redirectChain": [],
+        "textPost": "",
+        "textPre": "",
+        "title": "2025 Colombia Early Stage 100 - Table - NuMundo Ventures",
+        "urlFrom": "https://numundoventures.com/2025-colombia-early-stage-100/",
+        "urlTo": "https://www.lup.com.co/en",
+        "inRendered": false,
+        "inRaw": true
+      },
+      {
+        "anchor": "Lup",
+        "domainRating": 74,
+        "redirectChain": [
+          {
+            "url": "https://www.lup.com.co/",
+            "redirectCode": 302
+          }
+        ],
+        "textPost": ", también graduado de Ingeniería Mecánica, quien lidera un emprendimiento",
+        "textPre": "visión similar comparte Adrián Bolívar López, cofundador y CEO de",
+        "title": "Seis start-ups lideradas por eafitenses sobresalen entre las más prometedoras del país, según Forbes",
+        "urlFrom": "https://www.eafit.edu.co/noticias/nuestra-comunidad-de-talento/seis-start-ups-lideradas-por-eafitenses-sobresalen-entre-las",
+        "urlTo": "https://lup.com.co/",
+        "inRendered": false,
+        "inRaw": true
+      },
+      {
+        "anchor": "Lup",
+        "domainRating": 60,
+        "redirectChain": [],
+        "textPost": "",
+        "textPre": "",
+        "title": "Medellín Next",
+        "urlFrom": "https://rutanmedellin.org/medellin-next",
+        "urlTo": "https://lup.com.co/",
+        "inRendered": true,
+        "inRaw": true
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      },
+      {
+        "anchor": "Paying Users Only"
+      }
+    ],
+    "backlink_check": {
+      "backlinks": 74,
+      "refdomains": 47,
+      "dofollowBacklinks": 80,
+      "dofollowRefdomains": 70
+    }
+  }
+]

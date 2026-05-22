@@ -1,0 +1,84 @@
+[
+  {
+    "domain": "lup.com.co",
+    "url": "https://lup.com.co/",
+    "emails": [],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": null,
+      "whatsapp": null,
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": null,
+    "emailPatternConfidence": 0,
+    "generatedEmails": [],
+    "emailVerification": [],
+    "score": 6,
+    "grade": "F",
+    "scoreBreakdown": {
+      "contactReachability": 0,
+      "businessLegitimacy": 0,
+      "onlinePresence": 0,
+      "websiteQuality": 6,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Google Tag Manager",
+        "category": "websiteQuality",
+        "points": 2,
+        "detail": "GTM-TZTNQL2J"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "other",
+    "businessKeywords": [
+      "okrs",
+      "equipo",
+      "resultados",
+      "lup",
+      "para",
+      "transforma",
+      "tus",
+      "objetivos"
+    ],
+    "cmsDetected": null,
+    "techSignals": [],
+    "trackingTags": {
+      "googleTagManager": "GTM-TZTNQL2J",
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": null,
+      "createdDate": null,
+      "expiresDate": null,
+      "updatedDate": null,
+      "nameServers": null,
+      "registrantOrg": null,
+      "registrantCountry": null
+    },
+    "pagesCrawled": 1,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T03:14:58.670Z"
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "domain": "onexfy.com",
+    "url": "https://onexfy.com/",
+    "emails": [
+      "info@onexfy.com"
+    ],
+    "phones": [],
+    "contacts": [],
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/Onexfy?mibextid=ZbWKwL",
+      "instagram": "https://www.instagram.com/onexfy",
+      "linkedin": "https://www.linkedin.com/company/onexfy/about/",
+      "twitter": null,
+      "youtube": null,
+      "pinterest": null,
+      "github": null,
+      "tiktok": "https://www.tiktok.com/@onexfy?_t=8dbp60dJ0wX&#038;_r=1",
+      "whatsapp": null,
+      "telegram": null,
+      "snapchat": null,
+      "discord": null,
+      "reddit": null,
+      "threads": null
+    },
+    "emailPattern": "info@onexfy.com",
+    "emailPatternConfidence": 0.3,
+    "generatedEmails": [],
+    "emailVerification": [
+      {
+        "email": "info@onexfy.com",
+        "status": "unknown",
+        "mxValid": true
+      }
+    ],
+    "score": 52,
+    "grade": "D",
+    "scoreBreakdown": {
+      "contactReachability": 9,
+      "businessLegitimacy": 17,
+      "onlinePresence": 17,
+      "websiteQuality": 9,
+      "teamTransparency": 0
+    },
+    "signals": [
+      {
+        "signal": "Email address found",
+        "category": "contactReachability",
+        "points": 6,
+        "detail": "info@onexfy.com"
+      },
+      {
+        "signal": "Contact form available",
+        "category": "contactReachability",
+        "points": 3,
+        "detail": "Web contact form"
+      },
+      {
+        "signal": "About page present",
+        "category": "businessLegitimacy",
+        "points": 5,
+        "detail": "Company description available"
+      },
+      {
+        "signal": "Privacy policy found",
+        "category": "businessLegitimacy",
+        "points": 4,
+        "detail": "Legal compliance signal"
+      },
+      {
+        "signal": "CMS/framework detected",
+        "category": "businessLegitimacy",
+        "points": 5,
+        "detail": "WordPress"
+      },
+      {
+        "signal": "Industry identified",
+        "category": "businessLegitimacy",
+        "points": 3,
+        "detail": "retail"
+      },
+      {
+        "signal": "Strong social media presence",
+        "category": "onlinePresence",
+        "points": 12,
+        "detail": "4 platforms"
+      },
+      {
+        "signal": "LinkedIn profile",
+        "category": "onlinePresence",
+        "points": 5,
+        "detail": "https://www.linkedin.com/company/onexfy/about/"
+      },
+      {
+        "signal": "SSL/HTTPS enabled",
+        "category": "websiteQuality",
+        "points": 4,
+        "detail": "Secure connection"
+      },
+      {
+        "signal": "Modern CMS/framework",
+        "category": "websiteQuality",
+        "points": 3,
+        "detail": "WordPress"
+      },
+      {
+        "signal": "Google Tag Manager",
+        "category": "websiteQuality",
+        "points": 2,
+        "detail": "GTM-TCF4CXND"
+      }
+    ],
+    "address": null,
+    "businessIndustry": "retail",
+    "businessKeywords": [
+      "para",
+      "onexfy",
+      "ropa",
+      "inventario",
+      "colombia",
+      "software",
+      "tienda",
+      "pedidos"
+    ],
+    "cmsDetected": "WordPress",
+    "techSignals": [
+      "WordPress",
+      "Hotjar",
+      "Google Analytics",
+      "Calendly",
+      "jQuery",
+      "Recaptcha"
+    ],
+    "trackingTags": {
+      "googleTagManager": "GTM-TCF4CXND",
+      "googleAnalytics": null,
+      "facebookPixel": null
+    },
+    "whois": {
+      "registrar": null,
+      "createdDate": null,
+      "expiresDate": null,
+      "updatedDate": null,
+      "nameServers": null,
+      "registrantOrg": null,
+      "registrantCountry": null
+    },
+    "pagesCrawled": 4,
+    "succeeded": true,
+    "error": null,
+    "processedAt": "2026-05-18T03:16:47.414Z"
+  }
+]
